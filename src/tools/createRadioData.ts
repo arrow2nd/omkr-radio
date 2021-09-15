@@ -1,12 +1,10 @@
 import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.14-alpha/deno-dom-wasm.ts";
 import { RadioData, RadioItem } from "../type.ts";
-import { fetchRadioUrl } from "../fetchRadioUrl.ts";
+import { extractNumFromTitle, fetchRadioUrl } from "../util.ts";
 
 //------------------------------------------------
 const radioName = "";
 const tagName = "";
-const numRegExp = `【\(\\d\+\)】${radioName}`;
-// const numRegExp = `${radioName}\(\\d\+\)`;
 //------------------------------------------------
 
 const items: RadioItem[] = [];
@@ -41,13 +39,11 @@ for (let pageNum = 1;; pageNum++) {
     if (!/^https:\/\/omocoro.jp\/(radio|rensai)/.test(url)) continue;
 
     // タイトルから話数を抽出
-    const matched = title.match(numRegExp);
-    if (!matched) {
+    const num = extractNumFromTitle(title, radioName);
+    if (!num) {
       console.log(`[NOT FOUND] ${title}`);
       continue;
     }
-
-    const num = Number(matched[1]);
 
     // ラジオのURLを取得
     const radioUrl = await fetchRadioUrl(url);
