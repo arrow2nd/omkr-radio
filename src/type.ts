@@ -1,5 +1,4 @@
 export type RadioData = {
-  id: string;
   name: string;
   tag: string;
   items: RadioItem[];

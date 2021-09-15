@@ -1,5 +1,5 @@
 import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.14-alpha/deno-dom-wasm.ts";
-import { RadioItem } from "../type.ts";
+import { RadioData, RadioItem } from "../type.ts";
 import { fetchRadioUrl } from "../fetchRadioUrl.ts";
 
 //------------------------------------------------
@@ -9,7 +9,7 @@ const tagName = "";
 const numRegExp = `${radioName}\(\\d\+\)`;
 //------------------------------------------------
 
-const results: RadioItem[] = [];
+const items: RadioItem[] = [];
 
 for (let pageNum = 1; ; pageNum++) {
   console.log(`< page = ${pageNum} >`);
@@ -58,7 +58,7 @@ for (let pageNum = 1; ; pageNum++) {
     // 2秒待つ
     await new Promise((resolve) => setTimeout(resolve, 2000));
 
-    results.push({
+    items.push({
       title,
       num: Number(num),
       url: radioUrl.replace("https://omocoro.heteml.net/radio/", ""),
@@ -66,11 +66,15 @@ for (let pageNum = 1; ; pageNum++) {
   }
 }
 
-// 昇順でソート
-const sorted = results.sort((a, b) => a.num - b.num);
-console.log(sorted);
+const results: RadioData = {
+  name: radioName,
+  tag: tagName,
+  items: items.sort((a, b) => a.num - b.num), // 昇順でソート
+};
+
+console.log(results);
 
 Deno.writeTextFileSync(
-  `./${radioName}.json`,
-  JSON.stringify(sorted, null, "\t")
+  `./docs/${radioName}.json`,
+  JSON.stringify(results, null, "\t")
 );

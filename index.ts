@@ -1,6 +1,6 @@
 // deno-lint-ignore-file camelcase
 import { deserializeFeed } from "https://deno.land/x/rss@0.5.3/mod.ts";
-import { fetchRadioUrl } from "./fetchRadioUrl.ts";
+import { fetchRadioUrl } from "./src/fetchRadioUrl.ts";
 
 const res = await fetch("https://omocoro.jp/feed");
 const xml = await res.text();
