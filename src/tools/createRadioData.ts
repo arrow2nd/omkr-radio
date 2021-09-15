@@ -3,8 +3,8 @@ import { RadioData, RadioItem } from "../type.ts";
 import { fetchRadioUrl } from "../fetchRadioUrl.ts";
 
 //------------------------------------------------
-const radioName = "山口むつおとモンゴルナイフのモンゴルナイトフィーバー";
-const tagName = "モンゴルナイトフィーバー";
+const radioName = "";
+const tagName = "";
 const numRegExp = `【\(\\d\+\)】${radioName}`;
 // const numRegExp = `${radioName}\(\\d\+\)`;
 //------------------------------------------------
