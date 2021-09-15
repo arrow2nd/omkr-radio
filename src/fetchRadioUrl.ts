@@ -3,8 +3,10 @@ export async function fetchRadioUrl(url: string) {
   const html = await res.text();
 
   // 音声ファイルのURLを抽出
-  const matched = html.match(/https:\/\/omocoro\.heteml\.net.*?\.mp3/);
+  const matched = html.match(
+    /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/,
+  );
   if (!matched) return "";
 
-  return matched[0];
+  return matched[1];
 }

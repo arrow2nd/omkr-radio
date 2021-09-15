@@ -42,7 +42,7 @@ for (let i = 1; i < 6; i++) {
     items.push({
       title,
       num: Number(matched[1]),
-      url: url.replace("https://omocoro.heteml.net/radio/", ""),
+      url,
     });
   }
 }
@@ -57,5 +57,5 @@ console.log(results);
 
 Deno.writeTextFileSync(
   `./docs/${radioName}.json`,
-  JSON.stringify(results, null, "\t")
+  JSON.stringify(results, null, "\t"),
 );

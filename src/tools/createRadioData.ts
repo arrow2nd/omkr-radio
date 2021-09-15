@@ -3,19 +3,19 @@ import { RadioData, RadioItem } from "../type.ts";
 import { fetchRadioUrl } from "../fetchRadioUrl.ts";
 
 //------------------------------------------------
-const radioName = "";
-const tagName = "";
-// const numRegExp = `【\(\\d\+\)】${radioName}`;
-const numRegExp = `${radioName}\(\\d\+\)`;
+const radioName = "山口むつおとモンゴルナイフのモンゴルナイトフィーバー";
+const tagName = "モンゴルナイトフィーバー";
+const numRegExp = `【\(\\d\+\)】${radioName}`;
+// const numRegExp = `${radioName}\(\\d\+\)`;
 //------------------------------------------------
 
 const items: RadioItem[] = [];
 
-for (let pageNum = 1; ; pageNum++) {
+for (let pageNum = 1;; pageNum++) {
   console.log(`< page = ${pageNum} >`);
 
   const res = await fetch(
-    `https://omocoro.jp/tag/${decodeURIComponent(tagName)}/page/${pageNum}/`
+    `https://omocoro.jp/tag/${decodeURIComponent(tagName)}/page/${pageNum}/`,
   );
   if (res.status !== 200) {
     console.log("[END]");
@@ -47,7 +47,7 @@ for (let pageNum = 1; ; pageNum++) {
       continue;
     }
 
-    const num = matched[1];
+    const num = Number(matched[1]);
 
     // ラジオのURLを取得
     const radioUrl = await fetchRadioUrl(url);
@@ -60,8 +60,8 @@ for (let pageNum = 1; ; pageNum++) {
 
     items.push({
       title,
-      num: Number(num),
-      url: radioUrl.replace("https://omocoro.heteml.net/radio/", ""),
+      num,
+      url: radioUrl,
     });
   }
 }
@@ -76,5 +76,5 @@ console.log(results);
 
 Deno.writeTextFileSync(
   `./docs/${radioName}.json`,
-  JSON.stringify(results, null, "\t")
+  JSON.stringify(results, null, "\t"),
 );
