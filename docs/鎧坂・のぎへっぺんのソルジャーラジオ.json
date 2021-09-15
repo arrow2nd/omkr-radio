@@ -1,42 +1,46 @@
-[
-  {
-    "title": "【00】鎧坂・のぎへっぺんのソルジャーラジオ「そんな装備で大丈夫か？」",
-    "num": 0,
-    "url": "yoropen/soldier/001/soldier00.mp3"
-  },
-  {
-    "title": "【01】鎧坂・のぎへっぺんのソルジャーラジオ「僕は『スピードスター』になります」",
-    "num": 1,
-    "url": "yoropen/soldier/002/soldier01.mp3"
-  },
-  {
-    "title": "【02】鎧坂・のぎへっぺんのソルジャーラジオ「鎧坂が窓をドン！ウオォォォ！」",
-    "num": 2,
-    "url": "yoropen/soldier/003/soldier02.mp3"
-  },
-  {
-    "title": "【03】鎧坂・のぎへっぺんのソルジャーラジオ「ソルジャーロンパ　絶望のバイト先とポヨポヨの大学生」",
-    "num": 3,
-    "url": "yoropen/soldier/004/soldier03.mp3"
-  },
-  {
-    "title": "【04】鎧坂・のぎへっぺんのソルジャーラジオ「能力者になれるレストランに行きました」",
-    "num": 4,
-    "url": "yoropen/soldier/005/soldier04.mp3"
-  },
-  {
-    "title": "【05】鎧坂・のぎへっぺんのソルジャーラジオ「でかくなったな小僧......（物理）」",
-    "num": 5,
-    "url": "yoropen/soldier/006/soldier05.mp3"
-  },
-  {
-    "title": "【06】鎧坂・のぎへっぺんのソルジャーラジオ「Fate/帰省バイト」",
-    "num": 6,
-    "url": "yoropen/soldier/007/soldier06.mp3"
-  },
-  {
-    "title": "【07】鎧坂・のぎへっぺんのソルジャーラジオ「うっかり裏垢の名前言っちゃった」",
-    "num": 7,
-    "url": "yoropen/soldier/008/soldier07.mp3"
-  }
-]
+{
+  "name": "鎧坂・のぎへっぺんのソルジャーラジオ",
+  "tag": "ソルジャーラジオ",
+  "items": [
+    {
+      "title": "【00】鎧坂・のぎへっぺんのソルジャーラジオ「そんな装備で大丈夫か？」",
+      "num": 0,
+      "url": "yoropen/soldier/001/soldier00.mp3"
+    },
+    {
+      "title": "【01】鎧坂・のぎへっぺんのソルジャーラジオ「僕は『スピードスター』になります」",
+      "num": 1,
+      "url": "yoropen/soldier/002/soldier01.mp3"
+    },
+    {
+      "title": "【02】鎧坂・のぎへっぺんのソルジャーラジオ「鎧坂が窓をドン！ウオォォォ！」",
+      "num": 2,
+      "url": "yoropen/soldier/003/soldier02.mp3"
+    },
+    {
+      "title": "【03】鎧坂・のぎへっぺんのソルジャーラジオ「ソルジャーロンパ　絶望のバイト先とポヨポヨの大学生」",
+      "num": 3,
+      "url": "yoropen/soldier/004/soldier03.mp3"
+    },
+    {
+      "title": "【04】鎧坂・のぎへっぺんのソルジャーラジオ「能力者になれるレストランに行きました」",
+      "num": 4,
+      "url": "yoropen/soldier/005/soldier04.mp3"
+    },
+    {
+      "title": "【05】鎧坂・のぎへっぺんのソルジャーラジオ「でかくなったな小僧......（物理）」",
+      "num": 5,
+      "url": "yoropen/soldier/006/soldier05.mp3"
+    },
+    {
+      "title": "【06】鎧坂・のぎへっぺんのソルジャーラジオ「Fate/帰省バイト」",
+      "num": 6,
+      "url": "yoropen/soldier/007/soldier06.mp3"
+    },
+    {
+      "title": "【07】鎧坂・のぎへっぺんのソルジャーラジオ「うっかり裏垢の名前言っちゃった」",
+      "num": 7,
+      "url": "yoropen/soldier/008/soldier07.mp3"
+    }
+  ]
+}
