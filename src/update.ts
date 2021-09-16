@@ -1,10 +1,10 @@
 // deno-lint-ignore-file camelcase
 import { deserializeFeed } from "https://deno.land/x/rss@0.5.3/mod.ts";
-import { RadioData, RadioItem } from "./type.ts";
+import { RadioData, RadioItem, ListItem } from "./type.ts";
 import { extractNumFromTitle, fetchRadioUrl } from "./util.ts";
 
-const radioList: string[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json"),
+const radioList: ListItem[] = JSON.parse(
+  Deno.readTextFileSync("./docs/list.json")
 );
 
 // RSSフィードを取得
@@ -16,7 +16,7 @@ for (const { title, external_url } of feed.items) {
   // ラジオ以外ならスキップ
   if (!title || !external_url || !external_url.includes("radio")) continue;
 
-  const radioName = radioList.find((e) => title.includes(e));
+  const radioName = radioList.find((e) => title.includes(e.name))?.name;
   if (!radioName) {
     console.log(`[NO SUPPORT] ${title}`);
     continue;
@@ -36,9 +36,11 @@ for (const { title, external_url } of feed.items) {
   // 重複確認
   const addData: RadioItem = { title, num, url };
   if (
-    data.items.some((e) =>
-      e.title === addData.title && e.num === addData.num &&
-      e.url === addData.url
+    data.items.some(
+      (e) =>
+        e.title === addData.title &&
+        e.num === addData.num &&
+        e.url === addData.url
     )
   ) {
     continue;

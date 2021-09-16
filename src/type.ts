@@ -9,3 +9,8 @@ export type RadioItem = {
   num: number;
   url: string;
 };
+
+export type ListItem = {
+  name: string;
+  onAir: boolean;
+};
