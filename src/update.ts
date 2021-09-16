@@ -1,10 +1,10 @@
 // deno-lint-ignore-file camelcase
 import { deserializeFeed } from "https://deno.land/x/rss@0.5.3/mod.ts";
-import { RadioData, RadioItem, ListItem } from "./type.ts";
+import { ListItem, RadioData, RadioItem } from "./type.ts";
 import { extractNumFromTitle, fetchRadioUrl } from "./util.ts";
 
 const radioList: ListItem[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json")
+  Deno.readTextFileSync("./docs/list.json"),
 );
 
 // RSSフィードを取得
@@ -40,7 +40,7 @@ for (const { title, external_url } of feed.items) {
       (e) =>
         e.title === addData.title &&
         e.num === addData.num &&
-        e.url === addData.url
+        e.url === addData.url,
     )
   ) {
     continue;
