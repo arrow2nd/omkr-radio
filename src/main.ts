@@ -4,7 +4,7 @@ import { ListItem, RadioData, RadioItem } from "./type.ts";
 import { extractNumFromTitle, fetchRadioUrl } from "./util.ts";
 
 const radioList: ListItem[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json")
+  Deno.readTextFileSync("./docs/list.json"),
 ).filter((e: ListItem) => e.onAir);
 
 // RSSフィードを取得
@@ -40,7 +40,7 @@ for (const { title, external_url } of feed.items) {
       (e) =>
         e.title === addData.title &&
         e.num === addData.num &&
-        e.url === addData.url
+        e.url === addData.url,
     )
   ) {
     continue;
