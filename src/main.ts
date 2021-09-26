@@ -4,8 +4,8 @@ import { ListItem, RadioData, RadioItem } from "./type.ts";
 import { extractNumFromTitle, fetchRadioUrl } from "./util.ts";
 
 const radioList: ListItem[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json"),
-);
+  Deno.readTextFileSync("./docs/list.json")
+).filter((e: ListItem) => e.onAir);
 
 // RSSフィードを取得
 const res = await fetch("https://omocoro.jp/feed");
@@ -16,7 +16,7 @@ for (const { title, external_url } of feed.items) {
   // ラジオ以外ならスキップ
   if (!title || !external_url || !external_url.includes("radio")) continue;
 
-  const radioName = radioList.find((e) => title.includes(e.name))?.name;
+  const radioName = radioList.find((e) => title.includes(e.keyword))?.name;
   if (!radioName) {
     console.log(`[NO SUPPORT] ${title}`);
     continue;
@@ -40,7 +40,7 @@ for (const { title, external_url } of feed.items) {
       (e) =>
         e.title === addData.title &&
         e.num === addData.num &&
-        e.url === addData.url,
+        e.url === addData.url
     )
   ) {
     continue;

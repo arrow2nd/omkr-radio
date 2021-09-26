@@ -1,102 +1,127 @@
 [
   {
     "name": "ありっちゃありスパーク・マシュ",
+    "keyword": "ありっちゃありスパーク・マシュ",
     "onAir": true
   },
   {
     "name": "ARuFa・恐山の匿名ラジオ",
+    "keyword": "匿名ラジオ",
     "onAir": true
   },
   {
     "name": "作業用かまみく",
+    "keyword": "作業用かまみく",
     "onAir": true
   },
   {
     "name": "長島・加藤のイうてるマにイっちゃってる",
+    "keyword": "イうてるマにイっちゃってる",
     "onAir": true
   },
   {
     "name": "マンスーン・ヤスミノの音声放送",
+    "keyword": "音声放送",
     "onAir": true
   },
   {
     "name": "ソルジャーラジオ",
+    "keyword": "ソルジャーラジオ",
     "onAir": true
   },
   {
     "name": "ラジオ漫画犬咆哮編",
+    "keyword": "ラジオ漫画犬咆哮編",
     "onAir": true
   },
   {
     "name": "ラジオ・モンゴルナイトフィーバー",
+    "keyword": "モンゴルナイトフィーバー",
     "onAir": true
   },
   {
     "name": "ありっちゃありアワー",
+    "keyword": "ありっちゃありアワー",
     "onAir": false
   },
   {
     "name": "ありっちゃありスパーク",
+    "keyword": "ありっちゃありスパーク",
     "onAir": false
   },
   {
     "name": "加藤・ギャラクシーのラジオKGB",
+    "keyword": "ラジオKGB",
     "onAir": false
   },
   {
     "name": "かまってみくのしん",
+    "keyword": "かまってみくのしん",
     "onAir": false
   },
   {
     "name": "かまってみくのしんGOLD",
+    "keyword": "かまってみくのしんGOLD",
     "onAir": false
   },
   {
     "name": "かまってみくのしん日本一",
+    "keyword": "かまってみくのしん日本一",
     "onAir": false
   },
   {
     "name": "かまってみくのしんLove you",
+    "keyword": "かまってみくのしんLove you",
     "onAir": false
   },
   {
     "name": "シモダテツヤと私（ヨッピー）",
+    "keyword": "シモダテツヤと私",
     "onAir": false
   },
   {
     "name": "シモダテツヤと私（地獄のミサワ）",
+    "keyword": "シモダテツヤと私",
     "onAir": false
   },
   {
     "name": "シモダ＆イーグルの残念ラジオ",
+    "keyword": "残念ラジオ",
     "onAir": false
   },
   {
     "name": "セブ山・永田の金曜ラジオ",
+    "keyword": "金曜ラジオ",
     "onAir": false
   },
   {
     "name": "そうじゃねえだろのラジオじゃねえだろ！",
+    "keyword": "ラジオじゃねえだろ",
     "onAir": false
   },
   {
     "name": "たかや・マンスーンのパクパクラジオ",
+    "keyword": "パクパクラジオ",
     "onAir": false
   },
   {
     "name": "みくのしん・おおきちの大仲良しラジオ",
+    "keyword": "大仲良しラジオ",
     "onAir": false
   },
   {
     "name": "凸ノ・カメントツのラジオ漫画犬",
+    "keyword": "ラジオ漫画犬",
     "onAir": false
   },
   {
     "name": "ラジオ漫画犬漂流編",
+    "keyword": "ラジオ漫画犬漂流編",
     "onAir": false
   },
   {
     "name": "ラジオ漫画犬血道編",
+    "keyword": "ラジオ漫画犬血道編",
     "onAir": false
   }
 ]

@@ -12,5 +12,6 @@ export type RadioItem = {
 
 export type ListItem = {
   name: string;
+  keyword: string;
   onAir: boolean;
 };
