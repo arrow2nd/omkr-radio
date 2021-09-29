@@ -1,136 +1,136 @@
 {
-  "name": "作業用かまみく",
-  "tag": "かまってみくのしん",
-  "items": [
-    {
-      "title": "【01】作業用かまみく「ここが本当の出発点」",
-      "num": 1,
-      "url": "kamamicu/ks1/ks1.mp3"
-    },
-    {
-      "title": "【02】作業用かまみく「隣人トラブルにトドメを刺せ！」",
-      "num": 2,
-      "url": "kamamicu/ks2/ks2.mp3"
-    },
-    {
-      "title": "【03】作業用かまみく「みくのしんは国に1円を搾取されている」",
-      "num": 3,
-      "url": "kamamicu/ks3/ks3.mp3"
-    },
-    {
-      "title": "【04】作業用かまみく「今まで住んだ街の思い出を最悪な気持ちで振り返る」",
-      "num": 4,
-      "url": "kamamicu/ks4/ks4.mp3"
-    },
-    {
-      "title": "【05】作業用かまみく「オモコロイベントが終わったって！」",
-      "num": 5,
-      "url": "kamamicu/ks5/ks5.mp3"
-    },
-    {
-      "title": "【06】作業用かまみく「10万円返してくれ！」",
-      "num": 6,
-      "url": "kamamicu/ks6/ks6.mp3"
-    },
-    {
-      "title": "【07】作業用かまみく「映画の知識をひけらかすことは罪なのか？」",
-      "num": 7,
-      "url": "kamamicu/ks7/ks7.mp3"
-    },
-    {
-      "title": "【08】作業用かまみく「リスナーの人生を変えちまった」",
-      "num": 8,
-      "url": "kamamicu/ks8/ks8.mp3"
-    },
-    {
-      "title": "【09】作業用かまみく「みくのしんのパーフェクト算数教室」",
-      "num": 9,
-      "url": "kamamicu/ks9/ks9.mp3"
-    },
-    {
-      "title": "【10】作業用かまみく「生まれて初めて催眠術にかかってみたら」",
-      "num": 10,
-      "url": "kamamicu/ks10/ks10.mp3"
-    },
-    {
-      "title": "【11】作業用かまみく「ARuFaは強い。みくのしんは最強」",
-      "num": 11,
-      "url": "kamamicu/ks11/ks11.mp3"
-    },
-    {
-      "title": "【12】作業用かまみく「今日はパワポケの話しかしないよ」",
-      "num": 12,
-      "url": "kamamicu/ks12/ks12.mp3"
-    },
-    {
-      "title": "【13】作業用かまみく「みくのしんが号泣する回」",
-      "num": 13,
-      "url": "kamamicu/ks13/ks13.mp3"
-    },
-    {
-      "title": "【14】作業用かまみく「オモコロライターが号泣する回」",
-      "num": 14,
-      "url": "kamamicu/ks14/ks14.mp3"
-    },
-    {
-      "title": "【15】作業用かまみく「2人でブチギレる回」",
-      "num": 15,
-      "url": "kamamicu/ks15/ks15.mp3"
-    },
-    {
-      "title": "【16】作業用かまみく「みくのしんのア○ルがめくれる回」",
-      "num": 16,
-      "url": "kamamicu/ks16/ks16.mp3"
-    },
-    {
-      "title": "【17】作業用かまみく「モンゴルナイフと男根のしわ」",
-      "num": 17,
-      "url": "kamamicu/ks17/ks17.mp3"
-    },
-    {
-      "title": "【18】作業用かまみく「Your speech is too long」",
-      "num": 18,
-      "url": "kamamicu/ks18/ks18.mp3"
-    },
-    {
-      "title": "【19】作業用かまみく「今日のみくのしんは限界を越えるぞ」",
-      "num": 19,
-      "url": "kamamicu/ks19/ks19.mp3"
-    },
-    {
-      "title": "【20】作業用かまみく「うんこのナス」",
-      "num": 20,
-      "url": "kamamicu/ks20/ks20.mp3"
-    },
-    {
-      "title": "【21】作業用かまみく「俺たちのポケモンジム設営計画」",
-      "num": 21,
-      "url": "kamamicu/ks21/ks21.mp3"
-    },
-    {
-      "title": "【22】作業用かまみく「かまどが限界を超える回」",
-      "num": 22,
-      "url": "kamamicu/ks22/ks22.mp3"
-    },
-    {
-      "title": "【23】作業用かまみく「みくのしんが激怒したあとに泣く回」",
-      "num": 23,
-      "url": "kamamicu/ks23/ks23.mp3"
-    },
-    {
-      "title": "【24】作業用かまみく「うんこに残ったコーンはもったいないのか？」",
-      "num": 24,
-      "url": "kamamicu/ks24/ks24.mp3"
-    },
-    {
-      "title": "【25】作業用かまみく「ドリンクバーで悩むならビールを飲め」",
-      "num": 25,
-      "url": "kamamicu/ks25/ks25.mp3"
-    },
-    {
-      "title": "【26】作業用かまみく「バカが運営するデスゲームはこうなる」",
-      "num": 26,
-      "url": "kamamicu/ks26/ks26.mp3"
-    }
-  ]
+	"name": "作業用かまみく",
+	"updated": "2021-09-29T08:37:48.255Z",
+	"episodes": [
+		{
+			"title": "ここが本当の出発点",
+			"number": 1,
+			"path": "kamamicu/ks1/ks1.mp3"
+		},
+		{
+			"title": "隣人トラブルにトドメを刺せ！",
+			"number": 2,
+			"path": "kamamicu/ks2/ks2.mp3"
+		},
+		{
+			"title": "みくのしんは国に1円を搾取されている",
+			"number": 3,
+			"path": "kamamicu/ks3/ks3.mp3"
+		},
+		{
+			"title": "今まで住んだ街の思い出を最悪な気持ちで振り返る",
+			"number": 4,
+			"path": "kamamicu/ks4/ks4.mp3"
+		},
+		{
+			"title": "オモコロイベントが終わったって！",
+			"number": 5,
+			"path": "kamamicu/ks5/ks5.mp3"
+		},
+		{
+			"title": "10万円返してくれ！",
+			"number": 6,
+			"path": "kamamicu/ks6/ks6.mp3"
+		},
+		{
+			"title": "映画の知識をひけらかすことは罪なのか？",
+			"number": 7,
+			"path": "kamamicu/ks7/ks7.mp3"
+		},
+		{
+			"title": "リスナーの人生を変えちまった",
+			"number": 8,
+			"path": "kamamicu/ks8/ks8.mp3"
+		},
+		{
+			"title": "みくのしんのパーフェクト算数教室",
+			"number": 9,
+			"path": "kamamicu/ks9/ks9.mp3"
+		},
+		{
+			"title": "生まれて初めて催眠術にかかってみたら",
+			"number": 10,
+			"path": "kamamicu/ks10/ks10.mp3"
+		},
+		{
+			"title": "ARuFaは強い。みくのしんは最強",
+			"number": 11,
+			"path": "kamamicu/ks11/ks11.mp3"
+		},
+		{
+			"title": "今日はパワポケの話しかしないよ",
+			"number": 12,
+			"path": "kamamicu/ks12/ks12.mp3"
+		},
+		{
+			"title": "みくのしんが号泣する回",
+			"number": 13,
+			"path": "kamamicu/ks13/ks13.mp3"
+		},
+		{
+			"title": "オモコロライターが号泣する回",
+			"number": 14,
+			"path": "kamamicu/ks14/ks14.mp3"
+		},
+		{
+			"title": "2人でブチギレる回",
+			"number": 15,
+			"path": "kamamicu/ks15/ks15.mp3"
+		},
+		{
+			"title": "みくのしんのア○ルがめくれる回",
+			"number": 16,
+			"path": "kamamicu/ks16/ks16.mp3"
+		},
+		{
+			"title": "モンゴルナイフと男根のしわ",
+			"number": 17,
+			"path": "kamamicu/ks17/ks17.mp3"
+		},
+		{
+			"title": "Your speech is too long",
+			"number": 18,
+			"path": "kamamicu/ks18/ks18.mp3"
+		},
+		{
+			"title": "今日のみくのしんは限界を越えるぞ",
+			"number": 19,
+			"path": "kamamicu/ks19/ks19.mp3"
+		},
+		{
+			"title": "うんこのナス",
+			"number": 20,
+			"path": "kamamicu/ks20/ks20.mp3"
+		},
+		{
+			"title": "俺たちのポケモンジム設営計画",
+			"number": 21,
+			"path": "kamamicu/ks21/ks21.mp3"
+		},
+		{
+			"title": "かまどが限界を超える回",
+			"number": 22,
+			"path": "kamamicu/ks22/ks22.mp3"
+		},
+		{
+			"title": "みくのしんが激怒したあとに泣く回",
+			"number": 23,
+			"path": "kamamicu/ks23/ks23.mp3"
+		},
+		{
+			"title": "うんこに残ったコーンはもったいないのか？",
+			"number": 24,
+			"path": "kamamicu/ks24/ks24.mp3"
+		},
+		{
+			"title": "ドリンクバーで悩むならビールを飲め",
+			"number": 25,
+			"path": "kamamicu/ks25/ks25.mp3"
+		},
+		{
+			"title": "バカが運営するデスゲームはこうなる",
+			"number": 26,
+			"path": "kamamicu/ks26/ks26.mp3"
+		}
+	]
 }

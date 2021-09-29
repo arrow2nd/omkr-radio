@@ -1,496 +1,496 @@
 {
   "name": "そうじゃねえだろのラジオじゃねえだろ！",
-  "tag": "ラジオじゃねえだろ",
-  "items": [
+  "updated": "2021-09-29T10:22:40.661Z",
+  "episodes": [
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！001「そうじゃねえだろの初冠番組」",
-      "num": 1,
-      "url": "soujanee/0001/soujanee.mp3"
+      "title": "そうじゃねえだろの初冠番組",
+      "number": 1,
+      "path": "soujanee/0001/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！002「オモコロの飲み会に参加/お前それ、本当じゃねえだろ！」",
-      "num": 2,
-      "url": "soujanee/0002/soujanee.mp3"
+      "title": "オモコロの飲み会に参加/お前それ、本当じゃねえだろ！",
+      "number": 2,
+      "path": "soujanee/0002/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！003「芸人のメリット/俺の嫁を紹介させろ！」",
-      "num": 3,
-      "url": "soujanee/0003/soujanee.mp3"
+      "title": "芸人のメリット/俺の嫁を紹介させろ！",
+      "number": 3,
+      "path": "soujanee/0003/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！004「vs金曜ラジオ/モテるためにはセンスじゃねえだろ！」",
-      "num": 4,
-      "url": "soujanee/0004/soujanee.mp3"
+      "title": "vs金曜ラジオ/モテるためにはセンスじゃねえだろ！",
+      "number": 4,
+      "path": "soujanee/0004/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！005「このラジオを聞いてる仁木の家族/芸能界は楽な世界じゃねえだろ！」",
-      "num": 5,
-      "url": "soujanee/0005/soujanee.mp3"
+      "title": "このラジオを聞いてる仁木の家族/芸能界は楽な世界じゃねえだろ！",
+      "number": 5,
+      "path": "soujanee/0005/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！006「忘れらんねえよのライブに行った西山/お前それ、本当じゃねえだろ！」",
-      "num": 6,
-      "url": "soujanee/0006/soujanee.mp3"
+      "title": "忘れらんねえよのライブに行った西山/お前それ、本当じゃねえだろ！",
+      "number": 6,
+      "path": "soujanee/0006/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！007「最終回になるかもしれないので急遽質問コーナー」",
-      "num": 7,
-      "url": "soujanee/0007/soujanee.mp3"
+      "title": "最終回になるかもしれないので急遽質問コーナー",
+      "number": 7,
+      "path": "soujanee/0007/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！008「イベントにて/緊急企画！2014年も西山はクンニをしないつもりなのか！？」",
-      "num": 8,
-      "url": "soujanee/0008/soujanee.mp3"
+      "title": "イベントにて/緊急企画！2014年も西山はクンニをしないつもりなのか！？",
+      "number": 8,
+      "path": "soujanee/0008/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！009「金を貯められない2人/モテるためにはセンスじゃねえだろ！」",
-      "num": 9,
-      "url": "soujanee/0009/soujanee.mp3"
+      "title": "金を貯められない2人/モテるためにはセンスじゃねえだろ！",
+      "number": 9,
+      "path": "soujanee/0009/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！010「大喜利天下一出場/ストレイテナーさん/R-１」",
-      "num": 10,
-      "url": "soujanee/0010/soujanee.mp3"
+      "title": "大喜利天下一出場/ストレイテナーさん/R-１",
+      "number": 10,
+      "path": "soujanee/0010/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！011「インタビューのお仕事/芸能界は楽な世界じゃねえだろ！」",
-      "num": 11,
-      "url": "soujanee/0011/soujanee.mp3"
+      "title": "インタビューのお仕事/芸能界は楽な世界じゃねえだろ！",
+      "number": 11,
+      "path": "soujanee/0011/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！012「西山が、大喜利天下一武道会本戦に出てきたぞ！」",
-      "num": 12,
-      "url": "soujanee/0012/soujanee.mp3"
+      "title": "西山が、大喜利天下一武道会本戦に出てきたぞ！",
+      "number": 12,
+      "path": "soujanee/0012/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！013「気管支炎になった西山、モー娘。イベント行った仁木/モテるためにはセンスじゃねえだろ！」",
-      "num": 13,
-      "url": "soujanee/0013/soujanee.mp3"
+      "title": "気管支炎になった西山、モー娘。イベント行った仁木/モテるためにはセンスじゃねえだろ！",
+      "number": 13,
+      "path": "soujanee/0013/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！014「オールバックになった西山/ドングリとエビクラゲ/新コーナー説明」",
-      "num": 14,
-      "url": "soujanee/0014/soujanee.mp3"
+      "title": "オールバックになった西山/ドングリとエビクラゲ/新コーナー説明",
+      "number": 14,
+      "path": "soujanee/0014/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！015「電車のドギツイ若者/世界一見なくていいAV/お前それ、本当じゃねえだろ！」",
-      "num": 15,
-      "url": "soujanee/0015/soujanee.mp3"
+      "title": "電車のドギツイ若者/世界一見なくていいAV/お前それ、本当じゃねえだろ！",
+      "number": 15,
+      "path": "soujanee/0015/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！016「仁木と42歳/西山と14歳/そうじゃねえだろはこう語る！」",
-      "num": 16,
-      "url": "soujanee/0016/soujanee.mp3"
+      "title": "仁木と42歳/西山と14歳/そうじゃねえだろはこう語る！",
+      "number": 16,
+      "path": "soujanee/0016/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！017「仁木のゲロ/西山の血便/アイドル」",
-      "num": 17,
-      "url": "soujanee/0017/soujanee.mp3"
+      "title": "仁木のゲロ/西山の血便/アイドル",
+      "number": 17,
+      "path": "soujanee/0017/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！018「コントの小道具/大先輩に聞いた売れる方法/モテるためにはセンスじゃねえだろ！」",
-      "num": 18,
-      "url": "soujanee/0018/soujanee.mp3"
+      "title": "コントの小道具/大先輩に聞いた売れる方法/モテるためにはセンスじゃねえだろ！",
+      "number": 18,
+      "path": "soujanee/0018/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！019「ホワイトデー/クレーマーより腹立つ店員」",
-      "num": 19,
-      "url": "soujanee/0019/soujanee.mp3"
+      "title": "ホワイトデー/クレーマーより腹立つ店員",
+      "number": 19,
+      "path": "soujanee/0019/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！020「テレクラキャノンボールだけは見ろ！/緊急企画！西山は改名をしろ！」",
-      "num": 20,
-      "url": "soujanee/0020/soujanee.mp3"
+      "title": "テレクラキャノンボールだけは見ろ！/緊急企画！西山は改名をしろ！",
+      "number": 20,
+      "path": "soujanee/0020/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！021「仁木も見たテレクラキャノンボールと事故った西山/モテるためにはセンスじゃねえだろ！」",
-      "num": 21,
-      "url": "soujanee/0021/soujanee.mp3"
+      "title": "仁木も見たテレクラキャノンボールと事故った西山/モテるためにはセンスじゃねえだろ！",
+      "number": 21,
+      "path": "soujanee/0021/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！022「部屋でラジオ録ってたら隣人にめちゃくちゃ怒られた回」",
-      "num": 22,
-      "url": "soujanee/0022/soujanee.mp3"
+      "title": "部屋でラジオ録ってたら隣人にめちゃくちゃ怒られた回",
+      "number": 22,
+      "path": "soujanee/0022/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！023「MCバトルを見に行ったシャラップ/どうしてもモー娘。に入りたい仁木」",
-      "num": 23,
-      "url": "soujanee/0023/soujanee.mp3"
+      "title": "MCバトルを見に行ったシャラップ/どうしてもモー娘。に入りたい仁木",
+      "number": 23,
+      "path": "soujanee/0023/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！024「相変わらず仁木のモー娘。の話」",
-      "num": 24,
-      "url": "soujanee/0024/soujanee.mp3"
+      "title": "相変わらず仁木のモー娘。の話",
+      "number": 24,
+      "path": "soujanee/0024/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！025「仁木のバイト先に来たシャラップみてーなヤツ/モテるためにはセンスじゃねえだろ！」",
-      "num": 25,
-      "url": "soujanee/0025/soujanee.mp3"
+      "title": "仁木のバイト先に来たシャラップみてーなヤツ/モテるためにはセンスじゃねえだろ！",
+      "number": 25,
+      "path": "soujanee/0025/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0026「仁木が酒を飲みながら一人語り（※シャラップは帰省のためお休みです）」",
-      "num": 26,
-      "url": "soujanee/0026/soujanee.mp3"
+      "title": "仁木が酒を飲みながら一人語り（※シャラップは帰省のためお休みです）",
+      "number": 26,
+      "path": "soujanee/0026/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0027「田舎ならではの結婚の馴れ初めと仁木の女装」",
-      "num": 27,
-      "url": "soujanee/0027/soujanee.mp3"
+      "title": "田舎ならではの結婚の馴れ初めと仁木の女装",
+      "number": 27,
+      "path": "soujanee/0027/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0028「二人ともめちゃくちゃ部屋が汚いけどそんな二人のラジオにもヘビーリスナーがいました」",
-      "num": 28,
-      "url": "soujanee/0028/soujanee.mp3"
+      "title": "二人ともめちゃくちゃ部屋が汚いけどそんな二人のラジオにもヘビーリスナーがいました",
+      "number": 28,
+      "path": "soujanee/0028/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0029「珍しく美味しんぼとか時事の話/モテるためにはセンスじゃねえだろ！」",
-      "num": 29,
-      "url": "soujanee/0029/soujanee.mp3"
+      "title": "珍しく美味しんぼとか時事の話/モテるためにはセンスじゃねえだろ！",
+      "number": 29,
+      "path": "soujanee/0029/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0031「開始5分から最後まで仁木のひたすら寂しい話」",
-      "num": 31,
-      "url": "soujanee/0031/soujanee.mp3"
+      "title": "開始5分から最後まで仁木のひたすら寂しい話",
+      "number": 31,
+      "path": "soujanee/0031/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0032「シャラップ、スキンヘッド眉無し生活5日目」",
-      "num": 32,
-      "url": "soujanee/0032/soujanee.mp3"
+      "title": "シャラップ、スキンヘッド眉無し生活5日目",
+      "number": 32,
+      "path": "soujanee/0032/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0033「誕生日/仁木はやかましいからいっそロックバンド組め」",
-      "num": 33,
-      "url": "soujanee/0033/soujanee.mp3"
+      "title": "誕生日/仁木はやかましいからいっそロックバンド組め",
+      "number": 33,
+      "path": "soujanee/0033/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0034「仁木はほう○いなのかほう○いじゃないのか？/モテるためにはセンスじゃねえだろ！」",
-      "num": 34,
-      "url": "soujanee/0034/soujanee.mp3"
+      "title": "仁木はほう○いなのかほう○いじゃないのか？/モテるためにはセンスじゃねえだろ！",
+      "number": 34,
+      "path": "soujanee/0034/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0035「無念！仁木、無銭飲食男を5km追いかけて、何も得ず」",
-      "num": 35,
-      "url": "soujanee/0035/soujanee.mp3"
+      "title": "無念！仁木、無銭飲食男を5km追いかけて、何も得ず",
+      "number": 35,
+      "path": "soujanee/0035/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0036「シャラップ、救急車で運ばれた翌々日、全然別件で天龍みたいな声になる」",
-      "num": 36,
-      "url": "soujanee/0036/soujanee.mp3"
+      "title": "シャラップ、救急車で運ばれた翌々日、全然別件で天龍みたいな声になる",
+      "number": 36,
+      "path": "soujanee/0036/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0037「仁木、おしっこ我慢帰郷（引き続きシャラップの声はそのまま）」",
-      "num": 37,
-      "url": "soujanee/0037/soujanee.mp3"
+      "title": "仁木、おしっこ我慢帰郷（引き続きシャラップの声はそのまま）",
+      "number": 37,
+      "path": "soujanee/0037/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0038「シャラップ、声悪化して声無くなる（全精力振り絞れば高田延彦みたいな声が出る）/モテるためにはセンスじゃねえだろ！」",
-      "num": 38,
-      "url": "soujanee/0038/soujanee.mp3"
+      "title": "シャラップ、声悪化して声無くなる（全精力振り絞れば高田延彦みたいな声が出る）/モテるためにはセンスじゃねえだろ！",
+      "number": 38,
+      "path": "soujanee/0038/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0039「耳鼻咽喉科行っても『喉赤いですね～』くらいで解決しませんでした（シャラップ）」",
-      "num": 39,
-      "url": "soujanee/0039/soujanee.mp3"
+      "title": "耳鼻咽喉科行っても『喉赤いですね～』くらいで解決しませんでした（シャラップ）",
+      "number": 39,
+      "path": "soujanee/0039/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0040「シャラップの声が出ないので9/15に俺らと2マンライブをやるガクヅケ・船引さんにゲストで来て貰いました」",
-      "num": 40,
-      "url": "soujanee/0040/soujanee.mp3"
+      "title": "シャラップの声が出ないので9/15に俺らと2マンライブをやるガクヅケ・船引さんにゲストで来て貰いました",
+      "number": 40,
+      "path": "soujanee/0040/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0041「シャラップの声、少し復活！！！！！！！！」",
-      "num": 41,
-      "url": "soujanee/0041/soujanee.mp3"
+      "title": "シャラップの声、少し復活！！！！！！！！",
+      "number": 41,
+      "path": "soujanee/0041/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0042「シャラップの声が完全復活しましたが、仁木の喋りが止まらなくなりました」",
-      "num": 42,
-      "url": "soujanee/0042/soujanee.mp3"
+      "title": "シャラップの声が完全復活しましたが、仁木の喋りが止まらなくなりました",
+      "number": 42,
+      "path": "soujanee/0042/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0043「ず～っと仁木のアイドルの話/モテるためにはセンスじゃねえだろ！」",
-      "num": 43,
-      "url": "soujanee/0043/soujanee.mp3"
+      "title": "ず～っと仁木のアイドルの話/モテるためにはセンスじゃねえだろ！",
+      "number": 43,
+      "path": "soujanee/0043/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0044「僕らが出ている大喜利ライブにゲストで原宿さんとダ・ヴィンチ恐山さんに出て頂きました！」",
-      "num": 44,
-      "url": "soujanee/0044/soujanee.mp3"
+      "title": "僕らが出ている大喜利ライブにゲストで原宿さんとダ・ヴィンチ恐山さんに出て頂きました！",
+      "number": 44,
+      "path": "soujanee/0044/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0045「そうじゃねえだろvsガクヅケ　数時間前の収録（ゲスト　ガクヅケ・木田）」",
-      "num": 45,
-      "url": "soujanee/0045/soujanee.mp3"
+      "title": "そうじゃねえだろvsガクヅケ　数時間前の収録（ゲスト　ガクヅケ・木田）",
+      "number": 45,
+      "path": "soujanee/0045/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0046「2マンライブ『そうじゃねえだろvsガクヅケ』無事終了！！！」",
-      "num": 46,
-      "url": "soujanee/0046/soujanee.mp3"
+      "title": "2マンライブ『そうじゃねえだろvsガクヅケ』無事終了！！！",
+      "number": 46,
+      "path": "soujanee/0046/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0047「自殺マンションの内見に行って来たシャラップ/女子高の文化祭に行って来た仁木」",
-      "num": 47,
-      "url": "soujanee/0047/soujanee.mp3"
+      "title": "自殺マンションの内見に行って来たシャラップ/女子高の文化祭に行って来た仁木",
+      "number": 47,
+      "path": "soujanee/0047/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0048「モー娘。武道館ライブ/モテるためにはセンスじゃねえだろ！」",
-      "num": 48,
-      "url": "soujanee/0048/soujanee.mp3"
+      "title": "モー娘。武道館ライブ/モテるためにはセンスじゃねえだろ！",
+      "number": 48,
+      "path": "soujanee/0048/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0049「モー娘。ファンのアイアンさんへ」",
-      "num": 49,
-      "url": "soujanee/0049/soujanee.mp3"
+      "title": "モー娘。ファンのアイアンさんへ",
+      "number": 49,
+      "path": "soujanee/0049/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0050「緊急企画！全くアイドルファンじゃないシャラップはモー娘。イベントに行ったらハマるのか！？」",
-      "num": 50,
-      "url": "soujanee/0050/soujanee.mp3"
+      "title": "緊急企画！全くアイドルファンじゃないシャラップはモー娘。イベントに行ったらハマるのか！？",
+      "number": 50,
+      "path": "soujanee/0050/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0051「やぐっちゃんの話とKOC決勝に行ったリンゴスターの話」",
-      "num": 51,
-      "url": "soujanee/0051/soujanee.mp3"
+      "title": "やぐっちゃんの話とKOC決勝に行ったリンゴスターの話",
+      "number": 51,
+      "path": "soujanee/0051/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0052「奇跡的にビートたけしさん単独ライブに行けたシャラップ」",
-      "num": 52,
-      "url": "soujanee/0052/soujanee.mp3"
+      "title": "奇跡的にビートたけしさん単独ライブに行けたシャラップ",
+      "number": 52,
+      "path": "soujanee/0052/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0053「本当にバイト辞めたい/モテるためにはセンスじゃねえだろ！」",
-      "num": 53,
-      "url": "soujanee/0053/soujanee.mp3"
+      "title": "本当にバイト辞めたい/モテるためにはセンスじゃねえだろ！",
+      "number": 53,
+      "path": "soujanee/0053/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0054「落語家/2日連続でチャリ撤去されて1万の出費」",
-      "num": 54,
-      "url": "soujanee/0054/soujanee.mp3"
+      "title": "落語家/2日連続でチャリ撤去されて1万の出費",
+      "number": 54,
+      "path": "soujanee/0054/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0055「オカマバーのタクヤさんは意外と普段は無口なのよ～」",
-      "num": 55,
-      "url": "soujanee/0055/soujanee.mp3"
+      "title": "オカマバーのタクヤさんは意外と普段は無口なのよ～",
+      "number": 55,
+      "path": "soujanee/0055/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0056「シャラップ、歯の激痛で歯茎に6本麻酔打った状態で収録」",
-      "num": 56,
-      "url": "soujanee/0056/soujanee.mp3"
+      "title": "シャラップ、歯の激痛で歯茎に6本麻酔打った状態で収録",
+      "number": 56,
+      "path": "soujanee/0056/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0057「オモコロイベント終了！/モテるためにはセンスじゃねえだろ！」",
-      "num": 57,
-      "url": "soujanee/0057/soujanee.mp3"
+      "title": "オモコロイベント終了！/モテるためにはセンスじゃねえだろ！",
+      "number": 57,
+      "path": "soujanee/0057/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0058「緊急！バイトをクビになった仁木を雇ってくれる方大募集！」",
-      "num": 58,
-      "url": "soujanee/0058/soujanee.mp3"
+      "title": "緊急！バイトをクビになった仁木を雇ってくれる方大募集！",
+      "number": 58,
+      "path": "soujanee/0058/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0059「緊急企画！お互いお勧めのAVを見てチ○コさすったら負け！」",
-      "num": 59,
-      "url": "soujanee/0059/soujanee.mp3"
+      "title": "緊急企画！お互いお勧めのAVを見てチ○コさすったら負け！",
+      "number": 59,
+      "path": "soujanee/0059/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0060「シャラップ、『逆チクビ痴漢/大槻ひびき』永遠に封印！」",
-      "num": 60,
-      "url": "soujanee/0060/soujanee.mp3"
+      "title": "シャラップ、『逆チクビ痴漢/大槻ひびき』永遠に封印！",
+      "number": 60,
+      "path": "soujanee/0060/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0061「仁木恭平の水ガブ飲みで風邪絶対治る説」",
-      "num": 61,
-      "url": "soujanee/0061/soujanee.mp3"
+      "title": "仁木恭平の水ガブ飲みで風邪絶対治る説",
+      "number": 61,
+      "path": "soujanee/0061/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0062「たまには昔の話を」",
-      "num": 62,
-      "url": "soujanee/0062/soujanee.mp3"
+      "title": "たまには昔の話を",
+      "number": 62,
+      "path": "soujanee/0062/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0063「二人の学生時代」",
-      "num": 63,
-      "url": "soujanee/0063/soujanee.mp3"
+      "title": "二人の学生時代",
+      "number": 63,
+      "path": "soujanee/0063/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0064「ザ・ノンフィクション 田中義剛～栄光と挫折～（シャラップは声枯れ中）」",
-      "num": 64,
-      "url": "soujanee/0064/soujanee.mp3"
+      "title": "ザ・ノンフィクション 田中義剛～栄光と挫折～（シャラップは声枯れ中）",
+      "number": 64,
+      "path": "soujanee/0064/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0065「恐怖、シャラップが経験した豆腐の引き売りバイト」",
-      "num": 65,
-      "url": "soujanee/0065/soujanee.mp3"
+      "title": "恐怖、シャラップが経験した豆腐の引き売りバイト",
+      "number": 65,
+      "path": "soujanee/0065/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0066「メッタメタに女子にイジめられてた仁木」",
-      "num": 66,
-      "url": "soujanee/0066/soujanee.mp3"
+      "title": "メッタメタに女子にイジめられてた仁木",
+      "number": 66,
+      "path": "soujanee/0066/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0067「駅員に関する許せない話」",
-      "num": 67,
-      "url": "soujanee/0067/soujanee.mp3"
+      "title": "駅員に関する許せない話",
+      "number": 67,
+      "path": "soujanee/0067/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0068「バイト情報お待ちしております」",
-      "num": 68,
-      "url": "soujanee/0068/soujanee.mp3"
+      "title": "バイト情報お待ちしております",
+      "number": 68,
+      "path": "soujanee/0068/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0070「緊急企画！終わってる仁木の終わってる部屋大掃除」",
-      "num": 70,
-      "url": "soujanee/0070/soujanee.mp3"
+      "title": "緊急企画！終わってる仁木の終わってる部屋大掃除",
+      "number": 70,
+      "path": "soujanee/0070/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0071「シャラップ、人生で初めてオナホに手マンする」",
-      "num": 71,
-      "url": "soujanee/0071/soujanee.mp3"
+      "title": "シャラップ、人生で初めてオナホに手マンする",
+      "number": 71,
+      "path": "soujanee/0071/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0072「仁木、開き直り女にブチギレ」",
-      "num": 72,
-      "url": "soujanee/0072/soujanee.mp3"
+      "title": "仁木、開き直り女にブチギレ",
+      "number": 72,
+      "path": "soujanee/0072/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0073「仁木、無事バイト見つかる」",
-      "num": 73,
-      "url": "soujanee/0073/soujanee.mp3"
+      "title": "仁木、無事バイト見つかる",
+      "number": 73,
+      "path": "soujanee/0073/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0074「仁木、バイト辞めたがる」",
-      "num": 74,
-      "url": "soujanee/0074/soujanee.mp3"
+      "title": "仁木、バイト辞めたがる",
+      "number": 74,
+      "path": "soujanee/0074/soujanee.mp3"
     },
     {
-      "title": "そうじゃねえだろのラジオじゃねえだろ！0075「続・仁木、バイト辞めたがる」",
-      "num": 75,
-      "url": "soujanee/0075/soujanee.mp3"
+      "title": "続・仁木、バイト辞めたがる",
+      "number": 75,
+      "path": "soujanee/0075/soujanee.mp3"
     },
     {
-      "title": "第76回そうじゃねえだろのラジオじゃねえだろ！「2マンライブ、無事終了！」",
-      "num": 76,
-      "url": "soujanee/0076/soujanee.mp3"
+      "title": "2マンライブ、無事終了！",
+      "number": 76,
+      "path": "soujanee/0076/soujanee.mp3"
     },
     {
-      "title": "第77回そうじゃねえだろのラジオじゃねえだろ！「祝！仁木、一瞬でバイト辞める」",
-      "num": 77,
-      "url": "soujanee/0077/soujanee.mp3"
+      "title": "祝！仁木、一瞬でバイト辞める",
+      "number": 77,
+      "path": "soujanee/0077/soujanee.mp3"
     },
     {
-      "title": "第78回そうじゃねえだろのラジオじゃねえだろ！「龍三と七人の子分たちとヨウジロウ」",
-      "num": 78,
-      "url": "soujanee/0078/soujanee.mp3"
+      "title": "龍三と七人の子分たちとヨウジロウ",
+      "number": 78,
+      "path": "soujanee/0078/soujanee.mp3"
     },
     {
-      "title": "第79回そうじゃねえだろのラジオじゃねえだろ！「上原亜衣と13人の守り隊」",
-      "num": 79,
-      "url": "soujanee/0079/soujanee.mp3"
+      "title": "上原亜衣と13人の守り隊",
+      "number": 79,
+      "path": "soujanee/0079/soujanee.mp3"
     },
     {
-      "title": "第80回そうじゃねえだろのラジオじゃねえだろ！「24歳前厄のシャラップ」",
-      "num": 80,
-      "url": "soujanee/0080/soujanee.mp3"
+      "title": "24歳前厄のシャラップ",
+      "number": 80,
+      "path": "soujanee/0080/soujanee.mp3"
     },
     {
-      "title": "第81回そうじゃねえだろのラジオじゃねえだろ！「緊急企画！シャラップ、どうせあんなもん意味無いけど厄払い行ってこい！」",
-      "num": 81,
-      "url": "soujanee/0081/soujanee.mp3"
+      "title": "緊急企画！シャラップ、どうせあんなもん意味無いけど厄払い行ってこい！",
+      "number": 81,
+      "path": "soujanee/0081/soujanee.mp3"
     },
     {
-      "title": "第82回そうじゃねえだろのラジオじゃねえだろ！「TUBEvsサザン どっちがより『海』という単語使ってんのか！？対決勃発」",
-      "num": 82,
-      "url": "soujanee/0082/soujanee.mp3"
+      "title": "TUBEvsサザン どっちがより『海』という単語使ってんのか！？対決勃発",
+      "number": 82,
+      "path": "soujanee/0082/soujanee.mp3"
     },
     {
-      "title": "第83回そうじゃねえだろのラジオじゃねえだろ！「TUBEvsサザン どっちがより『海』という単語使ってんのか！？対決　完結」",
-      "num": 83,
-      "url": "soujanee/0083/soujanee.mp3"
+      "title": "TUBEvsサザン どっちがより『海』という単語使ってんのか！？対決　完結",
+      "number": 83,
+      "path": "soujanee/0083/soujanee.mp3"
     },
     {
-      "title": "第84回そうじゃねえだろのラジオじゃねえだろ！「シャラップ罰ゲーム！『TUBEの歌詞に出てくる地名全てに自転車で行って土下座』の刑」",
-      "num": 84,
-      "url": "soujanee/0084/soujanee.mp3"
+      "title": "シャラップ罰ゲーム！『TUBEの歌詞に出てくる地名全てに自転車で行って土下座』の刑",
+      "number": 84,
+      "path": "soujanee/0084/soujanee.mp3"
     },
     {
-      "title": "第85回そうじゃねえだろのラジオじゃねえだろ！「そもそも【湘南】ってどこなの？？？」",
-      "num": 85,
-      "url": "soujanee/0085/soujanee.mp3"
+      "title": "そもそも【湘南】ってどこなの？？？",
+      "number": 85,
+      "path": "soujanee/0085/soujanee.mp3"
     },
     {
-      "title": "第86回そうじゃねえだろのラジオじゃねえだろ！「1000年に1度の手コ◯アイドル！」",
-      "num": 86,
-      "url": "soujanee/0086/soujanee.mp3"
+      "title": "1000年に1度の手コ◯アイドル！",
+      "number": 86,
+      "path": "soujanee/0086/soujanee.mp3"
     },
     {
-      "title": "第87回そうじゃねえだろのラジオじゃねえだろ！「1000年に1度の手コ◯アイドルに会いに行ったリスナー出現！」",
-      "num": 87,
-      "url": "soujanee/0087/soujanee.mp3"
+      "title": "1000年に1度の手コ◯アイドルに会いに行ったリスナー出現！",
+      "number": 87,
+      "path": "soujanee/0087/soujanee.mp3"
     },
     {
-      "title": "第88回そうじゃねえだろのラジオじゃねえだろ！「TUBEの前田さんごめんなさい罰ゲーム～湘南編～」",
-      "num": 88,
-      "url": "soujanee/0088/soujanee.mp3"
+      "title": "TUBEの前田さんごめんなさい罰ゲーム～湘南編～",
+      "number": 88,
+      "path": "soujanee/0088/soujanee.mp3"
     },
     {
-      "title": "第89回そうじゃねえだろのラジオじゃねえだろ！「腋フェチのみなさん！！！腋画像下さい」",
-      "num": 89,
-      "url": "soujanee/0089/soujanee.mp3"
+      "title": "腋フェチのみなさん！！！腋画像下さい",
+      "number": 89,
+      "path": "soujanee/0089/soujanee.mp3"
     },
     {
-      "title": "第90回そうじゃねえだろのラジオじゃねえだろ！「真っっっっっっっっっっっっっっっっ赤なうんこ」",
-      "num": 90,
-      "url": "soujanee/0090/soujanee.mp3"
+      "title": "真っっっっっっっっっっっっっっっっ赤なうんこ",
+      "number": 90,
+      "path": "soujanee/0090/soujanee.mp3"
     },
     {
-      "title": "第91回そうじゃねえだろのラジオじゃねえだろ！「バイト先、風俗での間違ったボケ方」",
-      "num": 91,
-      "url": "soujanee/0091/soujanee.mp3"
+      "title": "バイト先、風俗での間違ったボケ方",
+      "number": 91,
+      "path": "soujanee/0091/soujanee.mp3"
     },
     {
-      "title": "第92回そうじゃねえだろのラジオじゃねえだろ！「永遠に星のカービィを見ているシャラップ弟とARuFa君弟を会わせてみた」",
-      "num": 92,
-      "url": "soujanee/0092/soujanee.mp3"
+      "title": "永遠に星のカービィを見ているシャラップ弟とARuFa君弟を会わせてみた",
+      "number": 92,
+      "path": "soujanee/0092/soujanee.mp3"
     },
     {
-      "title": "第93回そうじゃねえだろのラジオじゃねえだろ！「仁木、手コ◯風俗に並んでるジジイ10人を見て引き返す」",
-      "num": 93,
-      "url": "soujanee/0093/soujanee.mp3"
+      "title": "仁木、手コ◯風俗に並んでるジジイ10人を見て引き返す",
+      "number": 93,
+      "path": "soujanee/0093/soujanee.mp3"
     },
     {
-      "title": "第94回そうじゃねえだろのラジオじゃねえだろ！「酔っ払いいつかシバく」",
-      "num": 94,
-      "url": "soujanee/0094/soujanee.mp3"
+      "title": "酔っ払いいつかシバく",
+      "number": 94,
+      "path": "soujanee/0094/soujanee.mp3"
     },
     {
-      "title": "第95回そうじゃねえだろのラジオじゃねえだろ！「100回間近の緊急長尺90分超えスペシャル！」",
-      "num": 95,
-      "url": "soujanee/0095/soujanee.mp3"
+      "title": "100回間近の緊急長尺90分超えスペシャル！",
+      "number": 95,
+      "path": "soujanee/0095/soujanee.mp3"
     },
     {
-      "title": "第96回そうじゃねえだろのラジオじゃねえだろ！「今週も長尺でお送りします」",
-      "num": 96,
-      "url": "soujanee/0096/soujanee.mp3"
+      "title": "今週も長尺でお送りします",
+      "number": 96,
+      "path": "soujanee/0096/soujanee.mp3"
     },
     {
-      "title": "第97回そうじゃねえだろのラジオじゃねえだろ！「体調不良によりシャラップ引退！それにより解散！今までありがとうございました！」",
-      "num": 97,
-      "url": "soujanee/0097/soujanee.mp3"
+      "title": "体調不良によりシャラップ引退！それにより解散！今までありがとうございました！",
+      "number": 97,
+      "path": "soujanee/0097/soujanee.mp3"
     },
     {
-      "title": "第98回そうじゃねえだろのラジオじゃねえだろ！「シャラップの思想ベストアルバムの回」",
-      "num": 98,
-      "url": "soujanee/0098/soujanee.mp3"
+      "title": "シャラップの思想ベストアルバムの回",
+      "number": 98,
+      "path": "soujanee/0098/soujanee.mp3"
     },
     {
-      "title": "第99回そうじゃねえだろのラジオじゃねえだろ！「新生そうじゃねえだろ（仮）、始動！！！」",
-      "num": 99,
-      "url": "soujanee/0099/soujanee.mp3"
+      "title": "新生そうじゃねえだろ（仮）、始動！！！",
+      "number": 99,
+      "path": "soujanee/0099/soujanee.mp3"
     },
     {
-      "title": "第100回そうじゃねえだろのラジオじゃねえだろ！「ラジオじゃねえだろ最終回！今までありがとうございました！（ゲスト:ガクヅケ）」",
-      "num": 100,
-      "url": "soujanee/0100/soujanee.mp3"
+      "title": "ラジオじゃねえだろ最終回！今までありがとうございました！（ゲスト:ガクヅケ）",
+      "number": 100,
+      "path": "soujanee/0100/soujanee.mp3"
     }
   ]
 }

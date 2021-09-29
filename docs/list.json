@@ -1,127 +1,127 @@
 [
   {
     "name": "ありっちゃありスパーク・マシュ",
-    "keyword": "ありっちゃありスパーク・マシュ",
+    "tag": "ありっちゃありスパーク",
     "onAir": true
   },
   {
     "name": "ARuFa・恐山の匿名ラジオ",
-    "keyword": "匿名ラジオ",
+    "tag": "匿名ラジオ",
     "onAir": true
   },
   {
     "name": "作業用かまみく",
-    "keyword": "作業用かまみく",
+    "tag": "かまってみくのしん",
     "onAir": true
   },
   {
     "name": "長島・加藤のイうてるマにイっちゃってる",
-    "keyword": "イうてるマにイっちゃってる",
+    "tag": "イうてるマにイっちゃってる",
     "onAir": true
   },
   {
     "name": "マンスーン・ヤスミノの音声放送",
-    "keyword": "音声放送",
+    "tag": "音声放送",
     "onAir": true
   },
   {
     "name": "ソルジャーラジオ",
-    "keyword": "ソルジャーラジオ",
+    "tag": "ソルジャーラジオ",
     "onAir": true
   },
   {
     "name": "ラジオ漫画犬咆哮編",
-    "keyword": "ラジオ漫画犬咆哮編",
+    "tag": "ラジオ漫画犬",
     "onAir": true
   },
   {
     "name": "ラジオ・モンゴルナイトフィーバー",
-    "keyword": "モンゴルナイトフィーバー",
+    "tag": "モンゴルナイトフィーバー",
     "onAir": true
   },
   {
     "name": "ありっちゃありアワー",
-    "keyword": "ありっちゃありアワー",
+    "tag": "ありっちゃありアワー",
     "onAir": false
   },
   {
     "name": "ありっちゃありスパーク",
-    "keyword": "ありっちゃありスパーク",
+    "tag": "ありっちゃありスパーク",
     "onAir": false
   },
   {
     "name": "加藤・ギャラクシーのラジオKGB",
-    "keyword": "ラジオKGB",
+    "tag": "KGB",
     "onAir": false
   },
   {
     "name": "かまってみくのしん",
-    "keyword": "かまってみくのしん",
+    "tag": "かまってみくのしん",
     "onAir": false
   },
   {
     "name": "かまってみくのしんGOLD",
-    "keyword": "かまってみくのしんGOLD",
+    "tag": "かまってみくのしん",
     "onAir": false
   },
   {
     "name": "かまってみくのしん日本一",
-    "keyword": "かまってみくのしん日本一",
+    "tag": "かまってみくのしん",
     "onAir": false
   },
   {
     "name": "かまってみくのしんLove you",
-    "keyword": "かまってみくのしんLove you",
+    "tag": "かまってみくのしん",
     "onAir": false
   },
   {
     "name": "シモダテツヤと私（ヨッピー）",
-    "keyword": "シモダテツヤと私",
+    "tag": "シモダテツヤと私（ヨッピー）",
     "onAir": false
   },
   {
     "name": "シモダテツヤと私（地獄のミサワ）",
-    "keyword": "シモダテツヤと私",
+    "tag": "シモダテツヤと私（地獄のミサワ）",
     "onAir": false
   },
   {
     "name": "シモダ＆イーグルの残念ラジオ",
-    "keyword": "残念ラジオ",
+    "tag": "残念ラジオ",
     "onAir": false
   },
   {
     "name": "セブ山・永田の金曜ラジオ",
-    "keyword": "金曜ラジオ",
+    "tag": "金曜ラジオ",
     "onAir": false
   },
   {
     "name": "そうじゃねえだろのラジオじゃねえだろ！",
-    "keyword": "ラジオじゃねえだろ",
+    "tag": "ラジオじゃねえだろ",
     "onAir": false
   },
   {
     "name": "たかや・マンスーンのパクパクラジオ",
-    "keyword": "パクパクラジオ",
+    "tag": "パクパクラジオ",
     "onAir": false
   },
   {
     "name": "みくのしん・おおきちの大仲良しラジオ",
-    "keyword": "大仲良しラジオ",
+    "tag": "大仲良しラジオ",
     "onAir": false
   },
   {
     "name": "凸ノ・カメントツのラジオ漫画犬",
-    "keyword": "ラジオ漫画犬",
+    "tag": "ラジオ漫画犬",
     "onAir": false
   },
   {
     "name": "ラジオ漫画犬漂流編",
-    "keyword": "ラジオ漫画犬漂流編",
+    "tag": "ラジオ漫画犬",
     "onAir": false
   },
   {
     "name": "ラジオ漫画犬血道編",
-    "keyword": "ラジオ漫画犬血道編",
+    "tag": "ラジオ漫画犬",
     "onAir": false
   }
 ]

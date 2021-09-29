@@ -1,271 +1,271 @@
 {
   "name": "かまってみくのしんGOLD",
-  "tag": "かまってみくのしん",
-  "items": [
+  "updated": "2021-09-29T10:13:03.850Z",
+  "episodes": [
     {
-      "title": "【001】かまってみくのしんGOLD「みくのしん元気出して！」",
-      "num": 1,
-      "url": "kamamicu/g01/g01.mp3"
+      "title": "みくのしん元気出して！",
+      "number": 1,
+      "path": "kamamicu/g01/g01.mp3"
     },
     {
-      "title": "【002】かまってみくのしんGOLD「耳栓が怖くて泣いた男」",
-      "num": 2,
-      "url": "kamamicu/g02/g02.mp3"
+      "title": "耳栓が怖くて泣いた男",
+      "number": 2,
+      "path": "kamamicu/g02/g02.mp3"
     },
     {
-      "title": "【003】かまってみくのしんGOLD「野田せいぞ」",
-      "num": 3,
-      "url": "kamamicu/g03/g03.mp3"
+      "title": "野田せいぞ",
+      "number": 3,
+      "path": "kamamicu/g03/g03.mp3"
     },
     {
-      "title": "【004】かまってみくのしんGOLD「２本録り」",
-      "num": 4,
-      "url": "kamamicu/g04/g04.mp3"
+      "title": "２本録り",
+      "number": 4,
+      "path": "kamamicu/g04/g04.mp3"
     },
     {
-      "title": "【005】かまってみくのしんGOLD「嘘松」",
-      "num": 5,
-      "url": "kamamicu/g05/g05.mp3"
+      "title": "嘘松",
+      "number": 5,
+      "path": "kamamicu/g05/g05.mp3"
     },
     {
-      "title": "【006】かまってみくのしんGOLD「ちっちぇえな」",
-      "num": 6,
-      "url": "kamamicu/g06/g06.mp3"
+      "title": "ちっちぇえな",
+      "number": 6,
+      "path": "kamamicu/g06/g06.mp3"
     },
     {
-      "title": "【007】かまってみくのしんGOLD「ありがとライス！」",
-      "num": 7,
-      "url": "kamamicu/g07/g07.mp3"
+      "title": "ありがとライス！",
+      "number": 7,
+      "path": "kamamicu/g07/g07.mp3"
     },
     {
-      "title": "【008】かまってみくのしんGOLD「漫画犬とかまみく」",
-      "num": 8,
-      "url": "kamamicu/g08/g08.mp3"
+      "title": "漫画犬とかまみく",
+      "number": 8,
+      "path": "kamamicu/g08/g08.mp3"
     },
     {
-      "title": "【009】かまってみくのしんGOLD「悲痛な叫びコンテスト」",
-      "num": 9,
-      "url": "kamamicu/g09/g09.mp3"
+      "title": "悲痛な叫びコンテスト",
+      "number": 9,
+      "path": "kamamicu/g09/g09.mp3"
     },
     {
-      "title": "【010】かまってみくのしんGOLD「ボツと撮り直し」",
-      "num": 10,
-      "url": "kamamicu/g10/g10.mp3"
+      "title": "ボツと撮り直し",
+      "number": 10,
+      "path": "kamamicu/g10/g10.mp3"
     },
     {
-      "title": "【011】かまってみくのしんGOLD「みくのしん Wants To Play」",
-      "num": 11,
-      "url": "kamamicu/g11/g11.mp3"
+      "title": "みくのしん Wants To Play",
+      "number": 11,
+      "path": "kamamicu/g11/g11.mp3"
     },
     {
-      "title": "【012】かまってみくのしんGOLD「薄毛笑うな行く道だもの」",
-      "num": 12,
-      "url": "kamamicu/g12/g12.mp3"
+      "title": "薄毛笑うな行く道だもの",
+      "number": 12,
+      "path": "kamamicu/g12/g12.mp3"
     },
     {
-      "title": "【013】かまってみくのしんGOLD「ヘッドホン壊すべし」",
-      "num": 13,
-      "url": "kamamicu/g13/g13.mp3"
+      "title": "ヘッドホン壊すべし",
+      "number": 13,
+      "path": "kamamicu/g13/g13.mp3"
     },
     {
-      "title": "【014】かまってみくのしんGOLD「カメラを止めるな！の話を止めるな！」",
-      "num": 14,
-      "url": "kamamicu/g14/g14.mp3"
+      "title": "カメラを止めるな！の話を止めるな！",
+      "number": 14,
+      "path": "kamamicu/g14/g14.mp3"
     },
     {
-      "title": "【015】かまってみくのしんGOLD「どこでもマンガが読めまスペイン」",
-      "num": 15,
-      "url": "kamamicu/g15/g15.mp3"
+      "title": "どこでもマンガが読めまスペイン",
+      "number": 15,
+      "path": "kamamicu/g15/g15.mp3"
     },
     {
-      "title": "【016】かまってみくのしんGOLD「オモコロ合宿ゴーゴゴー！」",
-      "num": 16,
-      "url": "kamamicu/g16/g16.mp3"
+      "title": "オモコロ合宿ゴーゴゴー！",
+      "number": 16,
+      "path": "kamamicu/g16/g16.mp3"
     },
     {
-      "title": "【017】かまってみくのしんGOLD「激シブミスチル結婚式」",
-      "num": 17,
-      "url": "kamamicu/g17/g17.mp3"
+      "title": "激シブミスチル結婚式",
+      "number": 17,
+      "path": "kamamicu/g17/g17.mp3"
     },
     {
-      "title": "【018】かまってみくのしんGOLD「ロックストックアンドトゥースモーキング夢顎」",
-      "num": 18,
-      "url": "kamamicu/g18/g18.mp3"
+      "title": "ロックストックアンドトゥースモーキング夢顎",
+      "number": 18,
+      "path": "kamamicu/g18/g18.mp3"
     },
     {
-      "title": "【019】かまってみくのしんGOLD「爆笑！みくのしんサマーフェスティバル2018前夜」",
-      "num": 19,
-      "url": "kamamicu/g19/g19.mp3"
+      "title": "爆笑！みくのしんサマーフェスティバル2018前夜",
+      "number": 19,
+      "path": "kamamicu/g19/g19.mp3"
     },
     {
-      "title": "【020】かまってみくのしんGOLD「無職が語る怖い話」",
-      "num": 20,
-      "url": "kamamicu/g20/g20.mp3"
+      "title": "無職が語る怖い話",
+      "number": 20,
+      "path": "kamamicu/g20/g20.mp3"
     },
     {
-      "title": "【021】かまってみくのしんGOLD「みくのしんが初めて聞く話はどれ？」",
-      "num": 21,
-      "url": "kamamicu/g21/g21.mp3"
+      "title": "みくのしんが初めて聞く話はどれ？",
+      "number": 21,
+      "path": "kamamicu/g21/g21.mp3"
     },
     {
-      "title": "【022】かまってみくのしんGOLD「新・みくのしんが初めて聞く話はどれ？＋おまけ」",
-      "num": 22,
-      "url": "kamamicu/g22/g22.mp3"
+      "title": "新・みくのしんが初めて聞く話はどれ？＋おまけ",
+      "number": 22,
+      "path": "kamamicu/g22/g22.mp3"
     },
     {
-      "title": "【023】かまってみくのしんGOLD「あなたの怒りをおさめます！まぁまぁ-１グランプリ開催」",
-      "num": 23,
-      "url": "kamamicu/g23/g23.mp3"
+      "title": "あなたの怒りをおさめます！まぁまぁ-１グランプリ開催",
+      "number": 23,
+      "path": "kamamicu/g23/g23.mp3"
     },
     {
-      "title": "【024】かまってみくのしんGOLD「故・爆笑！ みくのしんサマーフェスティバル2018」",
-      "num": 24,
-      "url": "kamamicu/g24/g24.mp3"
+      "title": "故・爆笑！ みくのしんサマーフェスティバル2018",
+      "number": 24,
+      "path": "kamamicu/g24/g24.mp3"
     },
     {
-      "title": "【025】かまってみくのしんGOLD「黒歴史漂白−１グランプリ開幕！」",
-      "num": 25,
-      "url": "kamamicu/g25/g25.mp3"
+      "title": "黒歴史漂白−１グランプリ開幕！",
+      "number": 25,
+      "path": "kamamicu/g25/g25.mp3"
     },
     {
-      "title": "【026】かまってみくのしんGOLD「雑学博士みくのしんの明日から使える豆知識」",
-      "num": 26,
-      "url": "kamamicu/g26/g26.mp3"
+      "title": "雑学博士みくのしんの明日から使える豆知識",
+      "number": 26,
+      "path": "kamamicu/g26/g26.mp3"
     },
     {
-      "title": "【027】かまってみくのしんGOLD「J-WAVEに呼ばれるために僕らがやるべきこと」",
-      "num": 27,
-      "url": "kamamicu/g27/g27.mp3"
+      "title": "J-WAVEに呼ばれるために僕らがやるべきこと",
+      "number": 27,
+      "path": "kamamicu/g27/g27.mp3"
     },
     {
-      "title": "【028】かまってみくのしんGOLD「猫とヒロインは愛でるもの」",
-      "num": 28,
-      "url": "kamamicu/g28/g28.mp3"
+      "title": "猫とヒロインは愛でるもの",
+      "number": 28,
+      "path": "kamamicu/g28/g28.mp3"
     },
     {
-      "title": "【029】かまってみくのしんGOLD「なんて素敵なアイデア！」",
-      "num": 29,
-      "url": "kamamicu/g29/g29.mp3"
+      "title": "なんて素敵なアイデア！",
+      "number": 29,
+      "path": "kamamicu/g29/g29.mp3"
     },
     {
-      "title": "【030】かまってみくのしんGOLD「まぁまぁ−１グランプリ＆黒歴史漂白−１グランプリ」",
-      "num": 30,
-      "url": "kamamicu/g30/g30.mp3"
+      "title": "まぁまぁ−１グランプリ＆黒歴史漂白−１グランプリ",
+      "number": 30,
+      "path": "kamamicu/g30/g30.mp3"
     },
     {
-      "title": "【031】かまってみくのしんGOLD「ヶと々」",
-      "num": 31,
-      "url": "kamamicu/g31/g31.mp3"
+      "title": "ヶと々",
+      "number": 31,
+      "path": "kamamicu/g31/g31.mp3"
     },
     {
-      "title": "【032】かまってみくのしんGOLD「山下ラジ男は寿司が好き」",
-      "num": 32,
-      "url": "kamamicu/g32/g32.mp3"
+      "title": "山下ラジ男は寿司が好き",
+      "number": 32,
+      "path": "kamamicu/g32/g32.mp3"
     },
     {
-      "title": "【033】かまってみくのしんGOLD「デラックス引き出物」",
-      "num": 33,
-      "url": "kamamicu/g33/g33.mp3"
+      "title": "デラックス引き出物",
+      "number": 33,
+      "path": "kamamicu/g33/g33.mp3"
     },
     {
-      "title": "【034】かまってみくのしんGOLD「話題に事欠かない人」",
-      "num": 34,
-      "url": "kamamicu/g34/g34.mp3"
+      "title": "話題に事欠かない人",
+      "number": 34,
+      "path": "kamamicu/g34/g34.mp3"
     },
     {
-      "title": "【035】かまってみくのしんGOLD「仮面ライダー シェイブ」",
-      "num": 35,
-      "url": "kamamicu/g35/g35-1.mp3"
+      "title": "仮面ライダー シェイブ",
+      "number": 35,
+      "path": "kamamicu/g35/g35-1.mp3"
     },
     {
-      "title": "【036】かまってみくのしんGOLD「仮面ライダー トラッド 〜真打登場！〜」",
-      "num": 36,
-      "url": "kamamicu/g36/g36.mp3"
+      "title": "仮面ライダー トラッド 〜真打登場！〜",
+      "number": 36,
+      "path": "kamamicu/g36/g36.mp3"
     },
     {
-      "title": "【037】かまってみくのしんGOLD「叩けビスケット！叩け運命の扉！」",
-      "num": 37,
-      "url": "kamamicu/g37/g37.mp3"
+      "title": "叩けビスケット！叩け運命の扉！",
+      "number": 37,
+      "path": "kamamicu/g37/g37.mp3"
     },
     {
-      "title": "【038】かまってみくのしんGOLD「怖いよ！おはなしのくに」",
-      "num": 38,
-      "url": "kamamicu/g38/g38.mp3"
+      "title": "怖いよ！おはなしのくに",
+      "number": 38,
+      "path": "kamamicu/g38/g38.mp3"
     },
     {
-      "title": "【039】かまってみくのしんGOLD「Oh! What a Night〜ああ何て夜！〜」",
-      "num": 39,
-      "url": "kamamicu/g39/g39.mp3"
+      "title": "Oh! What a Night〜ああ何て夜！〜",
+      "number": 39,
+      "path": "kamamicu/g39/g39.mp3"
     },
     {
-      "title": "【040】かまってみくのしんGOLD「山下ラジレンジャー 〜仮面ライダージュウ特集〜」",
-      "num": 40,
-      "url": "kamamicu/g40/g40.mp3"
+      "title": "山下ラジレンジャー 〜仮面ライダージュウ特集〜",
+      "number": 40,
+      "path": "kamamicu/g40/g40.mp3"
     },
     {
-      "title": "【041】かまってみくのしんGOLD「ベトナム土産あげちゃいまスペシャル」",
-      "num": 41,
-      "url": "kamamicu/g41/g41.mp3"
+      "title": "ベトナム土産あげちゃいまスペシャル",
+      "number": 41,
+      "path": "kamamicu/g41/g41.mp3"
     },
     {
-      "title": "【042】かまってみくのしんGOLD「俺、参上！」",
-      "num": 42,
-      "url": "kamamicu/g42/g42.mp3"
+      "title": "俺、参上！",
+      "number": 42,
+      "path": "kamamicu/g42/g42.mp3"
     },
     {
-      "title": "【043】かまってみくのしんGOLD「レーズンかりんとう美味しいよ〜」",
-      "num": 43,
-      "url": "kamamicu/g43/g43.mp3"
+      "title": "レーズンかりんとう美味しいよ〜",
+      "number": 43,
+      "path": "kamamicu/g43/g43.mp3"
     },
     {
-      "title": "【044】かまってみくのしんGOLD「かまどごめん！！！」",
-      "num": 44,
-      "url": "kamamicu/g44/g44.mp3"
+      "title": "かまどごめん！！！",
+      "number": 44,
+      "path": "kamamicu/g44/g44.mp3"
     },
     {
-      "title": "【045】かまってみくのしんGOLD「Mr.放送禁止用語」",
-      "num": 45,
-      "url": "kamamicu/g45/g45.mp3"
+      "title": "Mr.放送禁止用語",
+      "number": 45,
+      "path": "kamamicu/g45/g45.mp3"
     },
     {
-      "title": "【046】かまってみくのしんGOLD「かまどのミンティア道／みくのしんの死刑宣告」",
-      "num": 46,
-      "url": "kamamicu/g46/g46.mp3"
+      "title": "かまどのミンティア道／みくのしんの死刑宣告",
+      "number": 46,
+      "path": "kamamicu/g46/g46.mp3"
     },
     {
-      "title": "【047】かまってみくのしんGOLD「デパ地下っていいよね！」",
-      "num": 47,
-      "url": "kamamicu/g47/g47.mp3"
+      "title": "デパ地下っていいよね！",
+      "number": 47,
+      "path": "kamamicu/g47/g47.mp3"
     },
     {
-      "title": "【048】かまってみくのしんGOLD「史上最大のピンチ」",
-      "num": 48,
-      "url": "kamamicu/g48/g48.mp3"
+      "title": "史上最大のピンチ",
+      "number": 48,
+      "path": "kamamicu/g48/g48.mp3"
     },
     {
-      "title": "【049】かまってみくのしんGOLD「取り消せよ…今の言葉…！」",
-      "num": 49,
-      "url": "kamamicu/g49/g49.mp3"
+      "title": "取り消せよ…今の言葉…！",
+      "number": 49,
+      "path": "kamamicu/g49/g49.mp3"
     },
     {
-      "title": "【050】かまってみくのしんGOLD「A9510462」",
-      "num": 50,
-      "url": "kamamicu/g50/g50.mp3"
+      "title": "A9510462",
+      "number": 50,
+      "path": "kamamicu/g50/g50.mp3"
     },
     {
-      "title": "【051】かまってみくのしんGOLD「主人公検定」",
-      "num": 51,
-      "url": "kamamicu/g51/g51s.mp3"
+      "title": "主人公検定",
+      "number": 51,
+      "path": "kamamicu/g51/g51s.mp3"
     },
     {
-      "title": "【052】かまってみくのしんGOLD「みくのしんの一味 〜10人目〜」",
-      "num": 52,
-      "url": "kamamicu/g52/g52m.mp3"
+      "title": "みくのしんの一味 〜10人目〜",
+      "number": 52,
+      "path": "kamamicu/g52/g52m.mp3"
     },
     {
-      "title": "【終】かまってみくのしんGOLD「じゃあ、ゆっくりあなたの思い出をわけてもらうことにするわ」 ",
-      "num": 53,
-      "url": "kamamicu/g53/g53l.mp3"
+      "title": "じゃあ、ゆっくりあなたの思い出をわけてもらうことにするわ",
+      "number": 53,
+      "path": "kamamicu/g53/g53l.mp3"
     }
   ]
 }

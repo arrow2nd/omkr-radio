@@ -1,61 +1,61 @@
 {
-  "name": "ありっちゃありスパーク・マシュ",
-  "tag": "ありっちゃありスパーク",
-  "items": [
-    {
-      "title": "ありっちゃありスパーク・マシュ001「マシュが始まる」",
-      "num": 1,
-      "url": "arimasyu/001/001mas.mp3"
-    },
-    {
-      "title": "ありっちゃありスパーク・マシュ002「ラーメンとは空気。中華そば多賀野を食べて」",
-      "num": 2,
-      "url": "arimasyu/002/002mas.mp3"
-    },
-    {
-      "title": "ありっちゃありスパーク・マシュ003「娘にティアラを買えなかった男」",
-      "num": 3,
-      "url": "arimasyu/003/003mas.mp3"
-    },
-    {
-      "title": "ありっちゃありスパーク・マシュ004「雷雨の中のグラサンの人について」",
-      "num": 4,
-      "url": "arimasyu/004/004mas.mp3"
-    },
-    {
-      "title": "ありっちゃありスパーク・マシュ005「退屈は犯罪ではございません」",
-      "num": 5,
-      "url": "arimasyu/005/005mas.mp3"
-    },
-    {
-      "title": "ありっちゃありスパーク・マシュ006「宇宙の真理が分かってしまった夜」",
-      "num": 6,
-      "url": "arimasyu/006/006mas.mp3"
-    },
-    {
-      "title": "ありっちゃありスパーク・マシュ007「娘も出演！？ 原宿のひとりスパーク」",
-      "num": 7,
-      "url": "arimasyu/007/007mas.mp3"
-    },
-    {
-      "title": "ありっちゃありスパーク・マシュ008「マリトッツォ食べ食べラジオ」",
-      "num": 8,
-      "url": "arimasyu/008/008mas.mp3"
-    },
-    {
-      "title": "ありっちゃありスパーク・マシュ009「澄（すみ）ふわ」",
-      "num": 9,
-      "url": "arimasyu/009/009mash.mp3"
-    },
-    {
-      "title": "ありっちゃありスパーク・マシュ010「ラビリンス　～迷宮～」",
-      "num": 10,
-      "url": "arimasyu/010/010mash.mp3"
-    },
-    {
-      "title": "ありっちゃありスパーク・マシュ011「ベストネーム2021」",
-      "num": 11,
-      "url": "arimasyu/011/011mash.mp3"
-    }
-  ]
+	"name": "ありっちゃありスパーク・マシュ",
+	"updated": "2021-09-29T08:26:36.130Z",
+	"episodes": [
+		{
+			"title": "マシュが始まる",
+			"number": 1,
+			"path": "arimasyu/001/001mas.mp3"
+		},
+		{
+			"title": "ラーメンとは空気。中華そば多賀野を食べて",
+			"number": 2,
+			"path": "arimasyu/002/002mas.mp3"
+		},
+		{
+			"title": "娘にティアラを買えなかった男",
+			"number": 3,
+			"path": "arimasyu/003/003mas.mp3"
+		},
+		{
+			"title": "雷雨の中のグラサンの人について",
+			"number": 4,
+			"path": "arimasyu/004/004mas.mp3"
+		},
+		{
+			"title": "退屈は犯罪ではございません",
+			"number": 5,
+			"path": "arimasyu/005/005mas.mp3"
+		},
+		{
+			"title": "宇宙の真理が分かってしまった夜",
+			"number": 6,
+			"path": "arimasyu/006/006mas.mp3"
+		},
+		{
+			"title": "娘も出演！？ 原宿のひとりスパーク",
+			"number": 7,
+			"path": "arimasyu/007/007mas.mp3"
+		},
+		{
+			"title": "マリトッツォ食べ食べラジオ",
+			"number": 8,
+			"path": "arimasyu/008/008mas.mp3"
+		},
+		{
+			"title": "澄（すみ）ふわ",
+			"number": 9,
+			"path": "arimasyu/009/009mash.mp3"
+		},
+		{
+			"title": "ラビリンス　～迷宮～",
+			"number": 10,
+			"path": "arimasyu/010/010mash.mp3"
+		},
+		{
+			"title": "ベストネーム2021",
+			"number": 11,
+			"path": "arimasyu/011/011mash.mp3"
+		}
+	]
 }
