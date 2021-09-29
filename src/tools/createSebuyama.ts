@@ -1,5 +1,5 @@
 import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.14-alpha/deno-dom-wasm.ts";
-import { RadioData, Episode } from "../type.ts";
+import { Episode, RadioData } from "../type.ts";
 
 //------------------------------------------------
 const radioName = "セブ山・永田の金曜ラジオ";
@@ -59,5 +59,5 @@ console.log(results);
 
 Deno.writeTextFileSync(
   `./docs/data/${radioName}.json`,
-  JSON.stringify(results, null, "\t")
+  JSON.stringify(results, null, "\t"),
 );

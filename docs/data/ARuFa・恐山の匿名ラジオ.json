@@ -1,1351 +1,1351 @@
 {
-	"name": "ARuFa・恐山の匿名ラジオ",
-	"updated": "2021-09-29T08:36:47.532Z",
-	"episodes": [
-		{
-			"title": "キックボード",
-			"number": 1,
-			"path": "tokumei/001.mp3"
-		},
-		{
-			"title": "深海で屁をこきたい",
-			"number": 2,
-			"path": "tokumei/002.mp3"
-		},
-		{
-			"title": "コーナーを作ろう",
-			"number": 3,
-			"path": "tokumei/003.mp3"
-		},
-		{
-			"title": "やってはいけないこと",
-			"number": 4,
-			"path": "tokumei/004.mp3"
-		},
-		{
-			"title": "発表！みんなの考えた『ウソの面白い話』",
-			"number": 5,
-			"path": "tokumei/005.mp3"
-		},
-		{
-			"title": "女の子がしてたら「いいなぁ」って思うバイトの話",
-			"number": 6,
-			"path": "tokumei/006.mp3"
-		},
-		{
-			"title": "発表！ みんなの『おわりスイッチ』",
-			"number": 7,
-			"path": "tokumei/007.mp3"
-		},
-		{
-			"title": "カラスとエレベーターの話",
-			"number": 8,
-			"path": "tokumei/008.mp3"
-		},
-		{
-			"title": "ARuFaが5分で洗髪するだけ",
-			"number": 9,
-			"path": "tokumei/009.mp3"
-		},
-		{
-			"title": "世間とズレた感覚をチューニングしよう",
-			"number": 10,
-			"path": "tokumei/010.mp3"
-		},
-		{
-			"title": "大人になったなぁと思うこと",
-			"number": 11,
-			"path": "tokumei/011.mp3"
-		},
-		{
-			"title": "海の家とおたよりコーナー",
-			"number": 12,
-			"path": "tokumei/012.mp3"
-		},
-		{
-			"title": "一度は言いたいセリフ『とにかく服を着てくれ～！』",
-			"number": 13,
-			"path": "tokumei/013.mp3"
-		},
-		{
-			"title": "【ワロス】ネットスラングってどう思う？【ｗ】",
-			"number": 14,
-			"path": "tokumei/014.mp3"
-		},
-		{
-			"title": "ジジイのユーモアには気をつけろ！",
-			"number": 15,
-			"path": "tokumei/015.mp3"
-		},
-		{
-			"title": "これからはヤバリーマン川柳が来る！",
-			"number": 16,
-			"path": "tokumei/016.mp3"
-		},
-		{
-			"title": "決定！ 対・ジジイユーモア大賞",
-			"number": 17,
-			"path": "tokumei/017.mp3"
-		},
-		{
-			"title": "勘弁して！映画館にいる嫌な客の話",
-			"number": 18,
-			"path": "tokumei/018.mp3"
-		},
-		{
-			"title": "趣味なさすぎて人生スッカスカ問題",
-			"number": 19,
-			"path": "tokumei/019.mp3"
-		},
-		{
-			"title": "みんな！『秋』にダマされるな！",
-			"number": 20,
-			"path": "tokumei/020.mp3"
-		},
-		{
-			"title": "決定！みんなの『ヤバリーマン川柳』大賞",
-			"number": 21,
-			"path": "tokumei/021.mp3"
-		},
-		{
-			"title": "ヤフー知恵袋の人生相談に勝手に答えよう！",
-			"number": 22,
-			"path": "tokumei/022.mp3"
-		},
-		{
-			"title": "ラーメン屋での立ち振る舞いで人間性がわかる",
-			"number": 23,
-			"path": "tokumei/023.mp3"
-		},
-		{
-			"title": "おたよりコーナーと両津勘吉のモノマネ",
-			"number": 24,
-			"path": "tokumei/024.mp3"
-		},
-		{
-			"title": "お互いを知るために『カルトクイズ』を出し合おう",
-			"number": 25,
-			"path": "tokumei/025.mp3"
-		},
-		{
-			"title": "麦わらの海賊団に馴染めない俺たち",
-			"number": 26,
-			"path": "tokumei/026.mp3"
-		},
-		{
-			"title": "会社のデキる先輩を呼んで色々聞いてみよう！",
-			"number": 27,
-			"path": "tokumei/027.mp3"
-		},
-		{
-			"title": "面白いアイデアをたくさん考えてみよう",
-			"number": 28,
-			"path": "tokumei/028.mp3"
-		},
-		{
-			"title": "理想的な将来のビジョンをさらけ出そう",
-			"number": 29,
-			"path": "tokumei/029.mp3"
-		},
-		{
-			"title": "ARuFaがおねしょしちゃった",
-			"number": 30,
-			"path": "tokumei/030.mp3"
-		},
-		{
-			"title": "女子高生の集団、後ろから追い抜くの怖すぎ問題",
-			"number": 31,
-			"path": "tokumei/031.mp3"
-		},
-		{
-			"title": "ラストバトルでOPテーマが流れる演出は最高",
-			"number": 32,
-			"path": "tokumei/032.mp3"
-		},
-		{
-			"title": "お互いに話が噛み合わない人と仲良くなろう！",
-			"number": 33,
-			"path": "tokumei/033.mp3"
-		},
-		{
-			"title": "この世で一番かっこいいアルファベットを決めよう",
-			"number": 34,
-			"path": "tokumei/034.mp3"
-		},
-		{
-			"title": "決定！野原しんのすけ達と飲み会をする時に最適な席順",
-			"number": 35,
-			"path": "tokumei/035.mp3"
-		},
-		{
-			"title": "大発表！ やったら人生が終わる「おわりスイッチ」完結編",
-			"number": 36,
-			"path": "tokumei/036.mp3"
-		},
-		{
-			"title": "本当に好きなことだけをして生きていく方法を考えよう",
-			"number": 37,
-			"path": "tokumei/037.mp3"
-		},
-		{
-			"title": "新しいことわざを考えて後世に語り継がれよう！",
-			"number": 38,
-			"path": "tokumei/038.mp3"
-		},
-		{
-			"title": "もし自分が主人公になったら、きちんと物語を回せるのか？",
-			"number": 39,
-			"path": "tokumei/039.mp3"
-		},
-		{
-			"title": "ブチ切れる練習をするために、無理やり怒ってみよう",
-			"number": 40,
-			"path": "tokumei/040.mp3"
-		},
-		{
-			"title": "ビジネス本の『ありがたい言葉』を学んで年収1000万になろう！",
-			"number": 41,
-			"path": "tokumei/041.mp3"
-		},
-		{
-			"title": "自分に子どもが産まれたらどう育てる？",
-			"number": 42,
-			"path": "tokumei/042.mp3"
-		},
-		{
-			"title": "とにかく褒め上手になろう！",
-			"number": 43,
-			"path": "tokumei/043.mp3"
-		},
-		{
-			"title": "エナジードリンク、どれも同じ味じゃない？",
-			"number": 44,
-			"path": "tokumei/044.mp3"
-		},
-		{
-			"title": "老人から『最近の若者は…』って絶対に思われたくない！",
-			"number": 45,
-			"path": "tokumei/045.mp3"
-		},
-		{
-			"title": "『コイツ、異世界から来てないか？』と周りから思われたい！",
-			"number": 46,
-			"path": "tokumei/046.mp3"
-		},
-		{
-			"title": "二人の本が発売されるからラジオで告知しちゃえ！",
-			"number": 47,
-			"path": "tokumei/047.mp3"
-		},
-		{
-			"title": "自分の声を絶対に聴かず、鏡を一切見ない男の悩み",
-			"number": 48,
-			"path": "tokumei/048.mp3"
-		},
-		{
-			"title": "サザエさん一家からBBQに誘われた時の立ち振る舞い方",
-			"number": 49,
-			"path": "tokumei/049.mp3"
-		},
-		{
-			"title": "『うんこ味のカレー』と『カレー味のうんこ』は結局どっち派？",
-			"number": 50,
-			"path": "tokumei/050.mp3"
-		},
-		{
-			"title": "多重人格になったら、どの人格を入れておくべきか！？",
-			"number": 51,
-			"path": "tokumei/051.mp3"
-		},
-		{
-			"title": "祝一周年！忘れもしない、あの日起きた大事件を振り返ろう！",
-			"number": 52,
-			"path": "tokumei/052.mp3"
-		},
-		{
-			"title": "ありえなくない？！アニメで納得のいかないシーン",
-			"number": 53,
-			"path": "tokumei/053.mp3"
-		},
-		{
-			"title": "オーキド博士の葬式に呼ばれたらどうすればいいの？",
-			"number": 54,
-			"path": "tokumei/054.mp3"
-		},
-		{
-			"title": "良い性格だと思われるために「いい話」で感動できるようになろう！",
-			"number": 55,
-			"path": "tokumei/055.mp3"
-		},
-		{
-			"title": " 無視してごめん！久しぶりのおたよりコーナー！",
-			"number": 56,
-			"path": "tokumei/056.mp3"
-		},
-		{
-			"title": "関東出身だけど、かっこいい関西弁を教えてもらおう！",
-			"number": 57,
-			"path": "tokumei/057.mp3"
-		},
-		{
-			"title": "もし娘が彼氏を連れてきたら、どう対処する？！",
-			"number": 58,
-			"path": "tokumei/058.mp3"
-		},
-		{
-			"title": "暑くて何も考えられないから、頭に浮かんだことをどんどん言おう！",
-			"number": 59,
-			"path": "tokumei/059.mp3"
-		},
-		{
-			"title": "急に巨人になっちゃったらどうすりゃいいの？！",
-			"number": 60,
-			"path": "tokumei/060.mp3"
-		},
-		{
-			"title": "異世界から来た人みたいに食事をしたらメッチャ楽しい！",
-			"number": 61,
-			"path": "tokumei/061.mp3"
-		},
-		{
-			"title": "人生スッカスカ人間ARuFa、インスタグラムを勧められる",
-			"number": 62,
-			"path": "tokumei/062.mp3"
-		},
-		{
-			"title": "全人類から好かれる『最強の友達』を作り上げよう！",
-			"number": 63,
-			"path": "tokumei/063.mp3"
-		},
-		{
-			"title": "自分のWikipediaを作ってもらうにはどうすればいいの！？",
-			"number": 64,
-			"path": "tokumei/064.mp3"
-		},
-		{
-			"title": "子どもの質問にすぐさま適当に答えよう！",
-			"number": 65,
-			"path": "tokumei/065.mp3"
-		},
-		{
-			"title": "理想の友達を妄想しよう！「親友」のコーナー！",
-			"number": 66,
-			"path": "tokumei/066.mp3"
-		},
-		{
-			"title": "自分たちがアニメ化されたときのCMを考えよう！",
-			"number": 67,
-			"path": "tokumei/067.mp3"
-		},
-		{
-			"title": "インターネットで出してない自分の一面を指摘してもらおう！",
-			"number": 68,
-			"path": "tokumei/068.mp3"
-		},
-		{
-			"title": "即興怪談！『ウソの怖い話』をして物語のツジツマを合わせろ！",
-			"number": 69,
-			"path": "tokumei/069.mp3"
-		},
-		{
-			"title": "なあ、ヘリウムガスの違う使い道を考えてみようぜ！",
-			"number": 70,
-			"path": "tokumei/070.mp3"
-		},
-		{
-			"title": "結婚式の余興って何が正解なの！？",
-			"number": 71,
-			"path": "tokumei/071.mp3"
-		},
-		{
-			"title": "新しいグルメ漫画を考えて大儲けしよう！",
-			"number": 72,
-			"path": "tokumei/072.mp3"
-		},
-		{
-			"title": "ラジオの先輩を呼んでアドバイスもらおう",
-			"number": 73,
-			"path": "tokumei/073.mp3"
-		},
-		{
-			"title": "子供に負けないために『なぞなぞ』の特訓をしよう！",
-			"number": 74,
-			"path": "tokumei/074.mp3"
-		},
-		{
-			"title": "ちびまる子のクラスメートとサバイバルした時の必勝法とは？",
-			"number": 75,
-			"path": "tokumei/075.mp3"
-		},
-		{
-			"title": "女心を知るために、恋愛クイズを出してもらおう！",
-			"number": 76,
-			"path": "tokumei/076.mp3"
-		},
-		{
-			"title": "ごめん！ARuFaがお腹を壊しちゃった！",
-			"number": 77,
-			"path": "tokumei/077.mp3"
-		},
-		{
-			"title": "沈みゆく船で主人公になる方法と、モブにならないための方法",
-			"number": 78,
-			"path": "tokumei/078.mp3"
-		},
-		{
-			"title": "お正月だし『ツイッターあるあるカルタ』を作ってみよう！",
-			"number": 79,
-			"path": "tokumei/079.mp3"
-		},
-		{
-			"title": "これからインターネットを始める子供たちへのアドバイス",
-			"number": 80,
-			"path": "tokumei/080.mp3"
-		},
-		{
-			"title": "ランクを2つ下げたしょーもない悩みを解決しまくろう！",
-			"number": 81,
-			"path": "tokumei/081.mp3"
-		},
-		{
-			"title": "限られたアイテムを使って危険を回避する練習をしよう！",
-			"number": 82,
-			"path": "tokumei/082.mp3"
-		},
-		{
-			"title": "俺たちの怒りをぶちまけろ！2018",
-			"number": 83,
-			"path": "tokumei/083.mp3"
-		},
-		{
-			"title": "色々なものの劇場版を考えてみよう！～ゴミ捨て THE MOVIE～",
-			"number": 84,
-			"path": "tokumei/084.mp3"
-		},
-		{
-			"title": "食い逃げに憧れる僕は、君の瞳にてやんでい",
-			"number": 85,
-			"path": "tokumei/085.mp3"
-		},
-		{
-			"title": "マリオが主催する立食パーティに誘われたらどうすればいいの？",
-			"number": 86,
-			"path": "tokumei/086.mp3"
-		},
-		{
-			"title": "ビビるくらいお便りが届きまくってるんですけど！！！！！",
-			"number": 87,
-			"path": "tokumei/087.mp3"
-		},
-		{
-			"title": "確信はないけど『恐らく自分が得意なこと』に挑戦してみよう！",
-			"number": 88,
-			"path": "tokumei/088.mp3"
-		},
-		{
-			"title": "さえないオタクが眼力だけで不良をビビらせろ！『殺す眼』のコーナー！",
-			"number": 89,
-			"path": "tokumei/089.mp3"
-		},
-		{
-			"title": "ねえ！！イオンに泊まれるとしたら何をしたい！？！？",
-			"number": 90,
-			"path": "tokumei/090.mp3"
-		},
-		{
-			"title": "ワードアプリを使って面白いアイデアを考えまくれ2018！",
-			"number": 91,
-			"path": "tokumei/091.mp3"
-		},
-		{
-			"title": "悔しい！アメリカンジョークが上手くなりたい！ +告知アリ",
-			"number": 92,
-			"path": "tokumei/092.mp3"
-		},
-		{
-			"title": "アパートの管理人になったら、どの部屋にどんな萌えキャラが住んでほしい？",
-			"number": 93,
-			"path": "tokumei/093.mp3"
-		},
-		{
-			"title": "エッチ過ぎたら強制終了！あくまで全年齢向けのムフフな話をしよう！",
-			"number": 94,
-			"path": "tokumei/094.mp3"
-		},
-		{
-			"title": "なんか周りから怖い人って思われてるっぽいんだけど!?",
-			"number": 95,
-			"path": "tokumei/095.mp3"
-		},
-		{
-			"title": "アニメのしょうもない考察や都市伝説を考えてみよう！",
-			"number": 96,
-			"path": "tokumei/096.mp3"
-		},
-		{
-			"title": "俺は『魅力的な悪役』になってみたい！",
-			"number": 97,
-			"path": "tokumei/097.mp3"
-		},
-		{
-			"title": "どんな失敗談でも大丈夫！フォロー上手な男になろう！",
-			"number": 98,
-			"path": "tokumei/098.mp3"
-		},
-		{
-			"title": "あえて誰でも考えているような『浅～いアイデア』を言い合ってみよう！",
-			"number": 99,
-			"path": "tokumei/099.mp3"
-		},
-		{
-			"title": "第100回記念イベントダイジェスト+公開録音！！",
-			"number": 100,
-			"path": "tokumei/100.mp3"
-		},
-		{
-			"title": "世間知らずのお嬢様になりきれば、つまらない夏も楽しくなる！",
-			"number": 101,
-			"path": "tokumei/101.mp3"
-		},
-		{
-			"title": "特にオチのない話を面白エピソードにするにはどうすればいいの？",
-			"number": 102,
-			"path": "tokumei/102.mp3"
-		},
-		{
-			"title": "マクドナルドのハンバーガーで友達になるならどれ！？",
-			"number": 103,
-			"path": "tokumei/103.mp3"
-		},
-		{
-			"title": "居酒屋を経営するならこうしてみたいよね！",
-			"number": 104,
-			"path": "tokumei/104.mp3"
-		},
-		{
-			"title": "質問に1秒以内に答えて深層心理を暴き出せ！即答ゲーム！",
-			"number": 105,
-			"path": "tokumei/105.mp3"
-		},
-		{
-			"title": "アートって一体何なんだ！？！？！？？！？？",
-			"number": 106,
-			"path": "tokumei/106.mp3"
-		},
-		{
-			"title": "子どもの頃の夢をマジで叶えるためにはどう成長すべきなのか？",
-			"number": 107,
-			"path": "tokumei/107.mp3"
-		},
-		{
-			"title": "行かない旅行の予定だけを立てるとすごい楽しいね！",
-			"number": 108,
-			"path": "tokumei/108.mp3"
-		},
-		{
-			"title": "それは決して叶わぬ夢、お姉ちゃんが欲しい！！",
-			"number": 109,
-			"path": "tokumei/109.mp3"
-		},
-		{
-			"title": "暑すぎ！！！！！！！！！！！！！！！",
-			"number": 110,
-			"path": "tokumei/110.mp3"
-		},
-		{
-			"title": "もし自分が子ども番組を作るなら何をしたい！？",
-			"number": 111,
-			"path": "tokumei/111.mp3"
-		},
-		{
-			"title": "クレーム社会の今、あえて昔話にメチャクチャな難癖をつけてみよう！",
-			"number": 112,
-			"path": "tokumei/112.mp3"
-		},
-		{
-			"title": "初の外部ゲストを呼ぼう！ バーチャルYoutuber月ノ美兎！",
-			"number": 113,
-			"path": "tokumei/113.mp3"
-		},
-		{
-			"title": "話し上手になりたい！ ランダムワードで感動スピーチをしよう！",
-			"number": 114,
-			"path": "tokumei/114.mp3"
-		},
-		{
-			"title": "俺たちは休日の昼にやってる『街ブラ』の番組に出てみたい！",
-			"number": 115,
-			"path": "tokumei/115.mp3"
-		},
-		{
-			"title": "体育祭って嫌！ 『陰の者』でも楽しめる体育祭を考えよう！",
-			"number": 116,
-			"path": "tokumei/116.mp3"
-		},
-		{
-			"title": "少ない手がかりから無理やり結論を出して名探偵になろう！",
-			"number": 117,
-			"path": "tokumei/117.mp3"
-		},
-		{
-			"title": "モテるために自分の『ヤバい部分』を他人から指摘してもらおう！",
-			"number": 118,
-			"path": "tokumei/118.mp3"
-		},
-		{
-			"title": "もし自分が動物園に収容されたら、どうやってパンダより人気になる！？",
-			"number": 119,
-			"path": "tokumei/119.mp3"
-		},
-		{
-			"title": "自分の葬式をするとしたらどんなんがいい！？",
-			"number": 120,
-			"path": "tokumei/120.mp3"
-		},
-		{
-			"title": "しょうもない議題でマジ討論！『リンゴとバナナ、どっちが優れたフルーツなの！？』",
-			"number": 121,
-			"path": "tokumei/121.mp3"
-		},
-		{
-			"title": "先生になって問題が起きたらどんな指導をしたい！？",
-			"number": 122,
-			"path": "tokumei/122.mp3"
-		},
-		{
-			"title": "魔法少女になって相棒の使い魔が欲しいよ～！うえ～ん！",
-			"number": 123,
-			"path": "tokumei/123.mp3"
-		},
-		{
-			"title": "記憶はそのままで子どもに戻るのって、実はメチャ大変なんじゃない！？",
-			"number": 124,
-			"path": "tokumei/124.mp3"
-		},
-		{
-			"title": "僕たちは美容院がチョ～苦手！！！！！",
-			"number": 125,
-			"path": "tokumei/125.mp3"
-		},
-		{
-			"title": "全てにおいてマニアックなことを言って『通』ぶりてぇ～～～！！",
-			"number": 126,
-			"path": "tokumei/126.mp3"
-		},
-		{
-			"title": "モテモテになるために『俺様キャラ』になってみよう！",
-			"number": 127,
-			"path": "tokumei/127.mp3"
-		},
-		{
-			"title": "マッドサイエンティストになってみてぇ～～！！",
-			"number": 128,
-			"path": "tokumei/128.mp3"
-		},
-		{
-			"title": "流行語大賞を受賞したいしたいした～～～い！",
-			"number": 129,
-			"path": "tokumei/129.mp3"
-		},
-		{
-			"title": "海外のヤバい刑務所に収容されたらどうすればいいの！？",
-			"number": 130,
-			"path": "tokumei/130.mp3"
-		},
-		{
-			"title": "お正月だし先日行った『温泉旅行の話』をのんびりしよう！",
-			"number": 131,
-			"path": "tokumei/131.mp3"
-		},
-		{
-			"title": "クソドジでポンコツな友達を救うために相談に乗ろう！",
-			"number": 132,
-			"path": "tokumei/132.mp3"
-		},
-		{
-			"title": "自分で都市伝説を作って他人に語り継がれたいよ～～！！！",
-			"number": 133,
-			"path": "tokumei/133.mp3"
-		},
-		{
-			"title": "パラレルワールドっていいよね～～！！",
-			"number": 134,
-			"path": "tokumei/134.mp3"
-		},
-		{
-			"title": "子ども100人と一緒にキッザニアに閉じ込められたらどうする！？",
-			"number": 135,
-			"path": "tokumei/135.mp3"
-		},
-		{
-			"title": "一度でいいからCMに出てみたい！！！",
-			"number": 136,
-			"path": "tokumei/136.mp3"
-		},
-		{
-			"title": "受験のときってどうやって勉強とか対策してた！？",
-			"number": 137,
-			"path": "tokumei/137.mp3"
-		},
-		{
-			"title": "コナンの捜査を効果的に妨害する方法とは？",
-			"number": 138,
-			"path": "tokumei/138.mp3"
-		},
-		{
-			"title": "夢は叶う！やりたいことをぜ～んぶ言おう！！",
-			"number": 139,
-			"path": "tokumei/139.mp3"
-		},
-		{
-			"title": "自分たちで『お祭り』を考えてみた～～～～い！！",
-			"number": 140,
-			"path": "tokumei/140.mp3"
-		},
-		{
-			"title": "人生にもチュートリアルモードがあったらいいのにね！！！！",
-			"number": 141,
-			"path": "tokumei/141.mp3"
-		},
-		{
-			"title": "友達のことをどれだけ知ってる？ 相手が好きそうなものを言い当てよう！",
-			"number": 142,
-			"path": "tokumei/142.mp3"
-		},
-		{
-			"title": "キミは他人の目を気にせずに『正しいこと』を言えるか！？",
-			"number": 143,
-			"path": "tokumei/143.mp3"
-		},
-		{
-			"title": "春だしお外で散歩しながら収録しちゃお～～！！！",
-			"number": 144,
-			"path": "tokumei/144.mp3"
-		},
-		{
-			"title": "既出は嫌！俺たちは誰かに何度も言われてるような返答を絶対にしたくない！",
-			"number": 145,
-			"path": "tokumei/145.mp3"
-		},
-		{
-			"title": "とにかく『考察』をして1つの真実にたどり着きた～い！！ ",
-			"number": 146,
-			"path": "tokumei/146.mp3"
-		},
-		{
-			"title": "春は挑戦の季節！今までやったことのない『初めて』にチャレンジしよう！",
-			"number": 147,
-			"path": "tokumei/147.mp3"
-		},
-		{
-			"title": "ランダムで付け加えられた設定を駆使して相手を言い負かすゲームをしよう！",
-			"number": 148,
-			"path": "tokumei/148.mp3"
-		},
-		{
-			"title": "相方とスケジュールが合わないから1人で収録してもう1人が編集しちゃえ！",
-			"number": 149,
-			"path": "tokumei/149.mp3"
-		},
-		{
-			"title": "たんまり儲けられそうな新しいビジネスを考えちゃえ！！",
-			"number": 150,
-			"path": "tokumei/150.mp3"
-		},
-		{
-			"title": "今さら心理テストの面白さに気付いたから出し合ってみよう！！",
-			"number": 151,
-			"path": "tokumei/151.mp3"
-		},
-		{
-			"title": "絶対に他の作品と『かぶってないであろう特殊能力』を考えてみよう！",
-			"number": 152,
-			"path": "tokumei/152.mp3"
-		},
-		{
-			"title": "将来的に『ヤバいジジイ』には絶対なりたくないから先輩の意見を聞いてみよう！！",
-			"number": 153,
-			"path": "tokumei/153.mp3"
-		},
-		{
-			"title": "性格が悪いと思われたくないから、ネットにある『泣ける話』で感動しよう2019！",
-			"number": 154,
-			"path": "tokumei/154.mp3"
-		},
-		{
-			"title": "コールドスリープで未来に行けるとしたら、する？ しない？",
-			"number": 155,
-			"path": "tokumei/155.mp3"
-		},
-		{
-			"title": "絶対にオチがつく『チャンチャン♪』の効果音を使って、これまで話せなかったエピソードを話そう！",
-			"number": 156,
-			"path": "tokumei/156.mp3"
-		},
-		{
-			"title": "最もARuFaと恐山になりきれるのは誰だ！『匿名ラジオ二代目オーディション』",
-			"number": 157,
-			"path": "tokumei/157.mp3"
-		},
-		{
-			"title": "子ども達よ、夏休みに後悔したくないならこれをしておこう！",
-			"number": 158,
-			"path": "tokumei/158.mp3"
-		},
-		{
-			"title": "絶対ナメられないように不良になってやるぞ！！うお～～！！",
-			"number": 159,
-			"path": "tokumei/159.mp3"
-		},
-		{
-			"title": "目指せ一休さん！ 「とんち」を利かせて無理難題を解決しよう！",
-			"number": 160,
-			"path": "tokumei/160.mp3"
-		},
-		{
-			"title": "三年前のラジオ開始時に封印したタイムカプセルを一緒に開けてみよう！！",
-			"number": 161,
-			"path": "tokumei/161.mp3"
-		},
-		{
-			"title": "夏休みは電話相談だ！ 子どもの素朴な質問に一瞬で答えよう！",
-			"number": 162,
-			"path": "tokumei/162.mp3"
-		},
-		{
-			"title": "ねえ、法律が存在しないサイゼリヤに行ったら何をしたい？",
-			"number": 163,
-			"path": "tokumei/163.mp3"
-		},
-		{
-			"title": "発表！これって自分が正しくない？『正しさ』のコーナー！",
-			"number": 164,
-			"path": "tokumei/164.mp3"
-		},
-		{
-			"title": "もっと仲良くなるために、お酒を飲んで腹を割って話そう！！",
-			"number": 165,
-			"path": "tokumei/165.mp3"
-		},
-		{
-			"title": "日本沈没！あと100kgしか乗らない船に何を載せる！？",
-			"number": 166,
-			"path": "tokumei/166.mp3"
-		},
-		{
-			"title": "今からバイトを始めるなら何がしたい？",
-			"number": 167,
-			"path": "tokumei/167.mp3"
-		},
-		{
-			"title": "アニメキャラみたいに風邪のときに性格をガラッと変えてみた～い！",
-			"number": 168,
-			"path": "tokumei/168.mp3"
-		},
-		{
-			"title": "キャンプに行きたいけど怖いから、起こりそうなトラブルを全部言い合おう！",
-			"number": 169,
-			"path": "tokumei/169.mp3"
-		},
-		{
-			"title": "俺達はドラえもん御一行にどんな冒険を提供できるのか！？",
-			"number": 170,
-			"path": "tokumei/170.mp3"
-		},
-		{
-			"title": "早押しクイズにとにかく爆速で答えて、やさしい出題者に後出しで正解にしてもらおう！",
-			"number": 171,
-			"path": "tokumei/171.mp3"
-		},
-		{
-			"title": "相手の過去を予想しよう！ 『経験したことアリ・ナシクイズ』！",
-			"number": 172,
-			"path": "tokumei/172.mp3"
-		},
-		{
-			"title": "この世のどんな現象も『行動経済学』が関係してるってマジ！？",
-			"number": 173,
-			"path": "tokumei/173.mp3"
-		},
-		{
-			"title": "将来の夢を逆算して何歳のときに何をするべきなのかをハッキリさせよう！",
-			"number": 174,
-			"path": "tokumei/174.mp3"
-		},
-		{
-			"title": "久々の外部ゲストを呼ぼう！ 『ARuFaの弟』登場！！",
-			"number": 175,
-			"path": "tokumei/175.mp3"
-		},
-		{
-			"title": "会話に使えそうなワードを10個用意したら、それだけでトークを成立させられるのか！？",
-			"number": 176,
-			"path": "tokumei/176.mp3"
-		},
-		{
-			"title": "国民的アニメは、サブタイトルだけでストーリーを予想することはできるのか！？",
-			"number": 177,
-			"path": "tokumei/177.mp3"
-		},
-		{
-			"title": "会社の人と福岡旅行に行ったからその感想を言い合おう！",
-			"number": 178,
-			"path": "tokumei/178.mp3"
-		},
-		{
-			"title": "もしもマリオのスターを取って無敵になっちゃったら僕等は何をするべきなの？",
-			"number": 179,
-			"path": "tokumei/179.mp3"
-		},
-		{
-			"title": "年末だし『どのお菓子が一番強いのか』を決めよう！！",
-			"number": 181,
-			"path": "tokumei/181.mp3"
-		},
-		{
-			"title": "友達100人作るにはどうすればいいの！？",
-			"number": 182,
-			"path": "tokumei/182.mp3"
-		},
-		{
-			"title": "2020年！お正月だし先日行った『北海道旅行の話』をのんびりしよう！",
-			"number": 183,
-			"path": "tokumei/183.mp3"
-		},
-		{
-			"title": "自分の夢を投資家にプレゼンして100万円をもらいた～～い！！",
-			"number": 184,
-			"path": "tokumei/184.mp3"
-		},
-		{
-			"title": "30秒で色々な物を紹介してマシンガントークを習得しよう！",
-			"number": 185,
-			"path": "tokumei/185.mp3"
-		},
-		{
-			"title": "日常に潜む『まだ解決策のない現象』の攻略法を考えてモヤモヤを解消しよう！",
-			"number": 186,
-			"path": "tokumei/186.mp3"
-		},
-		{
-			"title": "自分たちのドッペルゲンガーに会っちゃったらどうする！？",
-			"number": 187,
-			"path": "tokumei/187.mp3"
-		},
-		{
-			"title": "表現力だけで何を食べてるかを当てさせろ！『食べない食レポ』クイズ！",
-			"number": 189,
-			"path": "tokumei/189.mp3"
-		},
-		{
-			"title": "まだこの世にないコンセプトのアイドルをプロデュースした～い！",
-			"number": 190,
-			"path": "tokumei/190.mp3"
-		},
-		{
-			"title": "ワンピースの『麦わら海賊団』にお土産を持っていくなら何を選べばいいのか！？",
-			"number": 191,
-			"path": "tokumei/191.mp3"
-		},
-		{
-			"title": "一番面白い寝言を言えるのは誰だ！？『ウソ寝言グランプリ』！",
-			"number": 192,
-			"path": "tokumei/192.mp3"
-		},
-		{
-			"title": "社長が占いできるらしいから『マジの占い』をしてもらって僕等の運勢を見てもらおう！",
-			"number": 193,
-			"path": "tokumei/193.mp3"
-		},
-		{
-			"title": "自分たちのテーマパークを作るとしたらどんなアトラクションを設置したいか考えよう！",
-			"number": 194,
-			"path": "tokumei/194.mp3"
-		},
-		{
-			"title": "おい！！ARuFaが腹壊して救急車で運ばれちゃったじゃねーか！！！",
-			"number": 195,
-			"path": "tokumei/195.mp3"
-		},
-		{
-			"title": "過去に遭遇してまだ解けていない『日常の謎』を2人で解き明かしてみよう！",
-			"number": 196,
-			"path": "tokumei/196.mp3"
-		},
-		{
-			"title": "くだらなすぎて寝かせてた音源を大公開！『ちょうどいいダジャレを考えてみよう！』",
-			"number": 197,
-			"path": "tokumei/197.mp3"
-		},
-		{
-			"title": "可愛げのある人間になるために、知ってるコトでもあえてカマトトぶってみよう！",
-			"number": 198,
-			"path": "tokumei/198.mp3"
-		},
-		{
-			"title": "家にずっといて暇だからたまにはラジオっぽく世間話しようよ！",
-			"number": 199,
-			"path": "tokumei/199.mp3"
-		},
-		{
-			"title": "祝200回記念！お互いの苦手を克服しながら一緒に料理を作ろう！",
-			"number": 200,
-			"path": "tokumei/200.mp3"
-		},
-		{
-			"title": "暇だからお互いの『死ぬより嫌なこと BEST3』を発表し合おう！",
-			"number": 201,
-			"path": "tokumei/201.mp3"
-		},
-		{
-			"title": "自分達への『偏見』をリスナーから募集して答え合わせをしてみよう！",
-			"number": 202,
-			"path": "tokumei/202.mp3"
-		},
-		{
-			"title": "卒業式に担任の先生として『いい話』をしたいから練習してみよう！",
-			"number": 203,
-			"path": "tokumei/203.mp3"
-		},
-		{
-			"title": "『スイカ割り』とか『流しそうめん』とかよくよく考えたら意味のわからん行事を考えたい！",
-			"number": 204,
-			"path": "tokumei/204.mp3"
-		},
-		{
-			"title": "じつは漫画界最強の『ゲゲゲの鬼太郎』に勝てる妖怪になりたい！",
-			"number": 205,
-			"path": "tokumei/205.mp3"
-		},
-		{
-			"title": "【正答率0.1％】ARuFaくん日常クイズ！『パン屋のひとこと編』",
-			"number": 206,
-			"path": "tokumei/206.mp3"
-		},
-		{
-			"title": "子どもを寝かしつけられるような『入眠用のおはなし』に挑戦してみよう！",
-			"number": 207,
-			"path": "tokumei/207.mp3"
-		},
-		{
-			"title": "想像力を働かせて、名も知らぬフランス料理がどんな料理なのか的中させよう！",
-			"number": 208,
-			"path": "tokumei/208.mp3"
-		},
-		{
-			"title": "『七夕』が抱えている問題点とその解決策について話し合おう！",
-			"number": 209,
-			"path": "tokumei/209.mp3"
-		},
-		{
-			"title": "想像の中ならどんな強い敵でも倒せるんじゃない！？（最後に告知あり）",
-			"number": 210,
-			"path": "tokumei/210.mp3"
-		},
-		{
-			"title": "もしも自分たちが『スーパー銭湯』を経営するならどうしたい！？",
-			"number": 211,
-			"path": "tokumei/211.mp3"
-		},
-		{
-			"title": "心配性なARuFaを、恐山のような『豪快な男』にしよう！",
-			"number": 212,
-			"path": "tokumei/212.mp3"
-		},
-		{
-			"title": "日常に潜む、まだ誰も指摘していない嫌なこと『軽軽軽軽犯罪』を探し出せ！",
-			"number": 213,
-			"path": "tokumei/213.mp3"
-		},
-		{
-			"title": "どんな状況でも『ゾンビ』を撃退できるようになろう！（ただしホームセンター禁止）",
-			"number": 214,
-			"path": "tokumei/214.mp3"
-		},
-		{
-			"title": "映画館はもう古い！まったく新しいデートスポットを考えよう！",
-			"number": 215,
-			"path": "tokumei/215.mp3"
-		},
-		{
-			"title": "自分たちの知らない世界の『あるある』を想像だけで言ってみよう！",
-			"number": 216,
-			"path": "tokumei/216.mp3"
-		},
-		{
-			"title": "前回はごめんなさい！先週分『第217回』の反省会をしよう！",
-			"number": 218,
-			"path": "tokumei/218.mp3"
-		},
-		{
-			"title": "日常的な出来事に不幸を連鎖させて『最悪のバタフライエフェクト』を考えてみよう！",
-			"number": 219,
-			"path": "tokumei/219.mp3"
-		},
-		{
-			"title": "目指せベイブレード！子どもにウケる次世代のホビーを考えよう！",
-			"number": 220,
-			"path": "tokumei/220.mp3"
-		},
-		{
-			"title": "今更でごめん！結局『エモい』って何なの！？",
-			"number": 221,
-			"path": "tokumei/221.mp3"
-		},
-		{
-			"title": "あえて盛られたエピソードトークのどこが盛られているか見破ろう！＜健康診断編＞",
-			"number": 222,
-			"path": "tokumei/222.mp3"
-		},
-		{
-			"title": "誰もが一度は憧れる『異端な存在』に自分もなってみた～い！",
-			"number": 223,
-			"path": "tokumei/223.mp3"
-		},
-		{
-			"title": "友達なら相手の『アレ買ってきて』でお目当ての物を買ってこれるのか？",
-			"number": 224,
-			"path": "tokumei/224.mp3"
-		},
-		{
-			"title": "『50の質問』をし合って初出し情報ガッポガポ大作戦！",
-			"number": 225,
-			"path": "tokumei/225.mp3"
-		},
-		{
-			"title": "恐山が旅行でいない隙に『恐山のウワサ』について同僚と話し合おう！",
-			"number": 226,
-			"path": "tokumei/226.mp3"
-		},
-		{
-			"title": "相手が全然欲しくないであろう物をセールストークで買わせよう！",
-			"number": 227,
-			"path": "tokumei/227.mp3"
-		},
-		{
-			"title": "自分たちのラジオの誕生秘話をドラマチックに捏造しよう！",
-			"number": 228,
-			"path": "tokumei/228.mp3"
-		},
-		{
-			"title": "自分達が老人になったら孫の世代に昔のことを話したい！",
-			"number": 229,
-			"path": "tokumei/229.mp3"
-		},
-		{
-			"title": "王になって戦の直前に兵を鼓舞するスピーチをした～い！！",
-			"number": 230,
-			"path": "tokumei/230.mp3"
-		},
-		{
-			"title": "修学旅行の実行委員になって最高の思い出を作りたい！",
-			"number": 231,
-			"path": "tokumei/231.mp3"
-		},
-		{
-			"title": "描いてもいいよ！著作権フリーの『ツイッター漫画』のアイデアを考えよう！！",
-			"number": 232,
-			"path": "tokumei/232.mp3"
-		},
-		{
-			"title": "優しさと厳しさの『言葉の交互浴』で、落ち込んでる友達を元気にしよう！",
-			"number": 233,
-			"path": "tokumei/233.mp3"
-		},
-		{
-			"title": "見た夢を夢占いで採点して勝負しよう！『夢バトル』！",
-			"number": 234,
-			"path": "tokumei/234.mp3"
-		},
-		{
-			"title": "今年最後のラジオだからリスナーからの質問に答えちゃお！",
-			"number": 235,
-			"path": "tokumei/235.mp3"
-		},
-		{
-			"title": "スーパーで集めた『お客様の声』をぶつけ合わせてバトルしよう！",
-			"number": 236,
-			"path": "tokumei/236.mp3"
-		},
-		{
-			"title": "コンビニアイスと友達になるならどれがいいかを本気で決めよう！",
-			"number": 237,
-			"path": "tokumei/237.mp3"
-		},
-		{
-			"title": "自分のトイレ中に進んでた友人同士の会話に合流しろ！『途中退席合流王』！",
-			"number": 238,
-			"path": "tokumei/238.mp3"
-		},
-		{
-			"title": "今までに無かった二ッチなランキングの1位と50位を考えよう！【カービィ食べ放題あるあるランキング】",
-			"number": 239,
-			"path": "tokumei/239.mp3"
-		},
-		{
-			"title": "色々な動物をボディビルの掛け声方式で褒めてみよう！【肩にメロン乗ってるんかい！】",
-			"number": 240,
-			"path": "tokumei/240.mp3"
-		},
-		{
-			"title": "今日は企画禁止！ラジオなら力を抜いて雑談をしてみよう！",
-			"number": 241,
-			"path": "tokumei/241.mp3"
-		},
-		{
-			"title": "会話の主導権を奪い合え！『天気の話をしたい奴 VS したくない奴』",
-			"number": 242,
-			"path": "tokumei/242.mp3"
-		},
-		{
-			"title": "バズってるツイートに来ているリプライを予想してみよう！",
-			"number": 243,
-			"path": "tokumei/243.mp3"
-		},
-		{
-			"title": "四季には飽きた！春夏秋冬に追加したいまったく新しい季節を考えよう！",
-			"number": 244,
-			"path": "tokumei/244.mp3"
-		},
-		{
-			"title": "運動しないで痩せたいから『新しいダイエット法』を考えよう！",
-			"number": 245,
-			"path": "tokumei/245.mp3"
-		},
-		{
-			"title": "過去を捏造してお互いが幼馴染だったことにしよう！",
-			"number": 246,
-			"path": "tokumei/246.mp3"
-		},
-		{
-			"title": "お互いの目撃情報を発表し合おう！",
-			"number": 247,
-			"path": "tokumei/247.mp3"
-		},
-		{
-			"title": "チャット",
-			"number": 248,
-			"path": "tokumei/248.mp3"
-		},
-		{
-			"title": "自分たちが住みたい『理想の街』を作ろう！",
-			"number": 249,
-			"path": "tokumei/249.mp3"
-		},
-		{
-			"title": "マリオの世界の裏方になったら何が起きそうか想像してみよう！",
-			"number": 250,
-			"path": "tokumei/250.mp3"
-		},
-		{
-			"title": "一緒にシェアハウスをしたいキャラ、したくないキャラを語り合おう！",
-			"number": 251,
-			"path": "tokumei/251.mp3"
-		},
-		{
-			"title": "バカだけど、どうにかして宇宙に行ってみたい！",
-			"number": 252,
-			"path": "tokumei/252.mp3"
-		},
-		{
-			"title": "すれ違いコントって、いきなりやっても成立するの！？",
-			"number": 253,
-			"path": "tokumei/253.mp3"
-		},
-		{
-			"title": "お金持ちになった場合に備えて、その後の振る舞いを今のうちから考えておこう！",
-			"number": 254,
-			"path": "tokumei/254.mp3"
-		},
-		{
-			"title": "ランダムワードで適当なトーナメントを開催して優勝を決めよう！",
-			"number": 255,
-			"path": "tokumei/255.mp3"
-		},
-		{
-			"title": "どうすれば正解だった？！ARuFa君クイズ『中華屋のカニチャーハン編』",
-			"number": 256,
-			"path": "tokumei/256.mp3"
-		},
-		{
-			"title": "俺たちは秘密結社を作ってみた～～～い！！！",
-			"number": 257,
-			"path": "tokumei/257.mp3"
-		},
-		{
-			"title": "ひたすらに『良きこと』と『嫌きこと』を言い合う雅（みやび）な遊びをしよう！",
-			"number": 258,
-			"path": "tokumei/258.mp3"
-		},
-		{
-			"title": "何故かずっと覚えてる『幼少期の記憶』を走馬灯に入れるべきか話し合う会",
-			"number": 259,
-			"path": "tokumei/259.mp3"
-		},
-		{
-			"title": "『三人寄れば文殊の知恵』って言うし、三人で難題を解決しよう！",
-			"number": 260,
-			"path": "tokumei/260.mp3"
-		},
-		{
-			"title": "今回は難しいぞ！新しい『三すくみの関係性』を考えよう！",
-			"number": 261,
-			"path": "tokumei/261.mp3"
-		},
-		{
-			"title": "トークテーマを自動で決めてくれる便利グッズで遊んじゃお！！",
-			"number": 262,
-			"path": "tokumei/262.mp3"
-		},
-		{
-			"title": "Wikipediaの内容だけ聴いて何の項目かを当てろ！ウィキクイズ！",
-			"number": 263,
-			"path": "tokumei/26a3.mp3"
-		},
-		{
-			"title": "人気になるために『匿名ラジオ』のキャッチコピーを考えよう！",
-			"number": 264,
-			"path": "tokumei/264non.mp3"
-		},
-		{
-			"title": "お互いの『地雷』を探り合ってみよ～～～よ！！",
-			"number": 265,
-			"path": "tokumei/2y65.mp3"
-		},
-		{
-			"title": "暑すぎるから『冬あるある選手権』をするしかねーな！！！！！",
-			"number": 266,
-			"path": "tokumei/26m6o.mp3"
-		},
-		{
-			"title": "子どもから人気の出そうなキャラクターを考えてウハウハになろう！！",
-			"number": 267,
-			"path": "tokumei/267u.mp3"
-		},
-		{
-			"title": "相手の注文に合わせた『オーダーメイド怪談』を即興で披露しよう！",
-			"number": 269,
-			"path": "tokumei/269sr.mp3"
-		},
-		{
-			"title": "正直が一番！建前を禁止して素直なことをだけ言い合おう！",
-			"number": 270,
-			"path": "tokumei/2a70.mp3"
-		},
-		{
-			"title": "ゲームのボスになったらどんなダンジョンで主人公を苦しめたいか話し合おう！",
-			"number": 271,
-			"path": "tokumei/27d1.mp3"
-		},
-		{
-			"title": "俺たちは何としてでも料理バトルで勝利した～い！！",
-			"number": 272,
-			"path": "tokumei/27i2.mp3"
-		},
-		{
-			"title": "偉人伝みたいに幼少期のエピソードを現在の活動に強引にヒモ付けよう！",
-			"number": 273,
-			"path": "tokumei/o273.mp3"
-		}
-	]
+  "name": "ARuFa・恐山の匿名ラジオ",
+  "updated": "2021-09-29T08:36:47.532Z",
+  "episodes": [
+    {
+      "title": "キックボード",
+      "number": 1,
+      "path": "tokumei/001.mp3"
+    },
+    {
+      "title": "深海で屁をこきたい",
+      "number": 2,
+      "path": "tokumei/002.mp3"
+    },
+    {
+      "title": "コーナーを作ろう",
+      "number": 3,
+      "path": "tokumei/003.mp3"
+    },
+    {
+      "title": "やってはいけないこと",
+      "number": 4,
+      "path": "tokumei/004.mp3"
+    },
+    {
+      "title": "発表！みんなの考えた『ウソの面白い話』",
+      "number": 5,
+      "path": "tokumei/005.mp3"
+    },
+    {
+      "title": "女の子がしてたら「いいなぁ」って思うバイトの話",
+      "number": 6,
+      "path": "tokumei/006.mp3"
+    },
+    {
+      "title": "発表！ みんなの『おわりスイッチ』",
+      "number": 7,
+      "path": "tokumei/007.mp3"
+    },
+    {
+      "title": "カラスとエレベーターの話",
+      "number": 8,
+      "path": "tokumei/008.mp3"
+    },
+    {
+      "title": "ARuFaが5分で洗髪するだけ",
+      "number": 9,
+      "path": "tokumei/009.mp3"
+    },
+    {
+      "title": "世間とズレた感覚をチューニングしよう",
+      "number": 10,
+      "path": "tokumei/010.mp3"
+    },
+    {
+      "title": "大人になったなぁと思うこと",
+      "number": 11,
+      "path": "tokumei/011.mp3"
+    },
+    {
+      "title": "海の家とおたよりコーナー",
+      "number": 12,
+      "path": "tokumei/012.mp3"
+    },
+    {
+      "title": "一度は言いたいセリフ『とにかく服を着てくれ～！』",
+      "number": 13,
+      "path": "tokumei/013.mp3"
+    },
+    {
+      "title": "【ワロス】ネットスラングってどう思う？【ｗ】",
+      "number": 14,
+      "path": "tokumei/014.mp3"
+    },
+    {
+      "title": "ジジイのユーモアには気をつけろ！",
+      "number": 15,
+      "path": "tokumei/015.mp3"
+    },
+    {
+      "title": "これからはヤバリーマン川柳が来る！",
+      "number": 16,
+      "path": "tokumei/016.mp3"
+    },
+    {
+      "title": "決定！ 対・ジジイユーモア大賞",
+      "number": 17,
+      "path": "tokumei/017.mp3"
+    },
+    {
+      "title": "勘弁して！映画館にいる嫌な客の話",
+      "number": 18,
+      "path": "tokumei/018.mp3"
+    },
+    {
+      "title": "趣味なさすぎて人生スッカスカ問題",
+      "number": 19,
+      "path": "tokumei/019.mp3"
+    },
+    {
+      "title": "みんな！『秋』にダマされるな！",
+      "number": 20,
+      "path": "tokumei/020.mp3"
+    },
+    {
+      "title": "決定！みんなの『ヤバリーマン川柳』大賞",
+      "number": 21,
+      "path": "tokumei/021.mp3"
+    },
+    {
+      "title": "ヤフー知恵袋の人生相談に勝手に答えよう！",
+      "number": 22,
+      "path": "tokumei/022.mp3"
+    },
+    {
+      "title": "ラーメン屋での立ち振る舞いで人間性がわかる",
+      "number": 23,
+      "path": "tokumei/023.mp3"
+    },
+    {
+      "title": "おたよりコーナーと両津勘吉のモノマネ",
+      "number": 24,
+      "path": "tokumei/024.mp3"
+    },
+    {
+      "title": "お互いを知るために『カルトクイズ』を出し合おう",
+      "number": 25,
+      "path": "tokumei/025.mp3"
+    },
+    {
+      "title": "麦わらの海賊団に馴染めない俺たち",
+      "number": 26,
+      "path": "tokumei/026.mp3"
+    },
+    {
+      "title": "会社のデキる先輩を呼んで色々聞いてみよう！",
+      "number": 27,
+      "path": "tokumei/027.mp3"
+    },
+    {
+      "title": "面白いアイデアをたくさん考えてみよう",
+      "number": 28,
+      "path": "tokumei/028.mp3"
+    },
+    {
+      "title": "理想的な将来のビジョンをさらけ出そう",
+      "number": 29,
+      "path": "tokumei/029.mp3"
+    },
+    {
+      "title": "ARuFaがおねしょしちゃった",
+      "number": 30,
+      "path": "tokumei/030.mp3"
+    },
+    {
+      "title": "女子高生の集団、後ろから追い抜くの怖すぎ問題",
+      "number": 31,
+      "path": "tokumei/031.mp3"
+    },
+    {
+      "title": "ラストバトルでOPテーマが流れる演出は最高",
+      "number": 32,
+      "path": "tokumei/032.mp3"
+    },
+    {
+      "title": "お互いに話が噛み合わない人と仲良くなろう！",
+      "number": 33,
+      "path": "tokumei/033.mp3"
+    },
+    {
+      "title": "この世で一番かっこいいアルファベットを決めよう",
+      "number": 34,
+      "path": "tokumei/034.mp3"
+    },
+    {
+      "title": "決定！野原しんのすけ達と飲み会をする時に最適な席順",
+      "number": 35,
+      "path": "tokumei/035.mp3"
+    },
+    {
+      "title": "大発表！ やったら人生が終わる「おわりスイッチ」完結編",
+      "number": 36,
+      "path": "tokumei/036.mp3"
+    },
+    {
+      "title": "本当に好きなことだけをして生きていく方法を考えよう",
+      "number": 37,
+      "path": "tokumei/037.mp3"
+    },
+    {
+      "title": "新しいことわざを考えて後世に語り継がれよう！",
+      "number": 38,
+      "path": "tokumei/038.mp3"
+    },
+    {
+      "title": "もし自分が主人公になったら、きちんと物語を回せるのか？",
+      "number": 39,
+      "path": "tokumei/039.mp3"
+    },
+    {
+      "title": "ブチ切れる練習をするために、無理やり怒ってみよう",
+      "number": 40,
+      "path": "tokumei/040.mp3"
+    },
+    {
+      "title": "ビジネス本の『ありがたい言葉』を学んで年収1000万になろう！",
+      "number": 41,
+      "path": "tokumei/041.mp3"
+    },
+    {
+      "title": "自分に子どもが産まれたらどう育てる？",
+      "number": 42,
+      "path": "tokumei/042.mp3"
+    },
+    {
+      "title": "とにかく褒め上手になろう！",
+      "number": 43,
+      "path": "tokumei/043.mp3"
+    },
+    {
+      "title": "エナジードリンク、どれも同じ味じゃない？",
+      "number": 44,
+      "path": "tokumei/044.mp3"
+    },
+    {
+      "title": "老人から『最近の若者は…』って絶対に思われたくない！",
+      "number": 45,
+      "path": "tokumei/045.mp3"
+    },
+    {
+      "title": "『コイツ、異世界から来てないか？』と周りから思われたい！",
+      "number": 46,
+      "path": "tokumei/046.mp3"
+    },
+    {
+      "title": "二人の本が発売されるからラジオで告知しちゃえ！",
+      "number": 47,
+      "path": "tokumei/047.mp3"
+    },
+    {
+      "title": "自分の声を絶対に聴かず、鏡を一切見ない男の悩み",
+      "number": 48,
+      "path": "tokumei/048.mp3"
+    },
+    {
+      "title": "サザエさん一家からBBQに誘われた時の立ち振る舞い方",
+      "number": 49,
+      "path": "tokumei/049.mp3"
+    },
+    {
+      "title": "『うんこ味のカレー』と『カレー味のうんこ』は結局どっち派？",
+      "number": 50,
+      "path": "tokumei/050.mp3"
+    },
+    {
+      "title": "多重人格になったら、どの人格を入れておくべきか！？",
+      "number": 51,
+      "path": "tokumei/051.mp3"
+    },
+    {
+      "title": "祝一周年！忘れもしない、あの日起きた大事件を振り返ろう！",
+      "number": 52,
+      "path": "tokumei/052.mp3"
+    },
+    {
+      "title": "ありえなくない？！アニメで納得のいかないシーン",
+      "number": 53,
+      "path": "tokumei/053.mp3"
+    },
+    {
+      "title": "オーキド博士の葬式に呼ばれたらどうすればいいの？",
+      "number": 54,
+      "path": "tokumei/054.mp3"
+    },
+    {
+      "title": "良い性格だと思われるために「いい話」で感動できるようになろう！",
+      "number": 55,
+      "path": "tokumei/055.mp3"
+    },
+    {
+      "title": " 無視してごめん！久しぶりのおたよりコーナー！",
+      "number": 56,
+      "path": "tokumei/056.mp3"
+    },
+    {
+      "title": "関東出身だけど、かっこいい関西弁を教えてもらおう！",
+      "number": 57,
+      "path": "tokumei/057.mp3"
+    },
+    {
+      "title": "もし娘が彼氏を連れてきたら、どう対処する？！",
+      "number": 58,
+      "path": "tokumei/058.mp3"
+    },
+    {
+      "title": "暑くて何も考えられないから、頭に浮かんだことをどんどん言おう！",
+      "number": 59,
+      "path": "tokumei/059.mp3"
+    },
+    {
+      "title": "急に巨人になっちゃったらどうすりゃいいの？！",
+      "number": 60,
+      "path": "tokumei/060.mp3"
+    },
+    {
+      "title": "異世界から来た人みたいに食事をしたらメッチャ楽しい！",
+      "number": 61,
+      "path": "tokumei/061.mp3"
+    },
+    {
+      "title": "人生スッカスカ人間ARuFa、インスタグラムを勧められる",
+      "number": 62,
+      "path": "tokumei/062.mp3"
+    },
+    {
+      "title": "全人類から好かれる『最強の友達』を作り上げよう！",
+      "number": 63,
+      "path": "tokumei/063.mp3"
+    },
+    {
+      "title": "自分のWikipediaを作ってもらうにはどうすればいいの！？",
+      "number": 64,
+      "path": "tokumei/064.mp3"
+    },
+    {
+      "title": "子どもの質問にすぐさま適当に答えよう！",
+      "number": 65,
+      "path": "tokumei/065.mp3"
+    },
+    {
+      "title": "理想の友達を妄想しよう！「親友」のコーナー！",
+      "number": 66,
+      "path": "tokumei/066.mp3"
+    },
+    {
+      "title": "自分たちがアニメ化されたときのCMを考えよう！",
+      "number": 67,
+      "path": "tokumei/067.mp3"
+    },
+    {
+      "title": "インターネットで出してない自分の一面を指摘してもらおう！",
+      "number": 68,
+      "path": "tokumei/068.mp3"
+    },
+    {
+      "title": "即興怪談！『ウソの怖い話』をして物語のツジツマを合わせろ！",
+      "number": 69,
+      "path": "tokumei/069.mp3"
+    },
+    {
+      "title": "なあ、ヘリウムガスの違う使い道を考えてみようぜ！",
+      "number": 70,
+      "path": "tokumei/070.mp3"
+    },
+    {
+      "title": "結婚式の余興って何が正解なの！？",
+      "number": 71,
+      "path": "tokumei/071.mp3"
+    },
+    {
+      "title": "新しいグルメ漫画を考えて大儲けしよう！",
+      "number": 72,
+      "path": "tokumei/072.mp3"
+    },
+    {
+      "title": "ラジオの先輩を呼んでアドバイスもらおう",
+      "number": 73,
+      "path": "tokumei/073.mp3"
+    },
+    {
+      "title": "子供に負けないために『なぞなぞ』の特訓をしよう！",
+      "number": 74,
+      "path": "tokumei/074.mp3"
+    },
+    {
+      "title": "ちびまる子のクラスメートとサバイバルした時の必勝法とは？",
+      "number": 75,
+      "path": "tokumei/075.mp3"
+    },
+    {
+      "title": "女心を知るために、恋愛クイズを出してもらおう！",
+      "number": 76,
+      "path": "tokumei/076.mp3"
+    },
+    {
+      "title": "ごめん！ARuFaがお腹を壊しちゃった！",
+      "number": 77,
+      "path": "tokumei/077.mp3"
+    },
+    {
+      "title": "沈みゆく船で主人公になる方法と、モブにならないための方法",
+      "number": 78,
+      "path": "tokumei/078.mp3"
+    },
+    {
+      "title": "お正月だし『ツイッターあるあるカルタ』を作ってみよう！",
+      "number": 79,
+      "path": "tokumei/079.mp3"
+    },
+    {
+      "title": "これからインターネットを始める子供たちへのアドバイス",
+      "number": 80,
+      "path": "tokumei/080.mp3"
+    },
+    {
+      "title": "ランクを2つ下げたしょーもない悩みを解決しまくろう！",
+      "number": 81,
+      "path": "tokumei/081.mp3"
+    },
+    {
+      "title": "限られたアイテムを使って危険を回避する練習をしよう！",
+      "number": 82,
+      "path": "tokumei/082.mp3"
+    },
+    {
+      "title": "俺たちの怒りをぶちまけろ！2018",
+      "number": 83,
+      "path": "tokumei/083.mp3"
+    },
+    {
+      "title": "色々なものの劇場版を考えてみよう！～ゴミ捨て THE MOVIE～",
+      "number": 84,
+      "path": "tokumei/084.mp3"
+    },
+    {
+      "title": "食い逃げに憧れる僕は、君の瞳にてやんでい",
+      "number": 85,
+      "path": "tokumei/085.mp3"
+    },
+    {
+      "title": "マリオが主催する立食パーティに誘われたらどうすればいいの？",
+      "number": 86,
+      "path": "tokumei/086.mp3"
+    },
+    {
+      "title": "ビビるくらいお便りが届きまくってるんですけど！！！！！",
+      "number": 87,
+      "path": "tokumei/087.mp3"
+    },
+    {
+      "title": "確信はないけど『恐らく自分が得意なこと』に挑戦してみよう！",
+      "number": 88,
+      "path": "tokumei/088.mp3"
+    },
+    {
+      "title": "さえないオタクが眼力だけで不良をビビらせろ！『殺す眼』のコーナー！",
+      "number": 89,
+      "path": "tokumei/089.mp3"
+    },
+    {
+      "title": "ねえ！！イオンに泊まれるとしたら何をしたい！？！？",
+      "number": 90,
+      "path": "tokumei/090.mp3"
+    },
+    {
+      "title": "ワードアプリを使って面白いアイデアを考えまくれ2018！",
+      "number": 91,
+      "path": "tokumei/091.mp3"
+    },
+    {
+      "title": "悔しい！アメリカンジョークが上手くなりたい！ +告知アリ",
+      "number": 92,
+      "path": "tokumei/092.mp3"
+    },
+    {
+      "title": "アパートの管理人になったら、どの部屋にどんな萌えキャラが住んでほしい？",
+      "number": 93,
+      "path": "tokumei/093.mp3"
+    },
+    {
+      "title": "エッチ過ぎたら強制終了！あくまで全年齢向けのムフフな話をしよう！",
+      "number": 94,
+      "path": "tokumei/094.mp3"
+    },
+    {
+      "title": "なんか周りから怖い人って思われてるっぽいんだけど!?",
+      "number": 95,
+      "path": "tokumei/095.mp3"
+    },
+    {
+      "title": "アニメのしょうもない考察や都市伝説を考えてみよう！",
+      "number": 96,
+      "path": "tokumei/096.mp3"
+    },
+    {
+      "title": "俺は『魅力的な悪役』になってみたい！",
+      "number": 97,
+      "path": "tokumei/097.mp3"
+    },
+    {
+      "title": "どんな失敗談でも大丈夫！フォロー上手な男になろう！",
+      "number": 98,
+      "path": "tokumei/098.mp3"
+    },
+    {
+      "title": "あえて誰でも考えているような『浅～いアイデア』を言い合ってみよう！",
+      "number": 99,
+      "path": "tokumei/099.mp3"
+    },
+    {
+      "title": "第100回記念イベントダイジェスト+公開録音！！",
+      "number": 100,
+      "path": "tokumei/100.mp3"
+    },
+    {
+      "title": "世間知らずのお嬢様になりきれば、つまらない夏も楽しくなる！",
+      "number": 101,
+      "path": "tokumei/101.mp3"
+    },
+    {
+      "title": "特にオチのない話を面白エピソードにするにはどうすればいいの？",
+      "number": 102,
+      "path": "tokumei/102.mp3"
+    },
+    {
+      "title": "マクドナルドのハンバーガーで友達になるならどれ！？",
+      "number": 103,
+      "path": "tokumei/103.mp3"
+    },
+    {
+      "title": "居酒屋を経営するならこうしてみたいよね！",
+      "number": 104,
+      "path": "tokumei/104.mp3"
+    },
+    {
+      "title": "質問に1秒以内に答えて深層心理を暴き出せ！即答ゲーム！",
+      "number": 105,
+      "path": "tokumei/105.mp3"
+    },
+    {
+      "title": "アートって一体何なんだ！？！？！？？！？？",
+      "number": 106,
+      "path": "tokumei/106.mp3"
+    },
+    {
+      "title": "子どもの頃の夢をマジで叶えるためにはどう成長すべきなのか？",
+      "number": 107,
+      "path": "tokumei/107.mp3"
+    },
+    {
+      "title": "行かない旅行の予定だけを立てるとすごい楽しいね！",
+      "number": 108,
+      "path": "tokumei/108.mp3"
+    },
+    {
+      "title": "それは決して叶わぬ夢、お姉ちゃんが欲しい！！",
+      "number": 109,
+      "path": "tokumei/109.mp3"
+    },
+    {
+      "title": "暑すぎ！！！！！！！！！！！！！！！",
+      "number": 110,
+      "path": "tokumei/110.mp3"
+    },
+    {
+      "title": "もし自分が子ども番組を作るなら何をしたい！？",
+      "number": 111,
+      "path": "tokumei/111.mp3"
+    },
+    {
+      "title": "クレーム社会の今、あえて昔話にメチャクチャな難癖をつけてみよう！",
+      "number": 112,
+      "path": "tokumei/112.mp3"
+    },
+    {
+      "title": "初の外部ゲストを呼ぼう！ バーチャルYoutuber月ノ美兎！",
+      "number": 113,
+      "path": "tokumei/113.mp3"
+    },
+    {
+      "title": "話し上手になりたい！ ランダムワードで感動スピーチをしよう！",
+      "number": 114,
+      "path": "tokumei/114.mp3"
+    },
+    {
+      "title": "俺たちは休日の昼にやってる『街ブラ』の番組に出てみたい！",
+      "number": 115,
+      "path": "tokumei/115.mp3"
+    },
+    {
+      "title": "体育祭って嫌！ 『陰の者』でも楽しめる体育祭を考えよう！",
+      "number": 116,
+      "path": "tokumei/116.mp3"
+    },
+    {
+      "title": "少ない手がかりから無理やり結論を出して名探偵になろう！",
+      "number": 117,
+      "path": "tokumei/117.mp3"
+    },
+    {
+      "title": "モテるために自分の『ヤバい部分』を他人から指摘してもらおう！",
+      "number": 118,
+      "path": "tokumei/118.mp3"
+    },
+    {
+      "title": "もし自分が動物園に収容されたら、どうやってパンダより人気になる！？",
+      "number": 119,
+      "path": "tokumei/119.mp3"
+    },
+    {
+      "title": "自分の葬式をするとしたらどんなんがいい！？",
+      "number": 120,
+      "path": "tokumei/120.mp3"
+    },
+    {
+      "title": "しょうもない議題でマジ討論！『リンゴとバナナ、どっちが優れたフルーツなの！？』",
+      "number": 121,
+      "path": "tokumei/121.mp3"
+    },
+    {
+      "title": "先生になって問題が起きたらどんな指導をしたい！？",
+      "number": 122,
+      "path": "tokumei/122.mp3"
+    },
+    {
+      "title": "魔法少女になって相棒の使い魔が欲しいよ～！うえ～ん！",
+      "number": 123,
+      "path": "tokumei/123.mp3"
+    },
+    {
+      "title": "記憶はそのままで子どもに戻るのって、実はメチャ大変なんじゃない！？",
+      "number": 124,
+      "path": "tokumei/124.mp3"
+    },
+    {
+      "title": "僕たちは美容院がチョ～苦手！！！！！",
+      "number": 125,
+      "path": "tokumei/125.mp3"
+    },
+    {
+      "title": "全てにおいてマニアックなことを言って『通』ぶりてぇ～～～！！",
+      "number": 126,
+      "path": "tokumei/126.mp3"
+    },
+    {
+      "title": "モテモテになるために『俺様キャラ』になってみよう！",
+      "number": 127,
+      "path": "tokumei/127.mp3"
+    },
+    {
+      "title": "マッドサイエンティストになってみてぇ～～！！",
+      "number": 128,
+      "path": "tokumei/128.mp3"
+    },
+    {
+      "title": "流行語大賞を受賞したいしたいした～～～い！",
+      "number": 129,
+      "path": "tokumei/129.mp3"
+    },
+    {
+      "title": "海外のヤバい刑務所に収容されたらどうすればいいの！？",
+      "number": 130,
+      "path": "tokumei/130.mp3"
+    },
+    {
+      "title": "お正月だし先日行った『温泉旅行の話』をのんびりしよう！",
+      "number": 131,
+      "path": "tokumei/131.mp3"
+    },
+    {
+      "title": "クソドジでポンコツな友達を救うために相談に乗ろう！",
+      "number": 132,
+      "path": "tokumei/132.mp3"
+    },
+    {
+      "title": "自分で都市伝説を作って他人に語り継がれたいよ～～！！！",
+      "number": 133,
+      "path": "tokumei/133.mp3"
+    },
+    {
+      "title": "パラレルワールドっていいよね～～！！",
+      "number": 134,
+      "path": "tokumei/134.mp3"
+    },
+    {
+      "title": "子ども100人と一緒にキッザニアに閉じ込められたらどうする！？",
+      "number": 135,
+      "path": "tokumei/135.mp3"
+    },
+    {
+      "title": "一度でいいからCMに出てみたい！！！",
+      "number": 136,
+      "path": "tokumei/136.mp3"
+    },
+    {
+      "title": "受験のときってどうやって勉強とか対策してた！？",
+      "number": 137,
+      "path": "tokumei/137.mp3"
+    },
+    {
+      "title": "コナンの捜査を効果的に妨害する方法とは？",
+      "number": 138,
+      "path": "tokumei/138.mp3"
+    },
+    {
+      "title": "夢は叶う！やりたいことをぜ～んぶ言おう！！",
+      "number": 139,
+      "path": "tokumei/139.mp3"
+    },
+    {
+      "title": "自分たちで『お祭り』を考えてみた～～～～い！！",
+      "number": 140,
+      "path": "tokumei/140.mp3"
+    },
+    {
+      "title": "人生にもチュートリアルモードがあったらいいのにね！！！！",
+      "number": 141,
+      "path": "tokumei/141.mp3"
+    },
+    {
+      "title": "友達のことをどれだけ知ってる？ 相手が好きそうなものを言い当てよう！",
+      "number": 142,
+      "path": "tokumei/142.mp3"
+    },
+    {
+      "title": "キミは他人の目を気にせずに『正しいこと』を言えるか！？",
+      "number": 143,
+      "path": "tokumei/143.mp3"
+    },
+    {
+      "title": "春だしお外で散歩しながら収録しちゃお～～！！！",
+      "number": 144,
+      "path": "tokumei/144.mp3"
+    },
+    {
+      "title": "既出は嫌！俺たちは誰かに何度も言われてるような返答を絶対にしたくない！",
+      "number": 145,
+      "path": "tokumei/145.mp3"
+    },
+    {
+      "title": "とにかく『考察』をして1つの真実にたどり着きた～い！！ ",
+      "number": 146,
+      "path": "tokumei/146.mp3"
+    },
+    {
+      "title": "春は挑戦の季節！今までやったことのない『初めて』にチャレンジしよう！",
+      "number": 147,
+      "path": "tokumei/147.mp3"
+    },
+    {
+      "title": "ランダムで付け加えられた設定を駆使して相手を言い負かすゲームをしよう！",
+      "number": 148,
+      "path": "tokumei/148.mp3"
+    },
+    {
+      "title": "相方とスケジュールが合わないから1人で収録してもう1人が編集しちゃえ！",
+      "number": 149,
+      "path": "tokumei/149.mp3"
+    },
+    {
+      "title": "たんまり儲けられそうな新しいビジネスを考えちゃえ！！",
+      "number": 150,
+      "path": "tokumei/150.mp3"
+    },
+    {
+      "title": "今さら心理テストの面白さに気付いたから出し合ってみよう！！",
+      "number": 151,
+      "path": "tokumei/151.mp3"
+    },
+    {
+      "title": "絶対に他の作品と『かぶってないであろう特殊能力』を考えてみよう！",
+      "number": 152,
+      "path": "tokumei/152.mp3"
+    },
+    {
+      "title": "将来的に『ヤバいジジイ』には絶対なりたくないから先輩の意見を聞いてみよう！！",
+      "number": 153,
+      "path": "tokumei/153.mp3"
+    },
+    {
+      "title": "性格が悪いと思われたくないから、ネットにある『泣ける話』で感動しよう2019！",
+      "number": 154,
+      "path": "tokumei/154.mp3"
+    },
+    {
+      "title": "コールドスリープで未来に行けるとしたら、する？ しない？",
+      "number": 155,
+      "path": "tokumei/155.mp3"
+    },
+    {
+      "title": "絶対にオチがつく『チャンチャン♪』の効果音を使って、これまで話せなかったエピソードを話そう！",
+      "number": 156,
+      "path": "tokumei/156.mp3"
+    },
+    {
+      "title": "最もARuFaと恐山になりきれるのは誰だ！『匿名ラジオ二代目オーディション』",
+      "number": 157,
+      "path": "tokumei/157.mp3"
+    },
+    {
+      "title": "子ども達よ、夏休みに後悔したくないならこれをしておこう！",
+      "number": 158,
+      "path": "tokumei/158.mp3"
+    },
+    {
+      "title": "絶対ナメられないように不良になってやるぞ！！うお～～！！",
+      "number": 159,
+      "path": "tokumei/159.mp3"
+    },
+    {
+      "title": "目指せ一休さん！ 「とんち」を利かせて無理難題を解決しよう！",
+      "number": 160,
+      "path": "tokumei/160.mp3"
+    },
+    {
+      "title": "三年前のラジオ開始時に封印したタイムカプセルを一緒に開けてみよう！！",
+      "number": 161,
+      "path": "tokumei/161.mp3"
+    },
+    {
+      "title": "夏休みは電話相談だ！ 子どもの素朴な質問に一瞬で答えよう！",
+      "number": 162,
+      "path": "tokumei/162.mp3"
+    },
+    {
+      "title": "ねえ、法律が存在しないサイゼリヤに行ったら何をしたい？",
+      "number": 163,
+      "path": "tokumei/163.mp3"
+    },
+    {
+      "title": "発表！これって自分が正しくない？『正しさ』のコーナー！",
+      "number": 164,
+      "path": "tokumei/164.mp3"
+    },
+    {
+      "title": "もっと仲良くなるために、お酒を飲んで腹を割って話そう！！",
+      "number": 165,
+      "path": "tokumei/165.mp3"
+    },
+    {
+      "title": "日本沈没！あと100kgしか乗らない船に何を載せる！？",
+      "number": 166,
+      "path": "tokumei/166.mp3"
+    },
+    {
+      "title": "今からバイトを始めるなら何がしたい？",
+      "number": 167,
+      "path": "tokumei/167.mp3"
+    },
+    {
+      "title": "アニメキャラみたいに風邪のときに性格をガラッと変えてみた～い！",
+      "number": 168,
+      "path": "tokumei/168.mp3"
+    },
+    {
+      "title": "キャンプに行きたいけど怖いから、起こりそうなトラブルを全部言い合おう！",
+      "number": 169,
+      "path": "tokumei/169.mp3"
+    },
+    {
+      "title": "俺達はドラえもん御一行にどんな冒険を提供できるのか！？",
+      "number": 170,
+      "path": "tokumei/170.mp3"
+    },
+    {
+      "title": "早押しクイズにとにかく爆速で答えて、やさしい出題者に後出しで正解にしてもらおう！",
+      "number": 171,
+      "path": "tokumei/171.mp3"
+    },
+    {
+      "title": "相手の過去を予想しよう！ 『経験したことアリ・ナシクイズ』！",
+      "number": 172,
+      "path": "tokumei/172.mp3"
+    },
+    {
+      "title": "この世のどんな現象も『行動経済学』が関係してるってマジ！？",
+      "number": 173,
+      "path": "tokumei/173.mp3"
+    },
+    {
+      "title": "将来の夢を逆算して何歳のときに何をするべきなのかをハッキリさせよう！",
+      "number": 174,
+      "path": "tokumei/174.mp3"
+    },
+    {
+      "title": "久々の外部ゲストを呼ぼう！ 『ARuFaの弟』登場！！",
+      "number": 175,
+      "path": "tokumei/175.mp3"
+    },
+    {
+      "title": "会話に使えそうなワードを10個用意したら、それだけでトークを成立させられるのか！？",
+      "number": 176,
+      "path": "tokumei/176.mp3"
+    },
+    {
+      "title": "国民的アニメは、サブタイトルだけでストーリーを予想することはできるのか！？",
+      "number": 177,
+      "path": "tokumei/177.mp3"
+    },
+    {
+      "title": "会社の人と福岡旅行に行ったからその感想を言い合おう！",
+      "number": 178,
+      "path": "tokumei/178.mp3"
+    },
+    {
+      "title": "もしもマリオのスターを取って無敵になっちゃったら僕等は何をするべきなの？",
+      "number": 179,
+      "path": "tokumei/179.mp3"
+    },
+    {
+      "title": "年末だし『どのお菓子が一番強いのか』を決めよう！！",
+      "number": 181,
+      "path": "tokumei/181.mp3"
+    },
+    {
+      "title": "友達100人作るにはどうすればいいの！？",
+      "number": 182,
+      "path": "tokumei/182.mp3"
+    },
+    {
+      "title": "2020年！お正月だし先日行った『北海道旅行の話』をのんびりしよう！",
+      "number": 183,
+      "path": "tokumei/183.mp3"
+    },
+    {
+      "title": "自分の夢を投資家にプレゼンして100万円をもらいた～～い！！",
+      "number": 184,
+      "path": "tokumei/184.mp3"
+    },
+    {
+      "title": "30秒で色々な物を紹介してマシンガントークを習得しよう！",
+      "number": 185,
+      "path": "tokumei/185.mp3"
+    },
+    {
+      "title": "日常に潜む『まだ解決策のない現象』の攻略法を考えてモヤモヤを解消しよう！",
+      "number": 186,
+      "path": "tokumei/186.mp3"
+    },
+    {
+      "title": "自分たちのドッペルゲンガーに会っちゃったらどうする！？",
+      "number": 187,
+      "path": "tokumei/187.mp3"
+    },
+    {
+      "title": "表現力だけで何を食べてるかを当てさせろ！『食べない食レポ』クイズ！",
+      "number": 189,
+      "path": "tokumei/189.mp3"
+    },
+    {
+      "title": "まだこの世にないコンセプトのアイドルをプロデュースした～い！",
+      "number": 190,
+      "path": "tokumei/190.mp3"
+    },
+    {
+      "title": "ワンピースの『麦わら海賊団』にお土産を持っていくなら何を選べばいいのか！？",
+      "number": 191,
+      "path": "tokumei/191.mp3"
+    },
+    {
+      "title": "一番面白い寝言を言えるのは誰だ！？『ウソ寝言グランプリ』！",
+      "number": 192,
+      "path": "tokumei/192.mp3"
+    },
+    {
+      "title": "社長が占いできるらしいから『マジの占い』をしてもらって僕等の運勢を見てもらおう！",
+      "number": 193,
+      "path": "tokumei/193.mp3"
+    },
+    {
+      "title": "自分たちのテーマパークを作るとしたらどんなアトラクションを設置したいか考えよう！",
+      "number": 194,
+      "path": "tokumei/194.mp3"
+    },
+    {
+      "title": "おい！！ARuFaが腹壊して救急車で運ばれちゃったじゃねーか！！！",
+      "number": 195,
+      "path": "tokumei/195.mp3"
+    },
+    {
+      "title": "過去に遭遇してまだ解けていない『日常の謎』を2人で解き明かしてみよう！",
+      "number": 196,
+      "path": "tokumei/196.mp3"
+    },
+    {
+      "title": "くだらなすぎて寝かせてた音源を大公開！『ちょうどいいダジャレを考えてみよう！』",
+      "number": 197,
+      "path": "tokumei/197.mp3"
+    },
+    {
+      "title": "可愛げのある人間になるために、知ってるコトでもあえてカマトトぶってみよう！",
+      "number": 198,
+      "path": "tokumei/198.mp3"
+    },
+    {
+      "title": "家にずっといて暇だからたまにはラジオっぽく世間話しようよ！",
+      "number": 199,
+      "path": "tokumei/199.mp3"
+    },
+    {
+      "title": "祝200回記念！お互いの苦手を克服しながら一緒に料理を作ろう！",
+      "number": 200,
+      "path": "tokumei/200.mp3"
+    },
+    {
+      "title": "暇だからお互いの『死ぬより嫌なこと BEST3』を発表し合おう！",
+      "number": 201,
+      "path": "tokumei/201.mp3"
+    },
+    {
+      "title": "自分達への『偏見』をリスナーから募集して答え合わせをしてみよう！",
+      "number": 202,
+      "path": "tokumei/202.mp3"
+    },
+    {
+      "title": "卒業式に担任の先生として『いい話』をしたいから練習してみよう！",
+      "number": 203,
+      "path": "tokumei/203.mp3"
+    },
+    {
+      "title": "『スイカ割り』とか『流しそうめん』とかよくよく考えたら意味のわからん行事を考えたい！",
+      "number": 204,
+      "path": "tokumei/204.mp3"
+    },
+    {
+      "title": "じつは漫画界最強の『ゲゲゲの鬼太郎』に勝てる妖怪になりたい！",
+      "number": 205,
+      "path": "tokumei/205.mp3"
+    },
+    {
+      "title": "【正答率0.1％】ARuFaくん日常クイズ！『パン屋のひとこと編』",
+      "number": 206,
+      "path": "tokumei/206.mp3"
+    },
+    {
+      "title": "子どもを寝かしつけられるような『入眠用のおはなし』に挑戦してみよう！",
+      "number": 207,
+      "path": "tokumei/207.mp3"
+    },
+    {
+      "title": "想像力を働かせて、名も知らぬフランス料理がどんな料理なのか的中させよう！",
+      "number": 208,
+      "path": "tokumei/208.mp3"
+    },
+    {
+      "title": "『七夕』が抱えている問題点とその解決策について話し合おう！",
+      "number": 209,
+      "path": "tokumei/209.mp3"
+    },
+    {
+      "title": "想像の中ならどんな強い敵でも倒せるんじゃない！？（最後に告知あり）",
+      "number": 210,
+      "path": "tokumei/210.mp3"
+    },
+    {
+      "title": "もしも自分たちが『スーパー銭湯』を経営するならどうしたい！？",
+      "number": 211,
+      "path": "tokumei/211.mp3"
+    },
+    {
+      "title": "心配性なARuFaを、恐山のような『豪快な男』にしよう！",
+      "number": 212,
+      "path": "tokumei/212.mp3"
+    },
+    {
+      "title": "日常に潜む、まだ誰も指摘していない嫌なこと『軽軽軽軽犯罪』を探し出せ！",
+      "number": 213,
+      "path": "tokumei/213.mp3"
+    },
+    {
+      "title": "どんな状況でも『ゾンビ』を撃退できるようになろう！（ただしホームセンター禁止）",
+      "number": 214,
+      "path": "tokumei/214.mp3"
+    },
+    {
+      "title": "映画館はもう古い！まったく新しいデートスポットを考えよう！",
+      "number": 215,
+      "path": "tokumei/215.mp3"
+    },
+    {
+      "title": "自分たちの知らない世界の『あるある』を想像だけで言ってみよう！",
+      "number": 216,
+      "path": "tokumei/216.mp3"
+    },
+    {
+      "title": "前回はごめんなさい！先週分『第217回』の反省会をしよう！",
+      "number": 218,
+      "path": "tokumei/218.mp3"
+    },
+    {
+      "title": "日常的な出来事に不幸を連鎖させて『最悪のバタフライエフェクト』を考えてみよう！",
+      "number": 219,
+      "path": "tokumei/219.mp3"
+    },
+    {
+      "title": "目指せベイブレード！子どもにウケる次世代のホビーを考えよう！",
+      "number": 220,
+      "path": "tokumei/220.mp3"
+    },
+    {
+      "title": "今更でごめん！結局『エモい』って何なの！？",
+      "number": 221,
+      "path": "tokumei/221.mp3"
+    },
+    {
+      "title": "あえて盛られたエピソードトークのどこが盛られているか見破ろう！＜健康診断編＞",
+      "number": 222,
+      "path": "tokumei/222.mp3"
+    },
+    {
+      "title": "誰もが一度は憧れる『異端な存在』に自分もなってみた～い！",
+      "number": 223,
+      "path": "tokumei/223.mp3"
+    },
+    {
+      "title": "友達なら相手の『アレ買ってきて』でお目当ての物を買ってこれるのか？",
+      "number": 224,
+      "path": "tokumei/224.mp3"
+    },
+    {
+      "title": "『50の質問』をし合って初出し情報ガッポガポ大作戦！",
+      "number": 225,
+      "path": "tokumei/225.mp3"
+    },
+    {
+      "title": "恐山が旅行でいない隙に『恐山のウワサ』について同僚と話し合おう！",
+      "number": 226,
+      "path": "tokumei/226.mp3"
+    },
+    {
+      "title": "相手が全然欲しくないであろう物をセールストークで買わせよう！",
+      "number": 227,
+      "path": "tokumei/227.mp3"
+    },
+    {
+      "title": "自分たちのラジオの誕生秘話をドラマチックに捏造しよう！",
+      "number": 228,
+      "path": "tokumei/228.mp3"
+    },
+    {
+      "title": "自分達が老人になったら孫の世代に昔のことを話したい！",
+      "number": 229,
+      "path": "tokumei/229.mp3"
+    },
+    {
+      "title": "王になって戦の直前に兵を鼓舞するスピーチをした～い！！",
+      "number": 230,
+      "path": "tokumei/230.mp3"
+    },
+    {
+      "title": "修学旅行の実行委員になって最高の思い出を作りたい！",
+      "number": 231,
+      "path": "tokumei/231.mp3"
+    },
+    {
+      "title": "描いてもいいよ！著作権フリーの『ツイッター漫画』のアイデアを考えよう！！",
+      "number": 232,
+      "path": "tokumei/232.mp3"
+    },
+    {
+      "title": "優しさと厳しさの『言葉の交互浴』で、落ち込んでる友達を元気にしよう！",
+      "number": 233,
+      "path": "tokumei/233.mp3"
+    },
+    {
+      "title": "見た夢を夢占いで採点して勝負しよう！『夢バトル』！",
+      "number": 234,
+      "path": "tokumei/234.mp3"
+    },
+    {
+      "title": "今年最後のラジオだからリスナーからの質問に答えちゃお！",
+      "number": 235,
+      "path": "tokumei/235.mp3"
+    },
+    {
+      "title": "スーパーで集めた『お客様の声』をぶつけ合わせてバトルしよう！",
+      "number": 236,
+      "path": "tokumei/236.mp3"
+    },
+    {
+      "title": "コンビニアイスと友達になるならどれがいいかを本気で決めよう！",
+      "number": 237,
+      "path": "tokumei/237.mp3"
+    },
+    {
+      "title": "自分のトイレ中に進んでた友人同士の会話に合流しろ！『途中退席合流王』！",
+      "number": 238,
+      "path": "tokumei/238.mp3"
+    },
+    {
+      "title": "今までに無かった二ッチなランキングの1位と50位を考えよう！【カービィ食べ放題あるあるランキング】",
+      "number": 239,
+      "path": "tokumei/239.mp3"
+    },
+    {
+      "title": "色々な動物をボディビルの掛け声方式で褒めてみよう！【肩にメロン乗ってるんかい！】",
+      "number": 240,
+      "path": "tokumei/240.mp3"
+    },
+    {
+      "title": "今日は企画禁止！ラジオなら力を抜いて雑談をしてみよう！",
+      "number": 241,
+      "path": "tokumei/241.mp3"
+    },
+    {
+      "title": "会話の主導権を奪い合え！『天気の話をしたい奴 VS したくない奴』",
+      "number": 242,
+      "path": "tokumei/242.mp3"
+    },
+    {
+      "title": "バズってるツイートに来ているリプライを予想してみよう！",
+      "number": 243,
+      "path": "tokumei/243.mp3"
+    },
+    {
+      "title": "四季には飽きた！春夏秋冬に追加したいまったく新しい季節を考えよう！",
+      "number": 244,
+      "path": "tokumei/244.mp3"
+    },
+    {
+      "title": "運動しないで痩せたいから『新しいダイエット法』を考えよう！",
+      "number": 245,
+      "path": "tokumei/245.mp3"
+    },
+    {
+      "title": "過去を捏造してお互いが幼馴染だったことにしよう！",
+      "number": 246,
+      "path": "tokumei/246.mp3"
+    },
+    {
+      "title": "お互いの目撃情報を発表し合おう！",
+      "number": 247,
+      "path": "tokumei/247.mp3"
+    },
+    {
+      "title": "チャット",
+      "number": 248,
+      "path": "tokumei/248.mp3"
+    },
+    {
+      "title": "自分たちが住みたい『理想の街』を作ろう！",
+      "number": 249,
+      "path": "tokumei/249.mp3"
+    },
+    {
+      "title": "マリオの世界の裏方になったら何が起きそうか想像してみよう！",
+      "number": 250,
+      "path": "tokumei/250.mp3"
+    },
+    {
+      "title": "一緒にシェアハウスをしたいキャラ、したくないキャラを語り合おう！",
+      "number": 251,
+      "path": "tokumei/251.mp3"
+    },
+    {
+      "title": "バカだけど、どうにかして宇宙に行ってみたい！",
+      "number": 252,
+      "path": "tokumei/252.mp3"
+    },
+    {
+      "title": "すれ違いコントって、いきなりやっても成立するの！？",
+      "number": 253,
+      "path": "tokumei/253.mp3"
+    },
+    {
+      "title": "お金持ちになった場合に備えて、その後の振る舞いを今のうちから考えておこう！",
+      "number": 254,
+      "path": "tokumei/254.mp3"
+    },
+    {
+      "title": "ランダムワードで適当なトーナメントを開催して優勝を決めよう！",
+      "number": 255,
+      "path": "tokumei/255.mp3"
+    },
+    {
+      "title": "どうすれば正解だった？！ARuFa君クイズ『中華屋のカニチャーハン編』",
+      "number": 256,
+      "path": "tokumei/256.mp3"
+    },
+    {
+      "title": "俺たちは秘密結社を作ってみた～～～い！！！",
+      "number": 257,
+      "path": "tokumei/257.mp3"
+    },
+    {
+      "title": "ひたすらに『良きこと』と『嫌きこと』を言い合う雅（みやび）な遊びをしよう！",
+      "number": 258,
+      "path": "tokumei/258.mp3"
+    },
+    {
+      "title": "何故かずっと覚えてる『幼少期の記憶』を走馬灯に入れるべきか話し合う会",
+      "number": 259,
+      "path": "tokumei/259.mp3"
+    },
+    {
+      "title": "『三人寄れば文殊の知恵』って言うし、三人で難題を解決しよう！",
+      "number": 260,
+      "path": "tokumei/260.mp3"
+    },
+    {
+      "title": "今回は難しいぞ！新しい『三すくみの関係性』を考えよう！",
+      "number": 261,
+      "path": "tokumei/261.mp3"
+    },
+    {
+      "title": "トークテーマを自動で決めてくれる便利グッズで遊んじゃお！！",
+      "number": 262,
+      "path": "tokumei/262.mp3"
+    },
+    {
+      "title": "Wikipediaの内容だけ聴いて何の項目かを当てろ！ウィキクイズ！",
+      "number": 263,
+      "path": "tokumei/26a3.mp3"
+    },
+    {
+      "title": "人気になるために『匿名ラジオ』のキャッチコピーを考えよう！",
+      "number": 264,
+      "path": "tokumei/264non.mp3"
+    },
+    {
+      "title": "お互いの『地雷』を探り合ってみよ～～～よ！！",
+      "number": 265,
+      "path": "tokumei/2y65.mp3"
+    },
+    {
+      "title": "暑すぎるから『冬あるある選手権』をするしかねーな！！！！！",
+      "number": 266,
+      "path": "tokumei/26m6o.mp3"
+    },
+    {
+      "title": "子どもから人気の出そうなキャラクターを考えてウハウハになろう！！",
+      "number": 267,
+      "path": "tokumei/267u.mp3"
+    },
+    {
+      "title": "相手の注文に合わせた『オーダーメイド怪談』を即興で披露しよう！",
+      "number": 269,
+      "path": "tokumei/269sr.mp3"
+    },
+    {
+      "title": "正直が一番！建前を禁止して素直なことをだけ言い合おう！",
+      "number": 270,
+      "path": "tokumei/2a70.mp3"
+    },
+    {
+      "title": "ゲームのボスになったらどんなダンジョンで主人公を苦しめたいか話し合おう！",
+      "number": 271,
+      "path": "tokumei/27d1.mp3"
+    },
+    {
+      "title": "俺たちは何としてでも料理バトルで勝利した～い！！",
+      "number": 272,
+      "path": "tokumei/27i2.mp3"
+    },
+    {
+      "title": "偉人伝みたいに幼少期のエピソードを現在の活動に強引にヒモ付けよう！",
+      "number": 273,
+      "path": "tokumei/o273.mp3"
+    }
+  ]
 }

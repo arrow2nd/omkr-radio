@@ -7,7 +7,7 @@
  */
 export function parseTitle(
   title: string,
-  radioName: string
+  radioName: string,
 ): [string, number | undefined] {
   const matchedName = title.match(/「(.+)」/);
   const episodeName = matchedName ? matchedName[1] : title;

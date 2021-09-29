@@ -9,7 +9,7 @@ export async function fetchRadioFilePath(url: string): Promise<string> {
   const html = await res.text();
 
   const matched = html.match(
-    /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/
+    /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/,
   );
 
   return matched ? matched[1] : "";
