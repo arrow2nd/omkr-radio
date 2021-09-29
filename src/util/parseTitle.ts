@@ -12,7 +12,12 @@ export function parseTitle(
   const matchedName = title.match(/「(.+)」/);
   const episodeName = matchedName ? matchedName[1] : title;
 
-  const numRegExpList = [`【\(\\d\+\)】${radioName}`, `${radioName}\(\\d\+\)`];
+  const numRegExpList = [
+    `【\(\\d\+\)】\\s\*${radioName}\\s\*「`,
+    `【\(\\d\+\)】\.\*${radioName}\$`,
+    `${radioName}\\s\*\(\\d\+\)`,
+  ];
+
   for (const regExp of numRegExpList) {
     const matchedNum = title.match(regExp);
     if (matchedNum) return [episodeName, parseFloat(matchedNum[1])];
