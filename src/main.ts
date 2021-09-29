@@ -1,10 +1,11 @@
 // deno-lint-ignore-file camelcase
 import { deserializeFeed } from "https://deno.land/x/rss@0.5.3/mod.ts";
-import { ListItem, RadioData, RadioItem } from "./type.ts";
-import { extractNumFromTitle, fetchRadioUrl } from "./util.ts";
+import { ListItem, RadioData, Episode } from "./type.ts";
+import { fetchRadioFilePath } from "./util/fetchRadioUrl.ts";
+import { parseTitle } from "./util/parseTitle.ts";
 
 const radioList: ListItem[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json"),
+  Deno.readTextFileSync("./docs/list.json")
 ).filter((e: ListItem) => e.onAir);
 
 // RSSフィードを取得
@@ -16,41 +17,46 @@ for (const { title, external_url } of feed.items) {
   // ラジオ以外ならスキップ
   if (!title || !external_url || !external_url.includes("radio")) continue;
 
-  const radioName = radioList.find((e) => title.includes(e.keyword))?.name;
+  // ラジオ名をリストから取得
+  const radioName = radioList.find((e) => title.includes(e.name))?.name;
   if (!radioName) {
     console.log(`[NO SUPPORT] ${title}`);
     continue;
   }
 
-  const url = await fetchRadioUrl(external_url);
+  const radioFilePath = await fetchRadioFilePath(external_url);
 
-  const num = extractNumFromTitle(title, radioName);
-  if (!num) {
+  // エピソード名・話数を抽出
+  const [episodeName, episodeNum] = parseTitle(title, radioName);
+  if (!episodeNum) {
     console.log(`[NOT FOUND] ${title}`);
     continue;
   }
 
   const filePath = `./docs/data/${radioName}.json`;
-  const data: RadioData = JSON.parse(Deno.readTextFileSync(filePath));
+  const radioData: RadioData = JSON.parse(Deno.readTextFileSync(filePath));
 
   // 重複確認
-  const addData: RadioItem = { title, num, url };
-  if (
-    data.items.some(
-      (e) =>
-        e.title === addData.title &&
-        e.num === addData.num &&
-        e.url === addData.url,
-    )
-  ) {
-    continue;
-  }
+  const addEpisode: Episode = {
+    title: episodeName,
+    number: episodeNum,
+    path: radioFilePath,
+  };
+
+  const isDuplicate = radioData.episodes.some(
+    (e) =>
+      e.title === addEpisode.title &&
+      e.number === addEpisode.number &&
+      e.path === addEpisode.path
+  );
+
+  if (isDuplicate) continue;
 
   // 追加して保存
-  data.items.push(addData);
-  Deno.writeTextFileSync(filePath, JSON.stringify(data, null, "\t"));
+  radioData.episodes.push(addEpisode);
+  Deno.writeTextFileSync(filePath, JSON.stringify(radioData, null, "\t"));
 
-  console.log(`[ADDED] ${title} #${num} ${url}`);
+  console.log(`[ADDED] ${title} #${episodeNum} ${radioFilePath}`);
 }
 
 console.log("[SUCCESS]");

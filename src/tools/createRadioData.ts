@@ -1,76 +1,84 @@
 import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.14-alpha/deno-dom-wasm.ts";
-import { RadioData, RadioItem } from "../type.ts";
-import { extractNumFromTitle, fetchRadioUrl } from "../util.ts";
+import { RadioData, Episode, ListItem } from "../type.ts";
+import { fetchRadioFilePath } from "../util/fetchRadioUrl.ts";
+import { parseTitle } from "../util/parseTitle.ts";
 
-//------------------------------------------------
-const radioName = "";
-const tagName = "";
-//------------------------------------------------
+async function createRadioData(radioName: string, tagName: string) {
+  const episodes: Episode[] = [];
 
-const items: RadioItem[] = [];
+  for (let pageNum = 1; ; pageNum++) {
+    console.log(`< page = ${pageNum} >`);
 
-for (let pageNum = 1;; pageNum++) {
-  console.log(`< page = ${pageNum} >`);
-
-  const res = await fetch(
-    `https://omocoro.jp/tag/${decodeURIComponent(tagName)}/page/${pageNum}/`,
-  );
-  if (res.status !== 200) {
-    console.log("[END]");
-    break;
-  }
-
-  const html = await res.text();
-  const doc = new DOMParser().parseFromString(html, "text/html");
-  if (!doc) throw new Error("解析エラー");
-
-  const data = doc.getElementsByClassName("title").map((e) => {
-    const href = e.getElementsByTagName("a")[0]?.getAttribute("href") || "";
-    return {
-      title: e.innerText,
-      url: href,
-    };
-  });
-
-  console.log(data);
-
-  for (const { title, url } of data) {
-    // ラジオではない
-    if (!/^https:\/\/omocoro.jp\/(radio|rensai)/.test(url)) continue;
-
-    // タイトルから話数を抽出
-    const num = extractNumFromTitle(title, radioName);
-    if (!num) {
-      console.log(`[NOT FOUND] ${title}`);
-      continue;
+    const res = await fetch(
+      `https://omocoro.jp/tag/${decodeURIComponent(tagName)}/page/${pageNum}/`
+    );
+    if (res.status !== 200) {
+      console.log("[END]");
+      break;
     }
 
-    // ラジオのURLを取得
-    const radioUrl = await fetchRadioUrl(url);
-    if (radioUrl === "") continue;
+    const html = await res.text();
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    if (!doc) throw new Error("解析エラー");
 
-    console.log(`[GET] ${num} ${radioUrl}`);
-
-    // 2秒待つ
-    await new Promise((resolve) => setTimeout(resolve, 2000));
-
-    items.push({
-      title,
-      num,
-      url: radioUrl,
+    const data = doc.getElementsByClassName("title").map((e) => {
+      const href = e.getElementsByTagName("a")[0]?.getAttribute("href") || "";
+      return {
+        title: e.innerText,
+        url: href,
+      };
     });
+
+    console.log(data);
+
+    for (const { title, url } of data) {
+      // ラジオではない
+      if (!/^https:\/\/omocoro.jp\/(radio|rensai)/.test(url)) continue;
+
+      // タイトルから話数を抽出
+      const [episodeName, episodeNum] = parseTitle(title, radioName);
+      if (!episodeNum) {
+        console.log(`[NOT FOUND] ${title}`);
+        continue;
+      }
+
+      // 音声ファイルのパスを取得
+      const radioFilePath = await fetchRadioFilePath(url);
+      if (radioFilePath === "") continue;
+
+      console.log(`[GET] ${episodeNum} ${radioFilePath}`);
+
+      // 2秒待つ
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+
+      episodes.push({
+        title: episodeName,
+        number: episodeNum,
+        path: radioFilePath,
+      });
+    }
   }
+
+  const results: RadioData = {
+    name: radioName,
+    updated: new Date(),
+    episodes: episodes.sort((a, b) => a.number - b.number), // 昇順でソート
+  };
+
+  console.log(results);
+
+  Deno.writeTextFileSync(
+    `./docs/data/${radioName}.json`,
+    JSON.stringify(results, null, "\t")
+  );
 }
 
-const results: RadioData = {
-  name: radioName,
-  tag: tagName,
-  items: items.sort((a, b) => a.num - b.num), // 昇順でソート
-};
-
-console.log(results);
-
-Deno.writeTextFileSync(
-  `./docs/${radioName}.json`,
-  JSON.stringify(results, null, "\t"),
+const radioList: ListItem[] = JSON.parse(
+  Deno.readTextFileSync("./docs/list.json")
 );
+
+for (const radio of radioList) {
+  await createRadioData(radio.name, radio.tag);
+}
+
+console.log("[ SUCCESS!! ]");

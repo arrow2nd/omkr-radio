@@ -1,17 +1,17 @@
 export type RadioData = {
   name: string;
-  tag: string;
-  items: RadioItem[];
+  updated: Date;
+  episodes: Episode[];
 };
 
-export type RadioItem = {
+export type Episode = {
   title: string;
-  num: number;
-  url: string;
+  number: number;
+  path: string;
 };
 
 export type ListItem = {
   name: string;
-  keyword: string;
+  tag: string;
   onAir: boolean;
 };

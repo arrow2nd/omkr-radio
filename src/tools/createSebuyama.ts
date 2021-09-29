@@ -1,14 +1,13 @@
 import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.14-alpha/deno-dom-wasm.ts";
-import { RadioData, RadioItem } from "../type.ts";
+import { RadioData, Episode } from "../type.ts";
 
 //------------------------------------------------
 const radioName = "セブ山・永田の金曜ラジオ";
-const tagName = "金曜ラジオ";
 const numRegExp = `${radioName}！\?\(\\d\+\)`;
 const baseUrl = "https://omocoro.jp/rensai/45480/";
 //------------------------------------------------
 
-const items: RadioItem[] = [];
+const episodes: Episode[] = [];
 
 for (let i = 1; i < 6; i++) {
   console.log(`< page = ${i} >`);
@@ -29,33 +28,36 @@ for (let i = 1; i < 6; i++) {
     const href = e.getElementsByTagName("a")[0]?.getAttribute("href") || "";
     return {
       title: e.innerText,
-      url: href,
+      path: href,
     };
   });
 
   console.log(p);
 
-  for (const { title, url } of p) {
-    const matched = title.match(numRegExp);
-    if (!matched) continue;
+  for (const { title, path } of p) {
+    const matchedName = title.match(/「(.*)」/);
+    const episodeName = matchedName ? matchedName[1] : title;
 
-    items.push({
-      title,
-      num: Number(matched[1]),
-      url,
+    const episodeNum = title.match(numRegExp);
+    if (!episodeNum) continue;
+
+    episodes.push({
+      title: episodeName,
+      number: parseInt(episodeNum[1]),
+      path,
     });
   }
 }
 
 const results: RadioData = {
   name: radioName,
-  tag: tagName,
-  items: items.sort((a, b) => a.num - b.num), // 昇順でソート
+  updated: new Date(),
+  episodes: episodes.sort((a, b) => a.number - b.number), // 昇順でソート
 };
 
 console.log(results);
 
 Deno.writeTextFileSync(
-  `./docs/${radioName}.json`,
-  JSON.stringify(results, null, "\t"),
+  `./docs/data/${radioName}.json`,
+  JSON.stringify(results, null, "\t")
 );
