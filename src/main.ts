@@ -5,7 +5,7 @@ import { fetchRadioFilePath } from "./util/fetchRadioUrl.ts";
 import { parseTitle } from "./util/parseTitle.ts";
 
 const radioList: ListItem[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json")
+  Deno.readTextFileSync("./docs/list.json"),
 ).filter((e: ListItem) => e.onAir);
 
 // RSSフィードを取得
@@ -47,7 +47,7 @@ for (const { title, external_url } of feed.items) {
     (e) =>
       e.title === addEpisode.title &&
       e.number === addEpisode.number &&
-      e.path === addEpisode.path
+      e.path === addEpisode.path,
   );
 
   if (isDuplicate) continue;
