@@ -2,7 +2,9 @@
 
 [![UpdateData](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml)
 
-オモコロで配信されている Web ラジオのデータベース的なもの（自動更新）
+オモコロで配信されている Webラジオのデータライブラリ的なもの（自動更新）
+
+> [匿名Player++](https://github.com/arrow2nd/tokumei-player-pp) で使用しています
 
 ## メモ
 
