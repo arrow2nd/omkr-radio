@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "2021-09-29T08:37:48.255Z",
+  "updated": "2021-10-07T15:04:40.543Z",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -136,6 +136,11 @@
       "title": "たかがペヤングで大冒険するな",
       "number": 27,
       "path": "kamamicu/ks27/ks27.mp3"
+    },
+    {
+      "title": "恐山とみくのしんの天ぷら相撲",
+      "number": 28,
+      "path": "kamamicu/ks28/ks28.mp3"
     }
   ]
 }
