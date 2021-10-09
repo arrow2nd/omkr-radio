@@ -1,6 +1,6 @@
 {
   "name": "ソルジャーラジオ",
-  "updated": "2021-09-29T08:49:03.624Z",
+  "updated": "2021-10-09T15:05:33.825Z",
   "episodes": [
     {
       "title": "そんな装備で大丈夫か？",
@@ -46,6 +46,11 @@
       "title": "アイドルマスターシャイニーカラーズ",
       "number": 8,
       "path": "yoropen/soldier/009/soldier08.mp3"
+    },
+    {
+      "title": "鬼滅の刃",
+      "number": 9,
+      "path": "yoropen/soldier/010/soldier09.mp3"
     }
   ]
 }
