@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "2021-10-07T15:04:40.543Z",
+  "updated": "2021-10-14T15:10:25.442Z",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -141,6 +141,11 @@
       "title": "恐山とみくのしんの天ぷら相撲",
       "number": 28,
       "path": "kamamicu/ks28/ks28.mp3"
+    },
+    {
+      "title": "夢と魔法の国みくのしんランド",
+      "number": 29,
+      "path": "kamamicu/ks29/ks29.mp3"
     }
   ]
 }
