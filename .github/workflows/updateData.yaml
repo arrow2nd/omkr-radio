@@ -21,7 +21,7 @@ jobs:
         run: deno run --allow-net --allow-read --allow-write ./src/main.ts
 
       - name: Deno fmt
-        run: deno fmt .
+        run: deno fmt ./docs
 
       - name: Commit the changes
         uses: stefanzweifel/git-auto-commit-action@v4
