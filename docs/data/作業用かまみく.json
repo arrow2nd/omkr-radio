@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "2021-10-14T15:10:25.442Z",
+  "updated": "2021-10-21T15:07:17.524Z",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -146,6 +146,11 @@
       "title": "夢と魔法の国みくのしんランド",
       "number": 29,
       "path": "kamamicu/ks29/ks29.mp3"
+    },
+    {
+      "title": "超ノジコって何？",
+      "number": 30,
+      "path": "kamamicu/ks30/ks30.mp3"
     }
   ]
 }
