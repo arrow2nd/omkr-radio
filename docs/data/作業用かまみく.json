@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "2021-10-21T15:07:17.524Z",
+  "updated": "2021-10-28T15:10:22.300Z",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -151,6 +151,11 @@
       "title": "超ノジコって何？",
       "number": 30,
       "path": "kamamicu/ks30/ks30.mp3"
+    },
+    {
+      "title": "俺たちは勝つ",
+      "number": 31,
+      "path": "kamamicu/ks31/ks31.mp3"
     }
   ]
 }
