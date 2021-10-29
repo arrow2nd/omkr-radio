@@ -2,8 +2,8 @@ name: UpdateData
 
 on:
   schedule:
-    # 1時間毎
-    - cron: "0 * * * *"
+    # 2時間毎
+    - cron: "0 */2 * * *"
 
 jobs:
   build:
