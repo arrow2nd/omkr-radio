@@ -2,15 +2,15 @@
 
 [![UpdateData](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml)
 
-オモコロで配信されている Webラジオのデータライブラリ的なもの（自動更新）
+オモコロで配信されている Web ラジオのデータライブラリ的なもの（自動更新）
 
-> [匿名Player++](https://github.com/arrow2nd/tokumei-player-pp) で使用しています
+> [匿名 Player++](https://github.com/arrow2nd/tokumei-player-pp) で使用しています
 
 ## メモ
 
-### ラジオ一覧
+### ラジオ名一覧
 
-> https://arrow2nd.github.io/omkr-radio/list.json
+> https://arrow2nd.com/omkr-radio/list.json
 
 ```json
 [
@@ -22,15 +22,15 @@
 ]
 ```
 
-| プロパティ | 説明      |
-| ----- | ------- |
-| name  | ラジオ名    |
-| tag   | 検索用タグ名  |
-| onAir | 更新中かどうか |
+| プロパティ | 説明           |
+| ---------- | -------------- |
+| name       | ラジオ名       |
+| tag        | 検索用タグ名   |
+| onAir      | 更新中かどうか |
 
 ### エピソード一覧
 
-> https://arrow2nd.github.io/omkr-radio/data/{ラジオ名}.json
+> https://arrow2nd.com/omkr-radio/data/{ラジオ名}.json
 
 ```json
 {
@@ -46,11 +46,11 @@
 }
 ```
 
-| プロパティ             | 説明         |
-| ----------------- | ---------- |
-| name              | ラジオ名       |
-| updated           | 最終更新日（UTC） |
-| episodes          | エピソード      |
-| episodes / title  | エピソード名     |
-| episodes / number | エピソード数（話数） |
-| episodes / path   | 音声ファイルのパス  |
+| プロパティ      | 説明                 |
+| --------------- | -------------------- |
+| name            | ラジオ名             |
+| updated         | 最終更新日（UTC）    |
+| episodes        | エピソード           |
+| episodes.title  | エピソード名         |
+| episodes.number | エピソード数（話数） |
+| episodes.path   | 音声ファイルのパス   |
