@@ -6,11 +6,11 @@ import { parseTitle } from "../util/parseTitle.ts";
 async function createRadioData(radioName: string, tagName: string) {
   const episodes: Episode[] = [];
 
-  for (let pageNum = 1;; pageNum++) {
+  for (let pageNum = 1; ; pageNum++) {
     console.log(`< page = ${pageNum} >`);
 
     const res = await fetch(
-      `https://omocoro.jp/tag/${decodeURIComponent(tagName)}/page/${pageNum}/`,
+      `https://omocoro.jp/tag/${decodeURIComponent(tagName)}/page/${pageNum}/`
     );
     if (res.status !== 200) {
       console.log("[END]");
@@ -68,13 +68,13 @@ async function createRadioData(radioName: string, tagName: string) {
   console.log(results);
 
   Deno.writeTextFileSync(
-    `./docs/data/${radioName}.json`,
-    JSON.stringify(results, null, "\t"),
+    `./public/data/${radioName}.json`,
+    JSON.stringify(results, null, "\t")
   );
 }
 
 const radioList: ListItem[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json"),
+  Deno.readTextFileSync("./public/list.json")
 );
 
 for (const radio of radioList) {
