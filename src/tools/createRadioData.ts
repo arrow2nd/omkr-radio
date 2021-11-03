@@ -68,13 +68,13 @@ async function createRadioData(radioName: string, tagName: string) {
   console.log(results);
 
   Deno.writeTextFileSync(
-    `./public/data/${radioName}.json`,
+    `./assets/data/${radioName}.json`,
     JSON.stringify(results, null, "\t")
   );
 }
 
 const radioList: ListItem[] = JSON.parse(
-  Deno.readTextFileSync("./public/list.json")
+  Deno.readTextFileSync("./assets/list.json")
 );
 
 for (const radio of radioList) {
