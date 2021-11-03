@@ -10,7 +10,7 @@
 
 ### ラジオ名一覧
 
-> https://omkr-radio.vercel.app/list.json
+> https://omkr-radio.deno.dev/list
 
 ```json
 [
@@ -30,7 +30,7 @@
 
 ### エピソード一覧
 
-> https://omkr-radio.vercel.app/data/{ラジオ名}.json
+> https://omkr-radio.deno.dev/data/{ラジオ名}
 
 ```json
 {
