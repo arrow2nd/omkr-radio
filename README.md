@@ -4,13 +4,13 @@
 
 オモコロで配信されている Web ラジオのデータライブラリ的なもの（自動更新）
 
-> [匿名 Player++](https://github.com/arrow2nd/tokumei-player-pp) で使用しています
+> [匿名 Player++](https://github.com/arrow2nd/tokumei-player-pp) で使うために作りました。
 
 ## メモ
 
 ### ラジオ名一覧
 
-> https://arrow2nd.com/omkr-radio/list.json
+> https://omkr-radio.vercel.app/list.json
 
 ```json
 [
@@ -30,7 +30,7 @@
 
 ### エピソード一覧
 
-> https://arrow2nd.com/omkr-radio/data/{ラジオ名}.json
+> https://omkr-radio.vercel.app/data/{ラジオ名}.json
 
 ```json
 {
