@@ -1,61 +1,66 @@
 {
-  "name": "ソルジャーラジオ",
-  "updated": "2021-10-23T15:05:07.876Z",
-  "episodes": [
-    {
-      "title": "そんな装備で大丈夫か？",
-      "number": 0,
-      "path": "yoropen/soldier/001/soldier00.mp3"
-    },
-    {
-      "title": "僕は『スピードスター』になります",
-      "number": 1,
-      "path": "yoropen/soldier/002/soldier01.mp3"
-    },
-    {
-      "title": "鎧坂が窓をドン！ウオォォォ！",
-      "number": 2,
-      "path": "yoropen/soldier/003/soldier02.mp3"
-    },
-    {
-      "title": "ソルジャーロンパ　絶望のバイト先とポヨポヨの大学生",
-      "number": 3,
-      "path": "yoropen/soldier/004/soldier03.mp3"
-    },
-    {
-      "title": "能力者になれるレストランに行きました",
-      "number": 4,
-      "path": "yoropen/soldier/005/soldier04.mp3"
-    },
-    {
-      "title": "でかくなったな小僧......（物理）",
-      "number": 5,
-      "path": "yoropen/soldier/006/soldier05.mp3"
-    },
-    {
-      "title": "Fate/帰省バイト",
-      "number": 6,
-      "path": "yoropen/soldier/007/soldier06.mp3"
-    },
-    {
-      "title": "うっかり裏垢の名前言っちゃった",
-      "number": 7,
-      "path": "yoropen/soldier/008/soldier07.mp3"
-    },
-    {
-      "title": "アイドルマスターシャイニーカラーズ",
-      "number": 8,
-      "path": "yoropen/soldier/009/soldier08.mp3"
-    },
-    {
-      "title": "鬼滅の刃",
-      "number": 9,
-      "path": "yoropen/soldier/010/soldier09.mp3"
-    },
-    {
-      "title": "バールで壁を破壊するバイト",
-      "number": 10,
-      "path": "yoropen/soldier/011/soldier10.mp3"
-    }
-  ]
+	"name": "ソルジャーラジオ",
+	"updated": "2021-11-06T16:29:00.613Z",
+	"episodes": [
+		{
+			"title": "そんな装備で大丈夫か？",
+			"number": 0,
+			"path": "yoropen/soldier/001/soldier00.mp3"
+		},
+		{
+			"title": "僕は『スピードスター』になります",
+			"number": 1,
+			"path": "yoropen/soldier/002/soldier01.mp3"
+		},
+		{
+			"title": "鎧坂が窓をドン！ウオォォォ！",
+			"number": 2,
+			"path": "yoropen/soldier/003/soldier02.mp3"
+		},
+		{
+			"title": "ソルジャーロンパ　絶望のバイト先とポヨポヨの大学生",
+			"number": 3,
+			"path": "yoropen/soldier/004/soldier03.mp3"
+		},
+		{
+			"title": "能力者になれるレストランに行きました",
+			"number": 4,
+			"path": "yoropen/soldier/005/soldier04.mp3"
+		},
+		{
+			"title": "でかくなったな小僧......（物理）",
+			"number": 5,
+			"path": "yoropen/soldier/006/soldier05.mp3"
+		},
+		{
+			"title": "Fate/帰省バイト",
+			"number": 6,
+			"path": "yoropen/soldier/007/soldier06.mp3"
+		},
+		{
+			"title": "うっかり裏垢の名前言っちゃった",
+			"number": 7,
+			"path": "yoropen/soldier/008/soldier07.mp3"
+		},
+		{
+			"title": "アイドルマスターシャイニーカラーズ",
+			"number": 8,
+			"path": "yoropen/soldier/009/soldier08.mp3"
+		},
+		{
+			"title": "鬼滅の刃",
+			"number": 9,
+			"path": "yoropen/soldier/010/soldier09.mp3"
+		},
+		{
+			"title": "バールで壁を破壊するバイト",
+			"number": 10,
+			"path": "yoropen/soldier/011/soldier10.mp3"
+		},
+		{
+			"title": "街で見るオモコログッズはもう自然",
+			"number": 11,
+			"path": "yoropen/soldier/012/soldier11.mp3"
+		}
+	]
 }
