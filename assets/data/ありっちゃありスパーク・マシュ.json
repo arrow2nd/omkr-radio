@@ -1,86 +1,91 @@
 {
-  "name": "ありっちゃありスパーク・マシュ",
-  "updated": "2021-10-31T16:28:58.920Z",
-  "episodes": [
-    {
-      "title": "マシュが始まる",
-      "number": 1,
-      "path": "arimasyu/001/001mas.mp3"
-    },
-    {
-      "title": "ラーメンとは空気。中華そば多賀野を食べて",
-      "number": 2,
-      "path": "arimasyu/002/002mas.mp3"
-    },
-    {
-      "title": "娘にティアラを買えなかった男",
-      "number": 3,
-      "path": "arimasyu/003/003mas.mp3"
-    },
-    {
-      "title": "雷雨の中のグラサンの人について",
-      "number": 4,
-      "path": "arimasyu/004/004mas.mp3"
-    },
-    {
-      "title": "退屈は犯罪ではございません",
-      "number": 5,
-      "path": "arimasyu/005/005mas.mp3"
-    },
-    {
-      "title": "宇宙の真理が分かってしまった夜",
-      "number": 6,
-      "path": "arimasyu/006/006mas.mp3"
-    },
-    {
-      "title": "娘も出演！？ 原宿のひとりスパーク",
-      "number": 7,
-      "path": "arimasyu/007/007mas.mp3"
-    },
-    {
-      "title": "マリトッツォ食べ食べラジオ",
-      "number": 8,
-      "path": "arimasyu/008/008mas.mp3"
-    },
-    {
-      "title": "澄（すみ）ふわ",
-      "number": 9,
-      "path": "arimasyu/009/009mash.mp3"
-    },
-    {
-      "title": "ラビリンス　～迷宮～",
-      "number": 10,
-      "path": "arimasyu/010/010mash.mp3"
-    },
-    {
-      "title": "ベストネーム2021",
-      "number": 11,
-      "path": "arimasyu/011/011mash.mp3"
-    },
-    {
-      "title": "うんスジ通らせていただきます",
-      "number": 12,
-      "path": "arimasyu/012/012mash.mp3"
-    },
-    {
-      "title": "キングオブコントの感想は老いの始まり",
-      "number": 13,
-      "path": "arimasyu/013/013mash.mp3"
-    },
-    {
-      "title": "脳に操られている者たちのラジオ",
-      "number": 14,
-      "path": "arimasyu/014/014mash.mp3"
-    },
-    {
-      "title": "【40歳のディズニーラジオ】ミラコさせていただきましたっ！",
-      "number": 15,
-      "path": "arimasyu/015/015mash.mp3"
-    },
-    {
-      "title": "すごい酒飲んだ次の日、めっちゃ晴れてる説",
-      "number": 16,
-      "path": "arimasyu/016/016mash.mp3"
-    }
-  ]
+	"name": "ありっちゃありスパーク・マシュ",
+	"updated": "2021-11-07T16:28:58.628Z",
+	"episodes": [
+		{
+			"title": "マシュが始まる",
+			"number": 1,
+			"path": "arimasyu/001/001mas.mp3"
+		},
+		{
+			"title": "ラーメンとは空気。中華そば多賀野を食べて",
+			"number": 2,
+			"path": "arimasyu/002/002mas.mp3"
+		},
+		{
+			"title": "娘にティアラを買えなかった男",
+			"number": 3,
+			"path": "arimasyu/003/003mas.mp3"
+		},
+		{
+			"title": "雷雨の中のグラサンの人について",
+			"number": 4,
+			"path": "arimasyu/004/004mas.mp3"
+		},
+		{
+			"title": "退屈は犯罪ではございません",
+			"number": 5,
+			"path": "arimasyu/005/005mas.mp3"
+		},
+		{
+			"title": "宇宙の真理が分かってしまった夜",
+			"number": 6,
+			"path": "arimasyu/006/006mas.mp3"
+		},
+		{
+			"title": "娘も出演！？ 原宿のひとりスパーク",
+			"number": 7,
+			"path": "arimasyu/007/007mas.mp3"
+		},
+		{
+			"title": "マリトッツォ食べ食べラジオ",
+			"number": 8,
+			"path": "arimasyu/008/008mas.mp3"
+		},
+		{
+			"title": "澄（すみ）ふわ",
+			"number": 9,
+			"path": "arimasyu/009/009mash.mp3"
+		},
+		{
+			"title": "ラビリンス　～迷宮～",
+			"number": 10,
+			"path": "arimasyu/010/010mash.mp3"
+		},
+		{
+			"title": "ベストネーム2021",
+			"number": 11,
+			"path": "arimasyu/011/011mash.mp3"
+		},
+		{
+			"title": "うんスジ通らせていただきます",
+			"number": 12,
+			"path": "arimasyu/012/012mash.mp3"
+		},
+		{
+			"title": "キングオブコントの感想は老いの始まり",
+			"number": 13,
+			"path": "arimasyu/013/013mash.mp3"
+		},
+		{
+			"title": "脳に操られている者たちのラジオ",
+			"number": 14,
+			"path": "arimasyu/014/014mash.mp3"
+		},
+		{
+			"title": "【40歳のディズニーラジオ】ミラコさせていただきましたっ！",
+			"number": 15,
+			"path": "arimasyu/015/015mash.mp3"
+		},
+		{
+			"title": "すごい酒飲んだ次の日、めっちゃ晴れてる説",
+			"number": 16,
+			"path": "arimasyu/016/016mash.mp3"
+		},
+		{
+			"title": "麒麟・川島さんのキムチ一位",
+			"number": 17,
+			"path": "arimasyu/017/017mash.mp3"
+		}
+	]
 }
