@@ -1,6 +1,6 @@
 {
 	"name": "作業用かまみく",
-	"updated": "2021-11-04T16:29:56.920Z",
+	"updated": "2021-11-11T16:30:56.094Z",
 	"episodes": [
 		{
 			"title": "ここが本当の出発点",
@@ -161,6 +161,11 @@
 			"title": "麦わらのルヒィーとみくのしんのIT海賊団",
 			"number": 32,
 			"path": "kamamicu/ks32/ks32.mp3"
+		},
+		{
+			"title": "泣いたみくのしんと脱糞実況主",
+			"number": 33,
+			"path": "kamamicu/ks33/ks33.mp3"
 		}
 	]
 }
