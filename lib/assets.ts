@@ -6,14 +6,15 @@ const assets: ListItem[] = JSON.parse(
 
 export function hasAsset(passname: string): boolean {
   const name = decodeURIComponent(passname.replace(/\/|data/g, ""));
-
   return name === "list" || assets.find((e) => name === e.name) !== undefined;
 }
 
 export async function getAsset(passname: string): Promise<Response> {
-  const file = await Deno.readTextFile(`./assets${decodeURI(passname)}.json`);
+  const decoder = new TextDecoder("utf-8");
+  const data = await Deno.readFile(`./assets${decodeURI(passname)}.json`);
+  const json = decoder.decode(data);
 
-  return new Response(file, {
+  return new Response(json, {
     headers: { "content-type": "application/json" },
   });
 }
