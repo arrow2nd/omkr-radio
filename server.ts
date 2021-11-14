@@ -1,8 +1,8 @@
-import { listenAndServe } from "https://deno.land/std@0.112.0/http/server.ts";
+import { serve } from "https://deno.land/std@0.114.0/http/server.ts";
 import { hasAsset, getAsset } from "./lib/assets.ts";
 
-async function handleRequest(request: Request) {
-  const { pathname } = new URL(request.url);
+serve(async (req) => {
+  const { pathname } = new URL(req.url);
 
   if (hasAsset(pathname)) {
     return getAsset(pathname);
@@ -14,6 +14,4 @@ async function handleRequest(request: Request) {
     status: 404,
     headers: { "content-type": "text/html; charset=utf-8" },
   });
-}
-
-await listenAndServe(":8080", (req) => handleRequest(req));
+});

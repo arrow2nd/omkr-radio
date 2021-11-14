@@ -4,7 +4,7 @@
 
 オモコロで配信されている Web ラジオのデータライブラリ的なもの（自動更新）
 
-> [匿名 Player++](https://github.com/arrow2nd/tokumei-player-pp) で使うために作りました。
+> [匿名 Player++](https://github.com/arrow2nd/tokumei-player-pp) で使ってます
 
 ## メモ
 
