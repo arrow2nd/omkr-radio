@@ -29,7 +29,12 @@ for (const { title, external_url } of feed.items) {
     continue;
   }
 
+  // 音源ファイルのパスを取得
   const radioFilePath = await fetchRadioFilePath(external_url);
+  if (!radioFilePath) {
+    console.log(`[NO AUDIO FILE] ${title}`);
+    continue;
+  }
 
   // エピソード名・話数を抽出
   const [episodeName, episodeNum] = parseTitle(title, radioName);
@@ -40,14 +45,13 @@ for (const { title, external_url } of feed.items) {
 
   const filePath = `./assets/data/${radioName}.json`;
   const radioData: RadioData = JSON.parse(Deno.readTextFileSync(filePath));
-
-  // 重複確認
   const addEpisode: Episode = {
     title: episodeName,
     number: episodeNum,
     path: radioFilePath,
   };
 
+  // 重複確認
   const isDuplicate = radioData.episodes.some(
     (e) =>
       e.title === addEpisode.title &&
