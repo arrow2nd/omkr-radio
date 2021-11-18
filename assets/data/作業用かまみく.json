@@ -1,6 +1,6 @@
 {
 	"name": "作業用かまみく",
-	"updated": "2021-11-11T16:30:56.094Z",
+	"updated": "2021-11-18T16:33:05.257Z",
 	"episodes": [
 		{
 			"title": "ここが本当の出発点",
@@ -166,6 +166,11 @@
 			"title": "泣いたみくのしんと脱糞実況主",
 			"number": 33,
 			"path": "kamamicu/ks33/ks33.mp3"
+		},
+		{
+			"title": "2人だけの世界",
+			"number": 34,
+			"path": "kamamicu/ks34/ks34.mp3"
 		}
 	]
 }
