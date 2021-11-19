@@ -4,7 +4,9 @@ import { Episode, ListItem, RadioData } from "./type.ts";
 import { fetchRadioFilePath } from "./util/fetchRadioUrl.ts";
 import { parseTitle } from "./util/parseTitle.ts";
 
-const radioList: ListItem[] = JSON.parse(Deno.readTextFileSync("./docs/list.json")).filter((e: ListItem) => e.onAir);
+const radioList: ListItem[] = JSON.parse(
+  Deno.readTextFileSync("./docs/list.json"),
+).filter((e: ListItem) => e.onAir);
 
 // RSSフィードを取得
 const res = await fetch("https://omocoro.jp/feed");
@@ -55,7 +57,7 @@ for (const { title, external_url } of feed.items) {
     (e) =>
       e.title === addEpisode.title &&
       e.number === addEpisode.number &&
-      e.path === addEpisode.path
+      e.path === addEpisode.path,
   );
   if (isDuplicate) continue;
 

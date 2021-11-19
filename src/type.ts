@@ -11,7 +11,7 @@ export type Episode = {
 };
 
 export type ListItem = {
-  id: string,
+  id: string;
   name: string;
   tag: string;
   onAir: boolean;

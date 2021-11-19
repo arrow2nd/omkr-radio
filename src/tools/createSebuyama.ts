@@ -43,7 +43,7 @@ for (let i = 1; i < 6; i++) {
     if (!episodeNum) continue;
 
     const radioFilePath = path.match(
-      /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/
+      /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/,
     );
     if (!radioFilePath) continue;
 
@@ -65,5 +65,5 @@ console.log(results);
 
 Deno.writeTextFileSync(
   `./docs/data/${radioId}.json`,
-  JSON.stringify(results, null, "\t")
+  JSON.stringify(results, null, "\t"),
 );
