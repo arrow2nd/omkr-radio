@@ -1,6 +1,6 @@
 export type RadioData = {
   name: string;
-  updated: Date;
+  updated: string;
   episodes: Episode[];
 };
 

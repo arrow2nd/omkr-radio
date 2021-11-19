@@ -21,9 +21,9 @@ for (const { title, external_url } of feed.items) {
   // ラジオ以外の記事ならスキップ
   if (!title || !external_url || !external_url.includes("radio")) continue;
 
-  // ラジオのリストからラジオ名を取得
-  const radioName = radioList.find((e) => title.includes(e.name))?.name;
-  if (!radioName) {
+  // ラジオのリストから情報を取得
+  const radio = radioList.find((e) => title.includes(e.name));
+  if (!radio) {
     console.log(`[NO SUPPORT] ${title}`);
     continue;
   }
@@ -36,13 +36,13 @@ for (const { title, external_url } of feed.items) {
   }
 
   // 記事のタイトルからエピソード名・話数を抽出
-  const [episodeName, episodeNum] = parseTitle(title, radioName);
+  const [episodeName, episodeNum] = parseTitle(title, radio.name);
   if (!episodeNum) {
     console.log(`[NOT FOUND] ${title}`);
     continue;
   }
 
-  const filePath = `./docs/data/${radioName}.json`;
+  const filePath = `./docs/data/${radio.id}.json`;
   const radioData: RadioData = JSON.parse(Deno.readTextFileSync(filePath));
   const addEpisode: Episode = {
     title: episodeName,
@@ -60,7 +60,7 @@ for (const { title, external_url } of feed.items) {
   if (isDuplicate) continue;
 
   // 追加して保存
-  radioData.updated = new Date();
+  radioData.updated = new Date().toUTCString();
   radioData.episodes.push(addEpisode);
   Deno.writeTextFileSync(filePath, JSON.stringify(radioData, null, "\t"));
 

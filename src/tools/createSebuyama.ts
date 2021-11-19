@@ -57,7 +57,7 @@ for (let i = 1; i < 6; i++) {
 
 const results: RadioData = {
   name: radioName,
-  updated: new Date(),
+  updated: new Date().toUTCString(),
   episodes: episodes.sort((a, b) => a.number - b.number), // 昇順でソート
 };
 
