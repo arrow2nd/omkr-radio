@@ -58,6 +58,6 @@ const results: RadioData = {
 console.log(results);
 
 Deno.writeTextFileSync(
-  `./assets/data/${radioName}.json`,
+  `./docs/data/${radioName}.json`,
   JSON.stringify(results, null, "\t")
 );

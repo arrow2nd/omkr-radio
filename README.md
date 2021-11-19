@@ -10,7 +10,7 @@
 
 ### ラジオ名一覧
 
-> https://omkr-radio.deno.dev/list
+> https://arrow2nd.com/omkr-radio/list.json
 
 ```json
 [
@@ -30,7 +30,7 @@
 
 ### エピソード一覧
 
-> https://omkr-radio.deno.dev/data/{ラジオ名}
+> https://arrow2nd.com/omkr-radio/data/{ラジオ名}.json
 
 ```json
 {

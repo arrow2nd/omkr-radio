@@ -32,19 +32,19 @@ async function createRadioData(radioName: string, tagName: string) {
     console.log(data);
 
     for (const { title, url } of data) {
-      // ラジオではない
+      // ラジオの記事ではないならスキップ
       if (!/^https:\/\/omocoro.jp\/(radio|rensai)/.test(url)) continue;
 
-      // タイトルから話数を抽出
+      // タイトル名から話数を抽出
       const [episodeName, episodeNum] = parseTitle(title, radioName);
       if (!episodeNum) {
         console.log(`[NOT FOUND] ${title}`);
         continue;
       }
 
-      // 音声ファイルのパスを取得
+      // 音源ファイルのパスを取得
       const radioFilePath = await fetchRadioFilePath(url);
-      if (radioFilePath === "") continue;
+      if (!radioFilePath) continue;
 
       console.log(`[GET] ${episodeNum} ${radioFilePath}`);
 
@@ -68,13 +68,13 @@ async function createRadioData(radioName: string, tagName: string) {
   console.log(results);
 
   Deno.writeTextFileSync(
-    `./assets/data/${radioName}.json`,
+    `./docs/data/${radioName}.json`,
     JSON.stringify(results, null, "\t")
   );
 }
 
 const radioList: ListItem[] = JSON.parse(
-  Deno.readTextFileSync("./assets/list.json")
+  Deno.readTextFileSync("./docs/list.json")
 );
 
 for (const radio of radioList) {

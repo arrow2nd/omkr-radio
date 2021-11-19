@@ -4,9 +4,7 @@ import { Episode, ListItem, RadioData } from "./type.ts";
 import { fetchRadioFilePath } from "./util/fetchRadioUrl.ts";
 import { parseTitle } from "./util/parseTitle.ts";
 
-const radioList: ListItem[] = JSON.parse(
-  Deno.readTextFileSync("./assets/list.json")
-).filter((e: ListItem) => e.onAir);
+const radioList: ListItem[] = JSON.parse(Deno.readTextFileSync("./docs/list.json")).filter((e: ListItem) => e.onAir);
 
 // RSSフィードを取得
 const res = await fetch("https://omocoro.jp/feed");
@@ -15,14 +13,15 @@ if (!res.ok) {
   Deno.exit(0);
 }
 
+// RSSをパース
 const xml = await res.text();
 const { feed } = await deserializeFeed(xml, { outputJsonFeed: true });
 
 for (const { title, external_url } of feed.items) {
-  // ラジオ以外ならスキップ
+  // ラジオ以外の記事ならスキップ
   if (!title || !external_url || !external_url.includes("radio")) continue;
 
-  // ラジオ名をリストから取得
+  // ラジオのリストからラジオ名を取得
   const radioName = radioList.find((e) => title.includes(e.name))?.name;
   if (!radioName) {
     console.log(`[NO SUPPORT] ${title}`);
@@ -36,14 +35,14 @@ for (const { title, external_url } of feed.items) {
     continue;
   }
 
-  // エピソード名・話数を抽出
+  // 記事のタイトルからエピソード名・話数を抽出
   const [episodeName, episodeNum] = parseTitle(title, radioName);
   if (!episodeNum) {
     console.log(`[NOT FOUND] ${title}`);
     continue;
   }
 
-  const filePath = `./assets/data/${radioName}.json`;
+  const filePath = `./docs/data/${radioName}.json`;
   const radioData: RadioData = JSON.parse(Deno.readTextFileSync(filePath));
   const addEpisode: Episode = {
     title: episodeName,
@@ -58,7 +57,6 @@ for (const { title, external_url } of feed.items) {
       e.number === addEpisode.number &&
       e.path === addEpisode.path
   );
-
   if (isDuplicate) continue;
 
   // 追加して保存
