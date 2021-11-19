@@ -3,14 +3,18 @@ import { Episode, ListItem, RadioData } from "../type.ts";
 import { fetchRadioFilePath } from "../util/fetchRadioUrl.ts";
 import { parseTitle } from "../util/parseTitle.ts";
 
-async function createRadioData(radioName: string, tagName: string) {
+async function createRadioData(
+  radioId: string,
+  radioName: string,
+  tagName: string,
+) {
   const episodes: Episode[] = [];
 
-  for (let pageNum = 1; ; pageNum++) {
+  for (let pageNum = 1;; pageNum++) {
     console.log(`< page = ${pageNum} >`);
 
     const res = await fetch(
-      `https://omocoro.jp/tag/${decodeURIComponent(tagName)}/page/${pageNum}/`
+      `https://omocoro.jp/tag/${decodeURIComponent(tagName)}/page/${pageNum}/`,
     );
     if (res.status !== 200) {
       console.log("[END]");
@@ -61,24 +65,24 @@ async function createRadioData(radioName: string, tagName: string) {
 
   const results: RadioData = {
     name: radioName,
-    updated: new Date(),
+    updated: new Date().toUTCString(),
     episodes: episodes.sort((a, b) => a.number - b.number), // 昇順でソート
   };
 
   console.log(results);
 
   Deno.writeTextFileSync(
-    `./docs/data/${radioName}.json`,
-    JSON.stringify(results, null, "\t")
+    `./docs/data/${radioId}.json`,
+    JSON.stringify(results, null, "\t"),
   );
 }
 
 const radioList: ListItem[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json")
+  Deno.readTextFileSync("./docs/list.json"),
 );
 
 for (const radio of radioList) {
-  await createRadioData(radio.name, radio.tag);
+  await createRadioData(radio.id, radio.name, radio.tag);
 }
 
 console.log("[ SUCCESS!! ]");

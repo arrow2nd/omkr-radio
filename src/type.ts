@@ -1,6 +1,6 @@
 export type RadioData = {
   name: string;
-  updated: Date;
+  updated: string;
   episodes: Episode[];
 };
 
@@ -11,6 +11,7 @@ export type Episode = {
 };
 
 export type ListItem = {
+  id: string;
   name: string;
   tag: string;
   onAir: boolean;

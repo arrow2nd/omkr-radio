@@ -15,6 +15,7 @@
 ```json
 [
   {
+    "id": "tokumei",
     "name": "ARuFa・恐山の匿名ラジオ",
     "tag": "匿名ラジオ",
     "onAir": true
@@ -22,20 +23,21 @@
 ]
 ```
 
-| プロパティ | 説明           |
-| ---------- | -------------- |
-| name       | ラジオ名       |
-| tag        | 検索用タグ名   |
-| onAir      | 更新中かどうか |
+| プロパティ | 説明      |
+| ----- | ------- |
+| id    | ラジオ ID  |
+| name  | ラジオ名    |
+| tag   | 検索用タグ名  |
+| onAir | 更新中かどうか |
 
 ### エピソード一覧
 
-> https://arrow2nd.com/omkr-radio/data/{ラジオ名}.json
+> https://arrow2nd.com/omkr-radio/data/{ラジオID}.json
 
 ```json
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "2021-09-29T08:36:47.532Z",
+  "updated": "Fri, 19 Nov 2021 10:45:06 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -46,11 +48,11 @@
 }
 ```
 
-| プロパティ      | 説明                 |
-| --------------- | -------------------- |
-| name            | ラジオ名             |
-| updated         | 最終更新日（UTC）    |
-| episodes        | エピソード           |
-| episodes.title  | エピソード名         |
-| episodes.number | エピソード数（話数） |
-| episodes.path   | 音声ファイルのパス   |
+| プロパティ           | 説明                                               |
+| --------------- | ------------------------------------------------ |
+| name            | ラジオ名                                             |
+| updated         | 最終更新日（UTC）                                       |
+| episodes        | エピソード                                            |
+| episodes.title  | エピソード名                                           |
+| episodes.number | エピソード数（話数）                                       |
+| episodes.path   | 音源ファイルのパス（`https://omocoro.heteml.net/radio/`以下） |

@@ -2,6 +2,7 @@ import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.14-alpha/deno-dom-w
 import { Episode, RadioData } from "../type.ts";
 
 //------------------------------------------------
+const radioId = "sebunagata";
 const radioName = "セブ山・永田の金曜ラジオ";
 const numRegExp = `${radioName}！\?\(\\d\+\)`;
 const baseUrl = "https://omocoro.jp/rensai/45480/";
@@ -41,23 +42,28 @@ for (let i = 1; i < 6; i++) {
     const episodeNum = title.match(numRegExp);
     if (!episodeNum) continue;
 
+    const radioFilePath = path.match(
+      /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/,
+    );
+    if (!radioFilePath) continue;
+
     episodes.push({
       title: episodeName,
       number: parseInt(episodeNum[1]),
-      path,
+      path: radioFilePath[1],
     });
   }
 }
 
 const results: RadioData = {
   name: radioName,
-  updated: new Date(),
+  updated: new Date().toUTCString(),
   episodes: episodes.sort((a, b) => a.number - b.number), // 昇順でソート
 };
 
 console.log(results);
 
 Deno.writeTextFileSync(
-  `./docs/data/${radioName}.json`,
-  JSON.stringify(results, null, "\t")
+  `./docs/data/${radioId}.json`,
+  JSON.stringify(results, null, "\t"),
 );
