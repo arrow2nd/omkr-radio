@@ -1,9 +1,8 @@
 /**
  * タイトルテキストをパース
- *
  * @param title タイトル
  * @param radioName ラジオ名
- * @returns エピソード名, 話数
+ * @returns [エピソード名, 話数]
  */
 export function parseTitle(
   title: string,

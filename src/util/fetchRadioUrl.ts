@@ -1,8 +1,7 @@
 /**
  * 記事ページから音源ファイルのパスを抽出
- *
  * @param url 記事のURL
- * @returns 音源ファイルまでのパス（radio 以下）
+ * @return 音源ファイルまでのパス（radio 以下）
  */
 export async function fetchRadioFilePath(
   url: string
