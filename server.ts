@@ -8,8 +8,7 @@ serve(async (req) => {
     return getAsset(pathname);
   }
 
-  const body = await Deno.readFile("./assets/404.html");
-
+  const body = await Deno.readTextFile("./assets/404.html");
   return new Response(body, {
     status: 404,
     headers: { "content-type": "text/html; charset=utf-8" },
