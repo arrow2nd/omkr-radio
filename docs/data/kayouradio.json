@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Fri, 19 Nov 2021 11:05:42 GMT",
+  "updated": "Mon, 22 Nov 2021 16:32:34 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -496,6 +496,11 @@
       "title": "コーヒーとスパイスカレーと自己矛盾",
       "number": 99,
       "path": "kayouradio/099/099.mp3"
+    },
+    {
+      "title": "景色って一番つまらないかもしれない",
+      "number": 101,
+      "path": "kayouradio/101/101.mp3"
     }
   ]
 }
