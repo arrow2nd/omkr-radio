@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Fri, 19 Nov 2021 10:54:45 GMT",
+  "updated": "Wed, 24 Nov 2021 16:30:50 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1386,6 +1386,11 @@
       "title": "アンパンマンワールドで一番の危険人物は誰！？",
       "number": 281,
       "path": "tokumei/281.mp3"
+    },
+    {
+      "title": "インタビューが上手になるゲームを考えたからやってみようぜ！なあ！おい！",
+      "number": 282,
+      "path": "tokumei/282.mp3"
     }
   ]
 }
