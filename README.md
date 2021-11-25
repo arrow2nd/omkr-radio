@@ -1,10 +1,9 @@
 # omkr-radio
 
-[![UpdateData](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml)
-
 オモコロで配信されている Web ラジオのデータライブラリ的なもの（自動更新）
 
-> [匿名 Player++](https://github.com/arrow2nd/tokumei-player-pp) で使ってます
+[![UpdateData](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml)
+[![GitHub license](https://img.shields.io/github/license/arrow2nd/omkr-radio)](https://github.com/arrow2nd/omkr-radio/blob/main/LICENSE)
 
 ## メモ
 
@@ -23,12 +22,12 @@
 ]
 ```
 
-| プロパティ | 説明      |
-| ----- | ------- |
-| id    | ラジオ ID  |
-| name  | ラジオ名    |
-| tag   | 検索用タグ名  |
-| onAir | 更新中かどうか |
+| プロパティ | 説明           |
+| ---------- | -------------- |
+| id         | ラジオ ID      |
+| name       | ラジオ名       |
+| tag        | 検索用タグ名   |
+| onAir      | 更新中かどうか |
 
 ### エピソード一覧
 
@@ -48,11 +47,11 @@
 }
 ```
 
-| プロパティ           | 説明                                               |
-| --------------- | ------------------------------------------------ |
-| name            | ラジオ名                                             |
-| updated         | 最終更新日（UTC）                                       |
-| episodes        | エピソード                                            |
-| episodes.title  | エピソード名                                           |
-| episodes.number | エピソード数（話数）                                       |
+| プロパティ      | 説明                                                          |
+| --------------- | ------------------------------------------------------------- |
+| name            | ラジオ名                                                      |
+| updated         | 最終更新日（UTC）                                             |
+| episodes        | エピソード                                                    |
+| episodes.title  | エピソード名                                                  |
+| episodes.number | エピソード数（話数）                                          |
 | episodes.path   | 音源ファイルのパス（`https://omocoro.heteml.net/radio/`以下） |
