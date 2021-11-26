@@ -1,6 +1,6 @@
 {
   "name": "ラジオ・モンゴルナイトフィーバー",
-  "updated": "Fri, 19 Nov 2021 16:30:04 GMT",
+  "updated": "Fri, 26 Nov 2021 16:30:39 GMT",
   "episodes": [
     {
       "title": "GWと地獄のカフェイン断ち",
@@ -401,6 +401,11 @@
       "title": "ぼかぁ幸せだなぁ",
       "number": 87,
       "path": "mongol/087/20211120.mp3"
+    },
+    {
+      "title": "お正月もちスケジュール発表しちゃう",
+      "number": 88,
+      "path": "mongol/088/20211127.mp3"
     }
   ]
 }
