@@ -1,6 +1,6 @@
 {
   "name": "ラジオ漫画犬咆哮編",
-  "updated": "Fri, 19 Nov 2021 11:06:39 GMT",
+  "updated": "Sat, 27 Nov 2021 16:29:41 GMT",
   "episodes": [
     {
       "title": "私を樹海に連れてっての巻",
@@ -71,6 +71,11 @@
       "title": "未解決ゾロリの巻",
       "number": 14,
       "path": "maninu/182/182.mp3"
+    },
+    {
+      "title": "めばえ…の巻",
+      "number": 15,
+      "path": "maninu/183/183.mp3"
     }
   ]
 }
