@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Sun, 21 Nov 2021 16:29:23 GMT",
+  "updated": "Sun, 28 Nov 2021 16:29:28 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -96,6 +96,11 @@
       "title": "最終章直前！ 棒ネコを読んで欲しいけど、とりとめがなくなった回",
       "number": 19,
       "path": "arimasyu/019/019mash.mp3"
+    },
+    {
+      "title": "遅来（ちくる）の時代、始まりました",
+      "number": 20,
+      "path": "arimasyu/020/020mash.mp3"
     }
   ]
 }
