@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 22 Nov 2021 16:32:34 GMT",
+  "updated": "Mon, 29 Nov 2021 16:34:29 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -501,6 +501,11 @@
       "title": "景色って一番つまらないかもしれない",
       "number": 101,
       "path": "kayouradio/101/101.mp3"
+    },
+    {
+      "title": "老人のいる良いラーメン屋",
+      "number": 102,
+      "path": "kayouradio/102/102.mp3"
     }
   ]
 }
