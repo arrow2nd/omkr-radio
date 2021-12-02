@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "Thu, 25 Nov 2021 16:30:36 GMT",
+  "updated": "Thu, 02 Dec 2021 16:36:28 GMT",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -176,6 +176,11 @@
       "title": "立ち上がれ！ゆでたまご戦士たち",
       "number": 35,
       "path": "kamamicu/ks35/ks35.mp3"
+    },
+    {
+      "title": "あつまれ！ゆでたまご戦士たち",
+      "number": 36,
+      "path": "kamamicu/ks36/ks36.mp3"
     }
   ]
 }
