@@ -1,6 +1,6 @@
 {
   "name": "ソルジャーラジオ",
-  "updated": "Sat, 20 Nov 2021 16:29:38 GMT",
+  "updated": "Sat, 04 Dec 2021 16:30:45 GMT",
   "episodes": [
     {
       "title": "僕は『スピードスター』になります",
@@ -61,6 +61,11 @@
       "title": "かつて存在した『黒目線村』の話",
       "number": 12,
       "path": "yoropen/soldier/013/soldier12.mp3"
+    },
+    {
+      "title": "エレベーターの落書き / 友達のライブ",
+      "number": 13,
+      "path": "yoropen/soldier/014/soldier13.mp3"
     }
   ]
 }
