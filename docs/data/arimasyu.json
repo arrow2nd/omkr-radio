@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Sun, 28 Nov 2021 16:29:28 GMT",
+  "updated": "Sun, 05 Dec 2021 16:30:10 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -100,6 +100,11 @@
     {
       "title": "遅来（ちくる）の時代、始まりました",
       "number": 20,
+      "path": "arimasyu/020/020mash.mp3"
+    },
+    {
+      "title": "アバランチ・ファーザー",
+      "number": 21,
       "path": "arimasyu/020/020mash.mp3"
     }
   ]
