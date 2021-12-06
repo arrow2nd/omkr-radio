@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 29 Nov 2021 16:34:29 GMT",
+  "updated": "Mon, 06 Dec 2021 16:27:30 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -506,6 +506,11 @@
       "title": "老人のいる良いラーメン屋",
       "number": 102,
       "path": "kayouradio/102/102.mp3"
+    },
+    {
+      "title": "絶頂睡眠＆可能性の部屋",
+      "number": 103,
+      "path": "kayouradio/103/103.mp3"
     }
   ]
 }
