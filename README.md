@@ -9,7 +9,7 @@
 
 ### ラジオ名一覧
 
-> https://arrow2nd.com/omkr-radio/list.json
+> https://arrow2nd.github.io/omkr-radio/list.json
 
 ```json
 [
@@ -31,7 +31,7 @@
 
 ### エピソード一覧
 
-> https://arrow2nd.com/omkr-radio/data/{ラジオID}.json
+> https://arrow2nd.github.io/omkr-radio/data/{ラジオID}.json
 
 ```json
 {
