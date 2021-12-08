@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 01 Dec 2021 16:36:27 GMT",
+  "updated": "Wed, 08 Dec 2021 16:30:43 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1396,6 +1396,11 @@
       "title": "相手よりも深い『あるある』を言い合って、『ないない』直前まで攻めるチキンレースをしよう！",
       "number": 283,
       "path": "tokumei/283.mp3"
+    },
+    {
+      "title": "優柔不断なARuFaの背中を押して『食器洗い乾燥機』を買わせよう！",
+      "number": 284,
+      "path": "tokumei/284.mp3"
     }
   ]
 }
