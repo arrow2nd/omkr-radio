@@ -1,6 +1,6 @@
 {
   "name": "ラジオ・モンゴルナイトフィーバー",
-  "updated": "Fri, 03 Dec 2021 16:31:17 GMT",
+  "updated": "Fri, 10 Dec 2021 16:31:25 GMT",
   "episodes": [
     {
       "title": "GWと地獄のカフェイン断ち",
@@ -411,6 +411,11 @@
       "title": "お寿司の試食会に行っちゃった",
       "number": 89,
       "path": "mongol/089/20211204.mp3"
+    },
+    {
+      "title": "イーーーー！！！！",
+      "number": 90,
+      "path": "mongol/090/20211211.mp3"
     }
   ]
 }
