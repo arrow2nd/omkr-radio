@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Mon, 06 Dec 2021 01:06:57 GMT",
+  "updated": "Sun, 12 Dec 2021 16:30:03 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -111,6 +111,11 @@
       "title": "アバランチ・ファーザー",
       "number": 21,
       "path": "arimasyu/021/021mash.mp3"
+    },
+    {
+      "title": "小6の精神を取り戻せ",
+      "number": 22,
+      "path": "arimasyu/022/022mash.mp3"
     }
   ]
 }
