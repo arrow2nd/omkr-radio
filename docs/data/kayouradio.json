@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 06 Dec 2021 16:27:30 GMT",
+  "updated": "Mon, 13 Dec 2021 16:32:08 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -511,6 +511,11 @@
       "title": "絶頂睡眠＆可能性の部屋",
       "number": 103,
       "path": "kayouradio/103/103.mp3"
+    },
+    {
+      "title": "タートルズの車、実家にくる",
+      "number": 104,
+      "path": "kayouradio/104/104.mp3"
     }
   ]
 }
