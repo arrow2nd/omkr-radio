@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 08 Dec 2021 16:30:43 GMT",
+  "updated": "Wed, 15 Dec 2021 16:31:24 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1401,6 +1401,11 @@
       "title": "優柔不断なARuFaの背中を押して『食器洗い乾燥機』を買わせよう！",
       "number": 284,
       "path": "tokumei/284.mp3"
+    },
+    {
+      "title": "二人のどちらが『人間のフリをしたロボット』なのかハッキリさせよう！",
+      "number": 285,
+      "path": "tokumei/285.mp3"
     }
   ]
 }
