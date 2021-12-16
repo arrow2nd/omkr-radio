@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "Thu, 09 Dec 2021 16:34:02 GMT",
+  "updated": "Thu, 16 Dec 2021 16:32:52 GMT",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -186,6 +186,11 @@
       "title": "豚肉の茹で汁で足湯を作ろう",
       "number": 37,
       "path": "kamamicu/ks37/ks37.mp3"
+    },
+    {
+      "title": "みくのしんはうんこをくっている",
+      "number": 38,
+      "path": "kamamicu/ks38/ks38.mp3"
     }
   ]
 }
