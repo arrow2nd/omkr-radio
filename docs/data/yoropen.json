@@ -1,6 +1,6 @@
 {
   "name": "ソルジャーラジオ",
-  "updated": "Sat, 04 Dec 2021 16:30:45 GMT",
+  "updated": "Sat, 18 Dec 2021 16:30:39 GMT",
   "episodes": [
     {
       "title": "僕は『スピードスター』になります",
@@ -66,6 +66,11 @@
       "title": "エレベーターの落書き / 友達のライブ",
       "number": 13,
       "path": "yoropen/soldier/014/soldier13.mp3"
+    },
+    {
+      "title": "鳥山明先生はすべてのコマにサインを書いてください",
+      "number": 14,
+      "path": "yoropen/soldier/015/soldier14.mp3"
     }
   ]
 }
