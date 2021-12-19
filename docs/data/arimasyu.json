@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Sun, 12 Dec 2021 16:30:03 GMT",
+  "updated": "Sun, 19 Dec 2021 16:30:51 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -116,6 +116,11 @@
       "title": "小6の精神を取り戻せ",
       "number": 22,
       "path": "arimasyu/022/022mash.mp3"
+    },
+    {
+      "title": "人類のゴール、ららぽーと",
+      "number": 23,
+      "path": "arimasyu/023/023mash.mp3"
     }
   ]
 }
