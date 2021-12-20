@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 13 Dec 2021 16:32:08 GMT",
+  "updated": "Mon, 20 Dec 2021 16:33:24 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -516,6 +516,11 @@
       "title": "タートルズの車、実家にくる",
       "number": 104,
       "path": "kayouradio/104/104.mp3"
+    },
+    {
+      "title": "パテを食べる",
+      "number": 105,
+      "path": "kayouradio/105/105.mp3"
     }
   ]
 }
