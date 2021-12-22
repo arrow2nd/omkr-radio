@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 15 Dec 2021 16:31:24 GMT",
+  "updated": "Wed, 22 Dec 2021 16:32:18 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1406,6 +1406,11 @@
       "title": "二人のどちらが『人間のフリをしたロボット』なのかハッキリさせよう！",
       "number": 285,
       "path": "tokumei/285.mp3"
+    },
+    {
+      "title": "自分がサンタになったらプレゼントをあげる『いい子』の基準を話し合おう！",
+      "number": 286,
+      "path": "tokumei/286.mp3"
     }
   ]
 }
