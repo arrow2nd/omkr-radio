@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "Thu, 16 Dec 2021 16:32:52 GMT",
+  "updated": "Thu, 23 Dec 2021 16:32:17 GMT",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -191,6 +191,11 @@
       "title": "みくのしんはうんこをくっている",
       "number": 38,
       "path": "kamamicu/ks38/ks38.mp3"
+    },
+    {
+      "title": "みんなのはかいこうせん",
+      "number": 38,
+      "path": "kamamicu/ks39/ks39.mp3"
     }
   ]
 }
