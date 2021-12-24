@@ -1,6 +1,6 @@
 {
   "name": "ラジオ・モンゴルナイトフィーバー",
-  "updated": "Fri, 17 Dec 2021 16:31:21 GMT",
+  "updated": "Fri, 24 Dec 2021 16:31:44 GMT",
   "episodes": [
     {
       "title": "GWと地獄のカフェイン断ち",
@@ -421,6 +421,11 @@
       "title": "ひどすぎ事件！汚注意やね",
       "number": 91,
       "path": "mongol/091/20211218.mp3"
+    },
+    {
+      "title": "クリプレ交換と今年の事件振り返り",
+      "number": 92,
+      "path": "mongol/092/20211225.mp3"
     }
   ]
 }
