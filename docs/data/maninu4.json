@@ -1,6 +1,6 @@
 {
   "name": "ラジオ漫画犬咆哮編",
-  "updated": "Sat, 11 Dec 2021 16:29:53 GMT",
+  "updated": "Sat, 25 Dec 2021 16:30:59 GMT",
   "episodes": [
     {
       "title": "私を樹海に連れてっての巻",
@@ -81,6 +81,11 @@
       "title": "原宿さんに見つかったゾの巻",
       "number": 16,
       "path": "maninu/184/184.mp3"
+    },
+    {
+      "title": "そういえばあったね大賞2021の巻",
+      "number": 17,
+      "path": "maninu/185/185.mp3"
     }
   ]
 }
