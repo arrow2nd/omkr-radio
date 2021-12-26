@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Sun, 19 Dec 2021 16:30:51 GMT",
+  "updated": "Sun, 26 Dec 2021 16:31:01 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -121,6 +121,11 @@
       "title": "人類のゴール、ららぽーと",
       "number": 23,
       "path": "arimasyu/023/023mash.mp3"
+    },
+    {
+      "title": "チ◯ポストリーム2021",
+      "number": 24,
+      "path": "arimasyu/024/024mash.mp3"
     }
   ]
 }
