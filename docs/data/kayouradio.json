@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 20 Dec 2021 16:33:24 GMT",
+  "updated": "Mon, 27 Dec 2021 16:32:10 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -521,6 +521,11 @@
       "title": "パテを食べる",
       "number": 105,
       "path": "kayouradio/105/105.mp3"
+    },
+    {
+      "title": "2021年は良くなかった",
+      "number": 106,
+      "path": "kayouradio/106/106.mp3"
     }
   ]
 }
