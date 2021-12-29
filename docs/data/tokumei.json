@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 22 Dec 2021 16:32:18 GMT",
+  "updated": "Wed, 29 Dec 2021 16:32:08 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1411,6 +1411,11 @@
       "title": "自分がサンタになったらプレゼントをあげる『いい子』の基準を話し合おう！",
       "number": 286,
       "path": "tokumei/286.mp3"
+    },
+    {
+      "title": "年末だし来年2022年に流行りそうなことを予想しよう！",
+      "number": 287,
+      "path": "tokumei/287.mp3"
     }
   ]
 }
