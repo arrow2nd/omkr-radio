@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "Thu, 23 Dec 2021 16:32:17 GMT",
+  "updated": "Thu, 30 Dec 2021 16:32:16 GMT",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -196,6 +196,11 @@
       "title": "みんなのはかいこうせん",
       "number": 38,
       "path": "kamamicu/ks39/ks39.mp3"
+    },
+    {
+      "title": "ジョジョで口をイーッってしてるスタンド総選挙",
+      "number": 40,
+      "path": "kamamicu/ks40/ks40.mp3"
     }
   ]
 }
