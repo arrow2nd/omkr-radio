@@ -1,158 +1,158 @@
 [
-	{
-		"id": "tokumei",
-		"name": "ARuFa・恐山の匿名ラジオ",
-		"tag": "匿名ラジオ",
-		"onAir": true
-	},
-	{
-		"id": "ariari",
-		"name": "ありっちゃありアワー",
-		"tag": "ありっちゃありアワー",
-		"onAir": false
-	},
-	{
-		"id": "arispa",
-		"name": "ありっちゃありスパーク",
-		"tag": "ありっちゃありスパーク",
-		"onAir": false
-	},
-	{
-		"id": "arimasyu",
-		"name": "ありっちゃありスパーク・マシュ",
-		"tag": "ありっちゃありスパーク",
-		"onAir": true
-	},
-	{
-		"id": "kamamicu1",
-		"name": "かまってみくのしん",
-		"tag": "かまってみくのしん",
-		"onAir": false
-	},
-	{
-		"id": "kamamicu2",
-		"name": "かまってみくのしんGOLD",
-		"tag": "かまってみくのしん",
-		"onAir": false
-	},
-	{
-		"id": "kamamicu4",
-		"name": "かまってみくのしんLove you",
-		"tag": "かまってみくのしん",
-		"onAir": false
-	},
-	{
-		"id": "kamamicu3",
-		"name": "かまってみくのしん日本一",
-		"tag": "かまってみくのしん",
-		"onAir": false
-	},
-	{
-		"id": "zannen",
-		"name": "シモダ＆イーグルの残念ラジオ",
-		"tag": "残念ラジオ",
-		"onAir": false
-	},
-	{
-		"id": "shimowata2",
-		"name": "シモダテツヤと私（ヨッピー）",
-		"tag": "シモダテツヤと私（ヨッピー）",
-		"onAir": false
-	},
-	{
-		"id": "shimowata1",
-		"name": "シモダテツヤと私（地獄のミサワ）",
-		"tag": "シモダテツヤと私（地獄のミサワ）",
-		"onAir": false
-	},
-	{
-		"id": "sebunagata",
-		"name": "セブ山・永田の金曜ラジオ",
-		"tag": "金曜ラジオ",
-		"onAir": false
-	},
-	{
-		"id": "soujanee",
-		"name": "そうじゃねえだろのラジオじゃねえだろ！",
-		"tag": "ラジオじゃねえだろ",
-		"onAir": false
-	},
-	{
-		"id": "yoropen",
-		"name": "ソルジャーラジオ",
-		"tag": "ソルジャーラジオ",
-		"onAir": true
-	},
-	{
-		"id": "pakupaku",
-		"name": "たかや・マンスーンのパクパクラジオ",
-		"tag": "パクパクラジオ",
-		"onAir": false
-	},
-	{
-		"id": "kayouradio",
-		"name": "マンスーン・ヤスミノの音声放送",
-		"tag": "音声放送",
-		"onAir": true
-	},
-	{
-		"id": "dainaka",
-		"name": "みくのしん・おおきちの大仲良しラジオ",
-		"tag": "大仲良しラジオ",
-		"onAir": false
-	},
-	{
-		"id": "mongol",
-		"name": "ラジオ・モンゴルナイトフィーバー",
-		"tag": "モンゴルナイトフィーバー",
-		"onAir": true
-	},
-	{
-		"id": "maninu3",
-		"name": "ラジオ漫画犬血道編",
-		"tag": "ラジオ漫画犬",
-		"onAir": false
-	},
-	{
-		"id": "maninu2",
-		"name": "ラジオ漫画犬漂流編",
-		"tag": "ラジオ漫画犬",
-		"onAir": false
-	},
-	{
-		"id": "maninu4",
-		"name": "ラジオ漫画犬咆哮編",
-		"tag": "ラジオ漫画犬",
-		"onAir": true
-	},
-	{
-		"id": "kgb",
-		"name": "加藤・ギャラクシーのラジオKGB",
-		"tag": "KGB",
-		"onAir": false
-	},
-	{
-		"id": "kamamicu",
-		"name": "作業用かまみく",
-		"tag": "かまってみくのしん",
-		"onAir": true
-	},
-	{
-		"id": "itm",
-		"name": "長島・加藤のイうてるマにイっちゃってる",
-		"tag": "イうてるマにイっちゃってる",
-		"onAir": true
-	},
-	{
-		"id": "flakoto",
-		"name": "店長・リックェのフラコト",
-		"tag": "店長・リックェのラジオ",
-		"onAir": true
-	},
-	{
-		"id": "maninu1",
-		"name": "凸ノ・カメントツのラジオ漫画犬",
-		"tag": "ラジオ漫画犬",
-		"onAir": false
-	}
+  {
+    "id": "tokumei",
+    "name": "ARuFa・恐山の匿名ラジオ",
+    "tag": "匿名ラジオ",
+    "onAir": true
+  },
+  {
+    "id": "ariari",
+    "name": "ありっちゃありアワー",
+    "tag": "ありっちゃありアワー",
+    "onAir": false
+  },
+  {
+    "id": "arispa",
+    "name": "ありっちゃありスパーク",
+    "tag": "ありっちゃありスパーク",
+    "onAir": false
+  },
+  {
+    "id": "arimasyu",
+    "name": "ありっちゃありスパーク・マシュ",
+    "tag": "ありっちゃありスパーク",
+    "onAir": true
+  },
+  {
+    "id": "kamamicu1",
+    "name": "かまってみくのしん",
+    "tag": "かまってみくのしん",
+    "onAir": false
+  },
+  {
+    "id": "kamamicu2",
+    "name": "かまってみくのしんGOLD",
+    "tag": "かまってみくのしん",
+    "onAir": false
+  },
+  {
+    "id": "kamamicu4",
+    "name": "かまってみくのしんLove you",
+    "tag": "かまってみくのしん",
+    "onAir": false
+  },
+  {
+    "id": "kamamicu3",
+    "name": "かまってみくのしん日本一",
+    "tag": "かまってみくのしん",
+    "onAir": false
+  },
+  {
+    "id": "zannen",
+    "name": "シモダ＆イーグルの残念ラジオ",
+    "tag": "残念ラジオ",
+    "onAir": false
+  },
+  {
+    "id": "shimowata2",
+    "name": "シモダテツヤと私（ヨッピー）",
+    "tag": "シモダテツヤと私（ヨッピー）",
+    "onAir": false
+  },
+  {
+    "id": "shimowata1",
+    "name": "シモダテツヤと私（地獄のミサワ）",
+    "tag": "シモダテツヤと私（地獄のミサワ）",
+    "onAir": false
+  },
+  {
+    "id": "sebunagata",
+    "name": "セブ山・永田の金曜ラジオ",
+    "tag": "金曜ラジオ",
+    "onAir": false
+  },
+  {
+    "id": "soujanee",
+    "name": "そうじゃねえだろのラジオじゃねえだろ！",
+    "tag": "ラジオじゃねえだろ",
+    "onAir": false
+  },
+  {
+    "id": "yoropen",
+    "name": "ソルジャーラジオ",
+    "tag": "ソルジャーラジオ",
+    "onAir": true
+  },
+  {
+    "id": "pakupaku",
+    "name": "たかや・マンスーンのパクパクラジオ",
+    "tag": "パクパクラジオ",
+    "onAir": false
+  },
+  {
+    "id": "kayouradio",
+    "name": "マンスーン・ヤスミノの音声放送",
+    "tag": "音声放送",
+    "onAir": true
+  },
+  {
+    "id": "dainaka",
+    "name": "みくのしん・おおきちの大仲良しラジオ",
+    "tag": "大仲良しラジオ",
+    "onAir": false
+  },
+  {
+    "id": "mongol",
+    "name": "ラジオ・モンゴルナイトフィーバー",
+    "tag": "モンゴルナイトフィーバー",
+    "onAir": true
+  },
+  {
+    "id": "maninu3",
+    "name": "ラジオ漫画犬血道編",
+    "tag": "ラジオ漫画犬",
+    "onAir": false
+  },
+  {
+    "id": "maninu2",
+    "name": "ラジオ漫画犬漂流編",
+    "tag": "ラジオ漫画犬",
+    "onAir": false
+  },
+  {
+    "id": "maninu4",
+    "name": "ラジオ漫画犬咆哮編",
+    "tag": "ラジオ漫画犬",
+    "onAir": true
+  },
+  {
+    "id": "kgb",
+    "name": "加藤・ギャラクシーのラジオKGB",
+    "tag": "KGB",
+    "onAir": false
+  },
+  {
+    "id": "kamamicu",
+    "name": "作業用かまみく",
+    "tag": "かまってみくのしん",
+    "onAir": true
+  },
+  {
+    "id": "itm",
+    "name": "長島・加藤のイうてるマにイっちゃってる",
+    "tag": "イうてるマにイっちゃってる",
+    "onAir": true
+  },
+  {
+    "id": "flakoto",
+    "name": "店長・リックェのフラコト",
+    "tag": "店長・リックェのラジオ",
+    "onAir": true
+  },
+  {
+    "id": "maninu1",
+    "name": "凸ノ・カメントツのラジオ漫画犬",
+    "tag": "ラジオ漫画犬",
+    "onAir": false
+  }
 ]

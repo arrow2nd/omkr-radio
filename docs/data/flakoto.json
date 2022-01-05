@@ -1,11 +1,11 @@
 {
-	"name": "店長・リックェのフラコト",
-	"updated": "Wed, 05 Jan 2022 02:15:38 GMT",
-	"episodes": [
-		{
-			"title": "新ラジオ・フラスコの中の理はじまります",
-			"number": 1,
-			"path": "flakoto/001.mp3"
-		}
-	]
+  "name": "店長・リックェのフラコト",
+  "updated": "Wed, 05 Jan 2022 02:15:38 GMT",
+  "episodes": [
+    {
+      "title": "新ラジオ・フラスコの中の理はじまります",
+      "number": 1,
+      "path": "flakoto/001.mp3"
+    }
+  ]
 }
