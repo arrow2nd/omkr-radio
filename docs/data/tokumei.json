@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 29 Dec 2021 16:32:08 GMT",
+  "updated": "Wed, 05 Jan 2022 16:33:01 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1416,6 +1416,11 @@
       "title": "年末だし来年2022年に流行りそうなことを予想しよう！",
       "number": 287,
       "path": "tokumei/287.mp3"
+    },
+    {
+      "title": "今の干支って飽きたから自分達で『新しい干支』を12個考えよう！",
+      "number": 288,
+      "path": "tokumei/288.mp3"
     }
   ]
 }
