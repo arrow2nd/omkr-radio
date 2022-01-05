@@ -1,5 +1,6 @@
+import type { Episode, RadioData } from "../src/type.ts";
+
 import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.14-alpha/deno-dom-wasm.ts";
-import { Episode, RadioData } from "../type.ts";
 
 //------------------------------------------------
 const radioId = "sebunagata";
