@@ -1,6 +1,6 @@
 {
   "name": "ラジオ・モンゴルナイトフィーバー",
-  "updated": "Fri, 31 Dec 2021 16:31:50 GMT",
+  "updated": "Fri, 07 Jan 2022 22:20:23 GMT",
   "episodes": [
     {
       "title": "モンゴルナイトフィーバー",
@@ -456,6 +456,11 @@
       "title": "2022年と世間知らずのお殿様",
       "number": 93,
       "path": "mongol/093/20220101.mp3"
+    },
+    {
+      "title": "ハズレ回",
+      "number": 94,
+      "path": "mongol/094/20220108.mp3"
     }
   ]
 }
