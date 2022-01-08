@@ -1,6 +1,6 @@
 {
   "name": "ラジオ漫画犬咆哮編",
-  "updated": "Sat, 25 Dec 2021 16:30:59 GMT",
+  "updated": "Sat, 08 Jan 2022 16:31:35 GMT",
   "episodes": [
     {
       "title": "私を樹海に連れてっての巻",
@@ -86,6 +86,11 @@
       "title": "そういえばあったね大賞2021の巻",
       "number": 17,
       "path": "maninu/185/185.mp3"
+    },
+    {
+      "title": "新春！OCC大喜利の巻",
+      "number": 18,
+      "path": "maninu/186/186.mp3"
     }
   ]
 }
