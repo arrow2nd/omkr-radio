@@ -1,11 +1,13 @@
 import { parseFeed } from "https://deno.land/x/rss/mod.ts";
+
 import { addEpisode } from "./util/addEpisode.ts";
+import { sendSlack } from "./util/slack.ts";
 
 // RSSフィードを取得
 const res = await fetch("https://omocoro.jp/feed");
 if (!res.ok) {
-  console.log(`[ ${res.status} : ${res.statusText} ]`);
-  Deno.exit(0);
+  sendSlack("Error", `RSSが取得できませんでした\n${res.statusText}: ${res.statusText}`);
+  Deno.exit(1);
 }
 
 // RSSをパース

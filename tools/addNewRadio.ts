@@ -28,18 +28,18 @@ radioList.push({
 });
 
 // 五十音順（あ->ア->亜）でソート
-radioList.sort((a, b) => a.name.localeCompare(b.name, 'ja'))
+radioList.sort((a, b) => a.name.localeCompare(b.name, "ja"));
 Deno.writeTextFileSync(listPath, JSON.stringify(radioList, null, "\t"));
 
 // ファイルを作成
-const radioDataPath = `./docs/data/${id}.json`
+const radioDataPath = `./docs/data/${id}.json`;
 Deno.createSync(radioDataPath);
 
 // データを作成して保存
 const newRadioData: RadioData = {
   name,
   updated: new Date().toUTCString(),
-  episodes: []
-}
+  episodes: [],
+};
 
-Deno.writeTextFileSync(radioDataPath, JSON.stringify(newRadioData, null, "\t"))
+Deno.writeTextFileSync(radioDataPath, JSON.stringify(newRadioData, null, "\t"));
