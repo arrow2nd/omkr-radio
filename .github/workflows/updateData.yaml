@@ -18,7 +18,7 @@ jobs:
           deno-version: v1.x
 
       - name: Update data
-        run: deno run --allow-net --allow-read --allow-write ./src/main.ts
+        run: deno run --allow-env --allow-net --allow-read --allow-write ./src/main.ts
 
       - name: Deno fmt
         run: deno fmt ./docs/*
