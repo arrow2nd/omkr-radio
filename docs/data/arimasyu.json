@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Sun, 09 Jan 2022 16:31:53 GMT",
+  "updated": "Mon, 10 Jan 2022 02:43:36 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -125,7 +125,7 @@
     {
       "title": "新春！ホットサンド・レディオ",
       "number": 25,
-      "path": "arimasyu/025/025mash.mp3"
+      "path": "arimasyu/025/mash025.mp3"
     }
   ]
 }
