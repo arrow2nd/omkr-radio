@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 27 Dec 2021 16:32:10 GMT",
+  "updated": "Mon, 10 Jan 2022 16:37:28 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -526,6 +526,11 @@
       "title": "2021年は良くなかった",
       "number": 106,
       "path": "kayouradio/106/106.mp3"
+    },
+    {
+      "title": "人情話にはまだ早い",
+      "number": 107,
+      "path": "kayouradio/107/107.mp3"
     }
   ]
 }
