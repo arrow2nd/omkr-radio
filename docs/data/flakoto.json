@@ -1,11 +1,16 @@
 {
   "name": "店長・リックェのフラコト",
-  "updated": "Wed, 05 Jan 2022 02:15:38 GMT",
+  "updated": "Tue, 11 Jan 2022 16:37:22 GMT",
   "episodes": [
     {
       "title": "新ラジオ・フラスコの中の理はじまります",
       "number": 1,
       "path": "flakoto/001.mp3"
+    },
+    {
+      "title": "君のやる気スイッチはタクティルスイッチ？",
+      "number": 2,
+      "path": "flakoto/002.mp3"
     }
   ]
 }
