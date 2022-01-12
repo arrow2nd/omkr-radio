@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 05 Jan 2022 16:33:01 GMT",
+  "updated": "Wed, 12 Jan 2022 16:38:01 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1421,6 +1421,11 @@
       "title": "今の干支って飽きたから自分達で『新しい干支』を12個考えよう！",
       "number": 288,
       "path": "tokumei/288.mp3"
+    },
+    {
+      "title": "なりたい自分になるために、色々な『ヤバい修行』を考えてみよう！",
+      "number": 289,
+      "path": "tokumei/289.mp3"
     }
   ]
 }
