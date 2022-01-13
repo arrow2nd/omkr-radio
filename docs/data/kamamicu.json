@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "Thu, 06 Jan 2022 16:33:12 GMT",
+  "updated": "Thu, 13 Jan 2022 16:38:27 GMT",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -206,6 +206,11 @@
       "title": "20年ぶりにポケモンをやった男",
       "number": 41,
       "path": "kamamicu/ks41/ks41.mp3"
+    },
+    {
+      "title": "新年！爆笑下ネタしりとり",
+      "number": 42,
+      "path": "kamamicu/ks42/ks42.mp3"
     }
   ]
 }
