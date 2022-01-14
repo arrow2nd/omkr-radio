@@ -1,6 +1,6 @@
 {
   "name": "ラジオ・モンゴルナイトフィーバー",
-  "updated": "Fri, 07 Jan 2022 22:20:23 GMT",
+  "updated": "Fri, 14 Jan 2022 16:30:15 GMT",
   "episodes": [
     {
       "title": "モンゴルナイトフィーバー",
@@ -461,6 +461,11 @@
       "title": "ハズレ回",
       "number": 94,
       "path": "mongol/094/20220108.mp3"
+    },
+    {
+      "title": "朝に強い山口、猛威を振るう",
+      "number": 95,
+      "path": "mongol/095/20220115.mp3"
     }
   ]
 }
