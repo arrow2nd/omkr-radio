@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 10 Jan 2022 16:37:28 GMT",
+  "updated": "Mon, 17 Jan 2022 16:33:21 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -531,6 +531,11 @@
       "title": "人情話にはまだ早い",
       "number": 107,
       "path": "kayouradio/107/107.mp3"
+    },
+    {
+      "title": "霊柩車のクラクションを最初に鳴らした人",
+      "number": 108,
+      "path": "kayouradio/108/108.mp3"
     }
   ]
 }
