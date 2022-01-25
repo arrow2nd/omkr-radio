@@ -1,6 +1,6 @@
 {
   "name": "店長・リックェのフラコト",
-  "updated": "Tue, 18 Jan 2022 16:33:39 GMT",
+  "updated": "Tue, 25 Jan 2022 16:34:30 GMT",
   "episodes": [
     {
       "title": "新ラジオ・フラスコの中の理はじまります",
@@ -16,6 +16,11 @@
       "title": "呪術・ヘルペイ・金枝篇",
       "number": 3,
       "path": "flakoto/003.mp3"
+    },
+    {
+      "title": "機能的で美しいフォントの歴史",
+      "number": 4,
+      "path": "flakoto/004.mp3"
     }
   ]
 }
