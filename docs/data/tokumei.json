@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 19 Jan 2022 16:32:14 GMT",
+  "updated": "Wed, 26 Jan 2022 16:29:09 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1431,6 +1431,11 @@
       "title": "相手が家で録音してきた『音』の正体を当てろ！音クイズ！！",
       "number": 290,
       "path": "tokumei/290.mp3"
+    },
+    {
+      "title": "ラジオの台本をAIに書かせてその通りに収録しよう！",
+      "number": 291,
+      "path": "tokumei/291.mp3"
     }
   ]
 }
