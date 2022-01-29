@@ -1,6 +1,6 @@
 {
   "name": "ラジオ漫画犬咆哮編",
-  "updated": "Sat, 22 Jan 2022 16:27:56 GMT",
+  "updated": "Sat, 29 Jan 2022 16:27:38 GMT",
   "episodes": [
     {
       "title": "私を樹海に連れてっての巻",
@@ -101,6 +101,11 @@
       "title": "さいきょうのサービスエリアをつくろう！の巻",
       "number": 20,
       "path": "maninu/188/188.mp3"
+    },
+    {
+      "title": "みすくみクリエイション！の巻",
+      "number": 21,
+      "path": "maninu/189/189.mp3"
     }
   ]
 }
