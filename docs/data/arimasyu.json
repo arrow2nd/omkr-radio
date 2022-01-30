@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Sun, 23 Jan 2022 16:27:58 GMT",
+  "updated": "Sun, 30 Jan 2022 16:27:22 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -136,6 +136,11 @@
       "title": "今日から新シリーズ突入！レンタルスペース編！",
       "number": 27,
       "path": "arimasyu/027/mash027.mp3"
+    },
+    {
+      "title": "ハウス・オブ・グッチと、仕組みのために生きちゃう人生",
+      "number": 28,
+      "path": "arimasyu/028/028mash.mp3"
     }
   ]
 }
