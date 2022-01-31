@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 24 Jan 2022 16:34:25 GMT",
+  "updated": "Mon, 31 Jan 2022 16:32:27 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -541,6 +541,11 @@
       "title": "APEXをやらない男",
       "number": 109,
       "path": "kayouradio/109/109.mp3"
+    },
+    {
+      "title": "俺はフローラを選ぶ男",
+      "number": 110,
+      "path": "kayouradio/110/110.mp3"
     }
   ]
 }
