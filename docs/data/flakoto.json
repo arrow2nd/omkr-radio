@@ -1,6 +1,6 @@
 {
   "name": "店長・リックェのフラコト",
-  "updated": "Tue, 25 Jan 2022 16:34:30 GMT",
+  "updated": "Tue, 01 Feb 2022 16:35:29 GMT",
   "episodes": [
     {
       "title": "新ラジオ・フラスコの中の理はじまります",
@@ -21,6 +21,11 @@
       "title": "機能的で美しいフォントの歴史",
       "number": 4,
       "path": "flakoto/004.mp3"
+    },
+    {
+      "title": "あなたはポテトをどう量産する？",
+      "number": 5,
+      "path": "flakoto/005.mp3"
     }
   ]
 }
