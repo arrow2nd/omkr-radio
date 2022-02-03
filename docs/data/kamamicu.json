@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "Thu, 27 Jan 2022 16:34:20 GMT",
+  "updated": "Thu, 03 Feb 2022 16:29:46 GMT",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -221,6 +221,11 @@
       "title": "ダンダダンに出たいから俺が都市伝説になる",
       "number": 44,
       "path": "kamamicu/ks44/ks44.mp3"
+    },
+    {
+      "title": "もしものみくのしん",
+      "number": 45,
+      "path": "kamamicu/ks45/ks45.mp3"
     }
   ]
 }
