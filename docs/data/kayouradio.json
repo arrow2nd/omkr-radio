@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 31 Jan 2022 16:32:27 GMT",
+  "updated": "Mon, 07 Feb 2022 16:35:06 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -546,6 +546,11 @@
       "title": "俺はフローラを選ぶ男",
       "number": 110,
       "path": "kayouradio/110/110.mp3"
+    },
+    {
+      "title": "ミニマリストの類型について",
+      "number": 111,
+      "path": "kayouradio/111/111.mp3"
     }
   ]
 }
