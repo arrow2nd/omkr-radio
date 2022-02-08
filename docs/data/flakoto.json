@@ -1,6 +1,6 @@
 {
   "name": "店長・リックェのフラコト",
-  "updated": "Tue, 01 Feb 2022 16:35:29 GMT",
+  "updated": "Tue, 08 Feb 2022 16:33:23 GMT",
   "episodes": [
     {
       "title": "新ラジオ・フラスコの中の理はじまります",
@@ -26,6 +26,11 @@
       "title": "あなたはポテトをどう量産する？",
       "number": 5,
       "path": "flakoto/005.mp3"
+    },
+    {
+      "title": "ゲスト：モンゴルナイトフィーバー・ジンクスショップへようこそ",
+      "number": 6,
+      "path": "flakoto/un01.mp3"
     }
   ]
 }
