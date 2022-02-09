@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 02 Feb 2022 16:33:07 GMT",
+  "updated": "Wed, 09 Feb 2022 16:34:22 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1441,6 +1441,11 @@
       "title": "地球に落ちてくる巨大隕石をどうやって阻止するか話し合おう！",
       "number": 292,
       "path": "tokumei/292.mp3"
+    },
+    {
+      "title": "メチャクチャ人を騙せそうな迷惑メールを考えてみよう！（防犯のために）",
+      "number": 293,
+      "path": "tokumei/293.mp3"
     }
   ]
 }
