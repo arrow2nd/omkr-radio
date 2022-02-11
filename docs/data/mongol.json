@@ -1,6 +1,6 @@
 {
   "name": "ラジオ・モンゴルナイトフィーバー",
-  "updated": "Fri, 28 Jan 2022 22:17:51 GMT",
+  "updated": "Fri, 11 Feb 2022 16:25:10 GMT",
   "episodes": [
     {
       "title": "モンゴルナイトフィーバー",
@@ -476,6 +476,11 @@
       "title": "うちらも100の質問をやってみよう",
       "number": 97,
       "path": "mongol/097/20220129.mp3"
+    },
+    {
+      "title": "野球しようぜ！",
+      "number": 99,
+      "path": "mongol/099/20220212.mp3"
     }
   ]
 }
