@@ -1,6 +1,6 @@
 {
   "name": "ラジオ漫画犬咆哮編",
-  "updated": "Sat, 05 Feb 2022 16:22:03 GMT",
+  "updated": "Sat, 12 Feb 2022 16:26:45 GMT",
   "episodes": [
     {
       "title": "私を樹海に連れてっての巻",
@@ -111,6 +111,11 @@
       "title": "バイトーーーーークの巻",
       "number": 22,
       "path": "maninu/190/190.mp3"
+    },
+    {
+      "title": "爆発的エンゲル係数を小1時間問い詰めたいの巻",
+      "number": 23,
+      "path": "maninu/191/191.mp3"
     }
   ]
 }
