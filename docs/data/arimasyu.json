@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Sun, 06 Feb 2022 16:26:58 GMT",
+  "updated": "Sun, 13 Feb 2022 16:26:59 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -146,6 +146,11 @@
       "title": "イベントは生き物",
       "number": 29,
       "path": "arimasyu/029/029mash.mp3"
+    },
+    {
+      "title": "大激論！踊るポンポコリンの歌詞で面白いのは1番か2番か！",
+      "number": 29,
+      "path": "arimasyu/030/030mash.mp3"
     }
   ]
 }
