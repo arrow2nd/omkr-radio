@@ -1,5 +1,5 @@
 /**
- * 記事ページから音源ファイルのパスを抽出
+ * 記事ページを取得して音源ファイルのパスを抽出
  * @param url 記事のURL
  * @return 音源ファイルまでのパス（radio 以下）
  */
@@ -13,5 +13,5 @@ export async function fetchRadioFilePath(
     /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/,
   );
 
-  return matched ? matched[1] : undefined;
+  return matched?.[1];
 }

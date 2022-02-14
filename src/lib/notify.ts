@@ -3,7 +3,7 @@
  * @param title タイトル
  * @param text テキスト
  */
-export async function sendSlack(title: "Info" | "Error", text: string) {
+export async function notifySlack(title: "Info" | "Error", text: string) {
   const webhook = Deno.env.get("SLACK_WEBHOOK_URL");
   if (!webhook) {
     throw new Error("Unable to retrieve webhook URL");

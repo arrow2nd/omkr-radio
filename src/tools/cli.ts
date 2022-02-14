@@ -2,7 +2,7 @@
  * 新規ラジオを追加するCLIツール
  */
 
-import type { ListItem, RadioData } from "../src/type.ts";
+import type { ListItem, RadioData } from "../types/radio.ts";
 
 // 値を入力
 const id = prompt("ラジオID");
