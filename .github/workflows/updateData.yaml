@@ -1,6 +1,7 @@
 name: UpdateData
 
 on:
+  workflow_dispatch:
   schedule:
     # 2時間毎
     - cron: "0 */2 * * *"
@@ -9,19 +10,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Setup deno
-        uses: denoland/setup-deno@v1
-        with:
-          deno-version: v1.x
+      - name: Checkout & Setup Deno, Velociraptor
+        uses: jurassiscripts/setup-velociraptor@v2
 
       - name: Update data
-        run: deno run --allow-env --allow-net --allow-read --allow-write ./src/main.ts
+        run: vr update
 
       - name: Deno fmt
-        run: deno fmt ./docs/*
+        run: vr fmt
 
       - name: Commit the changes
         uses: stefanzweifel/git-auto-commit-action@v4

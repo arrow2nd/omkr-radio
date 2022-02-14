@@ -1,8 +1,8 @@
-import type { Episode, ListItem, RadioData } from "../src/type.ts";
-
 import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.14-alpha/deno-dom-wasm.ts";
-import { fetchRadioFilePath } from "../src/util/fetchRadioUrl.ts";
-import { parseTitle } from "../src/util/parseTitle.ts";
+
+import type { Episode, ListItem, RadioData } from "../types/radio.ts";
+import { fetchRadioFilePath } from "../lib/fetch.ts";
+import { parseTitle } from "../lib/parse.ts";
 
 async function createRadioData(
   radioId: string,
