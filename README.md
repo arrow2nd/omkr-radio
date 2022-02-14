@@ -1,8 +1,9 @@
 # omkr-radio
 
-オモコロで配信されている Web ラジオのデータライブラリ的なもの（半自動更新）
+オモコロで配信されている Web ラジオのデータライブラリ的なもの（ほぼ自動更新）
 
 [![UpdateData](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml)
+[![vr scripts](https://badges.velociraptor.run/flat.svg)](https://velociraptor.run)
 [![GitHub license](https://img.shields.io/github/license/arrow2nd/omkr-radio)](https://github.com/arrow2nd/omkr-radio/blob/main/LICENSE)
 
 ## メモ
