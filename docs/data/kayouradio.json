@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 07 Feb 2022 16:35:06 GMT",
+  "updated": "Mon, 14 Feb 2022 16:31:26 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -551,6 +551,11 @@
       "title": "ミニマリストの類型について",
       "number": 111,
       "path": "kayouradio/111/111.mp3"
+    },
+    {
+      "title": "神田さんの家に行くには",
+      "number": 112,
+      "path": "kayouradio/112/112.mp3"
     }
   ]
 }
