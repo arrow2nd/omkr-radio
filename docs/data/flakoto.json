@@ -1,6 +1,6 @@
 {
   "name": "店長・リックェのフラコト",
-  "updated": "Tue, 08 Feb 2022 16:33:23 GMT",
+  "updated": "Tue, 15 Feb 2022 16:28:29 GMT",
   "episodes": [
     {
       "title": "新ラジオ・フラスコの中の理はじまります",
@@ -31,6 +31,11 @@
       "title": "ゲスト：モンゴルナイトフィーバー・ジンクスショップへようこそ",
       "number": 6,
       "path": "flakoto/un01.mp3"
+    },
+    {
+      "title": "選挙スタッフのおやつは500円まで",
+      "number": 7,
+      "path": "flakoto/007.mp3"
     }
   ]
 }
