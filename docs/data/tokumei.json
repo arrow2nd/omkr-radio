@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 09 Feb 2022 16:34:22 GMT",
+  "updated": "Wed, 16 Feb 2022 16:32:29 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1446,6 +1446,11 @@
       "title": "メチャクチャ人を騙せそうな迷惑メールを考えてみよう！（防犯のために）",
       "number": 293,
       "path": "tokumei/293.mp3"
+    },
+    {
+      "title": "【挑戦】憧れの有名人と急に30秒だけ喋れるなら何を話す？！",
+      "number": 294,
+      "path": "tokumei/294.mp3"
     }
   ]
 }
