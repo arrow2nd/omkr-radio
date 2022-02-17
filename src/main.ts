@@ -1,5 +1,4 @@
-import { parseFeed } from "https://deno.land/x/rss@0.5.5/mod.ts";
-
+import { parseFeed } from "./deps.ts";
 import { addEpisode } from "./lib/add.ts";
 import { notifySlack } from "./lib/notify.ts";
 

@@ -1,6 +1,6 @@
-import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.14-alpha/deno-dom-wasm.ts";
-
 import type { Episode, ListItem, RadioData } from "../types/radio.ts";
+
+import { DOMParser } from "../deps.ts";
 import { fetchRadioFilePath } from "../lib/fetch.ts";
 import { parseTitle } from "../lib/parse.ts";
 
