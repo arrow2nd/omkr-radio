@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "Thu, 10 Feb 2022 16:32:39 GMT",
+  "updated": "Thu, 17 Feb 2022 16:32:28 GMT",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -231,6 +231,11 @@
       "title": "今月は愛が強め",
       "number": 46,
       "path": "kamamicu/ks46/ks46.mp3"
+    },
+    {
+      "title": "山下ラジ男はかまどにイラついている",
+      "number": 47,
+      "path": "kamamicu/ks47/ks47.mp3"
     }
   ]
 }
