@@ -15,6 +15,8 @@ jobs:
 
       - name: Update data
         run: vr update
+        env:
+          SLACK_WEBHOOK_URL: ${{secrets.SLACK_WEBHOOK_URL}}
 
       - name: Deno fmt
         run: vr fmt
