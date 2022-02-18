@@ -12,8 +12,8 @@ export function parseTitle(
   const episodeName = matchedName?.[1] || title;
 
   const numRegExpList = [
-    `【\(\\d\+\)】\\s\*${radioName}\\s\*「`,
-    `【\(\\d\+\)】\.\*${radioName}\$`,
+    `【\(\.\+\)】\\s\*${radioName}\\s\*「`,
+    `【\(\.\+\)】\.\*${radioName}\$`,
     `${radioName}\\s\*\(\\d\+\)`,
   ];
 

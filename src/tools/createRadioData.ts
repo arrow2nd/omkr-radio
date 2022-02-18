@@ -1,8 +1,8 @@
 import type { Episode, ListItem, RadioData } from "../types/radio.ts";
 
 import { DOMParser } from "../deps.ts";
-import { fetchRadioFilePath } from "../lib/fetch.ts";
-import { parseTitle } from "../lib/parse.ts";
+import { fetchRadioFilePath } from "../libs/fetch.ts";
+import { parseTitle } from "../libs/parse.ts";
 
 async function createRadioData(
   radioId: string,

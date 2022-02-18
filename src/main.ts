@@ -1,6 +1,6 @@
 import { parseFeed } from "./deps.ts";
-import { addEpisode } from "./lib/add.ts";
-import { notifySlack } from "./lib/notify.ts";
+import { addEpisode } from "./libs/add.ts";
+import { notifySlack } from "./libs/notify.ts";
 
 // RSSフィードを取得
 const res = await fetch("https://omocoro.jp/feed");
