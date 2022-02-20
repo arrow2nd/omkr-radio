@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Sun, 13 Feb 2022 16:26:59 GMT",
+  "updated": "Sun, 20 Feb 2022 16:26:53 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -151,6 +151,11 @@
       "title": "大激論！踊るポンポコリンの歌詞で面白いのは1番か2番か！",
       "number": 30,
       "path": "arimasyu/030/030mash.mp3"
+    },
+    {
+      "title": "ゲットナビのスキレット事件",
+      "number": 31,
+      "path": "arimasyu/031/031mash.mp3"
     }
   ]
 }
