@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 14 Feb 2022 16:31:26 GMT",
+  "updated": "Mon, 21 Feb 2022 16:28:06 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -556,6 +556,11 @@
       "title": "神田さんの家に行くには",
       "number": 112,
       "path": "kayouradio/112/112.mp3"
+    },
+    {
+      "title": "検索結果1件を目指せ！ ギリギリ歌詞クイズ",
+      "number": 113,
+      "path": "kayouradio/113/113.mp3"
     }
   ]
 }
