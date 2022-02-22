@@ -1,6 +1,6 @@
 {
   "name": "店長・リックェのフラコト",
-  "updated": "Tue, 15 Feb 2022 16:28:29 GMT",
+  "updated": "Tue, 22 Feb 2022 16:28:41 GMT",
   "episodes": [
     {
       "title": "新ラジオ・フラスコの中の理はじまります",
@@ -36,6 +36,11 @@
       "title": "選挙スタッフのおやつは500円まで",
       "number": 7,
       "path": "flakoto/007.mp3"
+    },
+    {
+      "title": "僕らのブレイン・シャット・ダウン",
+      "number": 8,
+      "path": "flakoto/008.mp3"
     }
   ]
 }
