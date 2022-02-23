@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 16 Feb 2022 16:32:29 GMT",
+  "updated": "Wed, 23 Feb 2022 16:31:17 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1451,6 +1451,11 @@
       "title": "【挑戦】憧れの有名人と急に30秒だけ喋れるなら何を話す？！",
       "number": 294,
       "path": "tokumei/294.mp3"
+    },
+    {
+      "title": "恐山欠席！同僚を調教して2代目にしようリベンジェンス",
+      "number": 295,
+      "path": "tokumei/295.mp3"
     }
   ]
 }
