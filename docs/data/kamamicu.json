@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "Thu, 17 Feb 2022 16:32:28 GMT",
+  "updated": "Thu, 24 Feb 2022 16:28:11 GMT",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -236,6 +236,11 @@
       "title": "山下ラジ男はかまどにイラついている",
       "number": 47,
       "path": "kamamicu/ks47/ks47.mp3"
+    },
+    {
+      "title": "オモコロイベントで雑魚ちゃんと会ったよ",
+      "number": 48,
+      "path": "kamamicu/ks48/ks48.mp3"
     }
   ]
 }
