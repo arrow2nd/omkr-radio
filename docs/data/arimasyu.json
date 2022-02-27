@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Sun, 20 Feb 2022 16:26:53 GMT",
+  "updated": "Sun, 27 Feb 2022 16:27:11 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -156,6 +156,11 @@
       "title": "ゲットナビのスキレット事件",
       "number": 31,
       "path": "arimasyu/031/031mash.mp3"
+    },
+    {
+      "title": "いる人マシンガンをぶっ放せ",
+      "number": 32,
+      "path": "arimasyu/032/032mash.mp3"
     }
   ]
 }
