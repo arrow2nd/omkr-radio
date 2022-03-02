@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 23 Feb 2022 16:31:17 GMT",
+  "updated": "Wed, 02 Mar 2022 16:33:43 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1456,6 +1456,11 @@
       "title": "恐山欠席！同僚を調教して2代目にしようリベンジェンス",
       "number": 295,
       "path": "tokumei/295.mp3"
+    },
+    {
+      "title": "【飲レポ】恐山でも美味しく飲めるお酒を探してみよう！",
+      "number": 296,
+      "path": "tokumei/296.mp3"
     }
   ]
 }
