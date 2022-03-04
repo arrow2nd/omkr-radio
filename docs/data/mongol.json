@@ -1,6 +1,6 @@
 {
   "name": "ラジオ・モンゴルナイトフィーバー",
-  "updated": "Fri, 25 Feb 2022 16:28:14 GMT",
+  "updated": "Fri, 04 Mar 2022 16:29:08 GMT",
   "episodes": [
     {
       "title": "モンゴルナイトフィーバー",
@@ -491,6 +491,11 @@
       "title": "花束みてぇな恋",
       "number": 99.9,
       "path": "mongol/099_9/20220226.mp3"
+    },
+    {
+      "title": "記念動画！思い出話が花",
+      "number": 100,
+      "path": "mongol/100/20220305.mp3"
     }
   ]
 }
