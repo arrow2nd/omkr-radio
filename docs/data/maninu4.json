@@ -1,6 +1,6 @@
 {
   "name": "ラジオ漫画犬咆哮編",
-  "updated": "Sat, 26 Feb 2022 16:27:06 GMT",
+  "updated": "Sat, 05 Mar 2022 16:27:11 GMT",
   "episodes": [
     {
       "title": "私を樹海に連れてっての巻",
@@ -126,6 +126,11 @@
       "title": "『自分の日じゃない』日に聴くラジオの巻",
       "number": 25,
       "path": "maninu/193/193.mp3"
+    },
+    {
+      "title": "新企画『一日』の巻",
+      "number": 26,
+      "path": "maninu/194/194.mp3"
     }
   ]
 }
