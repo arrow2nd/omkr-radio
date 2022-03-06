@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Sun, 27 Feb 2022 16:27:11 GMT",
+  "updated": "Sun, 06 Mar 2022 16:27:21 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -161,6 +161,11 @@
       "title": "いる人マシンガンをぶっ放せ",
       "number": 32,
       "path": "arimasyu/032/032mash.mp3"
+    },
+    {
+      "title": "モスキート音と稲川淳二事件",
+      "number": 33,
+      "path": "arimasyu/033/033mash.mp3"
     }
   ]
 }
