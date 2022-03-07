@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 21 Feb 2022 16:28:06 GMT",
+  "updated": "Mon, 07 Mar 2022 16:29:58 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -561,6 +561,11 @@
       "title": "検索結果1件を目指せ！ ギリギリ歌詞クイズ",
       "number": 113,
       "path": "kayouradio/113/113.mp3"
+    },
+    {
+      "title": "カニエから目が離せない",
+      "number": 114,
+      "path": "kayouradio/114/114.mp3"
     }
   ]
 }
