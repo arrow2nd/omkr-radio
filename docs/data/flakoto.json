@@ -1,6 +1,6 @@
 {
   "name": "店長・リックェのフラコト",
-  "updated": "Tue, 01 Mar 2022 16:33:32 GMT",
+  "updated": "Tue, 08 Mar 2022 16:30:00 GMT",
   "episodes": [
     {
       "title": "新ラジオ・フラスコの中の理はじまります",
@@ -45,6 +45,11 @@
     {
       "title": "店長は早く人間になりたい",
       "number": 9,
+      "path": "flakoto/009.mp3"
+    },
+    {
+      "title": "ない博物館・黄瀬鏡花記念館",
+      "number": 10,
       "path": "flakoto/009.mp3"
     }
   ]
