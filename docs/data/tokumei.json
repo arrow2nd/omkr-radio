@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 02 Mar 2022 16:33:43 GMT",
+  "updated": "Wed, 09 Mar 2022 16:18:10 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1461,6 +1461,11 @@
       "title": "【飲レポ】恐山でも美味しく飲めるお酒を探してみよう！",
       "number": 296,
       "path": "tokumei/296.mp3"
+    },
+    {
+      "title": "人生の攻略本を作るなら書いておきたいことを挙げよう！",
+      "number": 297,
+      "path": "tokumei/297.mp3"
     }
   ]
 }
