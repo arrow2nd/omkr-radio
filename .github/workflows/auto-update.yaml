@@ -1,4 +1,4 @@
-name: UpdateData
+name: AutoUpdate
 
 on:
   workflow_dispatch:

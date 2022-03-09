@@ -1,16 +1,18 @@
 # omkr-radio
 
-オモコロで配信されている Web ラジオのデータライブラリ的なもの（ほぼ自動更新）
+オモコロで配信されている Web ラジオをまとめた JSON ファイル（ほぼ自動更新）
 
-[![UpdateData](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/updateData.yaml)
+[![AutoUpdate](https://github.com/arrow2nd/omkr-radio/actions/workflows/auto-update.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/auto-update.yaml)
 [![vr scripts](https://badges.velociraptor.run/flat.svg)](https://velociraptor.run)
 [![GitHub license](https://img.shields.io/github/license/arrow2nd/omkr-radio)](https://github.com/arrow2nd/omkr-radio/blob/main/LICENSE)
 
-## メモ
+## データ形式
 
-### ラジオ名一覧
+### ラジオ一覧
 
-> https://arrow2nd.github.io/omkr-radio/list.json
+オモコロで現在視聴可能なラジオの一覧です。
+
+URL: `https://arrow2nd.github.io/omkr-radio/list.json`
 
 ```json
 [
@@ -23,16 +25,18 @@
 ]
 ```
 
-| プロパティ | 説明           |
-| ---------- | -------------- |
-| id         | ラジオ ID      |
-| name       | ラジオ名       |
-| tag        | 検索用タグ名   |
-| onAir      | 更新中かどうか |
+| プロパティ | 型      | 説明           |
+| ---------- | ------- | -------------- |
+| id         | string  | ラジオ ID      |
+| name       | string  | ラジオ名       |
+| tag        | string  | 検索用タグ名   |
+| onAir      | boolean | 更新中かどうか |
 
 ### エピソード一覧
 
-> https://arrow2nd.github.io/omkr-radio/data/{ラジオID}.json
+それぞれのラジオのエピソードの一覧です。
+
+URL: `https://arrow2nd.github.io/omkr-radio/data/{ラジオID}.json`
 
 ```json
 {
@@ -48,11 +52,11 @@
 }
 ```
 
-| プロパティ      | 説明                                                          |
-| --------------- | ------------------------------------------------------------- |
-| name            | ラジオ名                                                      |
-| updated         | 最終更新日（UTC）                                             |
-| episodes        | エピソード                                                    |
-| episodes.title  | エピソード名                                                  |
-| episodes.number | エピソード数（話数）                                          |
-| episodes.path   | 音源ファイルのパス（`https://omocoro.heteml.net/radio/`以下） |
+| プロパティ         | 説明                                                            |
+| ------------------ | --------------------------------------------------------------- |
+| name               | ラジオ名                                                        |
+| updated            | 最終更新日（UTC）                                               |
+| episodes           | エピソード配列                                                  |
+| episodes[0].title  | タイトル                                                        |
+| episodes[0].number | 話数                                                            |
+| episodes[0].path   | 音源のパス<br>（`https://omocoro.heteml.net/radio/`以下の部分） |
