@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 07 Mar 2022 16:29:58 GMT",
+  "updated": "Mon, 14 Mar 2022 16:22:35 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -566,6 +566,11 @@
       "title": "カニエから目が離せない",
       "number": 114,
       "path": "kayouradio/114/114.mp3"
+    },
+    {
+      "title": "劇団を立ち上げたあと安居酒屋に行く願望",
+      "number": 115,
+      "path": "kayouradio/115/115.mp3"
     }
   ]
 }
