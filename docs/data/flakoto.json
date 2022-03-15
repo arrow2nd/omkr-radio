@@ -1,6 +1,6 @@
 {
   "name": "店長・リックェのフラコト",
-  "updated": "Tue, 08 Mar 2022 22:20:16 GMT",
+  "updated": "Tue, 15 Mar 2022 16:17:47 GMT",
   "episodes": [
     {
       "title": "新ラジオ・フラスコの中の理はじまります",
@@ -51,6 +51,11 @@
       "title": "ない博物館・黄瀬鏡花記念館",
       "number": 10,
       "path": "flakoto/010.mp3"
+    },
+    {
+      "title": "就活グループワーク突破術＆プロポーズを蹴った話",
+      "number": 11,
+      "path": "flakoto/011.mp3"
     }
   ]
 }
