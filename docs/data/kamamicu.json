@@ -1,6 +1,6 @@
 {
   "name": "作業用かまみく",
-  "updated": "Thu, 10 Mar 2022 16:18:37 GMT",
+  "updated": "Thu, 17 Mar 2022 16:21:32 GMT",
   "episodes": [
     {
       "title": "ここが本当の出発点",
@@ -251,6 +251,11 @@
       "title": "俺は頭がおかしいんだ",
       "number": 50,
       "path": "kamamicu/ks50/ks50.mp3"
+    },
+    {
+      "title": "みくのしん先生の学級崩壊",
+      "number": 51,
+      "path": "kamamicu/ks51/ks51.mp3"
     }
   ]
 }
