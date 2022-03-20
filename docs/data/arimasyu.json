@@ -1,6 +1,6 @@
 {
   "name": "ありっちゃありスパーク・マシュ",
-  "updated": "Sun, 13 Mar 2022 18:14:09 GMT",
+  "updated": "Sun, 20 Mar 2022 16:15:55 GMT",
   "episodes": [
     {
       "title": "マシュが始まる",
@@ -171,6 +171,11 @@
       "title": "現実を書き換えるもの、仏教とスパイダーマン",
       "number": 34,
       "path": "arimasyu/034/034mash.mp3"
+    },
+    {
+      "title": "オムライス事変、または永遠に100にならないということ",
+      "number": 35,
+      "path": "arimasyu/035/035mash.mp3"
     }
   ]
 }
