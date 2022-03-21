@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 14 Mar 2022 16:22:35 GMT",
+  "updated": "Mon, 21 Mar 2022 16:22:56 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -571,6 +571,11 @@
       "title": "劇団を立ち上げたあと安居酒屋に行く願望",
       "number": 115,
       "path": "kayouradio/115/115.mp3"
+    },
+    {
+      "title": "『どこで』『なにをする』かをランダムに決めて散歩しよう！",
+      "number": 116,
+      "path": "kayouradio/116/116.mp3"
     }
   ]
 }
