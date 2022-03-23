@@ -2,7 +2,6 @@ import type { Episode, ListItem, RadioData } from "../types/radio.ts";
 
 import { fetchRadioFilePath } from "./fetch.ts";
 import { parseTitle } from "./parse.ts";
-import { notifySlack } from "./notify.ts";
 
 const radioList: ListItem[] = JSON.parse(
   Deno.readTextFileSync("./docs/list.json"),
@@ -20,8 +19,7 @@ export async function addEpisode(title: string, url: string) {
   // ラジオのリストから情報を取得
   const radio = radioList.find((e) => title.includes(e.name));
   if (!radio) {
-    notifySlack("Info", `新規のラジオが配信されています。\n<${url}|${title}>`);
-    return;
+    throw new Error(`新規のラジオが配信されています [${title} / ${url}]`)
   }
 
   // 音源ファイルのパスを取得
@@ -34,8 +32,7 @@ export async function addEpisode(title: string, url: string) {
   // 記事のタイトルからエピソード名・話数を抽出
   const [episodeName, episodeNum] = parseTitle(title, radio.name);
   if (!episodeNum) {
-    notifySlack("Error", `新規エピソードが配信されていますが、話数の抽出に失敗しました。\n<${url}|${title}>`);
-    return;
+    throw new Error(`新規エピソードが配信されていますが、話数の抽出に失敗しました [${title} / ${url}]`)
   }
 
   const filePath = `./docs/data/${radio.id}.json`;
