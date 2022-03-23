@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 16 Mar 2022 16:21:30 GMT",
+  "updated": "Wed, 23 Mar 2022 16:17:03 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1471,6 +1471,11 @@
       "title": "密着取材の番組スタッフをビビらせる方法を考えてみよう！",
       "number": 298,
       "path": "tokumei/298.mp3"
+    },
+    {
+      "title": "一日の行動を全部コイントスに任せて対応力を鍛えよう！",
+      "number": 299,
+      "path": "tokumei/299.mp3"
     }
   ]
 }
