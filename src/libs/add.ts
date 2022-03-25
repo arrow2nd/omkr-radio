@@ -19,24 +19,28 @@ export async function addEpisode(title: string, url: string) {
   // ラジオのリストから情報を取得
   const radio = radioList.find((e) => title.includes(e.name));
   if (!radio) {
-    throw new Error(`新規のラジオが配信されています [${title} / ${url}]`)
+    console.log(`title: ${title}\nurl: ${url}`)
+    throw new Error(`新規のラジオが配信されています`)
   }
 
   // 音源ファイルのパスを取得
   const radioFilePath = await fetchRadioFilePath(url);
   if (!radioFilePath) {
-    console.log(`[NO AUDIO FILE] ${title}`);
+    console.log(`radioId: ${radio.id}\ntitle: ${title}\nurl: ${url}`)
+    console.info(`[NO AUDIO FILE] ${title}`);
     return;
   }
 
   // 記事のタイトルからエピソード名・話数を抽出
   const [episodeName, episodeNum] = parseTitle(title, radio.name);
   if (!episodeNum) {
-    throw new Error(`新規エピソードが配信されていますが、話数の抽出に失敗しました [${title} / ${url}]`)
+    console.log(`radioId: ${radio.id}\ntitle: ${title}\nurl: ${url}\npath: ${radioFilePath}`)
+    throw new Error(`新規エピソードが配信されていますが、話数の抽出に失敗しました`)
   }
 
   const filePath = `./docs/data/${radio.id}.json`;
   const radioData: RadioData = JSON.parse(Deno.readTextFileSync(filePath));
+
   const addEpisode: Episode = {
     title: episodeName,
     number: episodeNum,
