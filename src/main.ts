@@ -17,7 +17,7 @@ for (const entriy of feed.entries) {
   const url = entriy.links[0]?.href;
 
   if (title && url) {
-    addEpisode(title, url);
+    await addEpisode(title, url);
   }
 }
 

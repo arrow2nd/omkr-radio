@@ -3,9 +3,7 @@ import type { Episode, ListItem, RadioData } from "../types/radio.ts";
 import { fetchRadioFilePath } from "./fetch.ts";
 import { parseTitle } from "./parse.ts";
 
-const radioList: ListItem[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json"),
-).filter((e: ListItem) => e.onAir);
+const radioList: ListItem[] = JSON.parse(Deno.readTextFileSync("./docs/list.json"));
 
 /**
  * 新しいエピソードを追加
@@ -18,28 +16,31 @@ export async function addEpisode(title: string, url: string) {
 
   // ラジオのリストから情報を取得
   const radio = radioList.find((e) => title.includes(e.name));
+
   if (!radio) {
-    throw new Error(`新規のラジオが配信されています [${title} / ${url}]`)
+    console.log(`title: ${title}\nurl: ${url}`)
+    throw new Error(`新規のラジオが配信されています`)
+  } else if (!radio.onAir) {
+    return
   }
 
   // 音源ファイルのパスを取得
   const radioFilePath = await fetchRadioFilePath(url);
   if (!radioFilePath) {
-    console.log(`[NO AUDIO FILE] ${title}`);
+    console.log(`radioId: ${radio.id}\ntitle: ${title}\nurl: ${url}`)
+    console.info(`[NO AUDIO FILE] ${title}`);
     return;
-  }
-
-  // 記事のタイトルからエピソード名・話数を抽出
-  const [episodeName, episodeNum] = parseTitle(title, radio.name);
-  if (!episodeNum) {
-    throw new Error(`新規エピソードが配信されていますが、話数の抽出に失敗しました [${title} / ${url}]`)
   }
 
   const filePath = `./docs/data/${radio.id}.json`;
   const radioData: RadioData = JSON.parse(Deno.readTextFileSync(filePath));
+
+  // 記事のタイトルからエピソード名・話数を抽出
+  const [episodeTitle, episodeNumber] = parseTitle(title, radio.name);
+
   const addEpisode: Episode = {
-    title: episodeName,
-    number: episodeNum,
+    title: episodeTitle,
+    number: episodeNumber || radioData.episodes.slice(-1)[0].number + 1,
     path: radioFilePath,
   };
 
@@ -56,6 +57,12 @@ export async function addEpisode(title: string, url: string) {
   radioData.updated = new Date().toUTCString();
   radioData.episodes.push(addEpisode);
   Deno.writeTextFileSync(filePath, JSON.stringify(radioData, null, "\t"));
-
-  console.log(`[ADDED] ${title} #${episodeNum} ${radioFilePath}`);
+  
+  console.info(`[ADDED]`);
+  console.log(`
+  radioId: ${radio.id}
+  title: ${addEpisode.title}
+  number: ${addEpisode.number}
+  path: ${addEpisode.path}
+  `)
 }
