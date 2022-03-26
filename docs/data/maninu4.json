@@ -1,6 +1,6 @@
 {
   "name": "ラジオ漫画犬咆哮編",
-  "updated": "Sat, 19 Mar 2022 16:16:17 GMT",
+  "updated": "Sat, 26 Mar 2022 16:15:51 GMT",
   "episodes": [
     {
       "title": "私を樹海に連れてっての巻",
@@ -141,6 +141,11 @@
       "title": "ゲーミング俺たちの巻",
       "number": 28,
       "path": "maninu/196/196.mp3"
+    },
+    {
+      "title": "今が最高！の巻",
+      "number": 29,
+      "path": "maninu/197/197.mp3"
     }
   ]
 }
