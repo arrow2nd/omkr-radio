@@ -2,7 +2,7 @@
 
 オモコロで配信されている Web ラジオをまとめた JSON ファイル（ほぼ自動更新）
 
-[![auto-update](https://github.com/arrow2nd/omkr-radio/actions/workflows/auto-update.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/auto-update.yaml)
+[![update](https://github.com/arrow2nd/omkr-radio/actions/workflows/update.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/update.yaml)
 [![vr scripts](https://badges.velociraptor.run/flat.svg)](https://velociraptor.run)
 [![GitHub license](https://img.shields.io/github/license/arrow2nd/omkr-radio)](https://github.com/arrow2nd/omkr-radio/blob/main/LICENSE)
 
