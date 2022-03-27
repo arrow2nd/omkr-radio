@@ -19,9 +19,7 @@ jobs:
           deno-version: v1.x
 
       - name: Update data
-        run: |
-          deno run --allow-env --allow-net --allow-read --allow-write ./src/main.ts
-          deno fmt ./docs/*
+        run: deno task update
 
       - name: Commit the changes
         uses: stefanzweifel/git-auto-commit-action@v4
