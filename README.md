@@ -3,7 +3,7 @@
 オモコロで配信されている Web ラジオをまとめた JSON ファイル（ほぼ自動更新）
 
 [![update](https://github.com/arrow2nd/omkr-radio/actions/workflows/update.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/update.yaml)
-[![vr scripts](https://badges.velociraptor.run/flat.svg)](https://velociraptor.run)
+[![Deno](https://shields.io/badge/deno-%5E1.20-green?logo=deno&style=flat)](https://deno.land)
 [![GitHub license](https://img.shields.io/github/license/arrow2nd/omkr-radio)](https://github.com/arrow2nd/omkr-radio/blob/main/LICENSE)
 
 ## データ形式
@@ -60,3 +60,13 @@ URL: `https://arrow2nd.github.io/omkr-radio/data/{ラジオID}.json`
 | episodes[0].title  | タイトル                                                        |
 | episodes[0].number | 話数                                                            |
 | episodes[0].path   | 音源のパス<br>（`https://omocoro.heteml.net/radio/`以下の部分） |
+
+## 実行
+
+```sh
+# エピソードを自動更新
+deno task update
+
+# 新規ラジオを追加（対話形式）
+deno task cli
+```
