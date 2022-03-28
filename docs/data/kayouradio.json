@@ -1,6 +1,6 @@
 {
   "name": "マンスーン・ヤスミノの音声放送",
-  "updated": "Mon, 21 Mar 2022 16:22:56 GMT",
+  "updated": "Mon, 28 Mar 2022 16:17:43 GMT",
   "episodes": [
     {
       "title": "すみっコぐらし",
@@ -576,6 +576,11 @@
       "title": "『どこで』『なにをする』かをランダムに決めて散歩しよう！",
       "number": 116,
       "path": "kayouradio/116/116.mp3"
+    },
+    {
+      "title": "ひたひたベランダ事件",
+      "number": 117,
+      "path": "kayouradio/117/117.mp3"
     }
   ]
 }
