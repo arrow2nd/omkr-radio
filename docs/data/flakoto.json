@@ -1,6 +1,6 @@
 {
   "name": "店長・リックェのフラコト",
-  "updated": "Tue, 22 Mar 2022 16:24:15 GMT",
+  "updated": "Tue, 29 Mar 2022 16:18:45 GMT",
   "episodes": [
     {
       "title": "新ラジオ・フラスコの中の理はじまります",
@@ -61,6 +61,11 @@
       "title": "D.E.A.D 死後、個人データとCG・AIを用いてあなたの『復活』を許可しますか？",
       "number": 12,
       "path": "flakoto/012.mp3"
+    },
+    {
+      "title": "機械学習で『コメディアンNEO』は育成できるのか？",
+      "number": 13,
+      "path": "flakoto/013.mp3"
     }
   ]
 }
