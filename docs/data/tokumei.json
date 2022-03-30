@@ -1,6 +1,6 @@
 {
   "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Wed, 23 Mar 2022 16:17:03 GMT",
+  "updated": "Wed, 30 Mar 2022 16:17:17 GMT",
   "episodes": [
     {
       "title": "キックボード",
@@ -1476,6 +1476,11 @@
       "title": "一日の行動を全部コイントスに任せて対応力を鍛えよう！",
       "number": 299,
       "path": "tokumei/299.mp3"
+    },
+    {
+      "title": "祝300回！自分の言ったこと覚えてる？『過去の発言クイズ』！",
+      "number": 300,
+      "path": "tokumei/300.mp3"
     }
   ]
 }
