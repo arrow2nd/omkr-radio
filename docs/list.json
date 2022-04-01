@@ -132,10 +132,16 @@
     "onAir": false
   },
   {
-    "id": "kamamicu",
+    "id": "kamamicu5",
     "name": "作業用かまみく",
     "tag": "かまってみくのしん",
     "onAir": false
+  },
+  {
+    "id": "kamamicu6",
+    "name": "睡眠用かまみく",
+    "tag": "かまってみくのしん",
+    "onAir": true
   },
   {
     "id": "itm",
