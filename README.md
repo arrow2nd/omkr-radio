@@ -27,10 +27,10 @@ URL: `https://arrow2nd.github.io/omkr-radio/list.json`
 
 | プロパティ | 型      | 説明           |
 | ---------- | ------- | -------------- |
-| id         | string  | ラジオ ID      |
-| name       | string  | ラジオ名       |
-| tag        | string  | 検索用タグ名   |
-| onAir      | boolean | 更新中かどうか |
+| id         | String  | ラジオ ID      |
+| name       | String  | ラジオ名       |
+| tag        | String  | 検索用タグ名   |
+| onAir      | Boolean | 更新中かどうか |
 
 ### エピソード一覧
 
@@ -52,14 +52,19 @@ URL: `https://arrow2nd.github.io/omkr-radio/data/{ラジオID}.json`
 }
 ```
 
-| プロパティ         | 説明                                                            |
-| ------------------ | --------------------------------------------------------------- |
-| name               | ラジオ名                                                        |
-| updated            | 最終更新日（UTC）                                               |
-| episodes           | エピソード配列                                                  |
-| episodes[0].title  | タイトル                                                        |
-| episodes[0].number | 話数                                                            |
-| episodes[0].path   | 音源のパス<br>（`https://omocoro.heteml.net/radio/`以下の部分） |
+| プロパティ | 型      | 説明              |
+| ---------- | ------- | ----------------- |
+| name       | String  | ラジオ名          |
+| updated    | String  | 最終更新日（UTC） |
+| episodes   | Episode | エピソード配列    |
+
+### Episode
+
+| プロパティ | 型     | 説明                                                            |
+| ---------- | ------ | --------------------------------------------------------------- |
+| title      | String | タイトル                                                        |
+| number     | Number | 話数                                                            |
+| path       | String | 音源のパス<br>（`https://omocoro.heteml.net/radio/`以下の部分） |
 
 ## 実行
 
