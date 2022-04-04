@@ -100,6 +100,16 @@
     "nowOnAir": false
   },
   {
+    "id": "sebunagata",
+    "title": "セブ山・永田の金曜ラジオ",
+    "tag": "金曜ラジオ",
+    "author": "セブ山,永田",
+    "desc": "2010年2月から2015年2月まで毎週金曜日に配信されていた、セブ山と永田によるインターネットラジオ。",
+    "thumbnail": "https://omocoro.jp/assets/uploads/kinnyourajio_650.jpg",
+    "link": "https://omocoro.jp/rensai/45480/",
+    "nowOnAir": false
+  },
+  {
     "id": "soujanee",
     "title": "そうじゃねえだろのラジオじゃねえだろ！",
     "tag": "ラジオじゃねえだろ",
