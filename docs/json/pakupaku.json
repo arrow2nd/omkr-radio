@@ -1,10 +1,394 @@
 [
-	{
-		"title": "お互いのことを僕たちはまだ知らない",
-		"number": 1,
-		"desc": "今週から\"たかや\"と\"マンスーン\"がラジオを始めます。",
-		"source": "https://omocoro.heteml.net/radio/pakupaku/001/001.mp3",
-		"link": "https://omocoro.jp/radio/134904/",
-		"pubDate": "Sat, 19 May 2018 15:00:00 GMT"
-	}
+  {
+    "title": "お互いのことを僕たちはまだ知らない",
+    "number": 1,
+    "desc": "今週から\"たかや\"と\"マンスーン\"がラジオを始めます。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/001/001.mp3",
+    "link": "https://omocoro.jp/radio/134904/",
+    "pubDate": "Sat, 19 May 2018 15:00:00 GMT"
+  },
+  {
+    "title": "おれがたかやであいつがまんすーんで",
+    "number": 2,
+    "desc": "コーナーが始まるらしい。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/002/002.mp3",
+    "link": "https://omocoro.jp/radio/135603/",
+    "pubDate": "Sat, 26 May 2018 15:00:00 GMT"
+  },
+  {
+    "title": "まるで僕らはトイザらスキッズ",
+    "number": 3,
+    "desc": "コロコロとボンボン",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/003/003.mp3",
+    "link": "https://omocoro.jp/radio/136333/",
+    "pubDate": "Sat, 02 Jun 2018 15:00:00 GMT"
+  },
+  {
+    "title": "語れ！ジャンプ！",
+    "number": 4,
+    "desc": "みんなおいでよ、俺たちのパクラジへ",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/004/004.mp3",
+    "link": "https://omocoro.jp/radio/137170/",
+    "pubDate": "Sat, 09 Jun 2018 15:00:00 GMT"
+  },
+  {
+    "title": "何てコトない名前が かけがえないの",
+    "number": 5,
+    "desc": "ライターはそう言うけれど いまいちピンとこないよ",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/005/005.mp3",
+    "link": "https://omocoro.jp/radio/137832/",
+    "pubDate": "Sat, 16 Jun 2018 15:00:00 GMT"
+  },
+  {
+    "title": "たかやのカス飯は世界一",
+    "number": 6,
+    "desc": "たかやとマンスーンが「ごはんに合うお菓子」を食べました。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/006/006.mp3",
+    "link": "https://omocoro.jp/radio/138365/",
+    "pubDate": "Sat, 23 Jun 2018 15:00:00 GMT"
+  },
+  {
+    "title": "あげくの果てのインスタグラム",
+    "number": 7,
+    "desc": "それがインスタグラムだと思っている。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/007/007.mp3",
+    "link": "https://omocoro.jp/radio/138955/",
+    "pubDate": "Sat, 30 Jun 2018 15:00:00 GMT"
+  },
+  {
+    "title": "誰もが理想のＶＲ探してる",
+    "number": 8,
+    "desc": "マンスーンがアダルトVRを体験しました",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/008/008.mp3",
+    "link": "https://omocoro.jp/radio/139307/",
+    "pubDate": "Sat, 07 Jul 2018 15:00:00 GMT"
+  },
+  {
+    "title": "その男、絵本作家につき",
+    "number": 9,
+    "desc": "即興で売れる絵本を考えることはできるのか！？",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/009/009.mp3",
+    "link": "https://omocoro.jp/radio/140114/",
+    "pubDate": "Sat, 14 Jul 2018 15:00:00 GMT"
+  },
+  {
+    "title": "パクパクラジオのことはぜんぶちゃんと覚えてる？",
+    "number": 10,
+    "desc": "おかげ様でパクパクラジオも放送第10回を迎えることが出来ました。今回は「たかや、マンスーンお互いのことをどれくらい知れたのかクイズ！」をやりました。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/010/010.mp3",
+    "link": "https://omocoro.jp/radio/140984/",
+    "pubDate": "Sat, 21 Jul 2018 15:00:00 GMT"
+  },
+  {
+    "title": "バイトするのは今ではない",
+    "number": 11,
+    "desc": "「こんなアルバイトは嫌だ。どんなバイト？」 ",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/011/011.mp3",
+    "link": "https://omocoro.jp/radio/141460/",
+    "pubDate": "Sat, 28 Jul 2018 15:00:00 GMT"
+  },
+  {
+    "title": "マンスーンルームへようこそ",
+    "number": 12,
+    "desc": "Welcome to ようこそジャパリマンスンパーク",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/012/012.mp3",
+    "link": "https://omocoro.jp/radio/141953/",
+    "pubDate": "Sat, 04 Aug 2018 15:00:00 GMT"
+  },
+  {
+    "title": "ARu/オモコロを、君に",
+    "number": 13,
+    "desc": "こんにちはARuFaです",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/013/013.mp3",
+    "link": "https://omocoro.jp/radio/142688/",
+    "pubDate": "Sat, 11 Aug 2018 15:00:00 GMT"
+  },
+  {
+    "title": "じゃじゃ馬Wear To Go",
+    "number": 14,
+    "desc": "夏の魔物",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/014/014.mp3",
+    "link": "https://omocoro.jp/radio/143594/",
+    "pubDate": "Sat, 18 Aug 2018 15:00:00 GMT"
+  },
+  {
+    "title": "僕らは今日までの無職 覚えてるか忘れたか",
+    "number": 15,
+    "desc": "無職の一日は長い。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/015/015.mp3",
+    "link": "https://omocoro.jp/radio/144215/",
+    "pubDate": "Sat, 25 Aug 2018 15:00:00 GMT"
+  },
+  {
+    "title": "さわやかに捧ぐ",
+    "number": 16,
+    "desc": "http://www.genkotsu-hb.com/",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/016/016.mp3",
+    "link": "https://omocoro.jp/radio/144862/",
+    "pubDate": "Sun, 02 Sep 2018 15:00:00 GMT"
+  },
+  {
+    "title": "素振りの向こう側へ！",
+    "number": 17,
+    "desc": "素振りの先には何が見えるのかしら？",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/017/017.mp3",
+    "link": "https://omocoro.jp/radio/145639/",
+    "pubDate": "Sun, 09 Sep 2018 15:00:00 GMT"
+  },
+  {
+    "title": "酒と泪と合宿とエゴサ",
+    "number": 18,
+    "desc": "オモコロ合宿にいきました",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/018/018.mp3",
+    "link": "https://omocoro.jp/radio/146371/",
+    "pubDate": "Sun, 16 Sep 2018 15:00:00 GMT"
+  },
+  {
+    "title": "緊急特番",
+    "number": 19,
+    "desc": "特別番組",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/019/019.mp3",
+    "link": "https://omocoro.jp/radio/146838/",
+    "pubDate": "Sun, 23 Sep 2018 15:00:00 GMT"
+  },
+  {
+    "title": "海まで何分？",
+    "number": 20,
+    "desc": "海まで歩いてみよう",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/020/020.mp3",
+    "link": "https://omocoro.jp/radio/147670/",
+    "pubDate": "Sun, 30 Sep 2018 15:00:00 GMT"
+  },
+  {
+    "title": "山はまたのぼりくりかえす",
+    "number": 21,
+    "desc": "登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ ",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/021/021.mp3",
+    "link": "https://omocoro.jp/radio/148603/",
+    "pubDate": "Sat, 06 Oct 2018 15:00:00 GMT"
+  },
+  {
+    "title": "僕らのノーゲーム",
+    "number": 22,
+    "desc": "夏なので花火してもいいですか？",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/022/022.mp3",
+    "link": "https://omocoro.jp/radio/149021/",
+    "pubDate": "Sat, 13 Oct 2018 15:00:00 GMT"
+  },
+  {
+    "title": "パクパクラジオの無職怪談ナイト",
+    "number": 23,
+    "desc": "今回のパクパクラジオはホラー回です。「無職の怖い話」を話しました。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/023/023.mp3",
+    "link": "https://omocoro.jp/radio/149229/",
+    "pubDate": "Sat, 20 Oct 2018 15:00:00 GMT"
+  },
+  {
+    "title": "第24話 のんのんびより劇場版を観にいった",
+    "number": 24,
+    "desc": "沖縄行きて〜〜〜〜。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/024/024.mp3",
+    "link": "https://omocoro.jp/radio/149787/",
+    "pubDate": "Sat, 27 Oct 2018 15:00:00 GMT"
+  },
+  {
+    "title": "郵便局員は魔法をかけた素敵な願いを込めた",
+    "number": 25,
+    "desc": "皆さんの「心が動いた瞬間」を紹介しました",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/025/025.mp3",
+    "link": "https://omocoro.jp/radio/151068/",
+    "pubDate": "Sat, 03 Nov 2018 15:00:00 GMT"
+  },
+  {
+    "title": "ミラノ風ドリアをあつめて",
+    "number": 26,
+    "desc": "架空のサイゼリヤ → ナイゼリヤ",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/026/026.mp3",
+    "link": "https://omocoro.jp/radio/151537/",
+    "pubDate": "Sat, 10 Nov 2018 15:00:00 GMT"
+  },
+  {
+    "title": "ナチュラルに話して",
+    "number": 27,
+    "desc": "ナチュラルに話をしてよ。 ねぇ。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/027/027.mp3",
+    "link": "https://omocoro.jp/radio/152448/",
+    "pubDate": "Sat, 17 Nov 2018 15:00:00 GMT"
+  },
+  {
+    "title": "OKOってハニー",
+    "number": 28,
+    "desc": "どういうことだよ！！！！！",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/028/028.mp3",
+    "link": "https://omocoro.jp/radio/153419/",
+    "pubDate": "Sat, 24 Nov 2018 15:00:00 GMT"
+  },
+  {
+    "title": "おしえて！マンスーンちゃん",
+    "number": 29,
+    "desc": "マンスーンの素性を暴きます！",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/029/029.mp3",
+    "link": "https://omocoro.jp/radio/154274/",
+    "pubDate": "Sat, 01 Dec 2018 15:00:00 GMT"
+  },
+  {
+    "title": "答えとさよならを教えて",
+    "number": 30,
+    "desc": "ちゃんと答えて！！！",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/030/030.mp3",
+    "link": "https://omocoro.jp/radio/154748/",
+    "pubDate": "Sat, 08 Dec 2018 15:00:00 GMT"
+  },
+  {
+    "title": "トレンド！知らない！子豚大好き！",
+    "number": 31,
+    "desc": "インターネットで生きてこうとしてるのに、あまりにもインターネットの話題を知らないたかや。今回は、たかやが何を知っていて何を知らないかを明らかにするために『最近のトレンドちゃんと知ってるのかクイズ』をやります。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/031/031.mp3",
+    "link": "https://omocoro.jp/radio/154944/",
+    "pubDate": "Sat, 15 Dec 2018 15:00:00 GMT"
+  },
+  {
+    "title": "まじメニメニマニマニ",
+    "number": 32,
+    "desc": "記事作りの\"\"裏側\"\"をいろいろと話します。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/032/032.mp3",
+    "link": "https://omocoro.jp/radio/155513/",
+    "pubDate": "Sat, 22 Dec 2018 15:00:00 GMT"
+  },
+  {
+    "title": "予算500円/たまには遠足のおやつの話をしてもいいですか",
+    "number": 33,
+    "desc": "大人が本気で「遠足のおやつ」を選びました",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/033/pak033.mp3",
+    "link": "https://omocoro.jp/radio/156204/",
+    "pubDate": "Sat, 29 Dec 2018 15:00:00 GMT"
+  },
+  {
+    "title": "どっちのマクドナルドショー",
+    "number": 34,
+    "desc": "真の\"\"マクドナルド王\"\"はどっちだ！！！？？？",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/034/pak034.mp3",
+    "link": "https://omocoro.jp/radio/156620/",
+    "pubDate": "Sat, 05 Jan 2019 15:00:00 GMT"
+  },
+  {
+    "title": "TVに出れたんだ。君の調子はどうだい？",
+    "number": 35,
+    "desc": "たかやがTVに映りました",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/035/pak035.mp3",
+    "link": "https://omocoro.jp/radio/157064/",
+    "pubDate": "Sat, 12 Jan 2019 15:00:00 GMT"
+  },
+  {
+    "title": "モード反転！裏コード！ ザ・イベント！！",
+    "number": 36,
+    "desc": "ついに開催！！！！",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/036/pak036.mp3",
+    "link": "https://omocoro.jp/radio/157841/",
+    "pubDate": "Sat, 19 Jan 2019 15:00:00 GMT"
+  },
+  {
+    "title": "『体育ができない奴』とレッテル貼られたって",
+    "number": 37,
+    "desc": "僕たちは体育ができない",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/037/pak037.mp3",
+    "link": "https://omocoro.jp/radio/158290/",
+    "pubDate": "Sat, 26 Jan 2019 15:00:00 GMT"
+  },
+  {
+    "title": "最近、膀胱のようすがちょっとおかしいんだが。",
+    "number": 38,
+    "desc": "お風呂でオ○ッコすな！！！！！",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/038/pak038.mp3",
+    "link": "https://omocoro.jp/radio/159224/",
+    "pubDate": "Sun, 03 Feb 2019 15:00:00 GMT"
+  },
+  {
+    "title": "レッツゴーTKY",
+    "number": 39,
+    "desc": "†ザ・箸休め系っぽいラジオ†",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/039/pak039.mp3",
+    "link": "https://omocoro.jp/radio/160982/",
+    "pubDate": "Sun, 10 Feb 2019 15:00:00 GMT"
+  },
+  {
+    "title": "DAN DAN 心開かれてく",
+    "number": 40,
+    "desc": "俺たちのラジオはこれからだ！",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/040/pak040.mp3",
+    "link": "https://omocoro.jp/radio/161473/",
+    "pubDate": "Sun, 17 Feb 2019 15:00:00 GMT"
+  },
+  {
+    "title": "クリスマスに誰もいませんよ？",
+    "number": 41,
+    "desc": "俺たちのラジオはこれからだ！",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/041/pak041.mp3",
+    "link": "https://omocoro.jp/radio/161722/",
+    "pubDate": "Sun, 24 Feb 2019 15:00:00 GMT"
+  },
+  {
+    "title": "大丈夫だぁ",
+    "number": 42,
+    "desc": "僕は大丈夫。今はそう言える。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/042/pak042.mp3",
+    "link": "https://omocoro.jp/radio/162620/",
+    "pubDate": "Thu, 07 Mar 2019 15:00:00 GMT"
+  },
+  {
+    "title": "四角カクカク発明前夜の",
+    "number": 43,
+    "desc": "大儲けします。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/043/pak043.mp3",
+    "link": "https://omocoro.jp/radio/163411/",
+    "pubDate": "Thu, 14 Mar 2019 15:00:00 GMT"
+  },
+  {
+    "title": "いつか聴いた音楽みたいに",
+    "number": 44,
+    "desc": "青春時代に聴いてた音楽について",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/044/pak044.mp3",
+    "link": "https://omocoro.jp/radio/163681/",
+    "pubDate": "Thu, 21 Mar 2019 15:00:00 GMT"
+  },
+  {
+    "title": "夜回りエロマンガ先生",
+    "number": 45,
+    "desc": "♡",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/045/pak045.mp3",
+    "link": "https://omocoro.jp/radio/164805/",
+    "pubDate": "Thu, 28 Mar 2019 15:00:00 GMT"
+  },
+  {
+    "title": "これからの原宿さんの話をしよう",
+    "number": 46,
+    "desc": "原宿さんに記事の秘密を聞きました。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/046/pak046.mp3",
+    "link": "https://omocoro.jp/radio/165354/",
+    "pubDate": "Thu, 04 Apr 2019 15:00:00 GMT"
+  },
+  {
+    "title": "ハローたかやグッバイ",
+    "number": 47,
+    "desc": "いつかは誰かと言う　セイ・ハローグッバイ",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/047/pak047.mp3",
+    "link": "https://omocoro.jp/radio/165993/",
+    "pubDate": "Thu, 11 Apr 2019 15:00:00 GMT"
+  },
+  {
+    "title": "ヤマヘススメ",
+    "number": 48,
+    "desc": "あと2回。",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/048/pak048.mp3",
+    "link": "https://omocoro.jp/radio/166497/",
+    "pubDate": "Thu, 18 Apr 2019 15:00:00 GMT"
+  },
+  {
+    "title": "10年後、また出会えるのを信じて",
+    "number": 49,
+    "desc": "よっしゃぁぁぁッッ",
+    "source": "https://omocoro.heteml.net/radio/pakupaku/049/pak049.mp3",
+    "link": "https://omocoro.jp/radio/167046/",
+    "pubDate": "Thu, 25 Apr 2019 15:00:00 GMT"
+  }
 ]
