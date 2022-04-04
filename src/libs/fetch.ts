@@ -25,14 +25,21 @@ type FetchResult = {
 export async function fetchEpisodeInfo(
   url: string
 ): Promise<FetchResult | undefined> {
-  // ページをスクレイピング
   const res = await fetch(url);
+  if (!res.ok) {
+    throw new Error(`アクセスできませんでした (${res.status})`);
+  }
+
+  console.log(`[OK] 取得完了 (${res.status})`);
+
+  // HTMLをパース
   const html = await res.text();
   const doc = new DOMParser().parseFromString(html, "text/html");
-
   if (!doc) {
     throw new Error("HTMLの解析に失敗しました");
   }
+
+  console.log(`[OK] パース完了`);
 
   // タグを抽出
   const tagName = [...doc.querySelectorAll(".tags > a")]
@@ -68,7 +75,7 @@ export async function fetchEpisodeInfo(
 
   console.log("ラジオタイトル: " + radioTitle);
   console.log("エピソードタイトル: " + episodeTitle);
-  console.log("エピソード数: " + episodeNumber);
+  console.log("エピソード番号: " + episodeNumber);
 
   // 概要を抽出
   const desc = doc.querySelector(".description")?.textContent || "";
@@ -82,7 +89,7 @@ export async function fetchEpisodeInfo(
     .map((e) => parseInt(e));
 
   if (!date) {
-    throw new Error("投稿日が抽出できませんでした");
+    throw new Error(`投稿日が抽出できませんでした (${url})`);
   }
 
   const pubDate = new Date(date[0], date[1] + 1, date[2]).toUTCString();

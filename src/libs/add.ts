@@ -8,12 +8,15 @@ import { fetchEpisodeInfo } from "./fetch.ts";
  */
 export async function addEpisode(url: string) {
   // ラジオ以外の記事ならスキップ
-  if (!url.includes("radio")) return;
+  if (!/radio|rensai/.test(url)) {
+    console.log(`[SKIP] ラジオの記事ではありません (${url})`);
+    return;
+  }
 
   // 詳細を取得
   const episodeInfo = await fetchEpisodeInfo(url);
   if (!episodeInfo) {
-    console.log("[SKIP] 音源ファイルがありません");
+    console.log(`[SKIP] 音源ファイルがありません (${url})`);
     return;
   }
 
@@ -28,7 +31,7 @@ export async function addEpisode(url: string) {
 
   const newEpisode: Episode = {
     title: episodeTitle,
-    number: episodeNumber || episodes.slice(-1)[0].number + 1,
+    number: episodeNumber ?? episodes.slice(-1)[0].number + 1,
     desc,
     source,
     link: url,
@@ -43,7 +46,10 @@ export async function addEpisode(url: string) {
       e.source === newEpisode.source
   );
 
-  if (isDuplicate) return;
+  if (isDuplicate) {
+    console.log(`[SKIP] 重複したエピソードです (${newEpisode.title})`);
+    return;
+  }
 
   // 追加して保存
   episodes.push(newEpisode);

@@ -12,15 +12,17 @@ const radioList: Radio[] = JSON.parse(
  * @returns ID
  */
 export function getId(radioTitle: string, source: string) {
-  // リスト内にIDがあればそれを返す
-  const foundId = radioList.find(({ title }) => title === radioTitle);
-  if (foundId) return foundId.id;
-
   // 音源URLから抽出
   const newId = source?.match(/radio\/(.+?)\//)?.[1];
   if (!newId) {
     throw new Error(`ラジオIDの取得に失敗しました (${source})`);
   }
+
+  // リスト内にIDがあればそれを返す
+  const foundId = radioList.find(
+    ({ id, title }) => id === newId || title === radioTitle
+  );
+  if (foundId) return foundId.id;
 
   // IDの重複を確認
   const result = radioList.find(({ id }) => id === newId);
