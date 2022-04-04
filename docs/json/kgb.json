@@ -1,0 +1,450 @@
+[
+  {
+    "title": "まったく噛み合わない2人のラジオがはじまりました",
+    "number": 1,
+    "desc": "話がまったく噛み合わない加藤とギャラクシーがラジオをはじめました。",
+    "source": "https://omocoro.heteml.net/radio/kgb/001/001.mp3",
+    "link": "https://omocoro.jp/rensai/101925/",
+    "pubDate": "Thu, 06 Apr 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ウーピーパイ売り",
+    "number": 2,
+    "desc": "ウーピーパイを売る人生、選びますか？",
+    "source": "https://omocoro.heteml.net/radio/kgb/002/002.mp3",
+    "link": "https://omocoro.jp/rensai/102542/",
+    "pubDate": "Thu, 13 Apr 2017 15:00:00 GMT"
+  },
+  {
+    "title": "30年間続く妄想ファンタジー作品",
+    "number": 3,
+    "desc": "ウーピーパイを売る人生、選びますか？",
+    "source": "https://omocoro.heteml.net/radio/kgb/003/003.mp3",
+    "link": "https://omocoro.jp/rensai/103238/",
+    "pubDate": "Thu, 20 Apr 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ウーピーパイを食べる",
+    "number": 4,
+    "desc": "30代と40代の男性がウーピーパイを食べる「終わってる昼の情報番組」みたいなラジオです。",
+    "source": "https://omocoro.heteml.net/radio/kgb/004/004.mp3",
+    "link": "https://omocoro.jp/rensai/103891/",
+    "pubDate": "Thu, 27 Apr 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ガンダムで好きなキャラはクェス。噛むから",
+    "number": 5,
+    "desc": "30代と40代の男性がガンダムの好きなモビルスーツとキャラを話しています。知らない人には意味の分からない会話です。",
+    "source": "https://omocoro.heteml.net/radio/kgb/005/005.mp3",
+    "link": "https://omocoro.jp/rensai/104345/",
+    "pubDate": "Sat, 06 May 2017 15:00:00 GMT"
+  },
+  {
+    "title": "カラオケしまくる人と自分でカラオケ支払いしたことない人",
+    "number": 6,
+    "desc": "ヒトカラをする加藤と、まったく理解できないギャラクシー。",
+    "source": "https://omocoro.heteml.net/radio/kgb/006/006.mp3",
+    "link": "https://omocoro.jp/rensai/104860/",
+    "pubDate": "Sat, 13 May 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ラジオなんでちゃんと喋ってください",
+    "number": 7,
+    "desc": "歯医者帰りでフガフガ言ってる加藤と、お互いの持病の話。",
+    "source": "https://omocoro.heteml.net/radio/kgb/007/007.mp3",
+    "link": "https://omocoro.jp/rensai/105224/",
+    "pubDate": "Sat, 20 May 2017 15:00:00 GMT"
+  },
+  {
+    "title": "子どものころの自分に言っても信じなさそうなこと",
+    "number": 8,
+    "desc": "少年時代の自分に言っても絶対信じてもらえないようなこと。「ガンダム、まだ続いてるで」",
+    "source": "https://omocoro.heteml.net/radio/kgb/008/008.mp3",
+    "link": "https://omocoro.jp/rensai/106147/",
+    "pubDate": "Sat, 27 May 2017 15:00:00 GMT"
+  },
+  {
+    "title": "スポーツってどうにかしたらプロに勝てるんじゃないか",
+    "number": 9,
+    "desc": "めちゃめちゃ身長高ければバスケ勝てません？",
+    "source": "https://omocoro.heteml.net/radio/kgb/009/009.mp3",
+    "link": "https://omocoro.jp/rensai/106711/",
+    "pubDate": "Sat, 03 Jun 2017 15:00:00 GMT"
+  },
+  {
+    "title": "話題の映画、観とかなきゃ感",
+    "number": 10,
+    "desc": "観とかないとネットの話題についていけてない感ありません？",
+    "source": "https://omocoro.heteml.net/radio/kgb/010/010.mp3",
+    "link": "https://omocoro.jp/rensai/107217/",
+    "pubDate": "Sat, 10 Jun 2017 15:00:00 GMT"
+  },
+  {
+    "title": "王将の天津飯大好きだけど、全然意見が合わない2人",
+    "number": 11,
+    "desc": "ご飯を白米にするか炒飯にするか論争。",
+    "source": "https://omocoro.heteml.net/radio/kgb/011/011.mp3",
+    "link": "https://omocoro.jp/rensai/107551/",
+    "pubDate": "Sat, 17 Jun 2017 15:00:00 GMT"
+  },
+  {
+    "title": "とある魔術の禁書目録を薦めるギャラクシーと拒む加藤",
+    "number": 12,
+    "desc": "男性のマネキン、女性マネキン。殴るならどっちを殴りますか？",
+    "source": "https://omocoro.heteml.net/radio/kgb/012/012.mp3",
+    "link": "https://omocoro.jp/rensai/108242/",
+    "pubDate": "Sat, 24 Jun 2017 15:00:00 GMT"
+  },
+  {
+    "title": "結婚指輪っていらないんじゃない？",
+    "number": 13,
+    "desc": "いらないと思うギャラクシーと、いると思う加藤。",
+    "source": "https://omocoro.heteml.net/radio/kgb/013/013.mp3",
+    "link": "https://omocoro.jp/rensai/108558/",
+    "pubDate": "Sat, 01 Jul 2017 15:00:00 GMT"
+  },
+  {
+    "title": "喫茶店いる？",
+    "number": 14,
+    "desc": "いらないと思うギャラクシーと、いると思う加藤。",
+    "source": "https://omocoro.heteml.net/radio/kgb/014/014.mp3",
+    "link": "https://omocoro.jp/rensai/109235/",
+    "pubDate": "Sat, 08 Jul 2017 15:00:00 GMT"
+  },
+  {
+    "title": "リンガーハットにあまり来ない&理想のランチが食べれる商店街",
+    "number": 15,
+    "desc": "リンガーハットに言った後、理想のランチが食べれる商店街を発表しあいました。土方の会話かよ。",
+    "source": "https://omocoro.heteml.net/radio/kgb/015/015.mp3",
+    "link": "https://omocoro.jp/rensai/109966/",
+    "pubDate": "Sat, 15 Jul 2017 15:00:00 GMT"
+  },
+  {
+    "title": "好きなヒロイン",
+    "number": 16,
+    "desc": "おしゃれなカフェのオープンテラスで、アニメの女の子の話をする30代と40代の男性。",
+    "source": "https://omocoro.heteml.net/radio/kgb/016/016.mp3",
+    "link": "https://omocoro.jp/rensai/110573/",
+    "pubDate": "Sat, 22 Jul 2017 15:00:00 GMT"
+  },
+  {
+    "title": "デジタルネイティブ",
+    "number": 17,
+    "desc": "動画でデジタルネイティブの話をするデジタルネイティブではない2人。",
+    "source": "https://omocoro.heteml.net/radio/kgb/017/017.mp3",
+    "link": "https://omocoro.jp/rensai/110752/",
+    "pubDate": "Sat, 29 Jul 2017 15:00:00 GMT"
+  },
+  {
+    "title": "バラエティ番組はゴリゴリおもしろくなくてもいい",
+    "number": 18,
+    "desc": "好きなバラエティ番組の話をしましたが、全然好みが違いました。",
+    "source": "https://omocoro.heteml.net/radio/kgb/018/018.mp3",
+    "link": "https://omocoro.jp/rensai/110847/",
+    "pubDate": "Sat, 05 Aug 2017 15:00:00 GMT"
+  },
+  {
+    "title": "シーフードヌードルの残り汁レシピ、どっちが美味いのか対決",
+    "number": 19,
+    "desc": "シーフードヌードルの残り汁で、どっちが美味しい料理ができるか、低所得者が対決！",
+    "source": "https://omocoro.heteml.net/radio/kgb/019/019.mp3",
+    "link": "https://omocoro.jp/rensai/112181/",
+    "pubDate": "Sat, 12 Aug 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ホットサンドどっちが美味いのか対決",
+    "number": 20,
+    "desc": "ホットサンドを電子レンジで簡単に作れる「ベイクイット」が社内にあったので、どっちがおいしいホットサンドを作れるのか試してみました。",
+    "source": "https://omocoro.heteml.net/radio/kgb/020/020.mp3",
+    "link": "https://omocoro.jp/radio/112720/",
+    "pubDate": "Sat, 19 Aug 2017 15:00:00 GMT"
+  },
+  {
+    "title": "アニメを途中でやめちゃうパターン",
+    "number": 21,
+    "desc": "「途中で見るのをやめちゃうアニメ」にはどんな特徴があるのか発表します。",
+    "source": "https://omocoro.heteml.net/radio/kgb/021/021.mp3",
+    "link": "https://omocoro.jp/radio/113193/",
+    "pubDate": "Sat, 26 Aug 2017 15:00:00 GMT"
+  },
+  {
+    "title": "どん兵衛と赤いきつね、どっちが美味しいか",
+    "number": 22,
+    "desc": "カップうどんのどん兵衛と赤いきつね。結構味が違うって知ってましたか？",
+    "source": "https://omocoro.heteml.net/radio/kgb/022/022.mp3",
+    "link": "https://omocoro.jp/radio/113845/",
+    "pubDate": "Sun, 03 Sep 2017 15:00:00 GMT"
+  },
+  {
+    "title": "適当に作っている人にガンプラを習う",
+    "number": 23,
+    "desc": "いつも適当に作っているという加藤に、ガンプラを1回くらいしか作ったことがないというギャラクシーがコツを学びました。",
+    "source": "https://omocoro.heteml.net/radio/kgb/023/023.mp3",
+    "link": "https://omocoro.jp/radio/114478/",
+    "pubDate": "Sun, 10 Sep 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ヤンキー漫画を読む気になれない",
+    "number": 24,
+    "desc": "「なぜそれを読まないの？」ギャラクシーがヤンキー漫画のおもしろさを語ります",
+    "source": "https://omocoro.heteml.net/radio/kgb/024/024.mp3",
+    "link": "https://omocoro.jp/radio/114720/",
+    "pubDate": "Sun, 17 Sep 2017 15:00:00 GMT"
+  },
+  {
+    "title": "名古屋の魅力はまったくない…？",
+    "number": 25,
+    "desc": "名古屋出身の加藤が、名古屋の魅力のなさを話します。",
+    "source": "https://omocoro.heteml.net/radio/kgb/025/025.mp3",
+    "link": "https://omocoro.jp/radio/115443/",
+    "pubDate": "Sun, 24 Sep 2017 15:00:00 GMT"
+  },
+  {
+    "title": "この世にいらないもの",
+    "number": 26,
+    "desc": "ギザ10とおみやげっていらなくないですか？",
+    "source": "https://omocoro.heteml.net/radio/kgb/026/026.mp3",
+    "link": "https://omocoro.jp/radio/115962/",
+    "pubDate": "Sat, 30 Sep 2017 15:00:00 GMT"
+  },
+  {
+    "title": "今、30日以上の夏休みがあったら何する？",
+    "number": 27,
+    "desc": "子どもの頃の長かった夏休み。今取れたら何します？",
+    "source": "https://omocoro.heteml.net/radio/kgb/027/027.mp3",
+    "link": "https://omocoro.jp/radio/116389/",
+    "pubDate": "Sat, 07 Oct 2017 15:00:00 GMT"
+  },
+  {
+    "title": "男の手抜きチャーハン対決",
+    "number": 28,
+    "desc": "料理は面倒だけど、男の一人暮らしでは手抜きチャーハンくらい作りますよね？ そこで、加藤とギャラクシーが「俺のが手を抜いてるし美味い」と豪語する炒飯レシピを紹介します。",
+    "source": "https://omocoro.heteml.net/radio/kgb/028/028.mp3",
+    "link": "https://omocoro.jp/radio/116393/",
+    "pubDate": "Sat, 14 Oct 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ドラクエ11はPS4でやるか3DSでやるか",
+    "number": 29,
+    "desc": "ドラクエ11はどっちでやったほうがいいの？",
+    "source": "https://omocoro.heteml.net/radio/kgb/029/029.mp3",
+    "link": "https://omocoro.jp/radio/117660/",
+    "pubDate": "Sat, 21 Oct 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ドラクエ11のベロニカに恋する40代",
+    "number": 30,
+    "desc": "彼は、目覚めた。",
+    "source": "https://omocoro.heteml.net/radio/kgb/030/030.mp3",
+    "link": "https://omocoro.jp/radio/118335/",
+    "pubDate": "Sat, 28 Oct 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ジジイの趣味",
+    "number": 31,
+    "desc": "ジジイにはこうして成るのです。",
+    "source": "https://omocoro.heteml.net/radio/kgb/031/031.mp3",
+    "link": "https://omocoro.jp/radio/118824/",
+    "pubDate": "Sat, 04 Nov 2017 15:00:00 GMT"
+  },
+  {
+    "title": "黙って酔拳2を観よう",
+    "number": 32,
+    "desc": "カンフー映画の話だけ馬が合いました。",
+    "source": "https://omocoro.heteml.net/radio/kgb/032/032.mp3",
+    "link": "https://omocoro.jp/radio/119527/",
+    "pubDate": "Sat, 11 Nov 2017 15:00:00 GMT"
+  },
+  {
+    "title": "関西と中部のおでん事情",
+    "number": 33,
+    "desc": "関東のおでんはうまい。",
+    "source": "https://omocoro.heteml.net/radio/kgb/033/033.mp3",
+    "link": "https://omocoro.jp/radio/120248/",
+    "pubDate": "Sat, 18 Nov 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ショッピングモールが最高",
+    "number": 34,
+    "desc": "地方から東京に来た2人。",
+    "source": "https://omocoro.heteml.net/radio/kgb/034/034.mp3",
+    "link": "https://omocoro.jp/radio/120637/",
+    "pubDate": "Sat, 25 Nov 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ギャラクシーの母ラジオ",
+    "number": 35,
+    "desc": "ギャラクシーの母と撮るために兵庫まで来ました。移動時間、長っ。",
+    "source": "https://omocoro.heteml.net/radio/kgb/035/035.mp3",
+    "link": "https://omocoro.jp/radio/121365/",
+    "pubDate": "Sat, 09 Dec 2017 15:00:00 GMT"
+  },
+  {
+    "title": "お便りを読む回",
+    "number": 36,
+    "desc": "めちゃめちゃ久しぶりにお便りを読みます。",
+    "source": "https://omocoro.heteml.net/radio/kgb/036/036.mp3",
+    "link": "https://omocoro.jp/radio/122635/",
+    "pubDate": "Sat, 16 Dec 2017 15:00:00 GMT"
+  },
+  {
+    "title": "関西人のお好み焼きはやっぱり美味いのか!? オリジナルお好み焼き対決",
+    "number": 37,
+    "desc": "関西人はお好み焼きをめちゃめちゃ焼いているイメージがありますが、美味しいのでしょうか？ オリジナルお好み焼きで対決してみました。",
+    "source": "https://omocoro.heteml.net/radio/kgb/037/037.mp3",
+    "link": "https://omocoro.jp/radio/122644/",
+    "pubDate": "Sat, 23 Dec 2017 15:00:00 GMT"
+  },
+  {
+    "title": "【関西・名古屋】お互いのご当地袋麺を食べ合おう",
+    "number": 38,
+    "desc": "お互いのことを理解し合うために、子どものころから食べていた地元の袋麺を食べ合いました。40回近くやってるのにまだ分かり合えてない。",
+    "source": "https://omocoro.heteml.net/radio/kgb/038/038.mp3",
+    "link": "https://omocoro.jp/radio/123567/",
+    "pubDate": "Sat, 30 Dec 2017 15:00:00 GMT"
+  },
+  {
+    "title": "理想の出身地とストレス社会",
+    "number": 39,
+    "desc": "出身地だけ変えられるとしたら、どの国にしますか？",
+    "source": "https://omocoro.heteml.net/radio/kgb/039/039.mp3",
+    "link": "https://omocoro.jp/radio/124009/",
+    "pubDate": "Sat, 06 Jan 2018 15:00:00 GMT"
+  },
+  {
+    "title": "男の焼きそば対決",
+    "number": 40,
+    "desc": "どっちが美味しい焼そばを作れるのか対戦しました。",
+    "source": "https://omocoro.heteml.net/radio/kgb/040/040.mp3",
+    "link": "https://omocoro.jp/radio/124089/",
+    "pubDate": "Sat, 13 Jan 2018 15:00:00 GMT"
+  },
+  {
+    "title": "チャイナと茂木",
+    "number": 41,
+    "desc": "茂木健一郎と同じジャケットを着ているギャラクシーと、カンフーファッションの加藤が、服装について語ります",
+    "source": "https://omocoro.heteml.net/radio/kgb/041/041.mp3",
+    "link": "https://omocoro.jp/radio/125100/",
+    "pubDate": "Sat, 20 Jan 2018 15:00:00 GMT"
+  },
+  {
+    "title": "好きなゲームシステム",
+    "number": 42,
+    "desc": "ゲームばっかりやってるおっさんが、好きなゲームシステムについて話します。",
+    "source": "https://omocoro.heteml.net/radio/kgb/042/042.mp3",
+    "link": "https://omocoro.jp/radio/125707/",
+    "pubDate": "Sat, 27 Jan 2018 15:00:00 GMT"
+  },
+  {
+    "title": "ケーキを買いに行く",
+    "number": 43,
+    "desc": "30超えた男二人が、歩いてケーキを買いに行きます。",
+    "source": "https://omocoro.heteml.net/radio/kgb/043/043.mp3",
+    "link": "https://omocoro.jp/radio/126011/",
+    "pubDate": "Sun, 04 Feb 2018 15:00:00 GMT"
+  },
+  {
+    "title": "やってる？ どうぶつの森",
+    "number": 44,
+    "desc": "やってます？ やってました？",
+    "source": "https://omocoro.heteml.net/radio/kgb/044/044.mp3",
+    "link": "https://omocoro.jp/radio/127189/",
+    "pubDate": "Sun, 11 Feb 2018 15:00:00 GMT"
+  },
+  {
+    "title": "スター・ウォーズ／最後のジェダイを見た人",
+    "number": 45,
+    "desc": "観ました？ 後半からネタバレを言い出しますので、観てない方はご注意を。",
+    "source": "https://omocoro.heteml.net/radio/kgb/045/045.mp3",
+    "link": "https://omocoro.jp/radio/127799/",
+    "pubDate": "Sun, 18 Feb 2018 15:00:00 GMT"
+  },
+  {
+    "title": "すごいガンプラが届いた！",
+    "number": 46,
+    "desc": "すごいガンプラが届きました。すごい。",
+    "source": "https://omocoro.heteml.net/radio/kgb/046/046.mp3",
+    "link": "https://omocoro.jp/radio/127816/",
+    "pubDate": "Sun, 25 Feb 2018 15:00:00 GMT"
+  },
+  {
+    "title": "最後の運試し",
+    "number": 47,
+    "desc": "年始っぽい絵を年末に録りました。明治神宮で最後の運試し。",
+    "source": "https://omocoro.heteml.net/radio/kgb/047/047.mp3",
+    "link": "https://omocoro.jp/radio/128997/",
+    "pubDate": "Thu, 08 Mar 2018 15:00:00 GMT"
+  },
+  {
+    "title": "それぞれの最悪な正月",
+    "number": 48,
+    "desc": "みなさんのお正月は最悪でしたか？",
+    "source": "https://omocoro.heteml.net/radio/kgb/048/048.mp3",
+    "link": "https://omocoro.jp/radio/129922/",
+    "pubDate": "Thu, 15 Mar 2018 15:00:00 GMT"
+  },
+  {
+    "title": "交通事故にあったギャラクシー氏の会見",
+    "number": 49,
+    "desc": "ギャラクシーが車にひかれました。",
+    "source": "https://omocoro.heteml.net/radio/kgb/049/049.mp3",
+    "link": "https://omocoro.jp/radio/129923/",
+    "pubDate": "Thu, 22 Mar 2018 15:00:00 GMT"
+  },
+  {
+    "title": "人のサイゼリヤセレクトをけなすな",
+    "number": 50,
+    "desc": "サイゼリヤで絶対に頼むメニューに文句は言わせない",
+    "source": "https://omocoro.heteml.net/radio/kgb/050/050.mp3",
+    "link": "https://omocoro.jp/radio/131114/",
+    "pubDate": "Thu, 29 Mar 2018 15:00:00 GMT"
+  },
+  {
+    "title": "最近Amazonで買ったものを見合う会",
+    "number": 51,
+    "desc": "Amazonの購入履歴、自分でも忘れているものが多いのでみなさんも見せ合ってみてください。",
+    "source": "https://omocoro.heteml.net/radio/kgb/051/051.mp3",
+    "link": "https://omocoro.jp/radio/131587/",
+    "pubDate": "Thu, 05 Apr 2018 15:00:00 GMT"
+  },
+  {
+    "title": "編集者が選ぶ『るろうに剣心』で一番ライターとして雇いたいキャラ",
+    "number": 52,
+    "desc": "お互い編集社なので、ライターとして雇いたいキャラを選んでみました。",
+    "source": "https://omocoro.heteml.net/radio/kgb/052/052.mp3",
+    "link": "https://omocoro.jp/radio/132397/",
+    "pubDate": "Thu, 12 Apr 2018 15:00:00 GMT"
+  },
+  {
+    "title": "カルディでジャケ買いする",
+    "number": 53,
+    "desc": "カルディで買い物したことがないギャラクシー。2人で見た目だけで買い物をしてみました。",
+    "source": "https://omocoro.heteml.net/radio/kgb/053/053.mp3",
+    "link": "https://omocoro.jp/radio/132957/",
+    "pubDate": "Thu, 19 Apr 2018 15:00:00 GMT"
+  },
+  {
+    "title": "男の肉巻き対決",
+    "number": 54,
+    "desc": "男らしい料理対決シリーズ。今回は「肉巻き」です。色んなものを豚肉で巻きます。",
+    "source": "https://omocoro.heteml.net/radio/kgb/054/054.mp3",
+    "link": "https://omocoro.jp/radio/133428/",
+    "pubDate": "Thu, 26 Apr 2018 15:00:00 GMT"
+  },
+  {
+    "title": "44歳の男性が初めてウィスキーを飲むやつ",
+    "number": 55,
+    "desc": "44歳にして、初めてウィスキーに挑戦するギャラクシー。",
+    "source": "https://omocoro.heteml.net/radio/kgb/055/055.mp3",
+    "link": "https://omocoro.jp/radio/133706/",
+    "pubDate": "Sat, 05 May 2018 15:00:00 GMT"
+  },
+  {
+    "title": "今度こそケーキを食べたい中年の末路",
+    "number": 56,
+    "desc": "バイバイ、ケーキ食べたい中年ワールド。",
+    "source": "https://omocoro.heteml.net/radio/kgb/056/056.mp3",
+    "link": "https://omocoro.jp/radio/134335/",
+    "pubDate": "Sat, 12 May 2018 15:00:00 GMT"
+  }
+]

@@ -18,53 +18,55 @@ URL: `https://arrow2nd.github.io/omkr-radio/list.json`
 [
   {
     "id": "tokumei",
-    "name": "ARuFa・恐山の匿名ラジオ",
+    "title": "ARuFa・恐山の匿名ラジオ",
     "tag": "匿名ラジオ",
-    "onAir": true
+    "author": "ARuFa,ダ・ヴィンチ・恐山",
+    "desc": "たぶん毎週木曜日に更新されますので、よろしくお願いします。",
+    "thumbnail": "https://omocoro.jp/assets/uploads/ogp_tokumeiradio_01.png",
+    "link": "https://omocoro.jp/tag/%23%E3%83%A9%E3%82%B8%E3%82%AA",
+    "nowOnAir": true
   }
 ]
 ```
 
-| プロパティ | 型      | 説明           |
-| ---------- | ------- | -------------- |
-| id         | String  | ラジオ ID      |
-| name       | String  | ラジオ名       |
-| tag        | String  | 検索用タグ名   |
-| onAir      | Boolean | 更新中かどうか |
+| プロパティ | 型      | 説明                   |
+| ---------- | ------- | ---------------------- |
+| id         | String  | ラジオ ID              |
+| title      | String  | ラジオ名               |
+| tag        | String  | 検索用タグ名           |
+| author     | String  | 出演者（カンマ区切り） |
+| desc       | String  | 概要                   |
+| thumbnail  | String  | サムネイル画像 URL     |
+| link       | String  | タグページのリンク     |
+| onAir      | Boolean | 更新中かどうか         |
 
 ### エピソード一覧
 
 それぞれのラジオのエピソードの一覧です。
 
-URL: `https://arrow2nd.github.io/omkr-radio/data/{ラジオID}.json`
+URL: `https://arrow2nd.github.io/omkr-radio/json/{ラジオID}.json`
 
 ```json
-{
-  "name": "ARuFa・恐山の匿名ラジオ",
-  "updated": "Fri, 19 Nov 2021 10:45:06 GMT",
-  "episodes": [
-    {
-      "title": "キックボード",
-      "number": 1,
-      "path": "tokumei/001.mp3"
-    }
-  ]
-}
+[
+  {
+    "title": "キックボード",
+    "number": 1,
+    "desc": "たぶん毎週木曜日に更新されますので、よろしくお願いします。",
+    "source": "https://omocoro.heteml.net/radio/tokumei/001.mp3",
+    "link": "https://omocoro.jp/rensai/84585/",
+    "pubDate": "Mon, 22 Aug 2016 15:00:00 GMT"
+  }
+]
 ```
 
-| プロパティ | 型      | 説明              |
-| ---------- | ------- | ----------------- |
-| name       | String  | ラジオ名          |
-| updated    | String  | 最終更新日（UTC） |
-| episodes   | Episode | エピソード配列    |
-
-### Episode
-
-| プロパティ | 型     | 説明                                                            |
-| ---------- | ------ | --------------------------------------------------------------- |
-| title      | String | タイトル                                                        |
-| number     | Number | 話数                                                            |
-| path       | String | 音源のパス<br>（`https://omocoro.heteml.net/radio/`以下の部分） |
+| プロパティ | 型     | 説明     |
+| ---------- | ------ | -------- |
+| title      | String | タイトル |
+| number     | Number | 話数     |
+| desc       | String | 概要     |
+| source     | String | 音源 URL |
+| link       | String | 記事 URL |
+| pubDate    | String | 公開日時 |
 
 ## 実行
 

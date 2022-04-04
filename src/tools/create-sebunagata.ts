@@ -1,15 +1,24 @@
-import type { Episode, RadioData } from "../types/radio.ts";
+import type { Radio } from "../types/radio.ts";
+import type { Episode } from "../types/episode.ts";
 
 import { DOMParser } from "../deps.ts";
+import { parseTitle } from "../libs/parse.ts";
 
 //------------------------------------------------
-const radioId = "sebunagata";
-const radioName = "セブ山・永田の金曜ラジオ";
-const numRegExp = `${radioName}！\?\(\\d\+\)`;
 const baseUrl = "https://omocoro.jp/rensai/45480/";
+const sebunagata: Radio = {
+  id: "sebunagata",
+  title: "セブ山・永田の金曜ラジオ",
+  tag: "金曜ラジオ",
+  author: "セブ山,永田",
+  desc: "2010年2月から2015年2月まで毎週金曜日に配信されていた、セブ山と永田によるインターネットラジオ。",
+  thumbnail: "https://omocoro.jp/assets/uploads/kinnyourajio_650.jpg",
+  link: "https://omocoro.jp/tag/%E9%87%91%E6%9B%9C%E3%83%A9%E3%82%B8%E3%82%AA/",
+  nowOnAir: false,
+};
 //------------------------------------------------
 
-const episodes: Episode[] = [];
+const newEpisodes: Episode[] = [];
 
 for (let i = 1; i < 6; i++) {
   console.log(`< page = ${i} >`);
@@ -29,42 +38,51 @@ for (let i = 1; i < 6; i++) {
   const p = body.getElementsByTagName("p").map((e) => {
     const href = e.getElementsByTagName("a")[0]?.getAttribute("href") || "";
     return {
-      title: e.innerText,
-      path: href,
+      title: e.textContent,
+      source: href,
     };
   });
 
-  console.log(p);
+  for (const { title, source } of p) {
+    const parsed = parseTitle(title);
+    if (!parsed) continue;
 
-  for (const { title, path } of p) {
-    const matchedName = title.match(/「(.*)」/);
-    const episodeName = matchedName ? matchedName[1] : title;
+    const { episodeTitle, episodeNumber } = parsed;
 
-    const episodeNum = title.match(numRegExp);
-    if (!episodeNum) continue;
-
-    const radioFilePath = path.match(
-      /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/,
+    const radioFilePath = source.match(
+      /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/
     );
     if (!radioFilePath) continue;
 
-    episodes.push({
-      title: episodeName,
-      number: parseInt(episodeNum[1]),
-      path: radioFilePath[1],
+    newEpisodes.push({
+      title: episodeTitle,
+      number: episodeNumber ?? -1,
+      desc: sebunagata.desc,
+      source,
+      link: "https://omocoro.jp/rensai/45480/",
+      pubDate: "",
     });
   }
 }
 
-const results: RadioData = {
-  name: radioName,
-  updated: new Date().toUTCString(),
-  episodes: episodes.sort((a, b) => a.number - b.number), // 昇順でソート
-};
+// リスト読み込み
+const listPath = "./docs/list.json";
+const radioList: Radio[] = JSON.parse(Deno.readTextFileSync(listPath));
 
-console.log(results);
+// 新規ラジオを追加
+radioList.push(sebunagata);
+
+// 五十音順（あ->ア->亜）でソート
+radioList.sort((a, b) => a.title.localeCompare(b.title, "ja"));
+
+// リストを更新
+Deno.writeTextFileSync(listPath, JSON.stringify(radioList, null, "\t"));
+
+// エピソードファイルを作成
+const episodeJsonPath = `./docs/json/${sebunagata.id}.json`;
+Deno.createSync(episodeJsonPath);
 
 Deno.writeTextFileSync(
-  `./docs/data/${radioId}.json`,
-  JSON.stringify(results, null, "\t"),
+  episodeJsonPath,
+  JSON.stringify(newEpisodes, null, "\t")
 );

@@ -1,0 +1,418 @@
+[
+  {
+    "title": "ここが本当の出発点",
+    "number": 1,
+    "desc": "キッチン掃除のおともにちょうどいいかも知れない1時間くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks1/ks1.mp3",
+    "link": "https://omocoro.jp/radio/281705/",
+    "pubDate": "Tue, 01 Jun 2021 15:00:00 GMT"
+  },
+  {
+    "title": "隣人トラブルにトドメを刺せ！",
+    "number": 2,
+    "desc": "家事のおともにちょうどいいかも知れない1時間10分くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks2/ks2.mp3",
+    "link": "https://omocoro.jp/radio/282718/",
+    "pubDate": "Tue, 08 Jun 2021 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしんは国に1円を搾取されている",
+    "number": 3,
+    "desc": "半身浴のおともにちょうどいいかも知れない30分くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks3/ks3.mp3",
+    "link": "https://omocoro.jp/radio/283533/",
+    "pubDate": "Tue, 15 Jun 2021 15:00:00 GMT"
+  },
+  {
+    "title": "今まで住んだ街の思い出を最悪な気持ちで振り返る",
+    "number": 4,
+    "desc": "犬の散歩のおともにちょうどいいかも知れない1時間15分のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks4/ks4.mp3",
+    "link": "https://omocoro.jp/radio/284715/",
+    "pubDate": "Tue, 22 Jun 2021 15:00:00 GMT"
+  },
+  {
+    "title": "オモコロイベントが終わったって！",
+    "number": 5,
+    "desc": "失恋を忘れるのにちょうどいいかも知れない1時間30分以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks5/ks5.mp3",
+    "link": "https://omocoro.jp/radio/285546/",
+    "pubDate": "Tue, 29 Jun 2021 15:00:00 GMT"
+  },
+  {
+    "title": "10万円返してくれ！",
+    "number": 6,
+    "desc": "廃墟の凸配信のBGMにちょうどいいかも知れない1時間のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks6/ks6.mp3",
+    "link": "https://omocoro.jp/radio/286882/",
+    "pubDate": "Tue, 06 Jul 2021 15:00:00 GMT"
+  },
+  {
+    "title": "映画の知識をひけらかすことは罪なのか？",
+    "number": 7,
+    "desc": "ハローワークへ向かう途中に聴くBGMにちょうどいいかも知れない1時間のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks7/ks7.mp3",
+    "link": "https://omocoro.jp/radio/287638/",
+    "pubDate": "Tue, 13 Jul 2021 15:00:00 GMT"
+  },
+  {
+    "title": "リスナーの人生を変えちまった",
+    "number": 8,
+    "desc": "お出かけの往復時間に聴くBGMにちょうどいいかも知れない1時間のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks8/ks8.mp3",
+    "link": "https://omocoro.jp/radio/288715/",
+    "pubDate": "Tue, 20 Jul 2021 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしんのパーフェクト算数教室",
+    "number": 9,
+    "desc": "クンニにちなんだ92分のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks9/ks9.mp3",
+    "link": "https://omocoro.jp/radio/290001/",
+    "pubDate": "Tue, 27 Jul 2021 15:00:00 GMT"
+  },
+  {
+    "title": "生まれて初めて催眠術にかかってみたら",
+    "number": 10,
+    "desc": "また歩き出すときのおともにちょうどいいかもしれない2時間のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks10/ks10.mp3",
+    "link": "https://omocoro.jp/radio/291150/",
+    "pubDate": "Tue, 03 Aug 2021 15:00:00 GMT"
+  },
+  {
+    "title": "ARuFaは強い。みくのしんは最強",
+    "number": 11,
+    "desc": "ARuFaをゲストに迎えて送る1時間くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks11/ks11.mp3",
+    "link": "https://omocoro.jp/radio/292189/",
+    "pubDate": "Tue, 10 Aug 2021 15:00:00 GMT"
+  },
+  {
+    "title": "今日はパワポケの話しかしないよ",
+    "number": 12,
+    "desc": "園芸作業のお供にちょうどいいかもしれない1時間半くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks12/ks12.mp3",
+    "link": "https://omocoro.jp/radio/293900/",
+    "pubDate": "Tue, 17 Aug 2021 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしんが号泣する回",
+    "number": 13,
+    "desc": "謝罪に向かう途中のBGMにちょうどいいかもしれない1時間半くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks13/ks13.mp3",
+    "link": "https://omocoro.jp/radio/294610/",
+    "pubDate": "Tue, 24 Aug 2021 15:00:00 GMT"
+  },
+  {
+    "title": "オモコロライターが号泣する回",
+    "number": 14,
+    "desc": "境内の草引きなどの作務中のBGMにちょうどいいかもしれない1時間半くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks14/ks14.mp3",
+    "link": "https://omocoro.jp/radio/295634/",
+    "pubDate": "Wed, 01 Sep 2021 15:00:00 GMT"
+  },
+  {
+    "title": "2人でブチギレる回",
+    "number": 15,
+    "desc": "客入れBGMにちょうどいいかもしれない50分くらいのラジオになるはずでした",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks15/ks15.mp3",
+    "link": "https://omocoro.jp/radio/296695/",
+    "pubDate": "Wed, 08 Sep 2021 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしんのアナルがめくれる回",
+    "number": 16,
+    "desc": "みくのしんの仕事中に収録したラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks16/ks16.mp3",
+    "link": "https://omocoro.jp/radio/298294/",
+    "pubDate": "Wed, 15 Sep 2021 15:00:00 GMT"
+  },
+  {
+    "title": "モンゴルナイフと男根のしわ",
+    "number": 17,
+    "desc": "モンゴルナイフをゲストに迎えて収録したラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks17/ks17.mp3",
+    "link": "https://omocoro.jp/radio/299783/",
+    "pubDate": "Wed, 22 Sep 2021 15:00:00 GMT"
+  },
+  {
+    "title": "Your speech is too long",
+    "number": 18,
+    "desc": "1時間10分で終わるはずだったラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks18/ks18.mp3",
+    "link": "https://omocoro.jp/radio/300944/",
+    "pubDate": "Wed, 29 Sep 2021 15:00:00 GMT"
+  },
+  {
+    "title": "今日のみくのしんは限界を越えるぞ",
+    "number": 19,
+    "desc": "就活の不安を忘れられるかもしれない2時間のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks19/ks19.mp3",
+    "link": "https://omocoro.jp/radio/302109/",
+    "pubDate": "Tue, 05 Oct 2021 15:00:00 GMT"
+  },
+  {
+    "title": "うんこのナス",
+    "number": 20,
+    "desc": "みくのしんが頑張って編集した2時間のラジオです。（そう）",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks20/ks20.mp3",
+    "link": "https://omocoro.jp/radio/303312/",
+    "pubDate": "Tue, 12 Oct 2021 15:00:00 GMT"
+  },
+  {
+    "title": "俺たちのポケモンジム設営計画",
+    "number": 21,
+    "desc": "天国に行ける2時間のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks21/ks21.mp3",
+    "link": "https://omocoro.jp/radio/304049/",
+    "pubDate": "Tue, 19 Oct 2021 15:00:00 GMT"
+  },
+  {
+    "title": "かまどが限界を超える回",
+    "number": 22,
+    "desc": "2時間を超えないように頑張ったラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks22/ks22.mp3",
+    "link": "https://omocoro.jp/radio/305158/",
+    "pubDate": "Tue, 26 Oct 2021 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしんが激怒したあとに泣く回",
+    "number": 23,
+    "desc": "海の音と一緒に聞いている人もいる1時間半くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks23/ks23.mp3",
+    "link": "https://omocoro.jp/radio/306496/",
+    "pubDate": "Tue, 02 Nov 2021 15:00:00 GMT"
+  },
+  {
+    "title": "うんこに残ったコーンはもったいないのか？",
+    "number": 24,
+    "desc": "彼女との仲直りに使えるかもしれない1時間半くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks24/ks24.mp3",
+    "link": "https://omocoro.jp/radio/307692/",
+    "pubDate": "Tue, 09 Nov 2021 15:00:00 GMT"
+  },
+  {
+    "title": "ドリンクバーで悩むならビールを飲め",
+    "number": 25,
+    "desc": "浮気されたショックを束の間忘れられるかもしれない1時間半くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks25/ks25.mp3",
+    "link": "https://omocoro.jp/radio/308861/",
+    "pubDate": "Tue, 16 Nov 2021 15:00:00 GMT"
+  },
+  {
+    "title": "バカが運営するデスゲームはこうなる",
+    "number": 26,
+    "desc": "ファンレターをしたためる時のBGMに使えるかもしれない1時間半くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks26/ks26.mp3",
+    "link": "https://omocoro.jp/radio/309582/",
+    "pubDate": "Tue, 23 Nov 2021 15:00:00 GMT"
+  },
+  {
+    "title": "たかがペヤングで大冒険するな",
+    "number": 27,
+    "desc": "コンビニスイーツのお供にちょうどいいかもしれない1時間のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks27/ks27.mp3",
+    "link": "https://omocoro.jp/radio/310712/",
+    "pubDate": "Tue, 30 Nov 2021 15:00:00 GMT"
+  },
+  {
+    "title": "恐山とみくのしんの天ぷら相撲",
+    "number": 28,
+    "desc": "ダ・ヴィンチ・恐山をゲストに迎えてお送りする1時間くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks28/ks28.mp3",
+    "link": "https://omocoro.jp/radio/311896/",
+    "pubDate": "Tue, 07 Dec 2021 15:00:00 GMT"
+  },
+  {
+    "title": "夢と魔法の国みくのしんランド",
+    "number": 29,
+    "desc": "さつまいもを蒸す間の待ち時間にちょうどいいかもしれない1時間以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks29/ks29.mp3",
+    "link": "https://omocoro.jp/radio/312725/",
+    "pubDate": "Tue, 14 Dec 2021 15:00:00 GMT"
+  },
+  {
+    "title": "超ノジコって何？",
+    "number": 30,
+    "desc": "バーグハンバーグバーグの永田さんとラジオしました。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks30/ks30.mp3",
+    "link": "https://omocoro.jp/radio/314405/",
+    "pubDate": "Tue, 21 Dec 2021 15:00:00 GMT"
+  },
+  {
+    "title": "俺たちは勝つ",
+    "number": 31,
+    "desc": "副社長をボコボコにするのにちょうどいいかもしれない1時間半くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks31/ks31.mp3",
+    "link": "https://omocoro.jp/radio/316200/",
+    "pubDate": "Tue, 28 Dec 2021 15:00:00 GMT"
+  },
+  {
+    "title": "麦わらのルヒィーとみくのしんのIT海賊団",
+    "number": 32,
+    "desc": "寝る前の気休めにちょうどいいかもしれない1時間くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks32/ks32.mp3",
+    "link": "https://omocoro.jp/radio/316969/",
+    "pubDate": "Tue, 04 Jan 2022 15:00:00 GMT"
+  },
+  {
+    "title": "泣いたみくのしんと脱糞実況主",
+    "number": 33,
+    "desc": "世界記録を狙うのにちょうど良いかもしれない1時間40分くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks33/ks33.mp3",
+    "link": "https://omocoro.jp/radio/318082/",
+    "pubDate": "Tue, 11 Jan 2022 15:00:00 GMT"
+  },
+  {
+    "title": "2人だけの世界",
+    "number": 34,
+    "desc": "就活のおともにちょうど良いかもしれない1時間以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks34/ks34.mp3",
+    "link": "https://omocoro.jp/radio/318608/",
+    "pubDate": "Tue, 18 Jan 2022 15:00:00 GMT"
+  },
+  {
+    "title": "立ち上がれ！ゆでたまご戦士たち",
+    "number": 35,
+    "desc": "通院や受験のおともにちょうど良いかもしれない1時間半以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks35/ks35.mp3",
+    "link": "https://omocoro.jp/radio/320230/",
+    "pubDate": "Tue, 25 Jan 2022 15:00:00 GMT"
+  },
+  {
+    "title": "あつまれ！ゆでたまご戦士たち",
+    "number": 36,
+    "desc": "失恋や嫌な社員旅行を忘れるのにちょうど良いかもしれない1時間半以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks36/ks36.mp3",
+    "link": "https://omocoro.jp/radio/321808/",
+    "pubDate": "Wed, 02 Feb 2022 15:00:00 GMT"
+  },
+  {
+    "title": "豚肉の茹で汁で足湯を作ろう",
+    "number": 37,
+    "desc": "骨折の療養にちょうど良いかもしれない2時間のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks37/ks37.mp3",
+    "link": "https://omocoro.jp/radio/322748/",
+    "pubDate": "Wed, 09 Feb 2022 15:00:00 GMT"
+  },
+  {
+    "title": "みんなのはかいこうせん",
+    "number": 38,
+    "desc": "うんこを拭くために使える1時間以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks39/ks39.mp3",
+    "link": "https://omocoro.jp/radio/324757/",
+    "pubDate": "Wed, 23 Feb 2022 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしんはうんこをくっている",
+    "number": 38,
+    "desc": "無駄にした時間を取り戻せるかもしれない1時間のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks38/ks38.mp3",
+    "link": "https://omocoro.jp/radio/323170/",
+    "pubDate": "Wed, 16 Feb 2022 15:00:00 GMT"
+  },
+  {
+    "title": "ジョジョで口をイーッってしてるスタンド総選挙",
+    "number": 40,
+    "desc": "無駄にした時間を取り戻すために聞く1時間48分のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks40/ks40.mp3",
+    "link": "https://omocoro.jp/radio/325740/",
+    "pubDate": "Wed, 02 Mar 2022 15:00:00 GMT"
+  },
+  {
+    "title": "20年ぶりにポケモンをやった男",
+    "number": 41,
+    "desc": "お正月気分を引きずった1時間以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks41/ks41.mp3",
+    "link": "https://omocoro.jp/radio/326202/",
+    "pubDate": "Sun, 06 Mar 2022 15:00:00 GMT"
+  },
+  {
+    "title": "新年！爆笑下ネタしりとり",
+    "number": 42,
+    "desc": "痔の手術に耐えられるかもしれない1時間以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks42/ks42.mp3",
+    "link": "https://omocoro.jp/radio/327153/",
+    "pubDate": "Sun, 13 Mar 2022 15:00:00 GMT"
+  },
+  {
+    "title": "自分専用のバトルBGMがほしい",
+    "number": 43,
+    "desc": "受験のお供に使えるかもしれない1時間半くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks43/ks43.mp3",
+    "link": "https://omocoro.jp/radio/327812/",
+    "pubDate": "Sun, 20 Mar 2022 15:00:00 GMT"
+  },
+  {
+    "title": "ダンダダンに出たいから俺が都市伝説になる",
+    "number": 44,
+    "desc": "料理の後片付けのお供に使えるかもしれない1時間半くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks44/ks44.mp3",
+    "link": "https://omocoro.jp/radio/328419/",
+    "pubDate": "Sun, 27 Mar 2022 15:00:00 GMT"
+  },
+  {
+    "title": "もしものみくのしん",
+    "number": 45,
+    "desc": "ボンバーマンプレイ中のお供に使えるかもしれない1時間くらいのラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks45/ks45.mp3",
+    "link": "https://omocoro.jp/radio/329197/",
+    "pubDate": "Sun, 03 Apr 2022 15:00:00 GMT"
+  },
+  {
+    "title": "今月は愛が強め",
+    "number": 46,
+    "desc": "試験終わりのスイーツタイムのお供にちょうどいいかもしれない1時間以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks46/ks46.mp3",
+    "link": "https://omocoro.jp/radio/329897/",
+    "pubDate": "Sun, 10 Apr 2022 15:00:00 GMT"
+  },
+  {
+    "title": "山下ラジ男はかまどにイラついている",
+    "number": 47,
+    "desc": "かまみくの最後の友達、山下ラジ男と一緒に送る1時間のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks47/ks47.mp3",
+    "link": "https://omocoro.jp/radio/330924/",
+    "pubDate": "Sun, 17 Apr 2022 15:00:00 GMT"
+  },
+  {
+    "title": "オモコロイベントで雑魚ちゃんと会ったよ",
+    "number": 48,
+    "desc": "安いスーパーまで歩いていく時のお供にちょうどいいかもしれない1時間半のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks48/ks48.mp3",
+    "link": "https://omocoro.jp/radio/331681/",
+    "pubDate": "Sun, 24 Apr 2022 15:00:00 GMT"
+  },
+  {
+    "title": "かまどとみくのしんの信頼関係が崩れる回",
+    "number": 49,
+    "desc": "ポケモンのゲームをやるお供にちょうどいいかもしれない2時間のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks49/ks49.mp3",
+    "link": "https://omocoro.jp/radio/333435/",
+    "pubDate": "Tue, 03 May 2022 15:00:00 GMT"
+  },
+  {
+    "title": "俺は頭がおかしいんだ",
+    "number": 50,
+    "desc": "家族の晩御飯を作るときにちょうどいいかもしれない1時間半以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks50/ks50.mp3",
+    "link": "https://omocoro.jp/radio/334286/",
+    "pubDate": "Tue, 10 May 2022 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしん先生の学級崩壊",
+    "number": 51,
+    "desc": "タイヤ交換の作業中に聴くのにちょうどいいかもしれない1時間半以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks51/ks51.mp3",
+    "link": "https://omocoro.jp/radio/335924/",
+    "pubDate": "Tue, 17 May 2022 15:00:00 GMT"
+  },
+  {
+    "title": "さよなら。みくのしん先生",
+    "number": 52,
+    "desc": "タイヤ交揚げ物料理中に聞くのにちょうどいいかもしれない1時間半以上のラジオです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/ks52/ks52.mp3",
+    "link": "https://omocoro.jp/radio/336973/",
+    "pubDate": "Tue, 24 May 2022 15:00:00 GMT"
+  }
+]
