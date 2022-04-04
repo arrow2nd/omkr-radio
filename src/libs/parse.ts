@@ -1,28 +1,34 @@
-/**
- * タイトルテキストをパース
- * @param title タイトル
- * @param radioName ラジオ名
- * @returns [エピソード名, 話数]
- */
-export function parseTitle(
-  title: string,
-  radioName: string,
-): [string, number | undefined] {
-  const matchedName = title.match(/「(.+)」/);
-  const episodeName = matchedName?.[1] || title;
+type ParseTitleResult = {
+  radioTitle?: string;
+  episodeTitle: string;
+  episodeNumber?: number;
+};
 
-  const numRegExpList = [
-    `【\(\.\+\)】\\s\*${radioName}\\s\*「`,
-    `【\(\.\+\)】\.\*${radioName}\$`,
-    `${radioName}\\s\*\(\\d\+\)`,
+/**
+ * タイトルをパース
+ * @param title タイトル
+ * @returns 結果
+ */
+export function parseTitle(title: string): ParseTitleResult | undefined {
+  const titleRegExpList = [
+    /【(?<no>[\d.]+)】\s*(?<rTitle>.+)\s*「(?<eTitle>.+)」/,
+    /【(?<no>[\d.]+)】\s*「(?<eTitle>.+)」\s*(?<rTitle>.+)/,
+    /(?<rTitle>[^0-9]+)\s*(?<no>[\d.]+)\s*「(?<eTitle>.+)」/,
   ];
 
-  for (const regExp of numRegExpList) {
-    const matchedNum = title.match(regExp);
-    if (matchedNum) {
-      return [episodeName, parseFloat(matchedNum[1])];
-    }
+  // ラジオタイトル・エピソード数を抽出
+  for (const regExp of titleRegExpList) {
+    const result = title.match(regExp);
+    if (!result || !result.groups?.eTitle) continue;
+
+    return {
+      radioTitle: result.groups?.rTitle,
+      episodeTitle: result.groups?.eTitle,
+      episodeNumber: result.groups?.no
+        ? parseFloat(result.groups.no)
+        : undefined,
+    };
   }
 
-  return [episodeName, undefined];
+  return undefined;
 }
