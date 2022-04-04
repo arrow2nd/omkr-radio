@@ -1,10 +1,402 @@
 [
-	{
-		"title": "リモートでラジオをやってみよう",
-		"number": 1,
-		"desc": "【結論】リモートでラジオを収録するのは無理",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/l1/l1.mp3",
-		"link": "https://omocoro.jp/radio/226634/",
-		"pubDate": "Tue, 02 Jun 2020 15:00:00 GMT"
-	}
+  {
+    "title": "リモートでラジオをやってみよう",
+    "number": 1,
+    "desc": "【結論】リモートでラジオを収録するのは無理",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l1/l1.mp3",
+    "link": "https://omocoro.jp/radio/226634/",
+    "pubDate": "Tue, 02 Jun 2020 15:00:00 GMT"
+  },
+  {
+    "title": "相手に言ってもらおう",
+    "number": 2,
+    "desc": "どうぶつの森のプレイする気が失せた→「相手に言ってもらおう」のコーナー→懐かしいテレビ番組の話→ワンピースが読みたい",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l2/l2.mp3",
+    "link": "https://omocoro.jp/radio/227345/",
+    "pubDate": "Tue, 09 Jun 2020 15:00:00 GMT"
+  },
+  {
+    "title": "NGワードを言わせよう",
+    "number": 3,
+    "desc": "みくのしんは混乱状態→「NGワードを言わせよう」のコーナー→静かにしろよ→インスタ配信を見て凹んだ→今何か見えたぞ",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l3/l3.mp3",
+    "link": "https://omocoro.jp/radio/228279/",
+    "pubDate": "Tue, 16 Jun 2020 15:00:00 GMT"
+  },
+  {
+    "title": "電気バチ",
+    "number": 4,
+    "desc": "電気バチがいる→かまどがいると気まずい→お母さんとのエンカウント",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l4/l4.mp3",
+    "link": "https://omocoro.jp/radio/229828/",
+    "pubDate": "Tue, 23 Jun 2020 15:00:00 GMT"
+  },
+  {
+    "title": "長イキアキヒコ",
+    "number": 5,
+    "desc": "長イキアキヒコがいる→ミルクボーイより面白かった男→みくのしんの芸人時代→長イキアキヒコのランキング発表→引っ越し中なんです",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l5/l5.mp3",
+    "link": "https://omocoro.jp/radio/230834/",
+    "pubDate": "Tue, 30 Jun 2020 15:00:00 GMT"
+  },
+  {
+    "title": "山下ラジ男",
+    "number": 6,
+    "desc": "山下ラジ男がいる→ヤタガラスのコスプレ→山ラジのランキング発表→面白いYouTuberを見つけた",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l6/l6.mp3",
+    "link": "https://omocoro.jp/radio/231690/",
+    "pubDate": "Tue, 07 Jul 2020 15:00:00 GMT"
+  },
+  {
+    "title": "夢顎んく",
+    "number": 7,
+    "desc": "財布をなくした→げろしゃぶか？→モノマネクイズ",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l7/l7.mp3",
+    "link": "https://omocoro.jp/radio/232575/",
+    "pubDate": "Tue, 14 Jul 2020 15:00:00 GMT"
+  },
+  {
+    "title": "店長",
+    "number": 8,
+    "desc": "世間を切る→ゲスト来てるのに→世間を切る→大喜利の先生→「を」と「お」の与太話→新すぃ大喜利",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l8/l8.mp3",
+    "link": "https://omocoro.jp/radio/233529/",
+    "pubDate": "Tue, 21 Jul 2020 15:00:00 GMT"
+  },
+  {
+    "title": "たかや",
+    "number": 9,
+    "desc": "妄想モンスターハンター→SAVE THE たかや→会話ってすごい！→クソメールしか来てねえ",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l9/l9.mp3",
+    "link": "https://omocoro.jp/radio/235126/",
+    "pubDate": "Tue, 28 Jul 2020 15:00:00 GMT"
+  },
+  {
+    "title": "モンゴルナイフ",
+    "number": 10,
+    "desc": "感動の再会→汲み取り式トイレあるある→エキノコックス？→Netflixドラマ「愛の不時着」→「チャングムの誓い」の思い出→テレビデオの思い出→かまどの笑顔→「会いたい…」→「カメラを止めるな！」を見た→人情劇の話→ゾンビの話→田舎の話→モンゴルナイフから見た福岡→みくのしんから見た沖縄→オモコロ合宿の思い出→ピース！！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l10/l10.mp3",
+    "link": "https://omocoro.jp/radio/236106/",
+    "pubDate": "Tue, 04 Aug 2020 15:00:00 GMT"
+  },
+  {
+    "title": "オモコロチャンネルスタッフ柳田",
+    "number": 11,
+    "desc": "ここ使われてんの？→影の立役者「柳田」→オモコロチャンネルの裏側→傘泥棒→梅雨っていやだよね→「おい！みくのしん！」",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l11/l11.mp3",
+    "link": "https://omocoro.jp/radio/236379/",
+    "pubDate": "Tue, 11 Aug 2020 15:00:00 GMT"
+  },
+  {
+    "title": "いい買い物すると楽しいね",
+    "number": 12,
+    "desc": "やる気がでねえ→",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l12/l12.mp3",
+    "link": "https://omocoro.jp/radio/237993/",
+    "pubDate": "Tue, 18 Aug 2020 15:00:00 GMT"
+  },
+  {
+    "title": "落語を自分のことのように話す奴",
+    "number": 13,
+    "desc": "オススメの長靴→メール「仮面浪人で悩んでます」→落語を聞いてほしい→来週はこうしよう→クソシャレ前哨戦",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l13/l13.mp3",
+    "link": "https://omocoro.jp/radio/238749/",
+    "pubDate": "Tue, 25 Aug 2020 15:00:00 GMT"
+  },
+  {
+    "title": "う●こ事件の真犯人がわかったぞ！",
+    "number": 14,
+    "desc": "火球の音を聞いた→バーグハンバーグバーグのうんこ事件→バーグハンバーグバーグのうんこ事件の真犯人→容疑者みくのしんの献身→スーパーラジオCD買ってね！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l14/l14.mp3",
+    "link": "https://omocoro.jp/radio/239903/",
+    "pubDate": "Wed, 02 Sep 2020 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしん、ドラッグに手を出す",
+    "number": 15,
+    "desc": "対面収録は１週持ち越し！→ラジオCD再販するってよ→ヤードムやってみ？→うんこ犯のその後→特撮ヒーローのイベント→来週は息継ぎしよう",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l15/l15.mp3",
+    "link": "https://omocoro.jp/radio/240520/",
+    "pubDate": "Wed, 09 Sep 2020 15:00:00 GMT"
+  },
+  {
+    "title": "3ヶ月ぶりに会った男たちのクソシャレ合戦",
+    "number": 16,
+    "desc": "3ヶ月ぶりじゃないか！→どうせ嘘って言うもん→かまみくリスナーと会った→クソシャレ合戦開幕！→来週は頼むぞみんな！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l16/l16.mp3",
+    "link": "https://omocoro.jp/radio/241150/",
+    "pubDate": "Wed, 16 Sep 2020 15:00:00 GMT"
+  },
+  {
+    "title": "STOP！お菓子の過剰包装！",
+    "number": 18,
+    "desc": "STOP！お菓子の過剰包装→ARuFaさんに気を遣わせちゃったね→半沢直樹おもしろいよね〜！→モンゴルナイフ急襲！→山下ラジ男が叫び声をあげにやってきた！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l18/l18.mp3",
+    "link": "https://omocoro.jp/radio/243397/",
+    "pubDate": "Wed, 30 Sep 2020 15:00:00 GMT"
+  },
+  {
+    "title": "オンライン脱出ゲームで元気になろう",
+    "number": 19,
+    "desc": "起こってることがあるんだけど→オンライン脱出ゲームでコロナ鬱から脱出した→門外不出のボツ音源→電気バチと喧嘩して仲直りした→もうあんなことはしない",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l19/l19.mp3",
+    "link": "https://omocoro.jp/radio/245937/",
+    "pubDate": "Tue, 06 Oct 2020 15:00:00 GMT"
+  },
+  {
+    "title": "悲痛な叫びコンテスト終了！そして…",
+    "number": 20,
+    "desc": "怒ってることがあるんだけど→電気バチが来たぞ！→悲痛な叫びコンテストの後夜祭を開催します→電気バチの逆襲",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l20/l20.mp3",
+    "link": "https://omocoro.jp/radio/246810/",
+    "pubDate": "Tue, 13 Oct 2020 15:00:00 GMT"
+  },
+  {
+    "title": "泣いた後のシャワーは気持ちがいい",
+    "number": 21,
+    "desc": "なんでまた電気バチがいるの？→記事対決読んだ？→いいニュースと悪いニュースがあるんだけど→電気バチのnote→ブチギレてるんだけど→みくのしんと電気バチ→嫌なことを思い出した",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l21/l21.mp3",
+    "link": "https://omocoro.jp/radio/247820/",
+    "pubDate": "Tue, 20 Oct 2020 15:00:00 GMT"
+  },
+  {
+    "title": "エロ漫画…いっぱい…月額",
+    "number": 22,
+    "desc": "撮り直ししないと→コンタクトにしたんだけど→世界一お得なサブスクサービスを教えよう",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l22/l22.mp3",
+    "link": "https://omocoro.jp/radio/249148/",
+    "pubDate": "Tue, 27 Oct 2020 15:00:00 GMT"
+  },
+  {
+    "title": "ハッピーバースデイ脱糞王",
+    "number": 24,
+    "desc": "みくのしんは知る由もないけど→サブスクに向いてないみくのしん→誕生日はどうだった？→今年の誕生日プレゼント→クソ",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l24/l24.mp3",
+    "link": "https://omocoro.jp/radio/251324/",
+    "pubDate": "Tue, 10 Nov 2020 15:00:00 GMT"
+  },
+  {
+    "title": "お〜い取引先の人！聞いてる〜？",
+    "number": 25,
+    "desc": "一周年なんだよ→運動ダイエット→「下痢vs便秘」論争決着→夜道で怖い目にあった→打ち合わせで怖い目にあった→リモート飲み会にて",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l25/l25.mp3",
+    "link": "https://omocoro.jp/radio/252017/",
+    "pubDate": "Tue, 17 Nov 2020 15:00:00 GMT"
+  },
+  {
+    "title": "HUNTER×HUNTERの話をいっぱいしよう",
+    "number": 26,
+    "desc": "小一時間、HUNTER×HUNTERの話をしました",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l26/l26.mp3",
+    "link": "https://omocoro.jp/radio/252623/",
+    "pubDate": "Tue, 24 Nov 2020 15:00:00 GMT"
+  },
+  {
+    "title": "最近見た良いものを共有しよう",
+    "number": 27,
+    "desc": "エロ漫画の話→歯医者がクライマックスを迎えた→今年のドラえもんはスゴかった→本を読んだよ→オススメするって大事だね",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l27/l27.mp3",
+    "link": "https://omocoro.jp/radio/253867/",
+    "pubDate": "Tue, 01 Dec 2020 15:00:00 GMT"
+  },
+  {
+    "title": "ラジオ聴いてくれてセンキュー",
+    "number": 28,
+    "desc": "キレてることがある→オススメされた本を読んだ→まだ40分も経ってない→料理をするようになった→パン屋との雪解け→今年も大詰めだね",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l28/l28.mp3",
+    "link": "https://omocoro.jp/radio/254957/",
+    "pubDate": "Tue, 08 Dec 2020 15:00:00 GMT"
+  },
+  {
+    "title": "くっぞこたいくっぞこ",
+    "number": 29,
+    "desc": "「中目黒で…」→いいニュースと悪いニュースがある→みくのしんの卵焼き→見切り品で唯一おトクになる食べ物→声に出して感動しよう→家族Zoomした話",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l29/l29.mp3",
+    "link": "https://omocoro.jp/radio/255642/",
+    "pubDate": "Tue, 15 Dec 2020 15:00:00 GMT"
+  },
+  {
+    "title": "決めよう！！！！",
+    "number": 30,
+    "desc": "ゲストがきたぞ→いい先輩と思われたい→みくのしんの愚痴→決めよう！！！！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l30/l30.mp3",
+    "link": "https://omocoro.jp/radio/256688/",
+    "pubDate": "Tue, 22 Dec 2020 15:00:00 GMT"
+  },
+  {
+    "title": "ボトルマンめっっっっちゃ面白い！！",
+    "number": 31,
+    "desc": "ボトルマンを手に入れたぞ！→ホットスナック同盟の危機→煽り厨のアップルウォッチ→みくのしん健康の悩み→2020年ポテンラジオ計画",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l31/l31.mp3",
+    "link": "https://omocoro.jp/radio/257485/",
+    "pubDate": "Tue, 29 Dec 2020 15:00:00 GMT"
+  },
+  {
+    "title": "Go To Eatに物申すぞ！みくのしんが",
+    "number": 32,
+    "desc": "今日は何もないよ→リングフィット買ったのよ→Go To Eatに縛られた男たち→みくのしんポテンラジオ計画→ラジオの途中でさ…",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l32/l32.mp3",
+    "link": "https://omocoro.jp/radio/258495/",
+    "pubDate": "Tue, 05 Jan 2021 15:00:00 GMT"
+  },
+  {
+    "title": "Go To Eatに物申すぞ！みくのしんが part2",
+    "number": 33,
+    "desc": "あ〜！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l33/l33.mp3",
+    "link": "https://omocoro.jp/radio/259566/",
+    "pubDate": "Tue, 12 Jan 2021 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしんの頭がおかしくなりました",
+    "number": 34,
+    "desc": "みくのしんが頭おかしくなった→映画「魔女見習いを探して」を見た→みくのしんの怖い話→初めてピクミンやった",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l34/l34.mp3",
+    "link": "https://omocoro.jp/radio/260850/",
+    "pubDate": "Tue, 19 Jan 2021 15:00:00 GMT"
+  },
+  {
+    "title": "マジくそヤラセ本物ロシアンルーレット",
+    "number": 35,
+    "desc": "天気の話→桃鉄の話→マジくそヤラセ本物ロシアンルーレット→マジくそ本物ロシアンルーレット→勉強すすんでる？",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l35/l35.mp3",
+    "link": "https://omocoro.jp/radio/261635/",
+    "pubDate": "Tue, 26 Jan 2021 15:00:00 GMT"
+  },
+  {
+    "title": "金の話になるとマジだから",
+    "number": 36,
+    "desc": "天気の話→みくのしんはなめられている→元ネタ当てっこ",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l36/l36.mp3",
+    "link": "https://omocoro.jp/radio/262597/",
+    "pubDate": "Wed, 03 Feb 2021 15:00:00 GMT"
+  },
+  {
+    "title": "寝るたびに俺は死体に近づいている",
+    "number": 37,
+    "desc": "今日は疲れ切っている→ブチギレてるんだけど→みくのしんのオモコロ特集→20万の買い物→マットレスの思い出→ヨギボーの思い出→ゴーイングメリーフライパン→ちょっとした話",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l37/l37.mp3",
+    "link": "https://omocoro.jp/radio/263839/",
+    "pubDate": "Wed, 10 Feb 2021 15:00:00 GMT"
+  },
+  {
+    "title": "エロ漫画の話をするよ",
+    "number": 38,
+    "desc": "寒いね→M-1グランプリ楽しみだね→エロ漫画の話をするよ→明日の夜はリモート飲み会だ",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l38/l38.mp3",
+    "link": "https://omocoro.jp/radio/265769/",
+    "pubDate": "Wed, 17 Feb 2021 15:00:00 GMT"
+  },
+  {
+    "title": "80歳になってから聴く音源",
+    "number": 39,
+    "desc": "今日は調子がいい→靴を買ったんだけど→スシローの話→80歳になってから聴く音源",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l39/l39.mp3",
+    "link": "https://omocoro.jp/radio/267107/",
+    "pubDate": "Wed, 24 Feb 2021 15:00:00 GMT"
+  },
+  {
+    "title": "忘年会の時の音源",
+    "number": 40,
+    "desc": "ZOOMで慰労会をひらいた時に、ついでに録音していた音源です",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l40/l40.mp3",
+    "link": "https://omocoro.jp/radio/268386/",
+    "pubDate": "Sun, 28 Feb 2021 15:00:00 GMT"
+  },
+  {
+    "title": "家にいたから褒めてほしい",
+    "number": 41,
+    "desc": "みくコロ2021→正月何してた？→オンライン帰省したよ→また靴を買ったみくのしん→恋愛相談なんてやっちゃうんだから",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l41/l41.mp3",
+    "link": "https://omocoro.jp/radio/268908/",
+    "pubDate": "Sun, 07 Mar 2021 15:00:00 GMT"
+  },
+  {
+    "title": "かまみくリモート",
+    "number": 42,
+    "desc": "かまみくリモート再来！→記事の悪魔→オモコロ特集の裏話→ラベルレスのペットボトル→脂肪が燃える音がした",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l42/l42.mp3",
+    "link": "https://omocoro.jp/radio/269550/",
+    "pubDate": "Sun, 14 Mar 2021 15:00:00 GMT"
+  },
+  {
+    "title": "ラジオ中に電話がかかってくるなんて",
+    "number": 43,
+    "desc": "リモート〜〜〜〜〜",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l43/l43.mp3",
+    "link": "https://omocoro.jp/radio/270070/",
+    "pubDate": "Sun, 21 Mar 2021 15:00:00 GMT"
+  },
+  {
+    "title": "検便の話でスタートを切ろう",
+    "number": 44,
+    "desc": "リモート〜〜〜〜〜",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l44/l44.mp3",
+    "link": "https://omocoro.jp/radio/271288/",
+    "pubDate": "Sun, 28 Mar 2021 15:00:00 GMT"
+  },
+  {
+    "title": "岡田悠さんに教えを乞う",
+    "number": 45,
+    "desc": "リモート〜〜〜〜〜",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l45/l45.mp3",
+    "link": "https://omocoro.jp/radio/272127/",
+    "pubDate": "Sun, 04 Apr 2021 15:00:00 GMT"
+  },
+  {
+    "title": "くそラジオ",
+    "number": 46,
+    "desc": "リモート〜〜〜〜〜",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l46/l46.mp3",
+    "link": "https://omocoro.jp/radio/272851/",
+    "pubDate": "Sun, 11 Apr 2021 15:00:00 GMT"
+  },
+  {
+    "title": "高いところは苦手だ",
+    "number": 47,
+    "desc": "リモート〜〜〜〜〜",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l47/l47.mp3",
+    "link": "https://omocoro.jp/radio/274144/",
+    "pubDate": "Sun, 18 Apr 2021 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしんを信じきれていなかった",
+    "number": 48,
+    "desc": "リモート〜〜〜〜〜",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l48/l48.mp3",
+    "link": "https://omocoro.jp/radio/275767/",
+    "pubDate": "Sun, 25 Apr 2021 15:00:00 GMT"
+  },
+  {
+    "title": "花粉症でダメになったみくのしん",
+    "number": 49,
+    "desc": "リモート〜〜〜〜〜",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l49/l49.mp3",
+    "link": "https://omocoro.jp/radio/277445/",
+    "pubDate": "Tue, 04 May 2021 15:00:00 GMT"
+  },
+  {
+    "title": "エクスキューズミー",
+    "number": 50,
+    "desc": "リモート〜〜〜〜〜",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l50/l50.mp3",
+    "link": "https://omocoro.jp/radio/278257/",
+    "pubDate": "Tue, 11 May 2021 15:00:00 GMT"
+  },
+  {
+    "title": "僕らのヒーローごとうさん",
+    "number": 51,
+    "desc": "リモート〜〜〜〜〜",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l51/l51.mp3",
+    "link": "https://omocoro.jp/radio/279432/",
+    "pubDate": "Tue, 18 May 2021 15:00:00 GMT"
+  },
+  {
+    "title": "今シーズン最終回！",
+    "number": 972000,
+    "desc": "久しぶりに対面収録→かまどのついてない日→八つ脳の加味條→note連続更新が途絶えた→次シーズンの名前",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/l972000/l972000.mp3",
+    "link": "https://omocoro.jp/radio/280522/",
+    "pubDate": "Tue, 25 May 2021 15:00:00 GMT"
+  }
 ]
