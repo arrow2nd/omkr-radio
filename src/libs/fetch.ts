@@ -1,6 +1,6 @@
 import { DOMParser } from "../deps.ts";
 
-import { parseTitle } from "./parse.ts";
+import { parseDate, parseTitle } from "./parse.ts";
 import { getId } from "./id.ts";
 
 type FetchResult = {
@@ -83,16 +83,12 @@ export async function fetchEpisodeInfo(
   console.log("概要: " + desc);
 
   // 投稿日
-  const date = doc
-    .querySelector(".date")
-    ?.textContent.split("-")
-    .map((e) => parseInt(e));
-
-  if (!date) {
+  const dateStr = doc.querySelector(".date")?.textContent;
+  if (!dateStr) {
     throw new Error(`投稿日が抽出できませんでした (${url})`);
   }
 
-  const pubDate = new Date(date[0], date[1] + 1, date[2]).toUTCString();
+  const pubDate = parseDate(dateStr);
 
   console.log("投稿日: " + pubDate);
 
