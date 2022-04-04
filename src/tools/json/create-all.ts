@@ -17,6 +17,10 @@ function loadAllEpisodes() {
   return results;
 }
 
+async function wait(sec: number) {
+  await new Promise((resolve) => setTimeout(resolve, sec * 1000));
+}
+
 async function createEpisodeData(tagName: string) {
   const episodes = loadAllEpisodes();
 
@@ -60,22 +64,18 @@ async function createEpisodeData(tagName: string) {
     for (const { title, url } of articles) {
       // 重複するならスキップ
       if (episodes.find((e) => e.link === url)) {
-        // 最新回が登録済みなら、処理済みと見做して全てスキップする
-        if (pageNum === 1) {
-          console.log(`[ALL-SKIP] 既に全件取得済みのラジオです`);
-          return;
-        }
-
         console.log(`[SKIP] 既に登録済みです (${title})`);
         continue;
       }
 
       console.log("-".repeat(30));
-      await addEpisode(url);
+      const ok = await addEpisode(url);
 
       // 5秒待つ
-      await new Promise((resolve) => setTimeout(resolve, 5000));
+      if (ok) await wait(5);
     }
+
+    await wait(2);
   }
 }
 

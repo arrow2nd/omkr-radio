@@ -5,20 +5,18 @@ import { fetchEpisodeInfo } from "./fetch.ts";
 /**
  * 新しいエピソードを追加
  * @param url 記事URL
+ * @returns 成功したか
  */
-export async function addEpisode(url: string) {
+export async function addEpisode(url: string): Promise<boolean> {
   // ラジオ以外の記事ならスキップ
   if (!/radio|rensai/.test(url)) {
     console.log(`[SKIP] ラジオの記事ではありません (${url})`);
-    return;
+    return false;
   }
 
   // 詳細を取得
   const episodeInfo = await fetchEpisodeInfo(url);
-  if (!episodeInfo) {
-    console.log(`[SKIP] 音源ファイルがありません (${url})`);
-    return;
-  }
+  if (!episodeInfo) return false;
 
   const { id, episodeTitle, episodeNumber, desc, pubDate, source } =
     episodeInfo;
@@ -48,7 +46,7 @@ export async function addEpisode(url: string) {
 
   if (isDuplicate) {
     console.log(`[SKIP] 重複したエピソードです (${newEpisode.title})`);
-    return;
+    return true;
   }
 
   // 追加して保存
@@ -58,4 +56,5 @@ export async function addEpisode(url: string) {
   Deno.writeTextFileSync(episodeJsonPath, JSON.stringify(results, null, "\t"));
 
   console.info("[ADDED]");
+  return true;
 }

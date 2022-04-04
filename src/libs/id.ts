@@ -1,10 +1,6 @@
 import { Radio } from "../types/radio.ts";
 import { crypto } from "../deps.ts";
 
-const radioList: Radio[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json")
-);
-
 /**
  * ラジオIDを取得
  * @param radioTitle ラジオ名
@@ -12,6 +8,10 @@ const radioList: Radio[] = JSON.parse(
  * @returns ID
  */
 export function getId(radioTitle: string, source: string) {
+  const radioList: Radio[] = JSON.parse(
+    Deno.readTextFileSync("./docs/list.json")
+  );
+
   // 音源URLから抽出
   const newId = source?.match(/radio\/(.+?)\//)?.[1];
   if (!newId) {
@@ -19,15 +19,22 @@ export function getId(radioTitle: string, source: string) {
   }
 
   // リスト内にIDがあればそれを返す
-  const foundId = radioList.find(
-    ({ id, title }) => id === newId || title === radioTitle
-  );
-  if (foundId) return foundId.id;
+  const foundId = radioList.find(({ title }) => title === radioTitle);
+  if (foundId) {
+    console.log(`[FOUND] IDが見つかりました (${foundId})`);
+    return foundId.id;
+  }
 
   // IDの重複を確認
   const result = radioList.find(({ id }) => id === newId);
-  if (!result) return newId;
+  if (!result) {
+    console.log(`[CREATE] URLからIDを作成しました (${result})`);
+    return newId;
+  }
 
   // 重複する場合、一意なIDを生成
+  console.log(
+    `[CREATE] ランダムなIDを作成しました (${radioTitle} / ${newId}-UUID)`
+  );
   return `${newId}-${crypto.randomUUID()}`;
 }

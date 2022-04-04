@@ -11,6 +11,8 @@ type ParseTitleResult = {
  */
 export function parseTitle(title: string): ParseTitleResult | undefined {
   const titleRegExpList = [
+    /#(?<no>\d+)「(?<eTitle>.+?)」(?<rTitle>.+)/,
+    /第(?<no>[\d]+)回\s*(?<rTitle>.+?)\s*「(?<eTitle>.+)」/,
     /【(?<no>[\d.]+)】\s*(?<rTitle>.+?)\s*「(?<eTitle>.+)」/,
     /【(?<no>[\d.]+)】\s*「(?<eTitle>.+?)」\s*(?<rTitle>.+)/,
     /(?<rTitle>[^0-9]+)\s*(?<no>[\d.]+)\s*「(?<eTitle>.+)」/,
@@ -22,8 +24,8 @@ export function parseTitle(title: string): ParseTitleResult | undefined {
     if (!result || !result.groups?.eTitle) continue;
 
     return {
-      radioTitle: result.groups?.rTitle,
-      episodeTitle: result.groups?.eTitle,
+      radioTitle: result.groups?.rTitle.trim(),
+      episodeTitle: result.groups?.eTitle.trim(),
       episodeNumber: result.groups?.no
         ? parseFloat(result.groups.no)
         : undefined,

@@ -111,7 +111,10 @@ export async function fetchEpisodeInfo(
     /(https:\/\/omocoro\.heteml\.net\/radio\/.*?\.mp3)/
   )?.[1];
 
-  if (!source) return undefined;
+  if (!source) {
+    console.log(`[SKIP] 音源ファイルがありません (${url})`);
+    return undefined;
+  }
 
   console.log("音源: " + source);
 
