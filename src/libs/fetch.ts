@@ -47,14 +47,17 @@ export async function fetchEpisodeInfo(
   console.log("タグリンク: " + tagLink);
 
   // タイトルを抽出
-  const title = doc.querySelector(".header-meta > .title")?.textContent;
+  const title = doc
+    .querySelector(".header-meta > .title")
+    ?.textContent.replace(/\n/g, "");
   if (!title) {
     throw new Error("タイトルの抽出に失敗しました");
   }
 
-  const parsed = parseTitle(title.replace(/\n/g, ""));
+  const parsed = parseTitle(title);
   if (!parsed) {
-    throw new Error(`未知のタイトルフォーマットです (${doc.title})`);
+    console.log(`[SKIP] 未知のタイトルフォーマットです (${title})`);
+    return undefined;
   }
 
   let { radioTitle, episodeTitle, episodeNumber } = parsed;
@@ -110,7 +113,7 @@ export async function fetchEpisodeInfo(
   console.log("音源: " + source);
 
   // ラジオIDを抽出
-  const id = getId(source);
+  const id = getId(radioTitle, source);
 
   console.log("ID: " + id);
 

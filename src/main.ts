@@ -5,7 +5,9 @@ import { addEpisode } from "./libs/add.ts";
 const res = await fetch("https://omocoro.jp/feed");
 
 if (!res.ok) {
-  throw new Error(`RSSが取得できませんでした\n${res.statusText}: ${res.statusText}`)
+  throw new Error(
+    `RSSが取得できませんでした\n${res.statusText}: ${res.statusText}`
+  );
 }
 
 // RSSをパース
@@ -17,7 +19,7 @@ for (const entriy of feed.entries) {
   const url = entriy.links[0]?.href;
 
   if (title && url) {
-    await addEpisode(title, url);
+    await addEpisode(url);
   }
 }
 

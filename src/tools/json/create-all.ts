@@ -2,10 +2,13 @@ import type { Radio } from "../../types/radio.ts";
 import type { Episode } from "../../types/episode.ts";
 
 import { DOMParser } from "../../deps.ts";
-import { fetchEpisodeInfo } from "../../libs/fetch.ts";
+import { addEpisode } from "../../libs/add.ts";
 
-async function createEpisodeData(radioId: string, tagName: string) {
-  const episodes: Episode[] = [];
+async function createEpisodeData(id: string, tagName: string) {
+  const episodeJsonPath = `./docs/json/${id}.json`;
+  const episodes: Episode[] = JSON.parse(
+    Deno.readTextFileSync(episodeJsonPath)
+  );
 
   for (let pageNum = 1; ; pageNum++) {
     console.log(`[ PAGE: ${pageNum} ]`);
@@ -38,45 +41,23 @@ async function createEpisodeData(radioId: string, tagName: string) {
       // ラジオの記事ではないならスキップ
       if (!/^https:\/\/omocoro.jp\/(radio|rensai)/.test(url)) continue;
 
-      // 詳細を取得
-      const episodeInfo = await fetchEpisodeInfo(url);
-      if (!episodeInfo) {
-        console.log(`[NOT FOUND] ${title}`);
-        continue;
-      }
+      // 重複するならスキップ
+      if (episodes.find((e) => title.includes(e.title))) continue;
 
-      const { episodeTitle, episodeNumber, desc, pubDate, source } =
-        episodeInfo;
+      addEpisode(url);
 
-      episodes.push({
-        title: episodeTitle,
-        number: episodeNumber || 1,
-        desc,
-        source,
-        link: url,
-        pubDate,
-      });
-
-      // 2秒待つ
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      // 5秒待つ
+      await new Promise((resolve) => setTimeout(resolve, 5000));
     }
   }
-
-  // 昇順でソート
-  const results: Episode[] = episodes.sort((a, b) => a.number - b.number);
-
-  Deno.writeTextFileSync(
-    `./docs/json/${radioId}.json`,
-    JSON.stringify(results, null, "\t")
-  );
 }
 
 const radioList: Radio[] = JSON.parse(
   Deno.readTextFileSync("./docs/list.json")
 );
 
-for (const radio of radioList) {
-  await createEpisodeData(radio.id, radio.tag);
+for (const { id, tag } of radioList) {
+  await createEpisodeData(id, tag);
 }
 
 console.log("[SUCCESS]");

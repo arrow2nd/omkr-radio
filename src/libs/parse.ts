@@ -11,8 +11,8 @@ type ParseTitleResult = {
  */
 export function parseTitle(title: string): ParseTitleResult | undefined {
   const titleRegExpList = [
-    /【(?<no>[\d.]+)】\s*(?<rTitle>.+)\s*「(?<eTitle>.+)」/,
-    /【(?<no>[\d.]+)】\s*「(?<eTitle>.+)」\s*(?<rTitle>.+)/,
+    /【(?<no>[\d.]+)】\s*(?<rTitle>.+?)\s*「(?<eTitle>.+)」/,
+    /【(?<no>[\d.]+)】\s*「(?<eTitle>.+?)」\s*(?<rTitle>.+)/,
     /(?<rTitle>[^0-9]+)\s*(?<no>[\d.]+)\s*「(?<eTitle>.+)」/,
   ];
 

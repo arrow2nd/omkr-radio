@@ -7,12 +7,17 @@ const radioList: Radio[] = JSON.parse(
 
 /**
  * ラジオIDを取得
+ * @param radioTitle ラジオ名
  * @param source 音源URL
  * @returns ID
  */
-export function getId(source: string) {
-  const newId = source?.match(/radio\/(.+?)\//)?.[1];
+export function getId(radioTitle: string, source: string) {
+  // リスト内にIDがあればそれを返す
+  const foundId = radioList.find(({ title }) => title === radioTitle);
+  if (foundId) return foundId.id;
 
+  // 音源URLから抽出
+  const newId = source?.match(/radio\/(.+?)\//)?.[1];
   if (!newId) {
     throw new Error(`ラジオIDの取得に失敗しました (${source})`);
   }

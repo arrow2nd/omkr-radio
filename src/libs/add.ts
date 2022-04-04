@@ -47,7 +47,9 @@ export async function addEpisode(url: string) {
 
   // 追加して保存
   episodes.push(newEpisode);
-  Deno.writeTextFileSync(episodeJsonPath, JSON.stringify(episodes, null, "\t"));
+
+  const results = episodes.sort((a, b) => a.number - b.number);
+  Deno.writeTextFileSync(episodeJsonPath, JSON.stringify(results, null, "\t"));
 
   console.info("[ADDED]");
 }
