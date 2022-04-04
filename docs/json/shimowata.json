@@ -1,10 +1,258 @@
 [
-	{
-		"title": "編集長にもどった暁にはお前に…",
-		"number": 1,
-		"desc": "オモコロ初代編集長・シモダテツヤと、漫画家・地獄のミサワの新ラジオが始まりました！ 毎週土曜日0時更新！",
-		"source": "https://omocoro.heteml.net/radio/shimowata/001/001.mp3",
-		"link": "https://omocoro.jp/rensai/90094/",
-		"pubDate": "Wed, 02 Nov 2016 15:00:00 GMT"
-	}
+  {
+    "title": "編集長にもどった暁にはお前に…",
+    "number": 1,
+    "desc": "オモコロ初代編集長・シモダテツヤと、漫画家・地獄のミサワの新ラジオが始まりました！ 毎週土曜日0時更新！",
+    "source": "https://omocoro.heteml.net/radio/shimowata/001/001.mp3",
+    "link": "https://omocoro.jp/rensai/90094/",
+    "pubDate": "Wed, 02 Nov 2016 15:00:00 GMT"
+  },
+  {
+    "title": "実力不足！テレビ出演時の誤魔化し方",
+    "number": 2,
+    "desc": "オモコロ初代編集長・シモダと、漫画家・地獄のミサワのラジオ。第2回目は「TVに出た時に実力不足を誤魔化す方法」を教えます。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/002/002.mp3",
+    "link": "https://omocoro.jp/rensai/90684/",
+    "pubDate": "Wed, 09 Nov 2016 15:00:00 GMT"
+  },
+  {
+    "title": "お世話になっております",
+    "number": 3,
+    "desc": "大人になれない漫画家・地獄のミサワの悩みとは？",
+    "source": "https://omocoro.heteml.net/radio/shimowata/003/003.mp3",
+    "link": "https://omocoro.jp/rensai/91132/",
+    "pubDate": "Wed, 16 Nov 2016 15:00:00 GMT"
+  },
+  {
+    "title": "熱い話にご用心",
+    "number": 4,
+    "desc": "オモコロ初代編集長・シモダと漫画家・地獄のミサワのラジオ第4回目。熱い話をする友達を見て、シモダが気付いたこととは？",
+    "source": "https://omocoro.heteml.net/radio/shimowata/004/004.mp3",
+    "link": "https://omocoro.jp/rensai/91669/",
+    "pubDate": "Wed, 23 Nov 2016 15:00:00 GMT"
+  },
+  {
+    "title": "クソ会社への転職者",
+    "number": 5,
+    "desc": "クソ会社に転職してきた者の話。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/005/005.mp3",
+    "link": "https://omocoro.jp/rensai/93239/",
+    "pubDate": "Wed, 07 Dec 2016 15:00:00 GMT"
+  },
+  {
+    "title": "副編集長を引きずり降ろされたとき1",
+    "number": 6,
+    "desc": "オモコロ副編集長を引きずり降ろされた者・加藤のお話です。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/006/006.mp3",
+    "link": "https://omocoro.jp/rensai/93918/",
+    "pubDate": "Wed, 14 Dec 2016 15:00:00 GMT"
+  },
+  {
+    "title": "副編集長を引きずり降ろされたとき2",
+    "number": 7,
+    "desc": "オモコロ副編集長を引きずり降ろされた者2・まきのゆうきのお話です。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/007/007.mp3",
+    "link": "https://omocoro.jp/rensai/94530/",
+    "pubDate": "Wed, 21 Dec 2016 15:00:00 GMT"
+  },
+  {
+    "title": "この世で一番人望がない男 ヨッピー",
+    "number": 8,
+    "desc": "この世で一番人望がない男をゲストに招きました。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/008/008.mp3",
+    "link": "https://omocoro.jp/rensai/94871/",
+    "pubDate": "Wed, 28 Dec 2016 15:00:00 GMT"
+  },
+  {
+    "title": "続・人望なき男ヨッピー、愛に飢える",
+    "number": 9,
+    "desc": "涙なしには語れない、人望がない男・ヨッピーのお話です。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/009/009.mp3",
+    "link": "https://omocoro.jp/rensai/95194/",
+    "pubDate": "Wed, 04 Jan 2017 15:00:00 GMT"
+  },
+  {
+    "title": "人望を金で買え！ヨッピーを誘ってハワイが当たるキャンペーン！",
+    "number": 10,
+    "desc": "ヨッピーを誘ってハワイに行こう！",
+    "source": "https://omocoro.heteml.net/radio/shimowata/010/010.mp3",
+    "link": "https://omocoro.jp/rensai/95763/",
+    "pubDate": "Wed, 11 Jan 2017 15:00:00 GMT"
+  },
+  {
+    "title": "バーグの金庫番",
+    "number": 11,
+    "desc": "バーグの金庫番・かんちをゲストに迎えてのラジオです。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/011/011.mp3",
+    "link": "https://omocoro.jp/rensai/96145/",
+    "pubDate": "Wed, 18 Jan 2017 15:00:00 GMT"
+  },
+  {
+    "title": "その後のヨッピーレポ",
+    "number": 12,
+    "desc": "「ヨッピーを誘ってハワイに行こうキャンペーン」その後のお話。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/012/012.mp3",
+    "link": "https://omocoro.jp/rensai/96974/",
+    "pubDate": "Wed, 25 Jan 2017 15:00:00 GMT"
+  },
+  {
+    "title": "馴染まない男",
+    "number": 13,
+    "desc": "馴染まない男・ギャラクシーをゲストに迎えて、馴染まない話を聞きます。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/013/013.mp3",
+    "link": "https://omocoro.jp/rensai/97353/",
+    "pubDate": "Thu, 02 Feb 2017 15:00:00 GMT"
+  },
+  {
+    "title": "何をしてる人かわからないまま入れたひと",
+    "number": 14,
+    "desc": "何をしてる人かわからないまま入社させると一体どうなるのでしょうか？",
+    "source": "https://omocoro.heteml.net/radio/shimowata/014/014.mp3",
+    "link": "https://omocoro.jp/rensai/98128/",
+    "pubDate": "Thu, 16 Feb 2017 15:00:00 GMT"
+  },
+  {
+    "title": "締め切り守らんかい",
+    "number": 15,
+    "desc": "締切を守らない人に怒るシモダをお聞きください。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/015/015.mp3",
+    "link": "https://omocoro.jp/rensai/100022/",
+    "pubDate": "Mon, 13 Mar 2017 15:00:00 GMT"
+  },
+  {
+    "title": "図に乗ってるんスか！？",
+    "number": 16,
+    "desc": "永田をゲストに迎えて、引き続き締切を守らない地獄のミサワを怒ります。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/016/016.mp3",
+    "link": "https://omocoro.jp/rensai/100026/",
+    "pubDate": "Mon, 20 Mar 2017 15:00:00 GMT"
+  },
+  {
+    "title": "アタシたち、いつから勘違いし始めたの",
+    "number": 17,
+    "desc": "「シモダさんって、何で自分のこと面白いと思ってるんですか？」",
+    "source": "https://omocoro.heteml.net/radio/shimowata/017/017.mp3",
+    "link": "https://omocoro.jp/rensai/101398/",
+    "pubDate": "Mon, 27 Mar 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ミサワの謎に迫る",
+    "number": 18,
+    "desc": "ミサワが病欠の隙に、ミサワのことを好き勝手話しました。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/018/018.mp3",
+    "link": "https://omocoro.jp/rensai/102422/",
+    "pubDate": "Mon, 10 Apr 2017 15:00:00 GMT"
+  },
+  {
+    "title": "社員面談でいきなりロシアに単身赴任を言い渡されたら",
+    "number": 19,
+    "desc": "社員面談でいきなりロシアに単身赴任を言い渡されたらどうなっちゃうの？",
+    "source": "https://omocoro.heteml.net/radio/shimowata/019/019.mp3",
+    "link": "https://omocoro.jp/rensai/103702/",
+    "pubDate": "Mon, 24 Apr 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ミサワが好きな男はミサワを好きなのか",
+    "number": 20,
+    "desc": "久しぶりに地獄のミサワが出てます。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/020/020.mp3",
+    "link": "https://omocoro.jp/rensai/104751/",
+    "pubDate": "Thu, 11 May 2017 15:00:00 GMT"
+  },
+  {
+    "title": "鬱とキス",
+    "number": 21,
+    "desc": "鬱とキス。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/021/021.mp3",
+    "link": "https://omocoro.jp/rensai/106044/",
+    "pubDate": "Wed, 24 May 2017 15:00:00 GMT"
+  },
+  {
+    "title": "かなしき現実",
+    "number": 22,
+    "desc": "かなしき現実。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/022/022.mp3",
+    "link": "https://omocoro.jp/rensai/107136/",
+    "pubDate": "Wed, 07 Jun 2017 15:00:00 GMT"
+  },
+  {
+    "title": "本人たち不在で思い出を語ろう",
+    "number": 23,
+    "desc": "本人たち不在です。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/023/023.mp3",
+    "link": "https://omocoro.jp/rensai/108706/",
+    "pubDate": "Wed, 28 Jun 2017 15:00:00 GMT"
+  },
+  {
+    "title": "八芳園は壺中庵にて好いてください",
+    "number": 24,
+    "desc": "ダ・ヴィンチ・恐山を八芳園に呼び出して、好いてもらいます。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/024/024.mp3",
+    "link": "https://omocoro.jp/rensai/109688/",
+    "pubDate": "Wed, 12 Jul 2017 15:00:00 GMT"
+  },
+  {
+    "title": "人望なき男ヨッピーからハワイをゲットした猛者たち",
+    "number": 25,
+    "desc": "ダ・ヴィンチ・恐山を八芳園に呼び出して、好いてもらいます。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/025/025.mp3",
+    "link": "https://omocoro.jp/rensai/110769/",
+    "pubDate": "Wed, 26 Jul 2017 15:00:00 GMT"
+  },
+  {
+    "title": "よし！整形しよう！",
+    "number": 26,
+    "desc": "整形しよう。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/026/026.mp3",
+    "link": "https://omocoro.jp/rensai/111983/",
+    "pubDate": "Wed, 09 Aug 2017 15:00:00 GMT"
+  },
+  {
+    "title": "合宿帰りの車内にて",
+    "number": 27,
+    "desc": "オモコロ合宿帰りの車中にて",
+    "source": "https://omocoro.heteml.net/radio/shimowata/027/027.mp3",
+    "link": "https://omocoro.jp/radio/113175/",
+    "pubDate": "Wed, 23 Aug 2017 15:00:00 GMT"
+  },
+  {
+    "title": "まだ渋滞",
+    "number": 28,
+    "desc": "まだ渋滞なので引き続き、オモコロ合宿帰りの車中にて",
+    "source": "https://omocoro.heteml.net/radio/shimowata/028/028.mp3",
+    "link": "https://omocoro.jp/radio/114407/",
+    "pubDate": "Thu, 07 Sep 2017 15:00:00 GMT"
+  },
+  {
+    "title": "ヨッピーのラジオ",
+    "number": 29,
+    "desc": "ヨッピーのラジオです。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/029/029.mp3",
+    "link": "https://omocoro.jp/radio/115396/",
+    "pubDate": "Thu, 21 Sep 2017 15:00:00 GMT"
+  },
+  {
+    "title": "おっさんたちが語る初めてのKISS",
+    "number": 30,
+    "desc": "おっさんたちが初めてのKISSについて語ります。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/030/030.mp3",
+    "link": "https://omocoro.jp/radio/116397/",
+    "pubDate": "Wed, 04 Oct 2017 15:00:00 GMT"
+  },
+  {
+    "title": "なぜ婿養子になったの？",
+    "number": 31,
+    "desc": "地獄のミサワが、なぜ婿養子になったのかを語ります。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/031/031.mp3",
+    "link": "https://omocoro.jp/radio/117596/",
+    "pubDate": "Wed, 25 Oct 2017 15:00:00 GMT"
+  },
+  {
+    "title": "グッバイミサワ",
+    "number": 32,
+    "desc": "地獄のミサワが、今後の卒業に関して語ります。",
+    "source": "https://omocoro.heteml.net/radio/shimowata/032/032.mp3",
+    "link": "https://omocoro.jp/radio/119253/",
+    "pubDate": "Wed, 08 Nov 2017 15:00:00 GMT"
+  }
 ]
