@@ -8,6 +8,13 @@ import { crypto } from "../deps.ts";
  * @returns ID
  */
 export function getId(radioTitle: string, source: string) {
+  // NOTE: ゆるして
+  const specialList = new Map([
+    ["ありっちゃありアワー", "ariari"],
+    ["たかや・マンスーンのパクｐ", "pakupaku"],
+  ]);
+  if (specialList.has(radioTitle)) return specialList.get(radioTitle);
+
   const radioList: Radio[] = JSON.parse(
     Deno.readTextFileSync("./docs/list.json")
   );
