@@ -19,6 +19,7 @@ for (const entriy of feed.entries) {
   const url = entriy.links[0]?.href;
 
   if (title && url) {
+    console.log("-".repeat(30));
     await addEpisode(url);
   }
 }
