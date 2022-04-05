@@ -1,8 +1,10 @@
 import type { Radio } from "../../types/radio.ts";
 import type { Episode } from "../../types/episode.ts";
 
-import { DOMParser } from "../../deps.ts";
+import { addRadio } from "../../libs/json/add.ts";
 import { parseTitle } from "../../libs/json/parse.ts";
+
+import { DOMParser } from "../../deps.ts";
 
 //------------------------------------------------
 const baseUrl = "https://omocoro.jp/rensai/45480/";
@@ -65,18 +67,8 @@ for (let i = 1; i < 6; i++) {
   }
 }
 
-// リスト読み込み
-const listPath = "./docs/list.json";
-const radioList: Radio[] = JSON.parse(Deno.readTextFileSync(listPath));
-
 // 新規ラジオを追加
-radioList.push(sebunagata);
-
-// 五十音順（あ->ア->亜）でソート
-radioList.sort((a, b) => a.title.localeCompare(b.title, "ja"));
-
-// リストを更新
-Deno.writeTextFileSync(listPath, JSON.stringify(radioList, null, "\t"));
+addRadio(sebunagata);
 
 // エピソードファイルを作成
 const episodeJsonPath = `./docs/json/${sebunagata.id}.json`;

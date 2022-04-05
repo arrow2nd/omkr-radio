@@ -1,3 +1,4 @@
+import type { Radio } from "../../types/radio.ts";
 import type { Episode } from "../../types/episode.ts";
 
 import { fetchEpisodeInfo } from "./fetch.ts";
@@ -78,4 +79,22 @@ export async function addEpisode(
     id,
     episodes: results,
   };
+}
+
+/**
+ * 新しいラジオを追加
+ * @param radio ラジオデータ
+ */
+export function addRadio(radio: Radio) {
+  // リスト読み込み
+  const listPath = "./docs/list.json";
+  const radioList: Radio[] = JSON.parse(Deno.readTextFileSync(listPath));
+
+  radioList.push(radio);
+
+  // 五十音順（あ->ア->亜）でソート
+  radioList.sort((a, b) => a.title.localeCompare(b.title, "ja"));
+
+  // リストを更新
+  Deno.writeTextFileSync(listPath, JSON.stringify(radioList, null, "\t"));
 }

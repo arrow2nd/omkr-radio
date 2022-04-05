@@ -4,6 +4,10 @@ import type { Episode } from "../../types/episode.ts";
 import { DOMParser } from "../../deps.ts";
 import { addEpisode } from "../../libs/json/add.ts";
 
+/**
+ * 全てのエピソードを読み込む
+ * @returns 全エピソード
+ */
 function loadAllEpisodes() {
   let results: Episode[] = [];
 
@@ -17,10 +21,18 @@ function loadAllEpisodes() {
   return results;
 }
 
+/**
+ * 指定秒数間待機
+ * @param sec 秒数
+ */
 async function wait(sec: number) {
   await new Promise((resolve) => setTimeout(resolve, sec * 1000));
 }
 
+/**
+ * エピソード一覧を作成
+ * @param tagName タグ名
+ */
 async function createEpisodeData(tagName: string) {
   const episodes = loadAllEpisodes();
 
