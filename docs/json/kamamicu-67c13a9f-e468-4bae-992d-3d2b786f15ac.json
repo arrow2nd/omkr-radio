@@ -1,426 +1,426 @@
 [
-	{
-		"title": "みくのしん元気出して！",
-		"number": 1,
-		"desc": "世界がみくのしんをいじめている",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g01/g01.mp3",
-		"link": "https://omocoro.jp/radio/136839/",
-		"pubDate": "Sat, 07 Apr 2018 15:00:00 GMT"
-	},
-	{
-		"title": "耳栓が怖くて泣いた男",
-		"number": 2,
-		"desc": "え！？ やばい！！音が聞こえないよ！！！ うわああああ！！！！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g02/g02.mp3",
-		"link": "https://omocoro.jp/radio/137662/",
-		"pubDate": "Sat, 14 Apr 2018 15:00:00 GMT"
-	},
-	{
-		"title": "野田せいぞ",
-		"number": 3,
-		"desc": "「たかやみくのしんの使えない夜」にご来場くださった皆々様！ありがとうございました！！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g03/g03.mp3",
-		"link": "https://omocoro.jp/radio/138213/",
-		"pubDate": "Sat, 21 Apr 2018 15:00:00 GMT"
-	},
-	{
-		"title": "２本録り",
-		"number": 4,
-		"desc": "今回は２本録りでお送りします。ラスト15分はグロ注意です。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g04/g04.mp3",
-		"link": "https://omocoro.jp/radio/138932/",
-		"pubDate": "Sat, 28 Apr 2018 15:00:00 GMT"
-	},
-	{
-		"title": "嘘松",
-		"number": 5,
-		"desc": "これからのかまってみくのしんは嘘抜きでやらせていただきます。よろしくお願いいたします。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g05/g05.mp3",
-		"link": "https://omocoro.jp/radio/139239/",
-		"pubDate": "Sat, 05 May 2018 15:00:00 GMT"
-	},
-	{
-		"title": "ちっちぇえな",
-		"number": 6,
-		"desc": "よみがーーーーえーーーれーーーー！！！！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g06/g06.mp3",
-		"link": "https://omocoro.jp/radio/140071/",
-		"pubDate": "Sat, 12 May 2018 15:00:00 GMT"
-	},
-	{
-		"title": "ありがとライス！",
-		"number": 7,
-		"desc": "なぜか分かりませんが、やたらみくのしんがブチギレ声を出そうと頑張っている回です",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g07/g07.mp3",
-		"link": "https://omocoro.jp/radio/140710/",
-		"pubDate": "Sat, 19 May 2018 15:00:00 GMT"
-	},
-	{
-		"title": "漫画犬とかまみく",
-		"number": 8,
-		"desc": "２時間半のイベントを２時間かけて振り返ります。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g08/g08.mp3",
-		"link": "https://omocoro.jp/radio/141292/",
-		"pubDate": "Sat, 26 May 2018 15:00:00 GMT"
-	},
-	{
-		"title": "悲痛な叫びコンテスト",
-		"number": 9,
-		"desc": "仕事に行く前の悲痛な叫びが聞けるスペシャル回！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g09/g09.mp3",
-		"link": "https://omocoro.jp/radio/141936/",
-		"pubDate": "Sat, 02 Jun 2018 15:00:00 GMT"
-	},
-	{
-		"title": "ボツと撮り直し",
-		"number": 10,
-		"desc": "ニセ恐山と山下ラジ男",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g10/g10.mp3",
-		"link": "https://omocoro.jp/radio/142632/",
-		"pubDate": "Sat, 09 Jun 2018 15:00:00 GMT"
-	},
-	{
-		"title": "みくのしん Wants To Play",
-		"number": 11,
-		"desc": "全然怖くないホラー回です",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g11/g11.mp3",
-		"link": "https://omocoro.jp/radio/143245/",
-		"pubDate": "Sat, 16 Jun 2018 15:00:00 GMT"
-	},
-	{
-		"title": "薄毛笑うな行く道だもの",
-		"number": 12,
-		"desc": "ヘアアイロンかける前の日に戻りたいみくのしんと大学２年生に戻りたいかまど",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g12/g12.mp3",
-		"link": "https://omocoro.jp/radio/143930/",
-		"pubDate": "Sat, 23 Jun 2018 15:00:00 GMT"
-	},
-	{
-		"title": "ヘッドホン壊すべし",
-		"number": 13,
-		"desc": "名実況者もすなる神回といふものを、みくのしんもしてみむとてするなり",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g13/g13.mp3",
-		"link": "https://omocoro.jp/radio/144776/",
-		"pubDate": "Sat, 30 Jun 2018 15:00:00 GMT"
-	},
-	{
-		"title": "カメラを止めるな！の話を止めるな！",
-		"number": 14,
-		"desc": "シネマンディアスかまどが映画「カメラを止めるな」をウォッチング！ その監視結果を報告します！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g14/g14.mp3",
-		"link": "https://omocoro.jp/radio/145511/",
-		"pubDate": "Sat, 07 Jul 2018 15:00:00 GMT"
-	},
-	{
-		"title": "どこでもマンガが読めまスペイン",
-		"number": 15,
-		"desc": "あの星に手が届きそう",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g15/g15.mp3",
-		"link": "https://omocoro.jp/radio/146321/",
-		"pubDate": "Sat, 14 Jul 2018 15:00:00 GMT"
-	},
-	{
-		"title": "オモコロ合宿ゴーゴゴー！",
-		"number": 16,
-		"desc": "ご協力いただきましたオモコロライターの皆さま、ありがとうございました！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g16/g16.mp3",
-		"link": "https://omocoro.jp/radio/146636/",
-		"pubDate": "Sat, 21 Jul 2018 15:00:00 GMT"
-	},
-	{
-		"title": "激シブミスチル結婚式",
-		"number": 17,
-		"desc": "めちゃくちゃ渋いミスチルの選曲",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g17/g17.mp3",
-		"link": "https://omocoro.jp/radio/147605/",
-		"pubDate": "Sat, 28 Jul 2018 15:00:00 GMT"
-	},
-	{
-		"title": "ロックストックアンドトゥースモーキング夢顎",
-		"number": 18,
-		"desc": "あとジャンプのように熱い男、山下ラジ男について。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g18/g18.mp3",
-		"link": "https://omocoro.jp/radio/148483/",
-		"pubDate": "Sat, 04 Aug 2018 15:00:00 GMT"
-	},
-	{
-		"title": "爆笑！みくのしんサマーフェスティバル2018前夜",
-		"number": 19,
-		"desc": "このラジオは2018/8/10に収録しました。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g19/g19.mp3",
-		"link": "https://omocoro.jp/radio/148991/",
-		"pubDate": "Sat, 11 Aug 2018 15:00:00 GMT"
-	},
-	{
-		"title": "無職が語る怖い話",
-		"number": 20,
-		"desc": "みくのしんの怖い話で苦手なホラーを克服します。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g20/g20.mp3",
-		"link": "https://omocoro.jp/radio/149185/",
-		"pubDate": "Sat, 18 Aug 2018 15:00:00 GMT"
-	},
-	{
-		"title": "みくのしんが初めて聞く話はどれ？",
-		"number": 21,
-		"desc": "海外・エロ本・地縛霊",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g21/g21.mp3",
-		"link": "https://omocoro.jp/radio/149599/",
-		"pubDate": "Sat, 25 Aug 2018 15:00:00 GMT"
-	},
-	{
-		"title": "新・みくのしんが初めて聞く話はどれ？＋おまけ",
-		"number": 22,
-		"desc": "みくのしんは聞いたことがある話でも新鮮にリアクションがとれる。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g22/g22.mp3",
-		"link": "https://omocoro.jp/radio/150725/",
-		"pubDate": "Sat, 01 Sep 2018 15:00:00 GMT"
-	},
-	{
-		"title": "あなたの怒りをおさめます！まぁまぁ-１グランプリ開催",
-		"number": 23,
-		"desc": "【みく】たけのこ→蓮根→ナス→にんにく→玉ねぎ【かま】ナス→つくし→菜の花→ゴーヤ→ダイコン",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g23/g23.mp3",
-		"link": "https://omocoro.jp/radio/150732/",
-		"pubDate": "Sat, 08 Sep 2018 15:00:00 GMT"
-	},
-	{
-		"title": "故・爆笑！ みくのしんサマーフェスティバル2018",
-		"number": 24,
-		"desc": "死んだイベントを供養します。ヤスミノさん、電気バチさんありがとうございました！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g24/g24.mp3",
-		"link": "https://omocoro.jp/radio/152367/",
-		"pubDate": "Sat, 15 Sep 2018 15:00:00 GMT"
-	},
-	{
-		"title": "黒歴史漂白−１グランプリ開幕！",
-		"number": 25,
-		"desc": "モノイエズ…",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g25/g25.mp3",
-		"link": "https://omocoro.jp/radio/153256/",
-		"pubDate": "Sat, 22 Sep 2018 15:00:00 GMT"
-	},
-	{
-		"title": "雑学博士みくのしんの明日から使える豆知識",
-		"number": 26,
-		"desc": "これを聞けばキミもうんちくマスターだ！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g26/g26.mp3",
-		"link": "https://omocoro.jp/radio/154032/",
-		"pubDate": "Sat, 29 Sep 2018 15:00:00 GMT"
-	},
-	{
-		"title": "J-WAVEに呼ばれるために僕らがやるべきこと",
-		"number": 27,
-		"desc": "「まず知名度が足りねえだろ」みたいな正しい意見は受け付けません。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g27/g27.mp3",
-		"link": "https://omocoro.jp/radio/154696/",
-		"pubDate": "Sat, 06 Oct 2018 15:00:00 GMT"
-	},
-	{
-		"title": "猫とヒロインは愛でるもの",
-		"number": 28,
-		"desc": "にゃんにゃん",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g28/g28.mp3",
-		"link": "https://omocoro.jp/radio/154927/",
-		"pubDate": "Sat, 13 Oct 2018 15:00:00 GMT"
-	},
-	{
-		"title": "なんて素敵なアイデア！",
-		"number": 29,
-		"desc": "That's a Wonderful Idea！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g29/g29.mp3",
-		"link": "https://omocoro.jp/radio/155485/",
-		"pubDate": "Sat, 20 Oct 2018 15:00:00 GMT"
-	},
-	{
-		"title": "まぁまぁ−１グランプリ＆黒歴史漂白−１グランプリ",
-		"number": 30,
-		"desc": "普通のお便り（＝ふつおた）をお待ちしております",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g30/g30.mp3",
-		"link": "https://omocoro.jp/radio/156061/",
-		"pubDate": "Sat, 27 Oct 2018 15:00:00 GMT"
-	},
-	{
-		"title": "ヶと々",
-		"number": 31,
-		"desc": "カラオケボックスで録音したので聞きにくいかもしれません。ごめんね。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g31/g31.mp3",
-		"link": "https://omocoro.jp/radio/156540/",
-		"pubDate": "Sat, 03 Nov 2018 15:00:00 GMT"
-	},
-	{
-		"title": "山下ラジ男は寿司が好き",
-		"number": 32,
-		"desc": "あとモンハンしてる",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g32/g32.mp3",
-		"link": "https://omocoro.jp/radio/156542/",
-		"pubDate": "Sat, 10 Nov 2018 15:00:00 GMT"
-	},
-	{
-		"title": "デラックス引き出物",
-		"number": 33,
-		"desc": "こんな引越し祝いはいやだ。どんなの？",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g33/g33.mp3",
-		"link": "https://omocoro.jp/radio/158270/",
-		"pubDate": "Sat, 17 Nov 2018 15:00:00 GMT"
-	},
-	{
-		"title": "話題に事欠かない人",
-		"number": 34,
-		"desc": "ポケモンGOプラスってご存知ですか？",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g34/g34.mp3",
-		"link": "https://omocoro.jp/radio/157546/",
-		"pubDate": "Sat, 24 Nov 2018 15:00:00 GMT"
-	},
-	{
-		"title": "仮面ライダー シェイブ",
-		"number": 35,
-		"desc": "かまってみくのしんが計100回を迎えたので山下ラジ男を呼びました",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g35/g35-1.mp3",
-		"link": "https://omocoro.jp/radio/158999/",
-		"pubDate": "Sat, 01 Dec 2018 15:00:00 GMT"
-	},
-	{
-		"title": "仮面ライダー トラッド 〜真打登場！〜",
-		"number": 36,
-		"desc": "お後がよろしいようで",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g36/g36.mp3",
-		"link": "https://omocoro.jp/radio/160594/",
-		"pubDate": "Sat, 08 Dec 2018 15:00:00 GMT"
-	},
-	{
-		"title": "叩けビスケット！叩け運命の扉！",
-		"number": 37,
-		"desc": "オリジナルの仮面ライダーを募集しました",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g37/g37.mp3",
-		"link": "https://omocoro.jp/radio/161369/",
-		"pubDate": "Sat, 15 Dec 2018 15:00:00 GMT"
-	},
-	{
-		"title": "怖いよ！おはなしのくに",
-		"number": 38,
-		"desc": "大風邪ひきの状態で収録しました",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g38/g38.mp3",
-		"link": "https://omocoro.jp/radio/161668/",
-		"pubDate": "Sat, 22 Dec 2018 15:00:00 GMT"
-	},
-	{
-		"title": "Oh! What a Night〜ああ何て夜！〜",
-		"number": 39,
-		"desc": "名残惜しくて１時間半の音源になりました。全部聞けるもんなら聞いてみろ！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g39/g39.mp3",
-		"link": "https://omocoro.jp/radio/161987/",
-		"pubDate": "Tue, 01 Jan 2019 15:00:00 GMT"
-	},
-	{
-		"title": "山下ラジレンジャー 〜仮面ライダージュウ特集〜",
-		"number": 40,
-		"desc": "夜は焼肉っしょ！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g40/g40.mp3",
-		"link": "https://omocoro.jp/radio/162184/",
-		"pubDate": "Tue, 01 Jan 2019 15:00:00 GMT"
-	},
-	{
-		"title": "ベトナム土産あげちゃいまスペシャル",
-		"number": 41,
-		"desc": "年末年始のベトナム旅行を振り返る97分！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g41/g41.mp3",
-		"link": "https://omocoro.jp/radio/162612/",
-		"pubDate": "Sat, 05 Jan 2019 15:00:00 GMT"
-	},
-	{
-		"title": "俺、参上！",
-		"number": 42,
-		"desc": "言っとくが俺は…最初からクライマックスだぜ！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g42/g42.mp3",
-		"link": "https://omocoro.jp/radio/163369/",
-		"pubDate": "Sat, 12 Jan 2019 15:00:00 GMT"
-	},
-	{
-		"title": "レーズンかりんとう美味しいよ〜",
-		"number": 43,
-		"desc": "私は誰だ…ここはどこだ…私は何のために生まれてきたんだ…",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g43/g43.mp3",
-		"link": "https://omocoro.jp/radio/163677/",
-		"pubDate": "Sat, 19 Jan 2019 15:00:00 GMT"
-	},
-	{
-		"title": "かまどごめん！！！",
-		"number": 44,
-		"desc": "寒い中１時間近くも気づかずにごめん。ごめんさい。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g44/g44.mp3",
-		"link": "https://omocoro.jp/radio/164656/",
-		"pubDate": "Sat, 26 Jan 2019 15:00:00 GMT"
-	},
-	{
-		"title": "Mr.放送禁止用語",
-		"number": 45,
-		"desc": "みくのしんの異常な言動 〜またはかまどは如何にして心配するのを止めてキ人を愛するようになったか〜",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g45/g45.mp3",
-		"link": "https://omocoro.jp/radio/165257/",
-		"pubDate": "Sat, 02 Feb 2019 15:00:00 GMT"
-	},
-	{
-		"title": "かまどのミンティア道／みくのしんの死刑宣告",
-		"number": 46,
-		"desc": "会議中にナッツ感覚でミンティアを食べるのは是か否か",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g46/g46.mp3",
-		"link": "https://omocoro.jp/radio/165777/",
-		"pubDate": "Sat, 09 Feb 2019 15:00:00 GMT"
-	},
-	{
-		"title": "デパ地下っていいよね！",
-		"number": 47,
-		"desc": "あの肉団子食うだけの記事、どうにか復活できないかな〜",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g47/g47.mp3",
-		"link": "https://omocoro.jp/radio/166365/",
-		"pubDate": "Sat, 16 Feb 2019 15:00:00 GMT"
-	},
-	{
-		"title": "史上最大のピンチ",
-		"number": 48,
-		"desc": "オレが望んだもの…それは変化だった。それも全てをひっくり返すような変化だ。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g48/g48.mp3",
-		"link": "https://omocoro.jp/radio/167065/",
-		"pubDate": "Sat, 23 Feb 2019 15:00:00 GMT"
-	},
-	{
-		"title": "取り消せよ…今の言葉…！",
-		"number": 49,
-		"desc": "2019年も頑張っていきまっしょい！",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g49/g49.mp3",
-		"link": "https://omocoro.jp/radio/167666/",
-		"pubDate": "Sat, 02 Mar 2019 15:00:00 GMT"
-	},
-	{
-		"title": "A9510462",
-		"number": 50,
-		"desc": "なぜかみくのしんの職場で録音しました",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g50/g50.mp3",
-		"link": "https://omocoro.jp/radio/168664/",
-		"pubDate": "Sat, 09 Mar 2019 15:00:00 GMT"
-	},
-	{
-		"title": "主人公検定",
-		"number": 51,
-		"desc": "ごめんとしか言えない",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g51/g51s.mp3",
-		"link": "https://omocoro.jp/radio/169351/",
-		"pubDate": "Sat, 16 Mar 2019 15:00:00 GMT"
-	},
-	{
-		"title": "みくのしんの一味 〜10人目〜",
-		"number": 52,
-		"desc": "ごめんとしか言えないpart2",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g52/g52m.mp3",
-		"link": "https://omocoro.jp/radio/169772/",
-		"pubDate": "Sat, 23 Mar 2019 15:00:00 GMT"
-	},
-	{
-		"title": "じゃあ、ゆっくりあなたの思い出をわけてもらうことにするわ",
-		"number": 53,
-		"desc": "やりのこしたことはぜんぶ　やっといたほうがいいわよ。アルバムをみはじめたら　きりがないんだから。",
-		"source": "https://omocoro.heteml.net/radio/kamamicu/g53/g53l.mp3",
-		"link": "https://omocoro.jp/radio/170146/",
-		"pubDate": "Sat, 30 Mar 2019 15:00:00 GMT"
-	}
+  {
+    "title": "みくのしん元気出して！",
+    "number": 1,
+    "desc": "世界がみくのしんをいじめている",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g01/g01.mp3",
+    "link": "https://omocoro.jp/radio/136839/",
+    "pubDate": "Sat, 07 Apr 2018 15:00:00 GMT"
+  },
+  {
+    "title": "耳栓が怖くて泣いた男",
+    "number": 2,
+    "desc": "え！？ やばい！！音が聞こえないよ！！！ うわああああ！！！！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g02/g02.mp3",
+    "link": "https://omocoro.jp/radio/137662/",
+    "pubDate": "Sat, 14 Apr 2018 15:00:00 GMT"
+  },
+  {
+    "title": "野田せいぞ",
+    "number": 3,
+    "desc": "「たかやみくのしんの使えない夜」にご来場くださった皆々様！ありがとうございました！！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g03/g03.mp3",
+    "link": "https://omocoro.jp/radio/138213/",
+    "pubDate": "Sat, 21 Apr 2018 15:00:00 GMT"
+  },
+  {
+    "title": "２本録り",
+    "number": 4,
+    "desc": "今回は２本録りでお送りします。ラスト15分はグロ注意です。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g04/g04.mp3",
+    "link": "https://omocoro.jp/radio/138932/",
+    "pubDate": "Sat, 28 Apr 2018 15:00:00 GMT"
+  },
+  {
+    "title": "嘘松",
+    "number": 5,
+    "desc": "これからのかまってみくのしんは嘘抜きでやらせていただきます。よろしくお願いいたします。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g05/g05.mp3",
+    "link": "https://omocoro.jp/radio/139239/",
+    "pubDate": "Sat, 05 May 2018 15:00:00 GMT"
+  },
+  {
+    "title": "ちっちぇえな",
+    "number": 6,
+    "desc": "よみがーーーーえーーーれーーーー！！！！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g06/g06.mp3",
+    "link": "https://omocoro.jp/radio/140071/",
+    "pubDate": "Sat, 12 May 2018 15:00:00 GMT"
+  },
+  {
+    "title": "ありがとライス！",
+    "number": 7,
+    "desc": "なぜか分かりませんが、やたらみくのしんがブチギレ声を出そうと頑張っている回です",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g07/g07.mp3",
+    "link": "https://omocoro.jp/radio/140710/",
+    "pubDate": "Sat, 19 May 2018 15:00:00 GMT"
+  },
+  {
+    "title": "漫画犬とかまみく",
+    "number": 8,
+    "desc": "２時間半のイベントを２時間かけて振り返ります。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g08/g08.mp3",
+    "link": "https://omocoro.jp/radio/141292/",
+    "pubDate": "Sat, 26 May 2018 15:00:00 GMT"
+  },
+  {
+    "title": "悲痛な叫びコンテスト",
+    "number": 9,
+    "desc": "仕事に行く前の悲痛な叫びが聞けるスペシャル回！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g09/g09.mp3",
+    "link": "https://omocoro.jp/radio/141936/",
+    "pubDate": "Sat, 02 Jun 2018 15:00:00 GMT"
+  },
+  {
+    "title": "ボツと撮り直し",
+    "number": 10,
+    "desc": "ニセ恐山と山下ラジ男",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g10/g10.mp3",
+    "link": "https://omocoro.jp/radio/142632/",
+    "pubDate": "Sat, 09 Jun 2018 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしん Wants To Play",
+    "number": 11,
+    "desc": "全然怖くないホラー回です",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g11/g11.mp3",
+    "link": "https://omocoro.jp/radio/143245/",
+    "pubDate": "Sat, 16 Jun 2018 15:00:00 GMT"
+  },
+  {
+    "title": "薄毛笑うな行く道だもの",
+    "number": 12,
+    "desc": "ヘアアイロンかける前の日に戻りたいみくのしんと大学２年生に戻りたいかまど",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g12/g12.mp3",
+    "link": "https://omocoro.jp/radio/143930/",
+    "pubDate": "Sat, 23 Jun 2018 15:00:00 GMT"
+  },
+  {
+    "title": "ヘッドホン壊すべし",
+    "number": 13,
+    "desc": "名実況者もすなる神回といふものを、みくのしんもしてみむとてするなり",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g13/g13.mp3",
+    "link": "https://omocoro.jp/radio/144776/",
+    "pubDate": "Sat, 30 Jun 2018 15:00:00 GMT"
+  },
+  {
+    "title": "カメラを止めるな！の話を止めるな！",
+    "number": 14,
+    "desc": "シネマンディアスかまどが映画「カメラを止めるな」をウォッチング！ その監視結果を報告します！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g14/g14.mp3",
+    "link": "https://omocoro.jp/radio/145511/",
+    "pubDate": "Sat, 07 Jul 2018 15:00:00 GMT"
+  },
+  {
+    "title": "どこでもマンガが読めまスペイン",
+    "number": 15,
+    "desc": "あの星に手が届きそう",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g15/g15.mp3",
+    "link": "https://omocoro.jp/radio/146321/",
+    "pubDate": "Sat, 14 Jul 2018 15:00:00 GMT"
+  },
+  {
+    "title": "オモコロ合宿ゴーゴゴー！",
+    "number": 16,
+    "desc": "ご協力いただきましたオモコロライターの皆さま、ありがとうございました！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g16/g16.mp3",
+    "link": "https://omocoro.jp/radio/146636/",
+    "pubDate": "Sat, 21 Jul 2018 15:00:00 GMT"
+  },
+  {
+    "title": "激シブミスチル結婚式",
+    "number": 17,
+    "desc": "めちゃくちゃ渋いミスチルの選曲",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g17/g17.mp3",
+    "link": "https://omocoro.jp/radio/147605/",
+    "pubDate": "Sat, 28 Jul 2018 15:00:00 GMT"
+  },
+  {
+    "title": "ロックストックアンドトゥースモーキング夢顎",
+    "number": 18,
+    "desc": "あとジャンプのように熱い男、山下ラジ男について。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g18/g18.mp3",
+    "link": "https://omocoro.jp/radio/148483/",
+    "pubDate": "Sat, 04 Aug 2018 15:00:00 GMT"
+  },
+  {
+    "title": "爆笑！みくのしんサマーフェスティバル2018前夜",
+    "number": 19,
+    "desc": "このラジオは2018/8/10に収録しました。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g19/g19.mp3",
+    "link": "https://omocoro.jp/radio/148991/",
+    "pubDate": "Sat, 11 Aug 2018 15:00:00 GMT"
+  },
+  {
+    "title": "無職が語る怖い話",
+    "number": 20,
+    "desc": "みくのしんの怖い話で苦手なホラーを克服します。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g20/g20.mp3",
+    "link": "https://omocoro.jp/radio/149185/",
+    "pubDate": "Sat, 18 Aug 2018 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしんが初めて聞く話はどれ？",
+    "number": 21,
+    "desc": "海外・エロ本・地縛霊",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g21/g21.mp3",
+    "link": "https://omocoro.jp/radio/149599/",
+    "pubDate": "Sat, 25 Aug 2018 15:00:00 GMT"
+  },
+  {
+    "title": "新・みくのしんが初めて聞く話はどれ？＋おまけ",
+    "number": 22,
+    "desc": "みくのしんは聞いたことがある話でも新鮮にリアクションがとれる。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g22/g22.mp3",
+    "link": "https://omocoro.jp/radio/150725/",
+    "pubDate": "Sat, 01 Sep 2018 15:00:00 GMT"
+  },
+  {
+    "title": "あなたの怒りをおさめます！まぁまぁ-１グランプリ開催",
+    "number": 23,
+    "desc": "【みく】たけのこ→蓮根→ナス→にんにく→玉ねぎ【かま】ナス→つくし→菜の花→ゴーヤ→ダイコン",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g23/g23.mp3",
+    "link": "https://omocoro.jp/radio/150732/",
+    "pubDate": "Sat, 08 Sep 2018 15:00:00 GMT"
+  },
+  {
+    "title": "故・爆笑！ みくのしんサマーフェスティバル2018",
+    "number": 24,
+    "desc": "死んだイベントを供養します。ヤスミノさん、電気バチさんありがとうございました！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g24/g24.mp3",
+    "link": "https://omocoro.jp/radio/152367/",
+    "pubDate": "Sat, 15 Sep 2018 15:00:00 GMT"
+  },
+  {
+    "title": "黒歴史漂白−１グランプリ開幕！",
+    "number": 25,
+    "desc": "モノイエズ…",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g25/g25.mp3",
+    "link": "https://omocoro.jp/radio/153256/",
+    "pubDate": "Sat, 22 Sep 2018 15:00:00 GMT"
+  },
+  {
+    "title": "雑学博士みくのしんの明日から使える豆知識",
+    "number": 26,
+    "desc": "これを聞けばキミもうんちくマスターだ！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g26/g26.mp3",
+    "link": "https://omocoro.jp/radio/154032/",
+    "pubDate": "Sat, 29 Sep 2018 15:00:00 GMT"
+  },
+  {
+    "title": "J-WAVEに呼ばれるために僕らがやるべきこと",
+    "number": 27,
+    "desc": "「まず知名度が足りねえだろ」みたいな正しい意見は受け付けません。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g27/g27.mp3",
+    "link": "https://omocoro.jp/radio/154696/",
+    "pubDate": "Sat, 06 Oct 2018 15:00:00 GMT"
+  },
+  {
+    "title": "猫とヒロインは愛でるもの",
+    "number": 28,
+    "desc": "にゃんにゃん",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g28/g28.mp3",
+    "link": "https://omocoro.jp/radio/154927/",
+    "pubDate": "Sat, 13 Oct 2018 15:00:00 GMT"
+  },
+  {
+    "title": "なんて素敵なアイデア！",
+    "number": 29,
+    "desc": "That's a Wonderful Idea！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g29/g29.mp3",
+    "link": "https://omocoro.jp/radio/155485/",
+    "pubDate": "Sat, 20 Oct 2018 15:00:00 GMT"
+  },
+  {
+    "title": "まぁまぁ−１グランプリ＆黒歴史漂白−１グランプリ",
+    "number": 30,
+    "desc": "普通のお便り（＝ふつおた）をお待ちしております",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g30/g30.mp3",
+    "link": "https://omocoro.jp/radio/156061/",
+    "pubDate": "Sat, 27 Oct 2018 15:00:00 GMT"
+  },
+  {
+    "title": "ヶと々",
+    "number": 31,
+    "desc": "カラオケボックスで録音したので聞きにくいかもしれません。ごめんね。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g31/g31.mp3",
+    "link": "https://omocoro.jp/radio/156540/",
+    "pubDate": "Sat, 03 Nov 2018 15:00:00 GMT"
+  },
+  {
+    "title": "山下ラジ男は寿司が好き",
+    "number": 32,
+    "desc": "あとモンハンしてる",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g32/g32.mp3",
+    "link": "https://omocoro.jp/radio/156542/",
+    "pubDate": "Sat, 10 Nov 2018 15:00:00 GMT"
+  },
+  {
+    "title": "デラックス引き出物",
+    "number": 33,
+    "desc": "こんな引越し祝いはいやだ。どんなの？",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g33/g33.mp3",
+    "link": "https://omocoro.jp/radio/158270/",
+    "pubDate": "Sat, 17 Nov 2018 15:00:00 GMT"
+  },
+  {
+    "title": "話題に事欠かない人",
+    "number": 34,
+    "desc": "ポケモンGOプラスってご存知ですか？",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g34/g34.mp3",
+    "link": "https://omocoro.jp/radio/157546/",
+    "pubDate": "Sat, 24 Nov 2018 15:00:00 GMT"
+  },
+  {
+    "title": "仮面ライダー シェイブ",
+    "number": 35,
+    "desc": "かまってみくのしんが計100回を迎えたので山下ラジ男を呼びました",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g35/g35-1.mp3",
+    "link": "https://omocoro.jp/radio/158999/",
+    "pubDate": "Sat, 01 Dec 2018 15:00:00 GMT"
+  },
+  {
+    "title": "仮面ライダー トラッド 〜真打登場！〜",
+    "number": 36,
+    "desc": "お後がよろしいようで",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g36/g36.mp3",
+    "link": "https://omocoro.jp/radio/160594/",
+    "pubDate": "Sat, 08 Dec 2018 15:00:00 GMT"
+  },
+  {
+    "title": "叩けビスケット！叩け運命の扉！",
+    "number": 37,
+    "desc": "オリジナルの仮面ライダーを募集しました",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g37/g37.mp3",
+    "link": "https://omocoro.jp/radio/161369/",
+    "pubDate": "Sat, 15 Dec 2018 15:00:00 GMT"
+  },
+  {
+    "title": "怖いよ！おはなしのくに",
+    "number": 38,
+    "desc": "大風邪ひきの状態で収録しました",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g38/g38.mp3",
+    "link": "https://omocoro.jp/radio/161668/",
+    "pubDate": "Sat, 22 Dec 2018 15:00:00 GMT"
+  },
+  {
+    "title": "Oh! What a Night〜ああ何て夜！〜",
+    "number": 39,
+    "desc": "名残惜しくて１時間半の音源になりました。全部聞けるもんなら聞いてみろ！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g39/g39.mp3",
+    "link": "https://omocoro.jp/radio/161987/",
+    "pubDate": "Tue, 01 Jan 2019 15:00:00 GMT"
+  },
+  {
+    "title": "山下ラジレンジャー 〜仮面ライダージュウ特集〜",
+    "number": 40,
+    "desc": "夜は焼肉っしょ！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g40/g40.mp3",
+    "link": "https://omocoro.jp/radio/162184/",
+    "pubDate": "Tue, 01 Jan 2019 15:00:00 GMT"
+  },
+  {
+    "title": "ベトナム土産あげちゃいまスペシャル",
+    "number": 41,
+    "desc": "年末年始のベトナム旅行を振り返る97分！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g41/g41.mp3",
+    "link": "https://omocoro.jp/radio/162612/",
+    "pubDate": "Sat, 05 Jan 2019 15:00:00 GMT"
+  },
+  {
+    "title": "俺、参上！",
+    "number": 42,
+    "desc": "言っとくが俺は…最初からクライマックスだぜ！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g42/g42.mp3",
+    "link": "https://omocoro.jp/radio/163369/",
+    "pubDate": "Sat, 12 Jan 2019 15:00:00 GMT"
+  },
+  {
+    "title": "レーズンかりんとう美味しいよ〜",
+    "number": 43,
+    "desc": "私は誰だ…ここはどこだ…私は何のために生まれてきたんだ…",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g43/g43.mp3",
+    "link": "https://omocoro.jp/radio/163677/",
+    "pubDate": "Sat, 19 Jan 2019 15:00:00 GMT"
+  },
+  {
+    "title": "かまどごめん！！！",
+    "number": 44,
+    "desc": "寒い中１時間近くも気づかずにごめん。ごめんさい。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g44/g44.mp3",
+    "link": "https://omocoro.jp/radio/164656/",
+    "pubDate": "Sat, 26 Jan 2019 15:00:00 GMT"
+  },
+  {
+    "title": "Mr.放送禁止用語",
+    "number": 45,
+    "desc": "みくのしんの異常な言動 〜またはかまどは如何にして心配するのを止めてキ人を愛するようになったか〜",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g45/g45.mp3",
+    "link": "https://omocoro.jp/radio/165257/",
+    "pubDate": "Sat, 02 Feb 2019 15:00:00 GMT"
+  },
+  {
+    "title": "かまどのミンティア道／みくのしんの死刑宣告",
+    "number": 46,
+    "desc": "会議中にナッツ感覚でミンティアを食べるのは是か否か",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g46/g46.mp3",
+    "link": "https://omocoro.jp/radio/165777/",
+    "pubDate": "Sat, 09 Feb 2019 15:00:00 GMT"
+  },
+  {
+    "title": "デパ地下っていいよね！",
+    "number": 47,
+    "desc": "あの肉団子食うだけの記事、どうにか復活できないかな〜",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g47/g47.mp3",
+    "link": "https://omocoro.jp/radio/166365/",
+    "pubDate": "Sat, 16 Feb 2019 15:00:00 GMT"
+  },
+  {
+    "title": "史上最大のピンチ",
+    "number": 48,
+    "desc": "オレが望んだもの…それは変化だった。それも全てをひっくり返すような変化だ。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g48/g48.mp3",
+    "link": "https://omocoro.jp/radio/167065/",
+    "pubDate": "Sat, 23 Feb 2019 15:00:00 GMT"
+  },
+  {
+    "title": "取り消せよ…今の言葉…！",
+    "number": 49,
+    "desc": "2019年も頑張っていきまっしょい！",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g49/g49.mp3",
+    "link": "https://omocoro.jp/radio/167666/",
+    "pubDate": "Sat, 02 Mar 2019 15:00:00 GMT"
+  },
+  {
+    "title": "A9510462",
+    "number": 50,
+    "desc": "なぜかみくのしんの職場で録音しました",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g50/g50.mp3",
+    "link": "https://omocoro.jp/radio/168664/",
+    "pubDate": "Sat, 09 Mar 2019 15:00:00 GMT"
+  },
+  {
+    "title": "主人公検定",
+    "number": 51,
+    "desc": "ごめんとしか言えない",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g51/g51s.mp3",
+    "link": "https://omocoro.jp/radio/169351/",
+    "pubDate": "Sat, 16 Mar 2019 15:00:00 GMT"
+  },
+  {
+    "title": "みくのしんの一味 〜10人目〜",
+    "number": 52,
+    "desc": "ごめんとしか言えないpart2",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g52/g52m.mp3",
+    "link": "https://omocoro.jp/radio/169772/",
+    "pubDate": "Sat, 23 Mar 2019 15:00:00 GMT"
+  },
+  {
+    "title": "じゃあ、ゆっくりあなたの思い出をわけてもらうことにするわ",
+    "number": 53,
+    "desc": "やりのこしたことはぜんぶ　やっといたほうがいいわよ。アルバムをみはじめたら　きりがないんだから。",
+    "source": "https://omocoro.heteml.net/radio/kamamicu/g53/g53l.mp3",
+    "link": "https://omocoro.jp/radio/170146/",
+    "pubDate": "Sat, 30 Mar 2019 15:00:00 GMT"
+  }
 ]

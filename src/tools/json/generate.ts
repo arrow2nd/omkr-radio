@@ -1,6 +1,6 @@
-import type { Radio } from "../../types/radio.ts";
 import type { Episode } from "../../types/episode.ts";
 
+import { addRadio } from "../../libs/json/add.ts";
 import { fetchEpisodeInfo } from "../../libs/json/fetch.ts";
 
 /**
@@ -8,10 +8,6 @@ import { fetchEpisodeInfo } from "../../libs/json/fetch.ts";
  * @param pageUrl ラジオの記事ページURL
  */
 async function generateNewRadio(pageUrl: string) {
-  // リスト読み込み
-  const listPath = "./docs/list.json";
-  const radioList: Radio[] = JSON.parse(Deno.readTextFileSync(listPath));
-
   // 詳細を取得
   const episodeInfo = await fetchEpisodeInfo(pageUrl);
   if (!episodeInfo) {
@@ -38,7 +34,7 @@ async function generateNewRadio(pageUrl: string) {
   }
 
   // 新規ラジオを追加
-  radioList.push({
+  addRadio({
     id: radioId,
     title: radioTitle,
     tag: tagName,
@@ -48,12 +44,6 @@ async function generateNewRadio(pageUrl: string) {
     link: tagLink,
     nowOnAir: true,
   });
-
-  // 五十音順（あ->ア->亜）でソート
-  radioList.sort((a, b) => a.title.localeCompare(b.title, "ja"));
-
-  // リストを更新
-  Deno.writeTextFileSync(listPath, JSON.stringify(radioList, null, "\t"));
 
   // エピソードファイルを作成
   const episodeJsonPath = `./docs/json/${id}.json`;
