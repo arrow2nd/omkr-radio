@@ -3,7 +3,6 @@ import type { Episode } from "../../types/episode.ts";
 
 import { createPodcastXml } from "../../libs/podcast/create.ts";
 
-// ラジオ一覧
 const radioList: Radio[] = JSON.parse(
   Deno.readTextFileSync("./docs/list.json")
 );
