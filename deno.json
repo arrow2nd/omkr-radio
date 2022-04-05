@@ -3,6 +3,6 @@
     "create:all": "deno run -A ./src/tools/create-all.ts",
     "create:sebu": "deno run -A ./src/tools/create-sebunagata.ts",
     "update": "deno run --allow-env --allow-net --allow-read --allow-write ./src/main.ts && deno fmt ./docs/",
-    "cli": "deno run -A ./src/tools/cli.ts"
+    "gen": "deno run -A ./src/tools/generate.ts"
   }
 }
