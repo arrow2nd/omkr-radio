@@ -69,7 +69,7 @@ async function createEpisodeData(tagName: string) {
       }
 
       console.log("-".repeat(30));
-      const ok = await addEpisode(url);
+      const ok = await addEpisode(url, true);
 
       // 5秒待つ
       if (ok) await wait(5);
