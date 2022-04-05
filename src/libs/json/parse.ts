@@ -42,5 +42,5 @@ export function parseTitle(title: string): ParseTitleResult | undefined {
  */
 export function parseDate(dateStr: string) {
   const date = dateStr.split("-").map((e) => parseInt(e));
-  return new Date(date[0], date[1] + 1, date[2]).toUTCString();
+  return new Date(date[0], date[1] - 1, date[2]).toUTCString();
 }
