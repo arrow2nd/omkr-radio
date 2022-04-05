@@ -1,0 +1,102 @@
+<?xml version="1" encoding="UTF-8"?>
+<rss version="2" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>店長・リックェのフラコト</title>
+    <itunes:author>リックェ,店長</itunes:author>
+    <description>英語名は Reason in the Flask です。</description>
+    <itunes:image href="https://omocoro.jp/assets/uploads/2022/01/16411457773v4uy-1120x630.jpg"/>
+    <language>ja</language>
+    <link>https://omocoro.jp/tag/%E3%83%95%E3%83%A9%E3%82%B3%E3%83%88</link>
+    <item>
+      <title>機械学習で『コメディアンNEO』は育成できるのか？</title>
+      <description>フラコトは、大喜利アルゴリズムの「実験体」を募集しています</description>
+      <pubDate>Sun, 29 May 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/013.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/337589/</link>
+    </item>
+    <item>
+      <title>D.E.A.D 死後、個人データとCG・AIを用いてあなたの『復活』を許可しますか？</title>
+      <description>きみはにんげんそれともロボット？</description>
+      <pubDate>Sun, 22 May 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/012.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/336689/</link>
+    </item>
+    <item>
+      <title>就活グループワーク突破術＆プロポーズを蹴った話</title>
+      <description>就活生の皆さん必聴です</description>
+      <pubDate>Sun, 15 May 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/011.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/335058/</link>
+    </item>
+    <item>
+      <title>ない博物館・黄瀬鏡花記念館</title>
+      <description>黄瀬鏡花は5人兄弟の四男として生まれました</description>
+      <pubDate>Sun, 08 May 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/010.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/334126/</link>
+    </item>
+    <item>
+      <title>店長は早く人間になりたい</title>
+      <description>薄皮が1枚貼り付いた筒</description>
+      <pubDate>Sun, 01 May 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/009.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/331515/</link>
+    </item>
+    <item>
+      <title>僕らのブレイン・シャット・ダウン</title>
+      <description>自分のパラメータが2段階低下するジャンル</description>
+      <pubDate>Fri, 22 Apr 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/008.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/331480/</link>
+    </item>
+    <item>
+      <title>選挙スタッフのおやつは500円まで</title>
+      <description>お便りをいっぱい読みました</description>
+      <pubDate>Fri, 15 Apr 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/007.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/330015/</link>
+    </item>
+    <item>
+      <title>ゲスト：モンゴルナイトフィーバー・ジンクスショップへようこそ</title>
+      <description>ゲスト：モンゴルナイフ、山口むつお、ヤスミノ</description>
+      <pubDate>Fri, 08 Apr 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/un01.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/327599/</link>
+    </item>
+    <item>
+      <title>あなたはポテトをどう量産する？</title>
+      <description>もしも、ポテト工場の立ち上げを一任されたら……</description>
+      <pubDate>Fri, 01 Apr 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/005.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/328311/</link>
+    </item>
+    <item>
+      <title>機能的で美しいフォントの歴史</title>
+      <description>Akzidenz Grotesk（アクチデンツ・グロテスク）</description>
+      <pubDate>Fri, 25 Mar 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/004.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/328147/</link>
+    </item>
+    <item>
+      <title>呪術・ヘルペイ・金枝篇</title>
+      <description>地獄ってだいぶインフレ進んでると思う</description>
+      <pubDate>Fri, 18 Mar 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/003.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/326575/</link>
+    </item>
+    <item>
+      <title>君のやる気スイッチはタクティルスイッチ？</title>
+      <description>それともロータリースイッチ？</description>
+      <pubDate>Fri, 11 Mar 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/002.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/326387/</link>
+    </item>
+    <item>
+      <title>新ラジオ・フラスコの中の理はじまります</title>
+      <description>英語名は Reason in the Flask です。</description>
+      <pubDate>Fri, 04 Mar 2022 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/001.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/325705/</link>
+    </item>
+  </channel>
+</rss>
