@@ -1,8 +1,8 @@
-import type { Radio } from "../types/radio.ts";
-import type { Episode } from "../types/episode.ts";
+import type { Radio } from "../../types/radio.ts";
+import type { Episode } from "../../types/episode.ts";
 
-import { DOMParser } from "../deps.ts";
-import { addEpisode } from "../libs/add.ts";
+import { DOMParser } from "../../deps.ts";
+import { addEpisode } from "../../libs/json/add.ts";
 
 function loadAllEpisodes() {
   let results: Episode[] = [];

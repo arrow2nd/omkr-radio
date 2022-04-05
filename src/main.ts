@@ -1,5 +1,5 @@
 import { parseFeed } from "./deps.ts";
-import { addEpisode } from "./libs/add.ts";
+import { addEpisode } from "./libs/json/add.ts";
 
 // RSSフィードを取得
 const res = await fetch("https://omocoro.jp/feed");

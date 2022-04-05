@@ -1,7 +1,7 @@
-import type { Radio } from "../types/radio.ts";
-import type { Episode } from "../types/episode.ts";
+import type { Radio } from "../../types/radio.ts";
+import type { Episode } from "../../types/episode.ts";
 
-import { createPodcastXml } from "../libs/podcast/create.ts";
+import { createPodcastXml } from "../../libs/podcast/create.ts";
 
 // ラジオ一覧
 const radioList: Radio[] = JSON.parse(

@@ -15,7 +15,7 @@ export function createPodcastXml(radio: Radio, episodes: Episode[]): string {
     ({ title, desc, pubDate, source, link }) => ({
       title,
       description: desc,
-      pubDate,
+      pubDate: pubDate.replace("GMT", "+0000"),
       enclosure: { "@url": source, "@type": "audio/mpeg" },
       link,
     })

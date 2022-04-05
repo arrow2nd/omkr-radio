@@ -1,5 +1,5 @@
-import { Radio } from "../types/radio.ts";
-import { crypto } from "../deps.ts";
+import { Radio } from "../../types/radio.ts";
+import { crypto } from "../../deps.ts";
 
 /**
  * ラジオIDを取得

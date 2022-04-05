@@ -1,8 +1,8 @@
-import type { Radio } from "../types/radio.ts";
-import type { Episode } from "../types/episode.ts";
+import type { Radio } from "../../types/radio.ts";
+import type { Episode } from "../../types/episode.ts";
 
-import { DOMParser } from "../deps.ts";
-import { parseTitle } from "../libs/parse.ts";
+import { DOMParser } from "../../deps.ts";
+import { parseTitle } from "../../libs/json/parse.ts";
 
 //------------------------------------------------
 const baseUrl = "https://omocoro.jp/rensai/45480/";

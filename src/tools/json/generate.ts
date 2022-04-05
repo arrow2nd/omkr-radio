@@ -1,7 +1,7 @@
-import type { Radio } from "../types/radio.ts";
-import type { Episode } from "../types/episode.ts";
+import type { Radio } from "../../types/radio.ts";
+import type { Episode } from "../../types/episode.ts";
 
-import { fetchEpisodeInfo } from "../libs/fetch.ts";
+import { fetchEpisodeInfo } from "../../libs/json/fetch.ts";
 
 /**
  * 新規ラジオデータを生成
@@ -33,7 +33,7 @@ async function generateNewRadio(pageUrl: string) {
   } = episodeInfo;
 
   const radioId = id;
-  if (!id) {
+  if (!radioId) {
     throw new Error("ラジオIDの自動生成に失敗しました。");
   }
 
