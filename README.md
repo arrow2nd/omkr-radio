@@ -23,7 +23,7 @@ URL: `https://arrow2nd.github.io/omkr-radio/list.json`
     "author": "ARuFa,ダ・ヴィンチ・恐山",
     "desc": "たぶん毎週木曜日に更新されますので、よろしくお願いします。",
     "thumbnail": "https://omocoro.jp/assets/uploads/ogp_tokumeiradio_01.png",
-    "link": "https://omocoro.jp/tag/%23%E3%83%A9%E3%82%B8%E3%82%AA",
+    "link": "https://omocoro.jp/tag/%E5%8C%BF%E5%90%8D%E3%83%A9%E3%82%B8%E3%82%AA",
     "nowOnAir": true
   }
 ]
@@ -38,7 +38,7 @@ URL: `https://arrow2nd.github.io/omkr-radio/list.json`
 | desc       | String  | 概要                   |
 | thumbnail  | String  | サムネイル画像 URL     |
 | link       | String  | タグページのリンク     |
-| onAir      | Boolean | 更新中かどうか         |
+| nowOnAir   | Boolean | 更新中かどうか         |
 
 ### エピソード一覧
 
