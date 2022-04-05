@@ -70,7 +70,10 @@ URL: `https://arrow2nd.github.io/omkr-radio/json/{ラジオID}.json`
 
 ## 非公式 Podcast フィード
 
-[AntennaPod](https://antennapod.org) にて動作検証しています
+> この Podcast フィードは **非公式** のものであり、[オモコロ](https://omocoro.jp) 及び、[株式会社バーグハンバーグバーグ](https://bhb.co.jp) とは一切関係ございません。<br>
+> また、予告なく更新・公開を停止する場合があります。
+
+- [AntennaPod](https://antennapod.org) にて動作検証しています
 
 <details>
 <summary>開く</summary>
