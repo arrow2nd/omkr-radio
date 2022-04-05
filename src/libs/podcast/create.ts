@@ -28,7 +28,7 @@ export function createPodcastXml(radio: Radio, episodes: Episode[]): string {
       "@xmlns:itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
       channel: {
         title,
-        "itunes:author": author,
+        "itunes:author": author.replace(/,/g, " / "),
         description: desc,
         "itunes:image": {
           "@href": thumbnail,
