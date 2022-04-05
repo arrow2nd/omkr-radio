@@ -1,0 +1,38 @@
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>シモダ＆イーグルの残念ラジオ</title>
+    <itunes:author>シモダ</itunes:author>
+    <description>オモコロの初代編集長であるシモダが、お笑いユニット「超新塾」、「禅 ZEN」のリーダーであるイーグル溝神とお届けするネットラジオです。会社の社長とベテラン芸人が、残念な妄想をネットに垂れ流します。</description>
+    <itunes:image href="https://omocoro.jp/assets/uploads/banner.jpg"/>
+    <language>ja</language>
+    <link>https://omocoro.jp/tag/%E6%AE%8B%E5%BF%B5%E3%83%A9%E3%82%B8%E3%82%AA</link>
+    <item>
+      <title>弁護士に聞いたノゾキの話</title>
+      <description>オモコロの初代編集長であるシモダが、お笑いユニット「超新塾」、「禅 ZEN」のリーダーであるイーグル溝神とお届けするネットラジオです。会社の社長とベテラン芸人が、残念な妄想をネットに垂れ流します。</description>
+      <pubDate>Tue, 28 Oct 2014 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/zannen/004/zannen004.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/rensai/35886/</link>
+    </item>
+    <item>
+      <title>39歳の勃ち癖と将来有望な娘</title>
+      <description>オモコロの初代編集長であるシモダが、お笑いユニット「超新塾」、「禅 ZEN」のリーダーであるイーグル溝神とお届けするネットラジオです。会社の社長とベテラン芸人が、残念な妄想をネットに垂れ流します。</description>
+      <pubDate>Tue, 14 Oct 2014 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/zannen/003/zannen003.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/rensai/34720/</link>
+    </item>
+    <item>
+      <title>ジャンプを売るのが夢 / 2人が体験した変な仕事</title>
+      <description>オモコロの初代編集長であるシモダが、お笑いユニット「超新塾」、「禅 ZEN」のリーダーであるイーグル溝神とお届けするネットラジオです。会社の社長とベテラン芸人が、残念な妄想をネットに垂れ流します。</description>
+      <pubDate>Tue, 07 Oct 2014 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/zannen/002/zannen002.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/rensai/33652/</link>
+    </item>
+    <item>
+      <title>残念ラジオスタート！/ シモダとイーグルの関係性</title>
+      <description>オモコロの初代編集長であるシモダが、お笑いユニット「超新塾」、「禅 ZEN」のリーダーであるイーグル溝神とお届けするネットラジオです。会社の社長とベテラン芸人が、残念な妄想をネットに垂れ流します。</description>
+      <pubDate>Tue, 30 Sep 2014 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/zannen/001/zannen001.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/rensai/33323/</link>
+    </item>
+  </channel>
+</rss>

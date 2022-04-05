@@ -1,8 +1,8 @@
-import type { Radio } from "../types/radio.ts";
-import type { Episode } from "../types/episode.ts";
+import type { Radio } from "../../types/radio.ts";
+import type { Episode } from "../../types/episode.ts";
 
-import { DOMParser } from "../deps.ts";
-import { addEpisode } from "../libs/add.ts";
+import { DOMParser } from "../../deps.ts";
+import { addEpisode } from "../../libs/json/add.ts";
 
 function loadAllEpisodes() {
   let results: Episode[] = [];
@@ -69,7 +69,7 @@ async function createEpisodeData(tagName: string) {
       }
 
       console.log("-".repeat(30));
-      const ok = await addEpisode(url);
+      const ok = await addEpisode(url, true);
 
       // 5秒待つ
       if (ok) await wait(5);

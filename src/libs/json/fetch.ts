@@ -1,4 +1,4 @@
-import { DOMParser } from "../deps.ts";
+import { DOMParser } from "../../deps.ts";
 
 import { parseDate, parseTitle } from "./parse.ts";
 import { getId } from "./id.ts";

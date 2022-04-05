@@ -1,25 +1,42 @@
-import type { Episode } from "../types/episode.ts";
+import type { Episode } from "../../types/episode.ts";
 
 import { fetchEpisodeInfo } from "./fetch.ts";
+
+type AddEpisodeResult = {
+  id: string;
+  episodes: Episode[];
+};
 
 /**
  * 新しいエピソードを追加
  * @param url 記事URL
- * @returns 成功したか
+ * @param enableRensai 旧ラジオのURLを読むか
+ * @returns 結果
  */
-export async function addEpisode(url: string): Promise<boolean> {
+export async function addEpisode(
+  url: string,
+  enableRensai: boolean
+): Promise<AddEpisodeResult | undefined> {
+  const urlRegExp = new RegExp(
+    `https://omocoro.jp/\(radio${enableRensai ? "|rensai" : ""}\)/`
+  );
+
   // ラジオ以外の記事ならスキップ
-  if (!/radio|rensai/.test(url)) {
+  if (!urlRegExp.test(url)) {
     console.log(`[SKIP] ラジオの記事ではありません (${url})`);
-    return false;
+    return undefined;
   }
 
   // 詳細を取得
   const episodeInfo = await fetchEpisodeInfo(url);
-  if (!episodeInfo) return false;
+  if (!episodeInfo) return undefined;
 
   const { id, episodeTitle, episodeNumber, desc, pubDate, source } =
     episodeInfo;
+
+  if (!id) {
+    throw new Error("ラジオIDがありません");
+  }
 
   // エピソードデータ読み込み
   const episodeJsonPath = `./docs/json/${id}.json`;
@@ -46,7 +63,7 @@ export async function addEpisode(url: string): Promise<boolean> {
 
   if (isDuplicate) {
     console.log(`[SKIP] 重複したエピソードです (${newEpisode.title})`);
-    return true;
+    return undefined;
   }
 
   // 追加して保存
@@ -55,6 +72,10 @@ export async function addEpisode(url: string): Promise<boolean> {
   const results = episodes.sort((a, b) => a.number - b.number);
   Deno.writeTextFileSync(episodeJsonPath, JSON.stringify(results, null, "\t"));
 
-  console.info("[ADDED]");
-  return true;
+  console.info(`[ADDED] ${id}.json`);
+
+  return {
+    id,
+    episodes: results,
+  };
 }
