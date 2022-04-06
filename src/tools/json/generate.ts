@@ -1,4 +1,4 @@
-import type { Episode } from "../../types/episode.ts";
+import type { Episode } from "../../types/json.ts";
 
 import { addRadio } from "../../libs/json/add.ts";
 import { fetchEpisodeInfo } from "../../libs/json/fetch.ts";
