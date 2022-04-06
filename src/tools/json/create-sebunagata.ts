@@ -1,5 +1,4 @@
-import type { Radio } from "../../types/radio.ts";
-import type { Episode } from "../../types/episode.ts";
+import type { Episode, Radio } from "../../types/json.ts";
 
 import { addRadio } from "../../libs/json/add.ts";
 import { parseTitle } from "../../libs/json/parse.ts";
@@ -23,7 +22,7 @@ const sebunagata: Radio = {
 const newEpisodes: Episode[] = [];
 
 for (let i = 1; i < 6; i++) {
-  console.log(`< page = ${i} >`);
+  console.log(`[PAGE: ${i}]`);
 
   const url = i === 1 ? baseUrl : `${baseUrl}/${i}/`;
   const res = await fetch(url);

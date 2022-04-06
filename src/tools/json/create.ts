@@ -1,5 +1,4 @@
-import type { Radio } from "../../types/radio.ts";
-import type { Episode } from "../../types/episode.ts";
+import type { Episode, Radio } from "../../types/json.ts";
 
 import { DOMParser } from "../../deps.ts";
 import { addEpisode } from "../../libs/json/add.ts";

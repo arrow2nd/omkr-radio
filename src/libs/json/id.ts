@@ -1,4 +1,5 @@
-import { Radio } from "../../types/radio.ts";
+import type { Radio } from "../../types/json.ts";
+
 import { crypto } from "../../deps.ts";
 
 /**
