@@ -3,8 +3,8 @@ name: update
 on:
   workflow_dispatch:
   schedule:
-    # 12,24,25時
-    - cron: "0 3,15,16 * * *"
+    # 日本時間 12, 24時
+    - cron: "0 3,15 * * *"
 
 jobs:
   update:
@@ -20,6 +20,8 @@ jobs:
 
       - name: Update data
         run: deno task update
+        env: 
+          TZ: "Asia/Tokyo"
 
       - name: Commit the changes
         uses: stefanzweifel/git-auto-commit-action@v4
