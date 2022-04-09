@@ -1,9 +1,9 @@
 import type { Episode, Radio } from "../../types/json.ts";
 
+import { ky, DOMParser } from "../../deps.ts";
+
 import { addRadio } from "../../libs/json/add.ts";
 import { parseTitle } from "../../libs/json/parse.ts";
-
-import { DOMParser } from "../../deps.ts";
 
 //------------------------------------------------
 const baseUrl = "https://omocoro.jp/rensai/45480/";
@@ -25,8 +25,9 @@ for (let i = 1; i < 6; i++) {
   console.log(`[PAGE: ${i}]`);
 
   const url = i === 1 ? baseUrl : `${baseUrl}/${i}/`;
-  const res = await fetch(url);
-  if (res.status !== 200) {
+  const res = await ky.get(url, { timeout: 5000, throwHttpErrors: false });
+
+  if (!res.ok) {
     console.log("[END]");
     break;
   }

@@ -1,7 +1,9 @@
 import type { Episode, Radio } from "../../types/json.ts";
 
-import { DOMParser } from "../../deps.ts";
+import { ky, DOMParser } from "../../deps.ts";
+
 import { addEpisode } from "../../libs/json/add.ts";
+import { wait } from "../../libs/util.ts";
 
 /**
  * 全てのエピソードを読み込む
@@ -21,14 +23,6 @@ function loadAllEpisodes() {
 }
 
 /**
- * 指定秒数間待機
- * @param sec 秒数
- */
-async function wait(sec: number) {
-  await new Promise((resolve) => setTimeout(resolve, sec * 1000));
-}
-
-/**
  * エピソード一覧を作成
  * @param tagName タグ名
  */
@@ -43,8 +37,12 @@ async function createEpisodeData(tagName: string) {
     console.log(`\n[ PAGE: ${pageNum} ] ${pageUrl}\n`);
 
     // 検索結果を取得
-    const res = await fetch(pageUrl);
-    if (res.status !== 200) {
+    const res = await ky.get(pageUrl, {
+      timeout: 5000,
+      throwHttpErrors: false,
+    });
+
+    if (!res.ok) {
       console.log("[END]");
       break;
     }
@@ -82,11 +80,10 @@ async function createEpisodeData(tagName: string) {
       console.log("-".repeat(30));
       const ok = await addEpisode(url, true);
 
-      // 5秒待つ
       if (ok) await wait(5);
     }
 
-    await wait(2);
+    await wait(5);
   }
 }
 

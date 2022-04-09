@@ -24,12 +24,12 @@ export async function addEpisode(
   // ラジオ以外の記事ならスキップ
   if (!urlRegExp.test(url)) {
     console.log(`[SKIP] ラジオの記事ではありません (${url})`);
-    return undefined;
+    return;
   }
 
   // 詳細を取得
   const episodeInfo = await fetchEpisodeInfo(url);
-  if (!episodeInfo) return undefined;
+  if (!episodeInfo) return;
 
   const { id, episodeTitle, episodeNumber, desc, pubDate, source } =
     episodeInfo;
@@ -53,26 +53,22 @@ export async function addEpisode(
     pubDate,
   };
 
-  // 重複確認
-  const isDuplicate = episodes.some(
-    (e) =>
-      e.title === newEpisode.title &&
-      e.number === newEpisode.number &&
-      e.source === newEpisode.source
+  const duplicateIndex = episodes.findIndex(
+    (e) => e.title === newEpisode.title
   );
 
-  if (isDuplicate) {
-    console.log(`[SKIP] 重複したエピソードです (${newEpisode.title})`);
-    return undefined;
+  if (duplicateIndex !== -1) {
+    // 重複したデータが既にあれば、新しいものに更新
+    episodes[duplicateIndex] = newEpisode;
+    console.log(`[UPDATED] ${id}.json (${newEpisode.title})`);
+  } else {
+    // 追加して保存
+    episodes.push(newEpisode);
+    console.info(`[ADDED] ${id}.json`);
   }
-
-  // 追加して保存
-  episodes.push(newEpisode);
 
   const results = episodes.sort((a, b) => a.number - b.number);
   Deno.writeTextFileSync(episodeJsonPath, JSON.stringify(results, null, "\t"));
-
-  console.info(`[ADDED] ${id}.json`);
 
   return {
     id,
