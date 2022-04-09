@@ -1,10 +1,13 @@
 import { addEpisode } from "./libs/json/add.ts";
 import { updatePodcast } from "./libs/podcast/update.ts";
 
-import { parseFeed } from "./deps.ts";
+import { ky, parseFeed } from "./deps.ts";
 
 // RSSフィードを取得
-const res = await fetch("https://omocoro.jp/feed");
+const res = await ky.get("https://omocoro.jp/feed", {
+  timeout: 5000,
+  throwHttpErrors: false,
+});
 
 if (!res.ok) {
   throw new Error(

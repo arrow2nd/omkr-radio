@@ -29,7 +29,6 @@ export function getId(radioTitle: string, source: string) {
   // リスト内にIDがあればそれを返す
   const foundId = radioList.find(({ title }) => title === radioTitle);
   if (foundId) {
-    console.log(`[FOUND] IDが見つかりました (${foundId.id})`);
     return foundId.id;
   }
 

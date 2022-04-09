@@ -1,4 +1,6 @@
-import { DOMParser } from "../../deps.ts";
+import { ky, DOMParser } from "../../deps.ts";
+
+import { wait } from "../util.ts";
 
 import { parseDate, parseTitle } from "./parse.ts";
 import { getId } from "./id.ts";
@@ -25,12 +27,21 @@ type FetchResult = {
 export async function fetchEpisodeInfo(
   url: string
 ): Promise<FetchResult | undefined> {
-  const res = await fetch(url);
+  const res = await ky.get(url, {
+    timeout: 5000,
+    throwHttpErrors: false,
+    headers: {
+      "User-Agent": "omkr-radio Crawler (contact@arrow2nd.com)",
+    },
+  });
+
   if (!res.ok) {
     throw new Error(`アクセスできませんでした (${res.status})`);
   }
 
   console.log(`[OK] 取得完了 (${res.status})`);
+
+  await wait(5);
 
   // HTMLをパース
   const html = await res.text();
