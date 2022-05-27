@@ -39,7 +39,7 @@ export async function fetchEpisodeInfo(
     throw new Error(`アクセスできませんでした (${res.status})`);
   }
 
-  console.log(`[OK] 取得完了 (${res.status})`);
+  console.log(`[OK] 取得完了 (${res.status}) / ${url}`);
 
   await wait(5);
 
@@ -53,10 +53,16 @@ export async function fetchEpisodeInfo(
   console.log(`[OK] パース完了`);
 
   // タグを抽出
-  const tagName = [...doc.querySelectorAll(".tags > a")]
+  const tags = [...doc.querySelectorAll(".tags > a")];
+  if (tags.length === 0) return;
+
+  const tagName = tags
     .filter((e) => e.textContent !== "#ラジオ")
     .map((e) => e.textContent)[0]
     .replace(/^#\s*/, "");
+
+  if (!tagName) return;
+
   const tagLink = `https://omocoro.jp/tag/${encodeURIComponent(
     tagName || "ラジオ"
   )}`;
