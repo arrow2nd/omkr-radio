@@ -1,9 +1,9 @@
-import type { Episode, Radio } from "../../types/json.ts";
+import { DOMParser } from "deno-dom-wasm";
 
-import { ky, DOMParser } from "../../deps.ts";
+import type { Episode, Radio } from "@/types/json.ts";
 
-import { addEpisode } from "../../libs/json/add.ts";
-import { wait } from "../../libs/util.ts";
+import { addEpisode } from "@/libs/json/add.ts";
+import { fetchWithTimeout, wait } from "@/libs/util.ts";
 
 /**
  * 全てのエピソードを読み込む
@@ -29,19 +29,17 @@ function loadAllEpisodes() {
 async function createEpisodeData(tagName: string) {
   const episodes = loadAllEpisodes();
 
-  for (let pageNum = 1; ; pageNum++) {
-    const pageUrl = `https://omocoro.jp/tag/${encodeURIComponent(
-      tagName
-    )}/page/${pageNum}/`;
+  for (let pageNum = 1;; pageNum++) {
+    const pageUrl = `https://omocoro.jp/tag/${
+      encodeURIComponent(
+        tagName,
+      )
+    }/page/${pageNum}/`;
 
     console.log(`\n[ PAGE: ${pageNum} ] ${pageUrl}\n`);
 
     // 検索結果を取得
-    const res = await ky.get(pageUrl, {
-      timeout: 5000,
-      throwHttpErrors: false,
-    });
-
+    const res = await fetchWithTimeout(pageUrl);
     if (!res.ok) {
       console.log("[END]");
       break;
@@ -88,7 +86,7 @@ async function createEpisodeData(tagName: string) {
 }
 
 const radioList: Radio[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json")
+  Deno.readTextFileSync("./docs/list.json"),
 );
 
 for (const { tag } of radioList) {

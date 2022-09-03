@@ -1,7 +1,7 @@
-import type { Episode } from "../../types/json.ts";
+import type { Episode } from "@/types/json.ts";
 
-import { addRadio } from "../../libs/json/add.ts";
-import { fetchEpisodeInfo } from "../../libs/json/fetch.ts";
+import { addRadio } from "@/libs/json/add.ts";
+import { fetchEpisodeInfo } from "@/libs/json/fetch.ts";
 
 /**
  * 新規ラジオデータを生成
@@ -63,7 +63,7 @@ async function generateNewRadio(pageUrl: string) {
 
   Deno.writeTextFileSync(
     episodeJsonPath,
-    JSON.stringify(newEpisodeJson, null, "\t")
+    JSON.stringify(newEpisodeJson, null, "\t"),
   );
 }
 

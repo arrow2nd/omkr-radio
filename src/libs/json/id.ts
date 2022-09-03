@@ -1,6 +1,6 @@
-import type { Radio } from "../../types/json.ts";
+import type { Radio } from "@/types/json.ts";
 
-import { crypto } from "../../deps.ts";
+import { crypto } from "crypto";
 
 /**
  * ラジオIDを取得
@@ -17,7 +17,7 @@ export function getId(radioTitle: string, source: string) {
   if (specialList.has(radioTitle)) return specialList.get(radioTitle);
 
   const radioList: Radio[] = JSON.parse(
-    Deno.readTextFileSync("./docs/list.json")
+    Deno.readTextFileSync("./docs/list.json"),
   );
 
   // 音源URLから抽出

@@ -1,9 +1,10 @@
-import type { Episode, Radio } from "../../types/json.ts";
+import { DOMParser } from "deno-dom-wasm";
 
-import { ky, DOMParser } from "../../deps.ts";
+import type { Episode, Radio } from "@/types/json.ts";
 
-import { addRadio } from "../../libs/json/add.ts";
-import { parseTitle } from "../../libs/json/parse.ts";
+import { addRadio } from "@/libs/json/add.ts";
+import { parseTitle } from "@/libs/json/parse.ts";
+import { fetchWithTimeout } from "@/libs/util.ts";
 
 //------------------------------------------------
 const baseUrl = "https://omocoro.jp/rensai/45480/";
@@ -25,7 +26,7 @@ for (let i = 1; i < 6; i++) {
   console.log(`[PAGE: ${i}]`);
 
   const url = i === 1 ? baseUrl : `${baseUrl}/${i}/`;
-  const res = await ky.get(url, { timeout: 5000, throwHttpErrors: false });
+  const res = await fetchWithTimeout(url);
 
   if (!res.ok) {
     console.log("[END]");
@@ -52,7 +53,7 @@ for (let i = 1; i < 6; i++) {
     const { episodeTitle, episodeNumber } = parsed;
 
     const radioFilePath = source.match(
-      /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/
+      /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/,
     );
     if (!radioFilePath) continue;
 
@@ -76,5 +77,5 @@ Deno.createSync(episodeJsonPath);
 
 Deno.writeTextFileSync(
   episodeJsonPath,
-  JSON.stringify(newEpisodes, null, "\t")
+  JSON.stringify(newEpisodes, null, "\t"),
 );
