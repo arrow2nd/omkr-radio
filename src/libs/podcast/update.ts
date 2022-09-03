@@ -1,6 +1,6 @@
-import type { Episode, Radio } from "../../types/json.ts";
+import type { Episode, Radio } from "@/types/json.ts";
 
-import { createPodcastXml } from "./create.ts";
+import { createPodcastXml } from "@/libs/podcast/create.ts";
 
 /**
  * Podcastを更新
@@ -9,7 +9,7 @@ import { createPodcastXml } from "./create.ts";
  */
 export function updatePodcast(radioId: string, episodes: Episode[]) {
   const radioList: Radio[] = JSON.parse(
-    Deno.readTextFileSync("./docs/list.json")
+    Deno.readTextFileSync("./docs/list.json"),
   );
 
   const radio = radioList.find(({ id }) => id === radioId);

@@ -1,7 +1,7 @@
-import type { Episode, Radio } from "../../types/json.ts";
-import type { PodcastXml, Item } from "../../types/podcast.ts";
+import { stringify } from "xml";
 
-import { stringify } from "../../deps.ts";
+import type { Episode, Radio } from "@/types/json.ts";
+import type { Item, PodcastXml } from "@/types/podcast.ts";
 
 /**
  * ポッドキャスト用XMLを作成
@@ -17,7 +17,7 @@ export function createPodcastXml(radio: Radio, episodes: Episode[]): string {
       pubDate,
       enclosure: { "@url": source, "@type": "audio/mpeg" },
       link,
-    })
+    }),
   );
 
   const { title, author, desc, thumbnail, link } = radio;

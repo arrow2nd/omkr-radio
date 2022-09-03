@@ -1,9 +1,9 @@
-import type { Episode, Radio } from "../../types/json.ts";
+import type { Episode, Radio } from "@/types/json.ts";
 
-import { createPodcastXml } from "../../libs/podcast/create.ts";
+import { createPodcastXml } from "@/libs/podcast/create.ts";
 
 const radioList: Radio[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json")
+  Deno.readTextFileSync("./docs/list.json"),
 );
 
 for (const { isFile, name } of Deno.readDirSync("./docs/json/")) {
@@ -17,7 +17,7 @@ for (const { isFile, name } of Deno.readDirSync("./docs/json/")) {
   }
 
   const episodes: Episode[] = JSON.parse(
-    Deno.readTextFileSync(`./docs/json/${name}`)
+    Deno.readTextFileSync(`./docs/json/${name}`),
   );
 
   const xml = createPodcastXml(radio, episodes);

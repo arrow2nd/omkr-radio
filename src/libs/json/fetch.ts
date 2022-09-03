@@ -1,9 +1,9 @@
-import { ky, DOMParser } from "../../deps.ts";
+import { DOMParser } from "deno-dom-wasm";
 
-import { wait } from "../util.ts";
+import { fetchWithTimeout, wait } from "@/libs/util.ts";
 
-import { parseDate, parseTitle } from "./parse.ts";
-import { getId } from "./id.ts";
+import { parseDate, parseTitle } from "@/libs/json/parse.ts";
+import { getId } from "@/libs/json/id.ts";
 
 type FetchResult = {
   id?: string;
@@ -25,15 +25,9 @@ type FetchResult = {
  * @returns 結果
  */
 export async function fetchEpisodeInfo(
-  url: string
+  url: string,
 ): Promise<FetchResult | undefined> {
-  const res = await ky.get(url, {
-    timeout: 5000,
-    throwHttpErrors: false,
-    headers: {
-      "User-Agent": "omkr-radio Crawler (contact@arrow2nd.com)",
-    },
-  });
+  const res = await fetchWithTimeout(url);
 
   if (!res.ok) {
     throw new Error(`アクセスできませんでした (${res.status})`);
@@ -63,9 +57,11 @@ export async function fetchEpisodeInfo(
 
   if (!tagName) return;
 
-  const tagLink = `https://omocoro.jp/tag/${encodeURIComponent(
-    tagName || "ラジオ"
-  )}`;
+  const tagLink = `https://omocoro.jp/tag/${
+    encodeURIComponent(
+      tagName || "ラジオ",
+    )
+  }`;
 
   console.log("タグ: " + tagName);
   console.log("タグリンク: " + tagLink);
@@ -125,7 +121,7 @@ export async function fetchEpisodeInfo(
 
   // 音源のURLを抽出
   const source = html.match(
-    /(https:\/\/omocoro\.heteml\.net\/radio\/.*?\.mp3)/
+    /(https:\/\/omocoro\.heteml\.net\/radio\/.*?\.mp3)/,
   )?.[1];
 
   if (!source) {
