@@ -12,7 +12,9 @@
 
 オモコロで現在視聴可能なラジオの一覧です。
 
-URL: `https://arrow2nd.github.io/omkr-radio/list.json`
+`https://arrow2nd.github.io/omkr-radio/list.json`
+
+#### データ形式
 
 ```json
 [
@@ -44,7 +46,9 @@ URL: `https://arrow2nd.github.io/omkr-radio/list.json`
 
 それぞれのラジオのエピソードの一覧です。
 
-URL: `https://arrow2nd.github.io/omkr-radio/json/{ラジオID}.json`
+`https://arrow2nd.github.io/omkr-radio/json/{ラジオID}.json`
+
+#### データ形式
 
 ```json
 [
@@ -75,9 +79,6 @@ URL: `https://arrow2nd.github.io/omkr-radio/json/{ラジオID}.json`
 
 - [AntennaPod](https://antennapod.org) にて動作検証しています
 
-<details>
-<summary>開く</summary>
-
 | ラジオ名                               | Podcast フィード URL                                                                             |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | 原宿・おすしのありっちゃありアワー     | https://arrow2nd.github.io/omkr-radio/podcast/ariari.rss                                         |
@@ -107,8 +108,6 @@ URL: `https://arrow2nd.github.io/omkr-radio/json/{ラジオID}.json`
 | ARuFa・恐山の匿名ラジオ                | https://arrow2nd.github.io/omkr-radio/podcast/tokumei.rss                                        |
 | ソルジャーラジオ                       | https://arrow2nd.github.io/omkr-radio/podcast/yoropen.rss                                        |
 | シモダ＆イーグルの残念ラジオ           | https://arrow2nd.github.io/omkr-radio/podcast/zannen.rss                                         |
-
-</details>
 
 ## 実行
 
