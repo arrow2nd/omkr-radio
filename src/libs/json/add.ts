@@ -54,7 +54,8 @@ export async function addEpisode(
   };
 
   const duplicateIndex = episodes.findIndex(
-    (e) => e.title === newEpisode.title,
+    ({ number, link }) =>
+      number === newEpisode.number && link === newEpisode.link,
   );
 
   if (duplicateIndex !== -1) {
