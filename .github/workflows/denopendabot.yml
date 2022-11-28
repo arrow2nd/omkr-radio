@@ -1,0 +1,14 @@
+name: Denopendabot
+on:
+  workflow_dispatch:
+  schedule:
+    # Run at 00:00 JST every day
+    - cron: "0 15 * * *"
+jobs:
+  update:
+    name: Update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: hasundue/denopendabot@0.12.1
+        with:
+          user-token: ${{ secrets.GH_TOKEN }}
