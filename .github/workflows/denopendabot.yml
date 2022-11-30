@@ -9,7 +9,6 @@ jobs:
     name: Update
     runs-on: ubuntu-latest
     steps:
-      - uses: hasundue/denopendabot@0.12.1
+      - uses: hasundue/denopendabot@0.13.0 
         with:
-          exclude: deno.lock
           user-token: ${{ secrets.GH_TOKEN }}
