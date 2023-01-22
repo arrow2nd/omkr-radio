@@ -3,7 +3,6 @@
     "create:json": "deno run -A ./src/tools/json/create-all.ts & deno run -A ./src/tools/json/create-sebunagata.ts",
     "create:podcast": "deno run -A ./src/tools/podcast/create-podcast.ts",
     "update": "deno run --allow-env --allow-net --allow-read --allow-write ./src/main.ts && deno task fmt",
-    "gen": "deno run -A ./src/tools/json/generate.ts",
     "fmt": "deno fmt ./docs/"
   },
   "importMap": "import_map.json"

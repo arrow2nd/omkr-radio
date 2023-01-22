@@ -5,7 +5,7 @@ import { fetchWithTimeout, wait } from "@/libs/util.ts";
 import { parseDate, parseTitle } from "@/libs/json/parse.ts";
 import { getId } from "@/libs/json/id.ts";
 
-type FetchResult = {
+export type FetchResult = {
   id?: string;
   radioTitle: string;
   tagName: string;
@@ -17,6 +17,7 @@ type FetchResult = {
   author: string;
   thumbnail: string;
   source: string;
+  url: string;
 };
 
 /**
@@ -25,7 +26,7 @@ type FetchResult = {
  * @returns 結果
  */
 export async function fetchEpisodeInfo(
-  url: string,
+  url: string
 ): Promise<FetchResult | undefined> {
   const res = await fetchWithTimeout(url);
 
@@ -57,11 +58,9 @@ export async function fetchEpisodeInfo(
 
   if (!tagName) return;
 
-  const tagLink = `https://omocoro.jp/tag/${
-    encodeURIComponent(
-      tagName || "ラジオ",
-    )
-  }`;
+  const tagLink = `https://omocoro.jp/tag/${encodeURIComponent(
+    tagName || "ラジオ"
+  )}`;
 
   console.log("タグ: " + tagName);
   console.log("タグリンク: " + tagLink);
@@ -92,7 +91,6 @@ export async function fetchEpisodeInfo(
 
   // 概要を抽出
   const desc = doc.querySelector(".description")?.textContent || "";
-
   console.log("概要: " + desc);
 
   // 投稿日
@@ -102,26 +100,23 @@ export async function fetchEpisodeInfo(
   }
 
   const pubDate = parseDate(dateStr);
-
   console.log("投稿日: " + pubDate);
 
   // 出演者を抽出
   const author = [...doc.querySelectorAll(".header-meta > .staffs > a")]
     .map((e) => e.textContent)
     .join(",");
-
   console.log("出演: " + author);
 
   // サムネイルを抽出
   const thumbnail =
     doc.querySelector(".article-header > .image > img")?.getAttribute("src") ||
     "https://omocoro.jp/assets/img/common/omocoro-logo.png";
-
   console.log("サムネイル: " + thumbnail);
 
   // 音源のURLを抽出
   const source = html.match(
-    /(https:\/\/omocoro\.heteml\.net\/radio\/.*?\.mp3)/,
+    /(https:\/\/omocoro\.heteml\.net\/radio\/.*?\.mp3)/
   )?.[1];
 
   if (!source) {
@@ -133,7 +128,6 @@ export async function fetchEpisodeInfo(
 
   // ラジオIDを抽出
   const id = getId(radioTitle, source);
-
   console.log("ID: " + id);
 
   return {
@@ -148,5 +142,6 @@ export async function fetchEpisodeInfo(
     author,
     thumbnail,
     source,
+    url,
   };
 }

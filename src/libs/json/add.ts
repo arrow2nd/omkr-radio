@@ -1,6 +1,7 @@
 import type { Episode, Radio } from "@/types/json.ts";
 
 import { fetchEpisodeInfo } from "@/libs/json/fetch.ts";
+import { generateNewRadio } from "@/libs/json/generate.ts";
 
 type AddEpisodeResult = {
   id: string;
@@ -15,10 +16,10 @@ type AddEpisodeResult = {
  */
 export async function addEpisode(
   url: string,
-  enableRensai: boolean,
+  enableRensai: boolean
 ): Promise<AddEpisodeResult | undefined> {
   const urlRegExp = new RegExp(
-    `https://omocoro.jp/\(radio${enableRensai ? "|rensai" : ""}\)/`,
+    `https://omocoro.jp/\(radio${enableRensai ? "|rensai" : ""}\)/`
   );
 
   // ラジオ以外の記事ならスキップ
@@ -38,11 +39,17 @@ export async function addEpisode(
     throw new Error("ラジオIDがありません");
   }
 
-  // エピソードデータ読み込み
   const episodeJsonPath = `./docs/json/${id}.json`;
-  const episodes: Episode[] = JSON.parse(
-    Deno.readTextFileSync(episodeJsonPath),
-  );
+  let episodes: Episode[] = [];
+
+  try {
+    // エピソードデータ読み込み
+    episodes = JSON.parse(Deno.readTextFileSync(episodeJsonPath));
+  } catch (_err) {
+    // 読み込みに失敗したなら、新規のラジオとみなす
+    generateNewRadio(episodeInfo);
+    return;
+  }
 
   const newEpisode: Episode = {
     title: episodeTitle,
@@ -55,7 +62,7 @@ export async function addEpisode(
 
   const duplicateIndex = episodes.findIndex(
     ({ number, link }) =>
-      number === newEpisode.number && link === newEpisode.link,
+      number === newEpisode.number && link === newEpisode.link
   );
 
   if (duplicateIndex !== -1) {
