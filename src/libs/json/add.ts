@@ -48,7 +48,10 @@ export async function addEpisode(
   } catch (_err) {
     // 読み込みに失敗したなら、新規のラジオとみなす
     generateNewRadio(episodeInfo);
-    return;
+    return {
+      id: episodeInfo.id!,
+      episodes,
+    };
   }
 
   const newEpisode: Episode = {
