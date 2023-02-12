@@ -5,5 +5,6 @@
     "update": "deno run --allow-env --allow-net --allow-read --allow-write ./src/main.ts && deno task fmt",
     "fmt": "deno fmt ./docs/"
   },
-  "importMap": "import_map.json"
+  "importMap": "import_map.json",
+  "lock": false
 }
