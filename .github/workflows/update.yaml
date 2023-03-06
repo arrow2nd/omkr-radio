@@ -23,6 +23,9 @@ jobs:
         env:
           TZ: "Asia/Tokyo"
 
+      - name: Update README
+        run: deno task gen:readme
+
       - name: Commit the changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
