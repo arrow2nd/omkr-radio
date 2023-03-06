@@ -1,9 +1,11 @@
 {
   "tasks": {
-    "create:json": "deno run -A ./src/tools/json/create-all.ts & deno run -A ./src/tools/json/create-sebunagata.ts",
-    "create:podcast": "deno run -A ./src/tools/podcast/create-podcast.ts",
-    "update": "deno run --allow-env --allow-net --allow-read --allow-write ./src/main.ts && deno task fmt",
-    "fmt": "deno fmt ./docs/"
+    "create:json": "deno run -A ./src/tools/json/create-all.ts && deno run -A ./src/tools/json/create-sebunagata.ts",
+    "create:podcast": "deno run -A ./src/tools/create-podcast.ts",
+    "update": "deno run --allow-env --allow-net --allow-read --allow-write ./src/main.ts && deno task fmt:docs",
+    "gen:readme": "deno run --allow-read --allow-write ./src/tools/gen-readme.ts && deno task fmt:readme",
+    "fmt:docs": "deno fmt ./docs/",
+    "fmt:readme": "deno fmt ./README.md"
   },
   "importMap": "import_map.json",
   "lock": false

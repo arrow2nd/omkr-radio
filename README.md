@@ -1,6 +1,6 @@
 # omkr-radio
 
-オモコロで配信されている Web ラジオの非公式 JSON / Podcast フィード（ほぼ自動更新）
+オモコロで配信されている Web ラジオの非公式 Podcast フィード（ほぼ自動更新）
 
 [![update](https://github.com/arrow2nd/omkr-radio/actions/workflows/update.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/update.yaml)
 [![Deno](https://shields.io/badge/deno-%5E1.20-green?logo=deno&style=flat)](https://deno.land)
@@ -73,60 +73,50 @@
 
 ## 非公式 Podcast フィード
 
-> この Podcast フィードは **非公式** のものであり、[オモコロ](https://omocoro.jp)
-> 及び、[株式会社バーグハンバーグバーグ](https://bhb.co.jp) とは一切関係ございません。<br>
+> この Podcast フィードは **非公式**
+> のものであり、[オモコロ](https://omocoro.jp)
+> 及び、[株式会社バーグハンバーグバーグ](https://bhb.co.jp)
+> とは一切関係ございません。<br>
 > また、予告なく更新・公開を停止する場合があります。
 
-- [Podcast](https://support.apple.com/ja-jp/guide/podcasts/pod970198c2/mac) アプリ
-  / [AntennaPod](https://antennapod.org) にて動作検証しています
+- [Podcast](https://support.apple.com/ja-jp/guide/podcasts/pod970198c2/mac)
+  アプリ / [AntennaPod](https://antennapod.org) にて動作検証しています
 
-### ありっちゃありアワー
+<!-- podcast list start -->
 
-| ラジオ名                           | Podcast フィード URL                                       |
-| ---------------------------------- | ---------------------------------------------------------- |
-| 原宿・おすしのありっちゃありアワー | https://arrow2nd.github.io/omkr-radio/podcast/ariari.rss   |
-| ありっちゃありスパーク             | https://arrow2nd.github.io/omkr-radio/podcast/arispa.rss   |
-| ありっちゃありスパーク・マシュ     | https://arrow2nd.github.io/omkr-radio/podcast/arimasyu.rss |
+| ラジオ名                               | Podcast フィード URL                                                                             | 更新中 |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------ | ------ |
+| ARuFa・恐山の匿名ラジオ                | https://arrow2nd.github.io/omkr-radio/podcast/tokumei.rss                                        | ✅     |
+| ありっちゃありスパーク                 | https://arrow2nd.github.io/omkr-radio/podcast/arispa.rss                                         | ❌     |
+| ありっちゃありスパーク・マシュ         | https://arrow2nd.github.io/omkr-radio/podcast/arimasyu.rss                                       | ❌     |
+| ありっちゃありスパーク・梵             | https://arrow2nd.github.io/omkr-radio/podcast/aribon.rss                                         | ✅     |
+| かまってみくのしん                     | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu.rss                                       | ❌     |
+| かまってみくのしん GOLD                | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-67c13a9f-e468-4bae-992d-3d2b786f15ac.rss  | ❌     |
+| かまってみくのしん Love you            | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-0bc4f3a9-e35b-4887-a215-b92f36efc237.rss  | ❌     |
+| かまってみくのしん日本一               | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-46501532-6287-4ae8-8563-b25161de37c7.rss  | ❌     |
+| シモダ＆イーグルの残念ラジオ           | https://arrow2nd.github.io/omkr-radio/podcast/zannen.rss                                         | ❌     |
+| シモダテツヤと私（ヨッピー）           | https://arrow2nd.github.io/omkr-radio/podcast/shimowata-b5fa1358-5fa5-42e2-b56c-24dff757c323.rss | ❌     |
+| シモダテツヤと私（地獄のミサワ）       | https://arrow2nd.github.io/omkr-radio/podcast/shimowata.rss                                      | ❌     |
+| セブ山・永田の金曜ラジオ               | https://arrow2nd.github.io/omkr-radio/podcast/sebunagata.rss                                     | ❌     |
+| そうじゃねえだろのラジオじゃねえだろ！ | https://arrow2nd.github.io/omkr-radio/podcast/soujanee.rss                                       | ❌     |
+| ソルジャーラジオ                       | https://arrow2nd.github.io/omkr-radio/podcast/yoropen.rss                                        | ✅     |
+| たかや・マンスーンのパクパクラジオ     | https://arrow2nd.github.io/omkr-radio/podcast/pakupaku.rss                                       | ❌     |
+| ニュース！オモコロウォッチ！           | https://arrow2nd.github.io/omkr-radio/podcast/watch.rss                                          | ✅     |
+| マンスーン・ヤスミノの音声放送         | https://arrow2nd.github.io/omkr-radio/podcast/kayouradio.rss                                     | ✅     |
+| みくのしん・おおきちの大仲良しラジオ   | https://arrow2nd.github.io/omkr-radio/podcast/dainaka.rss                                        | ❌     |
+| ラジオ・モンゴルナイトフィーバー       | https://arrow2nd.github.io/omkr-radio/podcast/mongol.rss                                         | ✅     |
+| ラジオ漫画犬血道編                     | https://arrow2nd.github.io/omkr-radio/podcast/maninu-b6b7c76c-8c64-460f-a6f5-b2b734902b8b.rss    | ❌     |
+| ラジオ漫画犬漂流編                     | https://arrow2nd.github.io/omkr-radio/podcast/maninu-ceba5239-5bc9-4052-b3ab-d3b2fde866c6.rss    | ❌     |
+| ラジオ漫画犬咆哮編                     | https://arrow2nd.github.io/omkr-radio/podcast/maninu-b3234812-6a4e-4b55-9c70-b4d689cca00e.rss    | ✅     |
+| 加藤・ギャラクシーのラジオ KGB         | https://arrow2nd.github.io/omkr-radio/podcast/kgb.rss                                            | ❌     |
+| 原宿・おすしのありっちゃありアワー     | https://arrow2nd.github.io/omkr-radio/podcast/ariari.rss                                         | ❌     |
+| 作業用かまみく                         | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-3cd98256-982c-48e3-84f1-02ab49dbcc21.rss  | ❌     |
+| 睡眠用かまみく                         | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-9d9208ea-e0ac-4f1e-88bf-95d25d359071.rss  | ✅     |
+| 長島・加藤のイうてるマにイっちゃってる | https://arrow2nd.github.io/omkr-radio/podcast/itm.rss                                            | ❌     |
+| 店長・リックェのフラコト               | https://arrow2nd.github.io/omkr-radio/podcast/flakoto.rss                                        | ✅     |
+| 凸ノ・カメントツのラジオ漫画犬         | https://arrow2nd.github.io/omkr-radio/podcast/maninu.rss                                         | ❌     |
 
-### かまみく
-
-| ラジオ名                    | Podcast フィード URL                                                                            |
-| --------------------------- | ----------------------------------------------------------------------------------------------- |
-| かまってみくのしん          | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu.rss                                      |
-| かまってみくのしん GOLD     | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-67c13a9f-e468-4bae-992d-3d2b786f15ac.rss |
-| かまってみくのしん日本一    | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-46501532-6287-4ae8-8563-b25161de37c7.rss |
-| かまってみくのしん Love you | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-0bc4f3a9-e35b-4887-a215-b92f36efc237.rss |
-| 作業用かまみく              | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-3cd98256-982c-48e3-84f1-02ab49dbcc21.rss |
-| 睡眠用かまみく              | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-9d9208ea-e0ac-4f1e-88bf-95d25d359071.rss |
-
-### ラジオ漫画犬
-
-| ラジオ名                       | Podcast フィード URL                                                                          |
-| ------------------------------ | --------------------------------------------------------------------------------------------- |
-| 凸ノ・カメントツのラジオ漫画犬 | https://arrow2nd.github.io/omkr-radio/podcast/maninu.rss                                      |
-| ラジオ漫画犬漂流編             | https://arrow2nd.github.io/omkr-radio/podcast/maninu-ceba5239-5bc9-4052-b3ab-d3b2fde866c6.rss |
-| ラジオ漫画犬血道編             | https://arrow2nd.github.io/omkr-radio/podcast/maninu-b6b7c76c-8c64-460f-a6f5-b2b734902b8b.rss |
-| ラジオ漫画犬咆哮編             | https://arrow2nd.github.io/omkr-radio/podcast/maninu-b3234812-6a4e-4b55-9c70-b4d689cca00e.rss |
-
-### その他
-
-| ラジオ名                               | Podcast フィード URL                                                                             |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| ARuFa・恐山の匿名ラジオ                | https://arrow2nd.github.io/omkr-radio/podcast/tokumei.rss                                        |
-| 店長・リックェのフラコト               | https://arrow2nd.github.io/omkr-radio/podcast/flakoto.rss                                        |
-| マンスーン・ヤスミノの音声放送         | https://arrow2nd.github.io/omkr-radio/podcast/kayouradio.rss                                     |
-| ラジオ・モンゴルナイトフィーバー       | https://arrow2nd.github.io/omkr-radio/podcast/mongol.rss                                         |
-| みくのしん・おおきちの大仲良しラジオ   | https://arrow2nd.github.io/omkr-radio/podcast/dainaka.rss                                        |
-| 長島・加藤のイうてるマにイっちゃってる | https://arrow2nd.github.io/omkr-radio/podcast/itm.rss                                            |
-| 加藤・ギャラクシーのラジオ KGB         | https://arrow2nd.github.io/omkr-radio/podcast/kgb.rss                                            |
-| たかや・マンスーンのパクパクラジオ     | https://arrow2nd.github.io/omkr-radio/podcast/pakupaku.rss                                       |
-| セブ山・永田の金曜ラジオ               | https://arrow2nd.github.io/omkr-radio/podcast/sebunagata.rss                                     |
-| シモダテツヤと私（ヨッピー）           | https://arrow2nd.github.io/omkr-radio/podcast/shimowata-b5fa1358-5fa5-42e2-b56c-24dff757c323.rss |
-| シモダテツヤと私（地獄のミサワ）       | https://arrow2nd.github.io/omkr-radio/podcast/shimowata.rss                                      |
-| シモダ＆イーグルの残念ラジオ           | https://arrow2nd.github.io/omkr-radio/podcast/zannen.rss                                         |
-| そうじゃねえだろのラジオじゃねえだろ！ | https://arrow2nd.github.io/omkr-radio/podcast/soujanee.rss                                       |
-| ソルジャーラジオ                       | https://arrow2nd.github.io/omkr-radio/podcast/yoropen.rss                                        |
-| ニュース！オモコロウォッチ！           | https://arrow2nd.github.io/omkr-radio/podcast/watch.rss                                          |
+<!-- podcast list end -->
 
 ## 実行
 
