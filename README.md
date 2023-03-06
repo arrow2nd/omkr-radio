@@ -91,8 +91,8 @@
 | ありっちゃありスパーク・マシュ         | https://arrow2nd.github.io/omkr-radio/podcast/arimasyu.rss                                       | ❌     |
 | ありっちゃありスパーク・梵             | https://arrow2nd.github.io/omkr-radio/podcast/aribon.rss                                         | ✅     |
 | かまってみくのしん                     | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu.rss                                       | ❌     |
-| かまってみくのしん GOLD                | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-67c13a9f-e468-4bae-992d-3d2b786f15ac.rss  | ❌     |
-| かまってみくのしん Love you            | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-0bc4f3a9-e35b-4887-a215-b92f36efc237.rss  | ❌     |
+| かまってみくのしんGOLD                 | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-67c13a9f-e468-4bae-992d-3d2b786f15ac.rss  | ❌     |
+| かまってみくのしんLove you             | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-0bc4f3a9-e35b-4887-a215-b92f36efc237.rss  | ❌     |
 | かまってみくのしん日本一               | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-46501532-6287-4ae8-8563-b25161de37c7.rss  | ❌     |
 | シモダ＆イーグルの残念ラジオ           | https://arrow2nd.github.io/omkr-radio/podcast/zannen.rss                                         | ❌     |
 | シモダテツヤと私（ヨッピー）           | https://arrow2nd.github.io/omkr-radio/podcast/shimowata-b5fa1358-5fa5-42e2-b56c-24dff757c323.rss | ❌     |
@@ -108,7 +108,7 @@
 | ラジオ漫画犬血道編                     | https://arrow2nd.github.io/omkr-radio/podcast/maninu-b6b7c76c-8c64-460f-a6f5-b2b734902b8b.rss    | ❌     |
 | ラジオ漫画犬漂流編                     | https://arrow2nd.github.io/omkr-radio/podcast/maninu-ceba5239-5bc9-4052-b3ab-d3b2fde866c6.rss    | ❌     |
 | ラジオ漫画犬咆哮編                     | https://arrow2nd.github.io/omkr-radio/podcast/maninu-b3234812-6a4e-4b55-9c70-b4d689cca00e.rss    | ✅     |
-| 加藤・ギャラクシーのラジオ KGB         | https://arrow2nd.github.io/omkr-radio/podcast/kgb.rss                                            | ❌     |
+| 加藤・ギャラクシーのラジオKGB          | https://arrow2nd.github.io/omkr-radio/podcast/kgb.rss                                            | ❌     |
 | 原宿・おすしのありっちゃありアワー     | https://arrow2nd.github.io/omkr-radio/podcast/ariari.rss                                         | ❌     |
 | 作業用かまみく                         | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-3cd98256-982c-48e3-84f1-02ab49dbcc21.rss  | ❌     |
 | 睡眠用かまみく                         | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-9d9208ea-e0ac-4f1e-88bf-95d25d359071.rss  | ✅     |
