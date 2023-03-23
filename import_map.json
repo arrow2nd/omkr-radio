@@ -2,7 +2,7 @@
   "imports": {
     "rss": "https://deno.land/x/rss@0.5.8/mod.ts",
     "deno-dom-wasm": "https://deno.land/x/deno_dom@v0.1.36-alpha/deno-dom-wasm.ts",
-    "crypto": "https://deno.land/std@0.180.0/crypto/mod.ts",
+    "crypto": "https://deno.land/std@0.181.0/crypto/mod.ts",
     "xml": "https://deno.land/x/xml@2.1.0/mod.ts",
     "@/": "./src/"
   }
