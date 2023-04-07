@@ -6,5 +6,12 @@
     <itunes:image href="https://omocoro.jp/assets/uploads/2023/04/1680712297cnv8o-1120x630.png"/>
     <language>ja</language>
     <link>https://omocoro.jp/tag/%E3%81%8B%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%8F%E3%81%AE%E3%81%97%E3%82%93</link>
+    <item>
+      <title>あなたの笑顔が春みたい</title>
+      <description>かまどとみくのしんのラジオです</description>
+      <pubDate>Thu, 06 Apr 2023 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/kamamicu/kz01/kz01.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/391334/</link>
+    </item>
   </channel>
 </rss>
