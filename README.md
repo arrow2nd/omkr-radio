@@ -112,7 +112,7 @@
 | 加藤・ギャラクシーのラジオKGB          | https://arrow2nd.github.io/omkr-radio/podcast/kgb.rss                                            | ❌     |
 | 原宿・おすしのありっちゃありアワー     | https://arrow2nd.github.io/omkr-radio/podcast/ariari.rss                                         | ❌     |
 | 作業用かまみく                         | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-3cd98256-982c-48e3-84f1-02ab49dbcc21.rss  | ❌     |
-| 睡眠用かまみく                         | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-9d9208ea-e0ac-4f1e-88bf-95d25d359071.rss  | ✅     |
+| 睡眠用かまみく                         | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-9d9208ea-e0ac-4f1e-88bf-95d25d359071.rss  | ❌     |
 | 長島・加藤のイうてるマにイっちゃってる | https://arrow2nd.github.io/omkr-radio/podcast/itm.rss                                            | ❌     |
 | 店長・リックェのフラコト               | https://arrow2nd.github.io/omkr-radio/podcast/flakoto.rss                                        | ❌     |
 | 凸ノ・カメントツのラジオ漫画犬         | https://arrow2nd.github.io/omkr-radio/podcast/maninu.rss                                         | ❌     |
