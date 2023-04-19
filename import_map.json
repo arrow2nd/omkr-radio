@@ -3,7 +3,7 @@
     "rss": "https://deno.land/x/rss@0.5.8/mod.ts",
     "deno-dom-wasm": "https://deno.land/x/deno_dom@v0.1.38/deno-dom-wasm.ts",
     "crypto": "https://deno.land/std@0.184.0/crypto/mod.ts",
-    "xml": "https://deno.land/x/xml@2.1.0/mod.ts",
+    "xml": "https://deno.land/x/xml@2.1.1/mod.ts",
     "@/": "./src/"
   }
 }
