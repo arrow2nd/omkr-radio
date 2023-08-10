@@ -102,6 +102,7 @@
 | そうじゃねえだろのラジオじゃねえだろ！ | https://arrow2nd.github.io/omkr-radio/podcast/soujanee.rss                                       | ❌     |
 | ソルジャーラジオ                       | https://arrow2nd.github.io/omkr-radio/podcast/yoropen.rss                                        | ✅     |
 | たかや・マンスーンのパクパクラジオ     | https://arrow2nd.github.io/omkr-radio/podcast/pakupaku.rss                                       | ❌     |
+| ながみく                               | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-a2767ed9-1d5b-490b-9ac8-2828eedbfe09.rss  | ✅     |
 | ニュース！オモコロウォッチ！           | https://arrow2nd.github.io/omkr-radio/podcast/watch.rss                                          | ✅     |
 | マンスーン・ヤスミノの音声放送         | https://arrow2nd.github.io/omkr-radio/podcast/kayouradio.rss                                     | ✅     |
 | みくのしん・おおきちの大仲良しラジオ   | https://arrow2nd.github.io/omkr-radio/podcast/dainaka.rss                                        | ❌     |
