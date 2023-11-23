@@ -73,8 +73,7 @@
 
 ## 非公式 Podcast フィード
 
-> [!WARNING]
-> この Podcast フィードは **非公式**
+> [!WARNING] この Podcast フィードは **非公式**
 > のものであり、[オモコロ](https://omocoro.jp)
 > 及び、[株式会社バーグハンバーグバーグ](https://bhb.co.jp)
 > とは一切関係ございません。<br>
@@ -104,6 +103,7 @@
 | ソルジャーラジオ                       | https://arrow2nd.github.io/omkr-radio/podcast/yoropen.rss                                        | ✅     |
 | たかや・マンスーンのパクパクラジオ     | https://arrow2nd.github.io/omkr-radio/podcast/pakupaku.rss                                       | ❌     |
 | ながみく                               | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-a2767ed9-1d5b-490b-9ac8-2828eedbfe09.rss  | ✅     |
+| ながみく∞                              | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-91996f23-0cbb-40f4-a6e5-aeb9acb8ad7b.rss  | ✅     |
 | ニュース！オモコロウォッチ！           | https://arrow2nd.github.io/omkr-radio/podcast/watch.rss                                          | ✅     |
 | マンスーン・ヤスミノの音声放送         | https://arrow2nd.github.io/omkr-radio/podcast/kayouradio.rss                                     | ✅     |
 | みくのしん・おおきちの大仲良しラジオ   | https://arrow2nd.github.io/omkr-radio/podcast/dainaka.rss                                        | ❌     |
