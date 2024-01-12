@@ -6,5 +6,12 @@
     <itunes:image href="https://omocoro.jp/assets/uploads/2024/01/17049731592q4x6-1120x630.jpg"/>
     <language>ja</language>
     <link>https://omocoro.jp/tag/%E3%81%8B%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%8F%E3%81%AE%E3%81%97%E3%82%93</link>
+    <item>
+      <title>かまどが育休から復帰しました！</title>
+      <description>かまどとみくのしんと長イキのラジオです</description>
+      <pubDate>Thu, 11 Jan 2024 15:00:00 GMT</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/kamamicu/nm8_08_saigosaigo/nm8_08_saigosaigo.mp3" type="audio/mpeg"/>
+      <link>https://omocoro.jp/radio/433730/</link>
+    </item>
   </channel>
 </rss>
