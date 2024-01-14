@@ -95,7 +95,7 @@
 | かまってみくのしんLove you             | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-0bc4f3a9-e35b-4887-a215-b92f36efc237.rss  | ❌     |
 | かまってみくのしん日本一               | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-46501532-6287-4ae8-8563-b25161de37c7.rss  | ❌     |
 | かまみく                               | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-97a25752-248b-4645-b52f-fa1f2ba30b63.rss  | ✅     |
-| かまみくZ                              | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-07ba9c29-5528-4705-ad2e-8673bc635d6d.rss  | ✅     |
+| かまみくZ                              | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-07ba9c29-5528-4705-ad2e-8673bc635d6d.rss  | ❌     |
 | シモダ＆イーグルの残念ラジオ           | https://arrow2nd.github.io/omkr-radio/podcast/zannen.rss                                         | ❌     |
 | シモダテツヤと私（ヨッピー）           | https://arrow2nd.github.io/omkr-radio/podcast/shimowata-b5fa1358-5fa5-42e2-b56c-24dff757c323.rss | ❌     |
 | シモダテツヤと私（地獄のミサワ）       | https://arrow2nd.github.io/omkr-radio/podcast/shimowata.rss                                      | ❌     |
@@ -103,8 +103,8 @@
 | そうじゃねえだろのラジオじゃねえだろ！ | https://arrow2nd.github.io/omkr-radio/podcast/soujanee.rss                                       | ❌     |
 | ソルジャーラジオ                       | https://arrow2nd.github.io/omkr-radio/podcast/yoropen.rss                                        | ✅     |
 | たかや・マンスーンのパクパクラジオ     | https://arrow2nd.github.io/omkr-radio/podcast/pakupaku.rss                                       | ❌     |
-| ながみく                               | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-a2767ed9-1d5b-490b-9ac8-2828eedbfe09.rss  | ✅     |
-| ながみく∞                              | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-91996f23-0cbb-40f4-a6e5-aeb9acb8ad7b.rss  | ✅     |
+| ながみく                               | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-a2767ed9-1d5b-490b-9ac8-2828eedbfe09.rss  | ❌     |
+| ながみく∞                              | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-91996f23-0cbb-40f4-a6e5-aeb9acb8ad7b.rss  | ❌     |
 | ニュース！オモコロウォッチ！           | https://arrow2nd.github.io/omkr-radio/podcast/watch.rss                                          | ✅     |
 | マンスーン・ヤスミノの音声放送         | https://arrow2nd.github.io/omkr-radio/podcast/kayouradio.rss                                     | ✅     |
 | みくのしん・おおきちの大仲良しラジオ   | https://arrow2nd.github.io/omkr-radio/podcast/dainaka.rss                                        | ❌     |
