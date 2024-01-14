@@ -73,7 +73,9 @@
 
 ## 非公式 Podcast フィード
 
-> [!WARNING] この Podcast フィードは **非公式**
+> [!WARNING]
+>
+> この Podcast フィードは **非公式**
 > のものであり、[オモコロ](https://omocoro.jp)
 > 及び、[株式会社バーグハンバーグバーグ](https://bhb.co.jp)
 > とは一切関係ございません。<br>
