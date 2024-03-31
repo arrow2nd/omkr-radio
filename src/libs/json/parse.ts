@@ -11,10 +11,16 @@ type ParseTitleResult = {
  */
 export function parseTitle(title: string): ParseTitleResult | undefined {
   const titleRegExpList = [
+    // #001「エピソードタイトル」ラジオタイトル
     /#(?<no>\d+)「(?<eTitle>.+?)」(?<rTitle>.+)/,
+    // 第001回 ラジオタイトル 「エピソードタイトル」
     /第(?<no>[\d]+)回\s*(?<rTitle>.+?)\s*「(?<eTitle>.+)」/,
-    /【(?<no>[\d.]+)】\s*(?<rTitle>.+?)\s*「(?<eTitle>.+)」/,
+    // 【001】ラジオタイトル「エピソードタイトル」
+    // 【001回】ラジオタイトル「エピソードタイトル」
+    /【(?<no>[\d.]+)\回?】\s*(?<rTitle>.+?)\s*「(?<eTitle>.+)」/,
+    // 【001】「エピソードタイトル」ラジオタイトル
     /【(?<no>[\d.]+)】\s*「(?<eTitle>.+?)」\s*(?<rTitle>.+)/,
+    // ラジオタイトル 001 「エピソードタイトル」
     /(?<rTitle>[^0-9]+)\s*(?<no>[\d.]+)\s*「(?<eTitle>.+)」/,
   ];
 
