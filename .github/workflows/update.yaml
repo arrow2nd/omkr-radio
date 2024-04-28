@@ -26,16 +26,7 @@ jobs:
       - name: Update README
         run: deno task gen:readme
 
-      - name: Create pull request
-        uses: peter-evans/create-pull-request@v6
+      - name: Commit the changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit-message: 🍱 新着エピソードを追加
-          branch: add-new-episode
-          delete-branch: true
-          title: "🍱 新着エピソードを追加"
-          body: "このPRは自動生成されました 🤖"
-          add-paths: |
-            docs/*.json
-            docs/*.rss
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "🍱 新着エピソードを追加"
