@@ -11,7 +11,7 @@
     "rss": "https://deno.land/x/rss@1.1.1/mod.ts",
     "deno-dom-wasm": "https://deno.land/x/deno_dom@v0.1.48/deno-dom-wasm.ts",
     "crypto": "https://deno.land/std@0.224.0/crypto/mod.ts",
-    "xml": "https://deno.land/x/xml@6.0.2/mod.ts",
+    "xml": "https://deno.land/x/xml@6.0.3/mod.ts",
     "@/": "./src/"
   },
   "lock": false
