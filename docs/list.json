@@ -80,14 +80,34 @@
     "nowOnAir": false
   },
   {
-    "id": "kamamicu-97a25752-248b-4645-b52f-fa1f2ba30b63",
+    "id": "kamamicu-m8k3r2d-a1b2c3d4",
     "title": "かまみく",
+    "tag": "かまってみくのしん",
+    "author": "かまど,みくのしん",
+    "desc": "かまどとみくのしんのラジオです",
+    "thumbnail": "https://omocoro.jp/assets/uploads/2025/04/174365819013f3z.jpg",
+    "link": "https://omocoro.jp/tag/%E3%81%8B%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%8F%E3%81%AE%E3%81%97%E3%82%93",
+    "nowOnAir": true
+  },
+  {
+    "id": "kamamicu-m8k3r2d-a1b2c3d4",
+    "title": "かまみく",
+    "tag": "かまってみくのしん",
+    "author": "かまど,みくのしん",
+    "desc": "かまどとみくのしんのラジオです",
+    "thumbnail": "https://omocoro.jp/assets/uploads/2025/04/174365819013f3z.jpg",
+    "link": "https://omocoro.jp/tag/%E3%81%8B%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%8F%E3%81%AE%E3%81%97%E3%82%93",
+    "nowOnAir": true
+  },
+  {
+    "id": "kamamicu-97a25752-248b-4645-b52f-fa1f2ba30b63",
+    "title": "かまみく (～2025/03)",
     "tag": "かまってみくのしん",
     "author": "かまど,みくのしん,長イキアキヒコ",
     "desc": "かまどとみくのしんと長イキのラジオです",
     "thumbnail": "https://omocoro.jp/assets/uploads/2024/01/17049731592q4x6-1120x630.jpg",
     "link": "https://omocoro.jp/tag/%E3%81%8B%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%8F%E3%81%AE%E3%81%97%E3%82%93",
-    "nowOnAir": true
+    "nowOnAir": false
   },
   {
     "id": "kamamicu-07ba9c29-5528-4705-ad2e-8673bc635d6d",

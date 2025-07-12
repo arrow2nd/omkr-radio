@@ -96,7 +96,8 @@
 | かまってみくのしんGOLD                 | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-67c13a9f-e468-4bae-992d-3d2b786f15ac.rss  | ❌     |
 | かまってみくのしんLove you             | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-0bc4f3a9-e35b-4887-a215-b92f36efc237.rss  | ❌     |
 | かまってみくのしん日本一               | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-46501532-6287-4ae8-8563-b25161de37c7.rss  | ❌     |
-| かまみく                               | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-97a25752-248b-4645-b52f-fa1f2ba30b63.rss  | ✅     |
+| かまみく                               | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-m8k3r2d-a1b2c3d4.rss                      | ✅     |
+| かまみく (～2025/03)                   | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-97a25752-248b-4645-b52f-fa1f2ba30b63.rss  | ❌     |
 | かまみくZ                              | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-07ba9c29-5528-4705-ad2e-8673bc635d6d.rss  | ❌     |
 | シモダ＆イーグルの残念ラジオ           | https://arrow2nd.github.io/omkr-radio/podcast/zannen.rss                                         | ❌     |
 | シモダテツヤと私（ヨッピー）           | https://arrow2nd.github.io/omkr-radio/podcast/shimowata-b5fa1358-5fa5-42e2-b56c-24dff757c323.rss | ❌     |
