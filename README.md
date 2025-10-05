@@ -92,6 +92,7 @@
 | ありっちゃありスパーク                 | https://arrow2nd.github.io/omkr-radio/podcast/arispa.rss                                         | ❌     |
 | ありっちゃありスパーク・マシュ         | https://arrow2nd.github.io/omkr-radio/podcast/arimasyu.rss                                       | ❌     |
 | ありっちゃありスパーク・梵             | https://arrow2nd.github.io/omkr-radio/podcast/aribon.rss                                         | ✅     |
+| ありっちゃありスパークYEAH！           | https://arrow2nd.github.io/omkr-radio/podcast/ariyeah.rss                                        | ✅     |
 | かまってみくのしん                     | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu.rss                                       | ❌     |
 | かまってみくのしんGOLD                 | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-67c13a9f-e468-4bae-992d-3d2b786f15ac.rss  | ❌     |
 | かまってみくのしんLove you             | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-0bc4f3a9-e35b-4887-a215-b92f36efc237.rss  | ❌     |
