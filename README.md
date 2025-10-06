@@ -91,7 +91,7 @@
 | ARuFa・恐山の匿名ラジオ                | https://arrow2nd.github.io/omkr-radio/podcast/tokumei.rss                                        | ✅     |
 | ありっちゃありスパーク                 | https://arrow2nd.github.io/omkr-radio/podcast/arispa.rss                                         | ❌     |
 | ありっちゃありスパーク・マシュ         | https://arrow2nd.github.io/omkr-radio/podcast/arimasyu.rss                                       | ❌     |
-| ありっちゃありスパーク・梵             | https://arrow2nd.github.io/omkr-radio/podcast/aribon.rss                                         | ✅     |
+| ありっちゃありスパーク・梵             | https://arrow2nd.github.io/omkr-radio/podcast/aribon.rss                                         | ❌     |
 | ありっちゃありスパークYEAH！           | https://arrow2nd.github.io/omkr-radio/podcast/ariyeah.rss                                        | ✅     |
 | かまってみくのしん                     | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu.rss                                       | ❌     |
 | かまってみくのしんGOLD                 | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-67c13a9f-e468-4bae-992d-3d2b786f15ac.rss  | ❌     |
