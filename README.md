@@ -123,6 +123,7 @@
 | 睡眠用かまみく                         | https://arrow2nd.github.io/omkr-radio/podcast/kamamicu-9d9208ea-e0ac-4f1e-88bf-95d25d359071.rss  | ❌     |
 | 長島・加藤のイうてるマにイっちゃってる | https://arrow2nd.github.io/omkr-radio/podcast/itm.rss                                            | ❌     |
 | 店長・リックェのフラコト               | https://arrow2nd.github.io/omkr-radio/podcast/flakoto.rss                                        | ❌     |
+| 動画・モンゴルナイトフィーバー特別編！ | https://arrow2nd.github.io/omkr-radio/podcast/mongol-b5ecadfd-efd2-4de3-a268-b839d366ef15.rss    | ✅     |
 | 凸ノ・カメントツのラジオ漫画犬         | https://arrow2nd.github.io/omkr-radio/podcast/maninu.rss                                         | ❌     |
 
 <!-- podcast list end -->
