@@ -1,8 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended",
-    "github>Omochice/renovate-config:deno"
+    "config:recommended"
   ],
   "commitMessagePrefix": ":arrow_up: ",
   "unicodeEmoji": true

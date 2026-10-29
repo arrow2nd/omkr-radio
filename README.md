@@ -3,7 +3,7 @@
 オモコロで配信されている Web ラジオの非公式 Podcast フィード（ほぼ自動更新）
 
 [![update](https://github.com/arrow2nd/omkr-radio/actions/workflows/update.yaml/badge.svg)](https://github.com/arrow2nd/omkr-radio/actions/workflows/update.yaml)
-[![Deno](https://shields.io/badge/deno-%5E1.20-green?logo=deno&style=flat)](https://deno.land)
+[![Bun](https://shields.io/badge/bun-%5E1.4-black?logo=bun&style=flat)](https://bun.sh)
 
 ## JSON
 
@@ -131,9 +131,12 @@
 ## 実行
 
 ```sh
-# エピソードを自動更新
-deno task update
+# 依存関係をインストール
+bun install
 
-# 新規ラジオを追加（対話形式）
-deno task cli
+# エピソードを自動更新
+bun run update
+
+# Podcast フィードを一括生成
+bun run create:podcast
 ```

@@ -1,4 +1,4 @@
-import { DOMParser } from "deno-dom-wasm";
+import { DOMParser } from "linkedom";
 
 import { fetchWithTimeout, wait } from "@/libs/util.ts";
 
@@ -53,8 +53,8 @@ export async function fetchEpisodeInfo(
 
   const tagName = tags
     .filter((e) => e.textContent !== "#ラジオ")
-    .map((e) => e.textContent)[0]
-    .replace(/^#\s*/, "");
+    .map((e) => e.textContent ?? "")[0]
+    ?.replace(/^#\s*/, "");
 
   if (!tagName) return;
 
@@ -68,7 +68,7 @@ export async function fetchEpisodeInfo(
   // タイトルを抽出
   const title = doc
     .querySelector(".header-meta > .title")
-    ?.textContent.replace(/\n/g, "");
+    ?.textContent?.replace(/\n/g, "");
   if (!title) {
     throw new Error("タイトルの抽出に失敗しました");
   }

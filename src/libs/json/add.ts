@@ -1,3 +1,5 @@
+import { readFileSync, writeFileSync } from "node:fs";
+
 import type { Episode, Radio } from "@/types/json.ts";
 
 import { fetchEpisodeInfo } from "@/libs/json/fetch.ts";
@@ -44,7 +46,7 @@ export async function addEpisode(
 
   try {
     // エピソードデータ読み込み
-    episodes = JSON.parse(Deno.readTextFileSync(episodeJsonPath));
+    episodes = JSON.parse(readFileSync(episodeJsonPath, "utf-8"));
   } catch (_err) {
     // 読み込みに失敗したなら、新規のラジオとみなす
     generateNewRadio(episodeInfo);
@@ -79,7 +81,7 @@ export async function addEpisode(
   }
 
   const results = episodes.sort((a, b) => a.number - b.number);
-  Deno.writeTextFileSync(episodeJsonPath, JSON.stringify(results, null, "\t"));
+  writeFileSync(episodeJsonPath, `${JSON.stringify(results, null, 2)}\n`);
 
   return {
     id,
@@ -94,7 +96,7 @@ export async function addEpisode(
 export function addRadio(radio: Radio) {
   // リスト読み込み
   const listPath = "./docs/list.json";
-  const radioList: Radio[] = JSON.parse(Deno.readTextFileSync(listPath));
+  const radioList: Radio[] = JSON.parse(readFileSync(listPath, "utf-8"));
 
   radioList.push(radio);
 
@@ -102,5 +104,5 @@ export function addRadio(radio: Radio) {
   radioList.sort((a, b) => a.title.localeCompare(b.title, "ja"));
 
   // リストを更新
-  Deno.writeTextFileSync(listPath, JSON.stringify(radioList, null, "\t"));
+  writeFileSync(listPath, `${JSON.stringify(radioList, null, 2)}\n`);
 }

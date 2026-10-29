@@ -1,4 +1,5 @@
-import { DOMParser } from "deno-dom-wasm";
+import { readdirSync, readFileSync } from "node:fs";
+import { DOMParser } from "linkedom";
 
 import type { Episode, Radio } from "@/types/json.ts";
 
@@ -12,10 +13,11 @@ import { fetchWithTimeout, wait } from "@/libs/util.ts";
 function loadAllEpisodes() {
   let results: Episode[] = [];
 
-  for (const { isFile, name } of Deno.readDirSync("./docs/json/")) {
-    if (!isFile) continue;
+  for (const entry of readdirSync("./docs/json/", { withFileTypes: true })) {
+    if (!entry.isFile()) continue;
+    const { name } = entry;
 
-    const data = JSON.parse(Deno.readTextFileSync(`./docs/json/${name}`));
+    const data = JSON.parse(readFileSync(`./docs/json/${name}`, "utf-8"));
     results = results.concat(data);
   }
 
@@ -53,11 +55,10 @@ async function createEpisodeData(tagName: string) {
     console.log("[OK] パース完了");
 
     // 記事へのリンクを抽出
-    const articles = doc
-      .getElementsByClassName("title")
+    const articles = [...doc.getElementsByClassName("title")]
       .map((e) => ({
-        title: e.textContent,
-        url: e.getElementsByTagName("a")[0]?.getAttribute("href") || "",
+        title: e.textContent ?? "",
+        url: e.querySelector("a")?.getAttribute("href") || "",
       }))
       .filter(({ url }) => url !== "");
 
@@ -86,7 +87,7 @@ async function createEpisodeData(tagName: string) {
 }
 
 const radioList: Radio[] = JSON.parse(
-  Deno.readTextFileSync("./docs/list.json"),
+  readFileSync("./docs/list.json", "utf-8"),
 );
 
 for (const { tag } of radioList) {
