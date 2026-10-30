@@ -8,9 +8,7 @@ import { fetchWithTimeout } from "@/libs/util.ts";
 const res = await fetchWithTimeout("https://omocoro.jp/feed");
 
 if (!res.ok) {
-  throw new Error(
-    `RSSが取得できませんでした\n${res.statusText}: ${res.statusText}`,
-  );
+  throw new Error(`RSSが取得できませんでした\n${res.statusText}: ${res.statusText}`);
 }
 
 // RSSをパース
@@ -19,8 +17,7 @@ const feed = new XMLParser({
   isArray: (name) => name === "item",
 }).parse(xml);
 
-const items: { title?: unknown; link?: unknown }[] = feed.rss?.channel?.item ??
-  [];
+const items: { title?: unknown; link?: unknown }[] = feed.rss?.channel?.item ?? [];
 
 for (const item of items) {
   const title = item.title?.toString();

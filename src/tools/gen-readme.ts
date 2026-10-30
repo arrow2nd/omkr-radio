@@ -2,9 +2,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 
 import type { Radio } from "@/types/json.ts";
 
-const radioList = JSON.parse(
-  readFileSync("./docs/list.json", "utf-8"),
-) as Radio[];
+const radioList = JSON.parse(readFileSync("./docs/list.json", "utf-8")) as Radio[];
 
 let podcastList = `
 |ラジオ名|Podcast フィード URL|更新中|
@@ -12,10 +10,9 @@ let podcastList = `
 `;
 
 for (const { title, id, nowOnAir } of radioList) {
-  podcastList +=
-    `|${title}|https://arrow2nd.github.io/omkr-radio/podcast/${id}.rss|${
-      nowOnAir ? "✅" : "❌"
-    }
+  podcastList += `|${title}|https://arrow2nd.github.io/omkr-radio/podcast/${id}.rss|${
+    nowOnAir ? "✅" : "❌"
+  }
 `;
 }
 

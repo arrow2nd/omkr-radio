@@ -10,9 +10,7 @@ import { createPodcastXml } from "@/libs/podcast/create.ts";
  * @param episodes エピソード一覧
  */
 export function updatePodcast(radioId: string, episodes: Episode[]) {
-  const radioList: Radio[] = JSON.parse(
-    readFileSync("./docs/list.json", "utf-8"),
-  );
+  const radioList: Radio[] = JSON.parse(readFileSync("./docs/list.json", "utf-8"));
 
   const radio = radioList.find(({ id }) => id === radioId);
   if (!radio) return;

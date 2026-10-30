@@ -11,8 +11,7 @@ const builder = new XMLBuilder({
   // 属性のみのタグは自己終了タグにする
   unpairedTags: ["itunes:image", "enclosure"],
   suppressUnpairedNode: false,
-  tagValueProcessor: (_name, value) =>
-    typeof value === "string" ? value.trimStart() : value,
+  tagValueProcessor: (_name, value) => (typeof value === "string" ? value.trimStart() : value),
 });
 
 /**
@@ -22,15 +21,13 @@ const builder = new XMLBuilder({
  * @returns XML
  */
 export function createPodcastXml(radio: Radio, episodes: Episode[]): string {
-  const items: Item[] = episodes.map(
-    ({ title, desc, pubDate, source, link }) => ({
-      title,
-      description: desc,
-      pubDate,
-      enclosure: { "@url": source, "@type": "audio/mpeg" },
-      link,
-    }),
-  );
+  const items: Item[] = episodes.map(({ title, desc, pubDate, source, link }) => ({
+    title,
+    description: desc,
+    pubDate,
+    enclosure: { "@url": source, "@type": "audio/mpeg" },
+    link,
+  }));
 
   const { title, author, desc, thumbnail, link } = radio;
   const xml: PodcastXml = {

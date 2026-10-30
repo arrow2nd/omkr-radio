@@ -31,12 +31,8 @@ function loadAllEpisodes() {
 async function createEpisodeData(tagName: string) {
   const episodes = loadAllEpisodes();
 
-  for (let pageNum = 1;; pageNum++) {
-    const pageUrl = `https://omocoro.jp/tag/${
-      encodeURIComponent(
-        tagName,
-      )
-    }/page/${pageNum}/`;
+  for (let pageNum = 1; ; pageNum++) {
+    const pageUrl = `https://omocoro.jp/tag/${encodeURIComponent(tagName)}/page/${pageNum}/`;
 
     console.log(`\n[ PAGE: ${pageNum} ] ${pageUrl}\n`);
 
@@ -86,9 +82,7 @@ async function createEpisodeData(tagName: string) {
   }
 }
 
-const radioList: Radio[] = JSON.parse(
-  readFileSync("./docs/list.json", "utf-8"),
-);
+const radioList: Radio[] = JSON.parse(readFileSync("./docs/list.json", "utf-8"));
 
 for (const { tag } of radioList) {
   await createEpisodeData(tag);

@@ -53,9 +53,7 @@ for (let i = 1; i < 6; i++) {
 
     const { episodeTitle, episodeNumber } = parsed;
 
-    const radioFilePath = source.match(
-      /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/,
-    );
+    const radioFilePath = source.match(/https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/);
     if (!radioFilePath) continue;
 
     newEpisodes.push({
@@ -74,7 +72,4 @@ addRadio(sebunagata);
 
 // エピソードファイルを作成
 const episodeJsonPath = `./docs/json/${sebunagata.id}.json`;
-writeFileSync(
-  episodeJsonPath,
-  `${JSON.stringify(newEpisodes, null, 2)}\n`,
-);
+writeFileSync(episodeJsonPath, `${JSON.stringify(newEpisodes, null, 2)}\n`);

@@ -57,10 +57,7 @@ export function generateNewRadio(episodeInfo: FetchResult) {
     },
   ];
 
-  writeFileSync(
-    episodeJsonPath,
-    `${JSON.stringify(newEpisodeJson, null, 2)}\n`,
-  );
+  writeFileSync(episodeJsonPath, `${JSON.stringify(newEpisodeJson, null, 2)}\n`);
 
   console.log(`[OK] 「${radioTitle}」を新規登録しました`);
 }

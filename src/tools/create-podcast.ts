@@ -4,9 +4,7 @@ import type { Episode, Radio } from "@/types/json.ts";
 
 import { createPodcastXml } from "@/libs/podcast/create.ts";
 
-const radioList: Radio[] = JSON.parse(
-  readFileSync("./docs/list.json", "utf-8"),
-);
+const radioList: Radio[] = JSON.parse(readFileSync("./docs/list.json", "utf-8"));
 
 for (const entry of readdirSync("./docs/json/", { withFileTypes: true })) {
   if (!entry.isFile()) continue;
@@ -19,9 +17,7 @@ for (const entry of readdirSync("./docs/json/", { withFileTypes: true })) {
     continue;
   }
 
-  const episodes: Episode[] = JSON.parse(
-    readFileSync(`./docs/json/${name}`, "utf-8"),
-  );
+  const episodes: Episode[] = JSON.parse(readFileSync(`./docs/json/${name}`, "utf-8"));
 
   const xml = createPodcastXml(radio, episodes);
 

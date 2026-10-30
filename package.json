@@ -2,14 +2,16 @@
   "name": "omkr-radio",
   "private": true,
   "type": "module",
-  "packageManager": "bun@1.4.4",
   "scripts": {
     "create:json": "bun ./src/tools/json/create.ts && bun ./src/tools/json/create-sebunagata.ts",
     "create:podcast": "bun ./src/tools/create-podcast.ts",
     "update": "bun ./src/main.ts",
     "gen:readme": "bun ./src/tools/gen-readme.ts && bun run fmt:readme",
-    "fmt:readme": "prettier --write ./README.md",
-    "typecheck": "tsc --noEmit"
+    "fmt:readme": "oxfmt ./README.md",
+    "typecheck": "tsc --noEmit",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint"
   },
   "dependencies": {
     "fast-xml-parser": "^5.11.2",
@@ -17,7 +19,9 @@
   },
   "devDependencies": {
     "@types/bun": "^1.4.4",
-    "prettier": "^3.9.10",
+    "oxfmt": "^0.75.0",
+    "oxlint": "^1.90.0",
     "typescript": "^7.0.2"
-  }
+  },
+  "packageManager": "bun@1.4.4"
 }

@@ -25,9 +25,7 @@ export type FetchResult = {
  * @param url URL
  * @returns 結果
  */
-export async function fetchEpisodeInfo(
-  url: string
-): Promise<FetchResult | undefined> {
+export async function fetchEpisodeInfo(url: string): Promise<FetchResult | undefined> {
   const res = await fetchWithTimeout(url);
 
   if (!res.ok) {
@@ -58,17 +56,13 @@ export async function fetchEpisodeInfo(
 
   if (!tagName) return;
 
-  const tagLink = `https://omocoro.jp/tag/${encodeURIComponent(
-    tagName || "ラジオ"
-  )}`;
+  const tagLink = `https://omocoro.jp/tag/${encodeURIComponent(tagName || "ラジオ")}`;
 
   console.log("タグ: " + tagName);
   console.log("タグリンク: " + tagLink);
 
   // タイトルを抽出
-  const title = doc
-    .querySelector(".header-meta > .title")
-    ?.textContent?.replace(/\n/g, "");
+  const title = doc.querySelector(".header-meta > .title")?.textContent?.replace(/\n/g, "");
   if (!title) {
     throw new Error("タイトルの抽出に失敗しました");
   }
@@ -115,9 +109,7 @@ export async function fetchEpisodeInfo(
   console.log("サムネイル: " + thumbnail);
 
   // 音源のURLを抽出
-  const source = html.match(
-    /(https:\/\/omocoro\.heteml\.net\/radio\/.*?\.mp3)/
-  )?.[1];
+  const source = html.match(/(https:\/\/omocoro\.heteml\.net\/radio\/.*?\.mp3)/)?.[1];
 
   if (!source) {
     console.log(`[SKIP] 音源ファイルがありません (${url})`);
