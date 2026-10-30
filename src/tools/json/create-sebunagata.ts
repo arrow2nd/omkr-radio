@@ -1,4 +1,5 @@
-import { DOMParser } from "deno-dom-wasm";
+import { writeFileSync } from "node:fs";
+import { DOMParser } from "linkedom";
 
 import type { Episode, Radio } from "@/types/json.ts";
 
@@ -38,10 +39,10 @@ for (let i = 1; i < 6; i++) {
   if (doc === null) throw new Error("解析エラー");
 
   const body = doc.getElementsByClassName("article-body")[0];
-  const p = body.getElementsByTagName("p").map((e) => {
-    const href = e.getElementsByTagName("a")[0]?.getAttribute("href") || "";
+  const p = [...body.getElementsByTagName("p")].map((e) => {
+    const href = e.querySelector("a")?.getAttribute("href") || "";
     return {
-      title: e.textContent,
+      title: e.textContent ?? "",
       source: href,
     };
   });
@@ -52,9 +53,7 @@ for (let i = 1; i < 6; i++) {
 
     const { episodeTitle, episodeNumber } = parsed;
 
-    const radioFilePath = source.match(
-      /https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/,
-    );
+    const radioFilePath = source.match(/https:\/\/omocoro\.heteml\.net\/radio\/(.*?\.mp3)/);
     if (!radioFilePath) continue;
 
     newEpisodes.push({
@@ -73,9 +72,4 @@ addRadio(sebunagata);
 
 // エピソードファイルを作成
 const episodeJsonPath = `./docs/json/${sebunagata.id}.json`;
-Deno.createSync(episodeJsonPath);
-
-Deno.writeTextFileSync(
-  episodeJsonPath,
-  JSON.stringify(newEpisodes, null, "\t"),
-);
+writeFileSync(episodeJsonPath, `${JSON.stringify(newEpisodes, null, 2)}\n`);

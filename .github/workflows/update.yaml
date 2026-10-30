@@ -13,18 +13,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Setup deno
-        uses: denoland/setup-deno@v2
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
         with:
-          deno-version: v2.x
+          bun-version-file: package.json
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
 
       - name: Update data
-        run: deno task update
+        run: bun run update
         env:
           TZ: "Asia/Tokyo"
 
       - name: Update README
-        run: deno task gen:readme
+        run: bun run gen:readme
 
       - name: Commit the changes
         uses: stefanzweifel/git-auto-commit-action@v7

@@ -1,3 +1,5 @@
+import { writeFileSync } from "node:fs";
+
 import type { Episode } from "@/types/json.ts";
 import type { FetchResult } from "@/libs/json/fetch.ts";
 
@@ -42,7 +44,6 @@ export function generateNewRadio(episodeInfo: FetchResult) {
 
   // エピソードファイルを作成
   const episodeJsonPath = `./docs/json/${id}.json`;
-  Deno.createSync(episodeJsonPath);
 
   // データを作成して保存
   const newEpisodeJson: Episode[] = [
@@ -56,10 +57,7 @@ export function generateNewRadio(episodeInfo: FetchResult) {
     },
   ];
 
-  Deno.writeTextFileSync(
-    episodeJsonPath,
-    JSON.stringify(newEpisodeJson, null, "\t"),
-  );
+  writeFileSync(episodeJsonPath, `${JSON.stringify(newEpisodeJson, null, 2)}\n`);
 
   console.log(`[OK] 「${radioTitle}」を新規登録しました`);
 }

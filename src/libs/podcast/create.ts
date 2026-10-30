@@ -1,7 +1,18 @@
-import { stringify } from "xml";
+import { XMLBuilder } from "fast-xml-parser";
 
 import type { Episode, Radio } from "@/types/json.ts";
 import type { Item, PodcastXml } from "@/types/podcast.ts";
+
+const builder = new XMLBuilder({
+  ignoreAttributes: false,
+  attributeNamePrefix: "@",
+  format: true,
+  indentBy: "  ",
+  // 属性のみのタグは自己終了タグにする
+  unpairedTags: ["itunes:image", "enclosure"],
+  suppressUnpairedNode: false,
+  tagValueProcessor: (_name, value) => (typeof value === "string" ? value.trimStart() : value),
+});
 
 /**
  * ポッドキャスト用XMLを作成
@@ -10,15 +21,13 @@ import type { Item, PodcastXml } from "@/types/podcast.ts";
  * @returns XML
  */
 export function createPodcastXml(radio: Radio, episodes: Episode[]): string {
-  const items: Item[] = episodes.map(
-    ({ title, desc, pubDate, source, link }) => ({
-      title,
-      description: desc,
-      pubDate,
-      enclosure: { "@url": source, "@type": "audio/mpeg" },
-      link,
-    }),
-  );
+  const items: Item[] = episodes.map(({ title, desc, pubDate, source, link }) => ({
+    title,
+    description: desc,
+    pubDate,
+    enclosure: { "@url": source, "@type": "audio/mpeg" },
+    link,
+  }));
 
   const { title, author, desc, thumbnail, link } = radio;
   const xml: PodcastXml = {
@@ -39,5 +48,5 @@ export function createPodcastXml(radio: Radio, episodes: Episode[]): string {
     },
   };
 
-  return stringify(xml);
+  return builder.build(xml).trimEnd();
 }
