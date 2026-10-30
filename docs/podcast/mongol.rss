@@ -5,9 +5,7 @@
     <description>天国と地獄のGWです。</description>
     <itunes:image href="https://omocoro.jp/assets/uploads/2019/05/1557302028eyy0i.jpg"/>
     <language>ja</language>
-    <link>
-      https://omocoro.jp/tag/%E3%83%A2%E3%83%B3%E3%82%B4%E3%83%AB%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC
-    </link>
+    <link>https://omocoro.jp/tag/%E3%83%A2%E3%83%B3%E3%82%B4%E3%83%AB%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC</link>
     <item>
       <title>これからの『良品週間』の話をしよう</title>
       <description>無印良品。</description>
@@ -59,7 +57,7 @@
     </item>
     <item>
       <title>Let’s go</title>
-      <description>Let's go……</description>
+      <description>Let&apos;s go……</description>
       <pubDate>Fri, 04 Sep 2026 15:00:00 GMT</pubDate>
       <enclosure url="https://omocoro.heteml.net/radio/mongol/328/20260905.mp3" type="audio/mpeg"/>
       <link>https://omocoro.jp/radio/589338/</link>
@@ -780,7 +778,7 @@
     </item>
     <item>
       <title>とある知らせが届いたーーーー</title>
-      <description>"生（フレッシュ）"なブルーベリーはすごい</description>
+      <description>&quot;生（フレッシュ）&quot;なブルーベリーはすごい</description>
       <pubDate>Fri, 13 Sep 2024 15:00:00 GMT</pubDate>
       <enclosure url="https://omocoro.heteml.net/radio/mongol/226/20240914.mp3" type="audio/mpeg"/>
       <link>https://omocoro.jp/radio/476483/</link>
